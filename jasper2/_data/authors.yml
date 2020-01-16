@@ -74,3 +74,15 @@ martin:
   facebook: False
   twitter: False
   cover: False
+quentin:
+  username: quentin
+  name: Quentin Delhaye
+  url: https://parastuffs.github.io/
+  url_full: https://parastuffs.github.io/
+  bio: Assistant en électronique à l'École polytechnique de Bruxelles, chercheur en architecture 3D des circuits intégrés et enthousiaste de la pédagogie et didactique supérieures.
+  cover: false
+  picture: assets/images/orlyowl.jpg
+  location: false
+  facebook: False
+  twitter: False
+  cover: False
