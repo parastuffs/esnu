@@ -2,15 +2,11 @@ speeches:
   name: speeches
   description: Some of the greatest words ever spoken.
   cover: assets/images/speeches.jpg
-fiction:
-  name: fiction
-  description: False
-  cover: False
-fables:
-  name: fables
-  description: A series of short stories that make you think.
-  cover: assets/images/fables.jpg
 getting-started:
   name: getting-started
   description: False
   cover: False
+coulisses:
+  name: coulisses
+  description: Coulisses du certificat. Passez de l'autre côté du décors et découvrez comment ont été réalisé les différentes pièces présentées dans ce portfolio, y compris le portfolio lui-même.
+  cover: assets/images/mixing-desk.jpg
