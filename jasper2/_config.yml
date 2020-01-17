@@ -9,10 +9,10 @@ words_per_minute: 200
 baseurl: /esnu/
 
 # Website info
-title: Ghost
-description: The professional publishing platform
+title: ESNU Portfolio
+description: Portfolio de l'édition 2019-2020 du certificat ESNU
 cover: assets/images/blog-cover.jpg
-logo: assets/images/blog-icon.png
+logo: assets/images/blog-icon-esnu.png
 logo_dark: assets/images/favicon.png
 favicon: assets/images/favicon.png
 production_url:  https://parastuffs.github.io/esnu/
@@ -21,18 +21,18 @@ CNAME: #add cname for website to be created
 
 # Social info
 navigation: True # show the navbar links
-subscribers: True # you need to connect an external service for this to work,
+subscribers: False # you need to connect an external service for this to work,
 # if 'True' the submit button is disabled for now, but you can change that
 # by editing `_includes/subscribe-form.html`
-twitter: tryghost # replace by your username
-facebook: ghost # replace by your username
+twitter: False # replace by your username
+facebook: False # replace by your username
 
 # Disqus
 disqus: False
 disqus_shortname: jekyller # replace with your disqus username
 
 # Google Analytics
-google_analytics: UA-69281367-1 # replace with your GA tracking identifier
+google_analytics: UA-156438039-1 # replace with your GA tracking identifier
 
 # Permalinks
 permalink: /:title
