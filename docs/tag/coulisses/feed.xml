@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
   <link href="http://localhost:4000/esnu/tag/coulisses/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/esnu/" rel="alternate" type="text/html" />
-  <updated>2020-01-17T17:54:36+01:00</updated>
+  <updated>2020-01-18T00:39:54+01:00</updated>
   <id>http://localhost:4000/esnu/tag/coulisses/feed.xml</id>
 
   
@@ -64,6 +64,116 @@ Pour en savoir plus, rendez-vous sur le site de l’&lt;a href=&quot;http://esnu
 
       
         <summary type="html">Enseigner dans le supérieur avec le numérique</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Réaliser une vidéo</title>
+      <link href="http://localhost:4000/esnu/realiser-un-video" rel="alternate" type="text/html" title="Réaliser une vidéo" />
+      <published>2020-01-17T11:18:00+01:00</published>
+      <updated>2020-01-17T11:18:00+01:00</updated>
+      <id>http://localhost:4000/esnu/realiser-un-video</id>
+      <content type="html" xml:base="http://localhost:4000/esnu/realiser-un-video">&lt;p&gt;Les vidéos c’est sympa, mais comment on fait ? Quelle marche suivre et quels outils utiliser ?&lt;/p&gt;
+
+&lt;h2 id=&quot;scénarisation&quot;&gt;Scénarisation&lt;/h2&gt;
+
+&lt;h2 id=&quot;tournage&quot;&gt;Tournage&lt;/h2&gt;
+
+&lt;h2 id=&quot;enregistrement-des-voix&quot;&gt;Enregistrement des voix&lt;/h2&gt;
+
+&lt;h2 id=&quot;montage&quot;&gt;Montage&lt;/h2&gt;
+
+&lt;h2 id=&quot;publication&quot;&gt;Publication&lt;/h2&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Quentin Delhaye</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="coulisses" />
+      
+
+      
+        <summary type="html">Les vidéos c’est sympa, mais comment on fait ? Quelle marche suivre et quels outils utiliser ?</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Réalisation d’un portfolio numérique avec Jekyll</title>
+      <link href="http://localhost:4000/esnu/realisation-portfolio-numerique" rel="alternate" type="text/html" title="Réalisation d'un portfolio numérique avec Jekyll" />
+      <published>2020-01-17T11:18:00+01:00</published>
+      <updated>2020-01-17T11:18:00+01:00</updated>
+      <id>http://localhost:4000/esnu/realisation-portfolio-numerique</id>
+      <content type="html" xml:base="http://localhost:4000/esnu/realisation-portfolio-numerique">&lt;p&gt;Cet article présentera brièvement comment ce site a été construit en utilisant des technologies libres et open sources.&lt;/p&gt;
+
+&lt;h2 id=&quot;hébergement&quot;&gt;Hébergement&lt;/h2&gt;
+&lt;p&gt;GitHub permet d’héberger des sites via son service &lt;a href=&quot;https://pages.github.com/&quot;&gt;Pages&lt;/a&gt;.
+L’une des méthodes pour l’activer consiste à créer un dossier &lt;code class=&quot;highlighter-rouge&quot;&gt;docs&lt;/code&gt; dans le dépôt du projet.
+En allant ensuite dans les options (&lt;em&gt;Settings&lt;/em&gt;), de descendre jusqu’à l’encart &lt;code class=&quot;highlighter-rouge&quot;&gt;GitHub Pages&lt;/code&gt; et de sélectionner la source &lt;code class=&quot;highlighter-rouge&quot;&gt;master branch /docs folder&lt;/code&gt;.
+Le site sera immédiatement disponible à l’adresse https://&lt;code class=&quot;highlighter-rouge&quot;&gt;nom d'utilisateur&lt;/code&gt;.github.io/&lt;code class=&quot;highlighter-rouge&quot;&gt;nom du projet&lt;/code&gt;,
+comme par exemple &lt;a href=&quot;https://parastuffs.github.io/esnu/&quot;&gt;https://parastuffs.github.io/esnu/&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;générer-un-site-web-statique&quot;&gt;Générer un site web statique&lt;/h2&gt;
+&lt;p&gt;GitHub Pages se contente d’afficher des pages web statiques, c’est-à-dire dont le contenu est généré à l’avance et ne peut pas être modifier par les visiteurs.
+Pour générer un tel site, on peut utiliser &lt;a href=&quot;https://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt; fonctionnant avec &lt;a href=&quot;https://www.ruby-lang.org/fr/&quot;&gt;Ruby&lt;/a&gt; en utilisant la commande suivante pour l’installer : &lt;code class=&quot;highlighter-rouge&quot;&gt;gem install bundler jekyll&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Mais au lieu de créer un site entier à partir de rien, il est plus simple et rapide de partir d’un theme existant.
+Par exemple, on peut utiliser &lt;a href=&quot;https://github.com/jekyller/jasper2&quot;&gt;jasper2&lt;/a&gt; dont il suffit de télécharger l’archive dans le dépôt du projet.
+Depuis le dossier &lt;code class=&quot;highlighter-rouge&quot;&gt;jasper2&lt;/code&gt;, une seule commande permet de générer le site : &lt;code class=&quot;highlighter-rouge&quot;&gt;bundle exec jekyll serve&lt;/code&gt;.
+Cette opération génère tous les fichiers du site web dans le dossier &lt;code class=&quot;highlighter-rouge&quot;&gt;jasper2-pages&lt;/code&gt; par défaut et héberge une version locale du site à l’adresse &lt;code class=&quot;highlighter-rouge&quot;&gt;http://127.0.0.1:4000/jasper2/&lt;/code&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;configuration-de-jasper2&quot;&gt;Configuration de jasper2&lt;/h2&gt;
+&lt;p&gt;Le premier fichier de configuration à mettre à jour est le principal : &lt;a href=&quot;https://github.com/parastuffs/esnu/blob/master/jasper2/_config.yml&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt;&lt;/a&gt;.
+Toutes les options sont commentées dans le fichier, mais l’une des essentielles est le dossier de destination à changer en &lt;code class=&quot;highlighter-rouge&quot;&gt;../docs/&lt;/code&gt; ainsi que l’option &lt;code class=&quot;highlighter-rouge&quot;&gt;baseurl&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;gérer-les-tags&quot;&gt;Gérer les tags&lt;/h3&gt;
+
+&lt;h3 id=&quot;gérer-les-auteurs&quot;&gt;Gérer les auteurs&lt;/h3&gt;
+
+&lt;h3 id=&quot;modifier-len-tête&quot;&gt;Modifier l’en-tête&lt;/h3&gt;
+
+&lt;h3 id=&quot;écrire-un-article&quot;&gt;Écrire un article&lt;/h3&gt;
+
+&lt;h4 id=&quot;brouillons&quot;&gt;Brouillons&lt;/h4&gt;
+&lt;p&gt;Les brouillons doivent être écrits dans un dossier &lt;code class=&quot;highlighter-rouge&quot;&gt;_drafts&lt;/code&gt; et ne nécessite pas de date dans leur nom de fichier.
+Ensuite, si vous souhaitez les voir sur la version locale de votre site, il faut compiler le site en ajoutant une option à la commande : &lt;code class=&quot;highlighter-rouge&quot;&gt;bundle exec jekyll serve ---draft&lt;/code&gt;.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Quentin Delhaye</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="coulisses" />
+      
+
+      
+        <summary type="html">Cet article présentera brièvement comment ce site a été construit en utilisant des technologies libres et open sources.</summary>
       
 
       
