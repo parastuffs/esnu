@@ -2,7 +2,7 @@ coulisses:
   name: coulisses
   description: Coulisses du certificat. Passez de l'autre côté du décor et découvrez comment ont été réalisé les différentes pièces présentées dans ce portfolio, y compris le portfolio lui-même.
   cover: assets/images/mixing-desk.jpg
-projet-elearning:
-  name: projet-elearning
-  description: false
-  cover: false
+projet:
+  name: projet
+  description: Déroulé du projet de podcats.
+  cover: assets/images/advanced.jpg
