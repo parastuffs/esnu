@@ -6,3 +6,7 @@ projet:
   name: projet
   description: Déroulé du projet de podcats.
   cover: assets/images/advanced.jpg
+cours:
+  name: cours
+  description: Prise de recul sur les cours suivis dans le cadre du certificat
+  cover: assets/images/event-1597531_1280.jpg

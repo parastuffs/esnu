@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
   <link href="http://localhost:4000/esnu/author/quentin/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/esnu/" rel="alternate" type="text/html" />
-  <updated>2020-02-06T17:59:34+01:00</updated>
+  <updated>2020-02-06T19:09:52+01:00</updated>
   <id>http://localhost:4000/esnu/author/quentin/feed.xml</id>
 
   
@@ -210,6 +210,42 @@ Ci-suit par exemple une capture d’une première version brupte du cours …&lt
 
       
         <summary type="html">Avoir un site pour proposer les supports de cours aux étudiants c’est bien, qu’il ait un peu de la gueule, c’est mieux.</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Un cours ça se suit et ça s’analyse</title>
+      <link href="http://localhost:4000/esnu/un-cours-ca-se-suit-et-ca-sanalyse" rel="alternate" type="text/html" title="Un cours ça se suit et ça s'analyse" />
+      <published>2020-01-17T11:18:00+01:00</published>
+      <updated>2020-01-17T11:18:00+01:00</updated>
+      <id>http://localhost:4000/esnu/un-cours-ca-se-suit-et-ca-sanalyse</id>
+      <content type="html" xml:base="http://localhost:4000/esnu/un-cours-ca-se-suit-et-ca-sanalyse">&lt;p&gt;L’ESNU, c’est un certificat, mais sous de multiples formes : en présentiel, à distance, mais aussi « hybride », c’est-à-dire à distance, mais de façon synchrone.&lt;/p&gt;
+
+&lt;p&gt;La couverture de ce billet est d’ailleurs trompeuse, il n’y a pas une unique image pouvant illustrer l’expérience de certificat tant elle est variée.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Quentin Delhaye</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="cours" />
+      
+
+      
+        <summary type="html">L’ESNU, c’est un certificat, mais sous de multiples formes : en présentiel, à distance, mais aussi « hybride », c’est-à-dire à distance, mais de façon synchrone.</summary>
       
 
       
