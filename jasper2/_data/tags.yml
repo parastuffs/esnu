@@ -10,3 +10,7 @@ cours:
   name: cours
   description: Prise de recul sur les cours suivis dans le cadre du certificat
   cover: assets/images/event-1597531_1280.jpg
+esnu-003:
+  name: esnu-003
+  description: « Connaître son public » dispensé par Dorothée Baillet.
+  cover: assets/images/markus-spiske-XjD0kNkpq2E-unsplash.jpg
