@@ -2,10 +2,10 @@
 
 <feed xmlns="http://www.w3.org/2005/Atom" >
   <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
-  <link href="http://localhost:4000/esnu/author/quentin/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="http://localhost:4000/esnu/tag/experience/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/esnu/" rel="alternate" type="text/html" />
   <updated>2020-03-24T18:52:47+01:00</updated>
-  <id>http://localhost:4000/esnu/author/quentin/feed.xml</id>
+  <id>http://localhost:4000/esnu/tag/experience/feed.xml</id>
 
   
   
@@ -160,107 +160,6 @@ Chaque activité d’enseignement s’adressant à une cohorte particulière dev
 
       
         <summary type="html">Semaine du 16 mars 2020, le monde se transforme alors que tout le monde doit s’isoler. Comment les apprenants s’adaptent-ils aux dispositifs mis en place pour assurer l’enseignement à distance ?</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">Rénovation d’un site de cours</title>
-      <link href="http://localhost:4000/esnu/renovation-site-de-cours" rel="alternate" type="text/html" title="Rénovation d'un site de cours" />
-      <published>2020-02-16T11:18:00+01:00</published>
-      <updated>2020-02-16T11:18:00+01:00</updated>
-      <id>http://localhost:4000/esnu/renovation-site-de-cours</id>
-      <content type="html" xml:base="http://localhost:4000/esnu/renovation-site-de-cours">&lt;p&gt;Avoir un site pour proposer les supports de cours aux étudiants c’est bien, qu’il soit agréable à naviguer, c’est mieux.&lt;/p&gt;
-
-&lt;p&gt;L’Université libre de Bruxelles a implémenté Moodle sur son &lt;a href=&quot;https://uv.ulb.ac.be/&quot;&gt;université virtuelle&lt;/a&gt;.
-Outil open source puissant, il nécessite néanmoins quelques réglages pour libérer tout son potentiel.
-Ci-suit par exemple une capture d’une première version brute du cours …&lt;/p&gt;
-
-&lt;p&gt;Ci-suit une première capture de l’ancienne version du site, tel qu’il était proposé jusqu’à l’année académique 2018-2019 (cliquez sur l’image pour visualiser une capture de toute la page).
-&lt;a href=&quot;assets/images/renovation/H473-old-full.png&quot; target=&quot;_blank_&quot;&gt;
-&lt;img src=&quot;assets/images/renovation/H473-old-crop.png&quot; alt=&quot;alt text&quot; /&gt;
-&lt;/a&gt;
-La page était austère, consistant en une suite de liens et documents triés, mais peu catégorisés.
-Les étudiants ne remarquaient pas certaines ressources qui étaient pourtant mises à leur disposition.
-La page était austère, consistant en une suite de liens et documents triés, mais peu catégorisés.
-Les étudiants ne remarquaient pas certaines ressources qui étaient pourtant mises à leur disposition.&lt;/p&gt;
-
-&lt;p&gt;La capture suivante représante la refonte du site (cliquez sur l’image pour visualiser une capture de toute la page).
-&lt;a href=&quot;assets/images/renovation/H473-new-full.png&quot; target=&quot;_blank_&quot;&gt;
-&lt;img src=&quot;assets/images/renovation/H473-new-crop.png&quot; alt=&quot;alt text&quot; /&gt;
-&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Le premier élément ayant permis cette mise à jour est un simple changement de la mise en page que propose Moodle : le format « &lt;a href=&quot;https://moodle.org/plugins/format_tiles&quot;&gt;tuiles&lt;/a&gt; » permettant d’afficher les ressources sous forme de petites cartes dont on peut changer l’arrière-plan.&lt;/p&gt;
-
-&lt;p&gt;En combinant cette mise en forme avec d’autres fonctionnalités, comme la remise de devoirs en ligne qui ne sont visible que si l’étudiant s’est inscrit dans un groupe, la page du cours est bien plus utilisée en laboratoire.&lt;/p&gt;
-
-&lt;p&gt;Le nouveau site propose des informations moins denses et est plus facile à naviguer.
-Les différentes sections sont clairement marquées afin que les étudiants sache où trouver les informations afférentes à un laboratoire en particulier.
-De plus, en utilisant la fonctionnalité de suivi de progression, ils peuvent marquer les ressources qu’ils ont visitées et ainsi remarquer s’ils ont raté quelque chose.&lt;/p&gt;
-
-&lt;p&gt;Une expérience intéressante sera de vérifier si la volonté d’atteindre les 100% de complétion leur permettra ou non de gagner du temps en ne remarquant pas certaines ressources qui étaient auparavant noyées dans une nuée de liens en tout genre.&lt;/p&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Quentin Delhaye</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="projet" />
-      
-
-      
-        <summary type="html">Avoir un site pour proposer les supports de cours aux étudiants c’est bien, qu’il soit agréable à naviguer, c’est mieux.</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">Enseigner dans le supérieur avec le numé-quoi ?</title>
-      <link href="http://localhost:4000/esnu/Enseigner-dans-le-sup%C3%A9rieur-avec-le-num%C3%A9-quoi" rel="alternate" type="text/html" title="Enseigner dans le supérieur avec le numé-quoi ?" />
-      <published>2020-01-17T11:18:00+01:00</published>
-      <updated>2020-01-17T11:18:00+01:00</updated>
-      <id>http://localhost:4000/esnu/Enseigner-dans-le-sup%C3%A9rieur-avec-le-num%C3%A9-quoi</id>
-      <content type="html" xml:base="http://localhost:4000/esnu/Enseigner-dans-le-sup%C3%A9rieur-avec-le-num%C3%A9-quoi">&lt;blockquote&gt;
-  &lt;p&gt;Enseigner dans le supérieur avec le numérique&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Un projet ambitieux incarné sous la forme d’un nouveau certificat encadré en collaboration par l’ULB, la Haute École Bruxelles-Brabant (HE2B), la Haute École Francisco Ferrer.
-Pour en savoir plus, rendez-vous sur le site de l’&lt;a href=&quot;http://esnu.be/&quot;&gt;ESNU&lt;/a&gt;.&lt;/p&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Quentin Delhaye</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="coulisses" />
-      
-
-      
-        <summary type="html">Enseigner dans le supérieur avec le numérique</summary>
       
 
       
