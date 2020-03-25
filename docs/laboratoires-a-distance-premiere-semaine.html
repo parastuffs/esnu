@@ -211,9 +211,9 @@ Deux outils ont été proposés aux apprenant : (1) <a href="https://slack.com/"
   </li>
 </ol>
 
-<p>Le premier a été choisi pour sa versatilité (création de salons de discussions, fils de discussion, messages privés, bonne organisation globale des discussions). Bien que nous aurions pu choisir son alternative open source <a href="https://matrix.org/">Matrix</a>, nous avons préféré capitaliser sur l’expériance que nous avions avec Slack et sa popularité.</p>
+<p>Le premier a été choisi pour sa versatilité (création de salons de discussions, fils de discussion, messages privés, bonne organisation globale des discussions). Bien que nous aurions pu choisir son alternative open source <a href="https://matrix.org/">Matrix</a>, nous avons préféré capitaliser sur l’expérience que nous avions avec Slack et sa popularité.</p>
 
-<p>Nous avons opté pour le second afin de proposer un outil open source à nos apprenant, ne nécessitant aucun installation supplémentaire puisqu’il fonctionne dans le navigateur, et pouvant être accédé sans licence coûteuse ou limitante.</p>
+<p>Nous avons opté pour le second afin de proposer un outil open source à nos apprenant, ne nécessitant aucune installation supplémentaire puisqu’il fonctionne dans le navigateur, et pouvant être accédé sans licence coûteuse ou limitante.</p>
 
 <h2 id="résultats">Résultats</h2>
 <p>Les résultats de l’efficacité de ces outils est mesurées par la simple implication des apprenants dans leur utilisation.</p>
@@ -306,6 +306,22 @@ Chaque activité d’enseignement s’adressant à une cohorte particulière dev
             <!-- If you use Disqus comments, just uncomment this block.
             The only thing you need to change is "test-apkdzgmqhj" - which
             should be replaced with your own Disqus site-id. -->
+            
+                <section class="post-full-comments">
+                    <div id="disqus_thread"></div>
+                    <script>
+                        var disqus_config = function () {
+                            this.page.url = '/esnu/';
+                            this.page.identifier = 'ESNU Portfolio';
+                        };
+                        (function() {
+                            var d = document, s = d.createElement('script');
+                            s.src = 'https://esnu.disqus.com/embed.js';
+                            s.setAttribute('data-timestamp', +new Date());
+                            (d.head || d.body).appendChild(s);
+                        })();
+                    </script>
+                </section>
             
 
         </article>

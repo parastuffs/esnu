@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
   <link href="http://localhost:4000/esnu/tag/experience/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/esnu/" rel="alternate" type="text/html" />
-  <updated>2020-03-24T18:52:47+01:00</updated>
+  <updated>2020-03-25T12:05:12+01:00</updated>
   <id>http://localhost:4000/esnu/tag/experience/feed.xml</id>
 
   
@@ -78,9 +78,9 @@ Deux outils ont été proposés aux apprenant : (1) &lt;a href=&quot;https://sla
   &lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;Le premier a été choisi pour sa versatilité (création de salons de discussions, fils de discussion, messages privés, bonne organisation globale des discussions). Bien que nous aurions pu choisir son alternative open source &lt;a href=&quot;https://matrix.org/&quot;&gt;Matrix&lt;/a&gt;, nous avons préféré capitaliser sur l’expériance que nous avions avec Slack et sa popularité.&lt;/p&gt;
+&lt;p&gt;Le premier a été choisi pour sa versatilité (création de salons de discussions, fils de discussion, messages privés, bonne organisation globale des discussions). Bien que nous aurions pu choisir son alternative open source &lt;a href=&quot;https://matrix.org/&quot;&gt;Matrix&lt;/a&gt;, nous avons préféré capitaliser sur l’expérience que nous avions avec Slack et sa popularité.&lt;/p&gt;
 
-&lt;p&gt;Nous avons opté pour le second afin de proposer un outil open source à nos apprenant, ne nécessitant aucun installation supplémentaire puisqu’il fonctionne dans le navigateur, et pouvant être accédé sans licence coûteuse ou limitante.&lt;/p&gt;
+&lt;p&gt;Nous avons opté pour le second afin de proposer un outil open source à nos apprenant, ne nécessitant aucune installation supplémentaire puisqu’il fonctionne dans le navigateur, et pouvant être accédé sans licence coûteuse ou limitante.&lt;/p&gt;
 
 &lt;h2 id=&quot;résultats&quot;&gt;Résultats&lt;/h2&gt;
 &lt;p&gt;Les résultats de l’efficacité de ces outils est mesurées par la simple implication des apprenants dans leur utilisation.&lt;/p&gt;

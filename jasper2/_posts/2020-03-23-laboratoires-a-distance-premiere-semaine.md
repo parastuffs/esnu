@@ -43,9 +43,9 @@ Pour beaucoup d'apprenants, nous constatons que l'implication dans les laboratoi
 3. Communication durant la séance.  
 Deux outils ont été proposés aux apprenant : (1) [Slack](https://slack.com/) pour la communication ne nécessitant pas une réponse immédiate et (2) [Jitsi](https://jitsi.org/) au cas où ils veulent poser une question de vive voix ou partager leur écran.
 
-Le premier a été choisi pour sa versatilité (création de salons de discussions, fils de discussion, messages privés, bonne organisation globale des discussions). Bien que nous aurions pu choisir son alternative open source [Matrix](https://matrix.org/), nous avons préféré capitaliser sur l'expériance que nous avions avec Slack et sa popularité.
+Le premier a été choisi pour sa versatilité (création de salons de discussions, fils de discussion, messages privés, bonne organisation globale des discussions). Bien que nous aurions pu choisir son alternative open source [Matrix](https://matrix.org/), nous avons préféré capitaliser sur l'expérience que nous avions avec Slack et sa popularité.
 
-Nous avons opté pour le second afin de proposer un outil open source à nos apprenant, ne nécessitant aucun installation supplémentaire puisqu'il fonctionne dans le navigateur, et pouvant être accédé sans licence coûteuse ou limitante.
+Nous avons opté pour le second afin de proposer un outil open source à nos apprenant, ne nécessitant aucune installation supplémentaire puisqu'il fonctionne dans le navigateur, et pouvant être accédé sans licence coûteuse ou limitante.
 
 ## Résultats
 Les résultats de l'efficacité de ces outils est mesurées par la simple implication des apprenants dans leur utilisation.
