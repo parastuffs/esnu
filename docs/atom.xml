@@ -8,6 +8,21 @@
     
       
       <item>
+        <title>Ajouter une section de commentaires à Jekyll avec Disqus</title>
+        
+          <description>&lt;p&gt;Rien de tel que des commentaires pour ajouter de l’interactivité dans un article.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Wed, 25 Mar 2020 14:30:00 +0100</pubDate>
+        <link>
+        http://localhost:4000/commentaires-disqus-jekyll</link>
+        <guid isPermaLink="true">http://localhost:4000/commentaires-disqus-jekyll</guid>
+      </item>
+      
+    
+      
+      <item>
         <title>Laboratoires à distance, première semaine</title>
         
           <description>&lt;p&gt;Semaine du 16 mars 2020, le monde se transforme alors que tout le monde doit s’isoler. Comment les apprenants s’adaptent-ils aux dispositifs mis en place pour assurer l’enseignement à distance ?&lt;/p&gt;
@@ -33,6 +48,21 @@
         <link>
         http://localhost:4000/renovation-site-de-cours</link>
         <guid isPermaLink="true">http://localhost:4000/renovation-site-de-cours</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Réalisation d'un portfolio numérique avec Jekyll</title>
+        
+          <description>&lt;p&gt;Cet article présentera brièvement comment ce site a été construit en utilisant des technologies libres et open sources.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Fri, 17 Jan 2020 11:18:00 +0100</pubDate>
+        <link>
+        http://localhost:4000/realisation-portfolio-numerique</link>
+        <guid isPermaLink="true">http://localhost:4000/realisation-portfolio-numerique</guid>
       </item>
       
     

@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
   <link href="http://localhost:4000/esnu/tag/coulisses/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/esnu/" rel="alternate" type="text/html" />
-  <updated>2020-03-25T15:16:25+01:00</updated>
+  <updated>2020-03-25T16:44:14+01:00</updated>
   <id>http://localhost:4000/esnu/tag/coulisses/feed.xml</id>
 
   
@@ -30,6 +30,199 @@
   
   
 
+  
+    <entry>
+      <title type="html">Ajouter une section de commentaires à Jekyll avec Disqus</title>
+      <link href="http://localhost:4000/esnu/commentaires-disqus-jekyll" rel="alternate" type="text/html" title="Ajouter une section de commentaires à Jekyll avec Disqus" />
+      <published>2020-03-25T14:30:00+01:00</published>
+      <updated>2020-03-25T14:30:00+01:00</updated>
+      <id>http://localhost:4000/esnu/commentaires-disqus-jekyll</id>
+      <content type="html" xml:base="http://localhost:4000/esnu/commentaires-disqus-jekyll">&lt;p&gt;Rien de tel que des commentaires pour ajouter de l’interactivité dans un article.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://disqus.com/&quot;&gt;Disqus&lt;/a&gt; est un plug-in permettant d’ajouter une section de commentaires sur n’importe quelle page web.
+Son implémentation est relativement simple et permet aux lecteurs de donner un feedback sur le contenu qu’ils viennent de lire.&lt;/p&gt;
+
+&lt;h2 id=&quot;création-dun-compte&quot;&gt;Création d’un compte&lt;/h2&gt;
+&lt;p&gt;La première étape consiste à &lt;a href=&quot;https://disqus.com/admin/create/&quot;&gt;créer un site&lt;/a&gt; sur votre compte discus.
+Pour l’exemple, nous l’appellerons &lt;code class=&quot;highlighter-rouge&quot;&gt;esnu&lt;/code&gt;, créant ainsi une URL &lt;code class=&quot;highlighter-rouge&quot;&gt;esnu.disqus.com&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;ajout-dun-domaine-de-confiance&quot;&gt;Ajout d’un domaine de confiance&lt;/h2&gt;
+&lt;p&gt;Sur la page d’administration du site chez Disqus, il faut ajouter le domaine du site sur lequel sera intégré le module de commentaires, afin qu’il ne puisse pas être utilisé ailleurs.
+Cette configuration se trouve dans &lt;code class=&quot;highlighter-rouge&quot;&gt;Settings &amp;gt; Advanced &amp;gt; Trusted Domains&lt;/code&gt;.
+Toujours dans l’exemple présent, j’ai ajouté &lt;code class=&quot;highlighter-rouge&quot;&gt;parastuffs.github.io&lt;/code&gt;, racine du site sur lequel est hébergé ce portfolio.&lt;/p&gt;
+
+&lt;h2 id=&quot;configuration-de-jekyll&quot;&gt;Configuration de Jekyll&lt;/h2&gt;
+&lt;p&gt;La configuration de Jekyll se fait en deux étapes : l’ajout de variables dans le fichier de configuration général et l’ajout du code permettant d’afficher les commentaires.&lt;/p&gt;
+
+&lt;h3 id=&quot;nouvelles-variables&quot;&gt;Nouvelles variables&lt;/h3&gt;
+&lt;p&gt;Il faut ajouter les variables suivantes au fichier &lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;na&quot;&gt;disqus&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;True&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;disqus_shortname&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;esnu&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;où &lt;code class=&quot;highlighter-rouge&quot;&gt;disqus_shortname&lt;/code&gt; est le nom de votre site chez disqus.&lt;/p&gt;
+
+&lt;h3 id=&quot;code-de-mise-en-page&quot;&gt;Code de mise en page&lt;/h3&gt;
+&lt;p&gt;Il faut à présent ajouter le code html permettant d’afficher le module en bas de chaque billet.
+Pour ce faire, ajoutez les lignes suivantes à l’endroit approprié dans le fichier &lt;code class=&quot;highlighter-rouge&quot;&gt;_layouts/post.html&lt;/code&gt;.
+Dans mon cas, l’endroit en question se trouve entre la fin de la balise &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;/footer&amp;gt;&lt;/code&gt; et la balise &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;/article&amp;gt;&lt;/code&gt;.&lt;/p&gt;
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+{% if site.disqus or page.disqus %}
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;section&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;post-full-comments&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;id=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;disqus_thread&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;lt;script&amp;gt;&lt;/span&gt;
+            &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;disqus_config&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+                &lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;page&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;url&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'{{ site.production_url }}{{ page.url }}'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+                &lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;page&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;identifier&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'{{ page.url }}'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+            &lt;span class=&quot;p&quot;&gt;};&lt;/span&gt;
+            &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+                &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;d&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;s&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;d&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;createElement&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'script'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+                &lt;span class=&quot;nx&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;src&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'https://{{ site.disqus_shortname }}.disqus.com/embed.js'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+                &lt;span class=&quot;nx&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;setAttribute&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'data-timestamp'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;Date&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;());&lt;/span&gt;
+                &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;d&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;head&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;||&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;d&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;body&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;appendChild&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+            &lt;span class=&quot;p&quot;&gt;})();&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;lt;noscript&amp;gt;&lt;/span&gt;Please enable JavaScript to view the &lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;https://disqus.com/?ref_noscript&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;comments powered by Disqus.&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&amp;lt;/noscript&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;/section&amp;gt;&lt;/span&gt;
+{% endif %}
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;où &lt;code class=&quot;highlighter-rouge&quot;&gt;site.production_url&lt;/code&gt; devrait être une variable du fichier &lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt; qui ressemble à ceci : &lt;code class=&quot;highlighter-rouge&quot;&gt;production_url:  https://parastuffs.github.io/esnu&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Normalement, les commentaires devraient à présent être activés sur l’instance locale de test ainsi que sur le site de production.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Quentin Delhaye</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="coulisses" />
+      
+
+      
+        <summary type="html">Rien de tel que des commentaires pour ajouter de l’interactivité dans un article.</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Réalisation d’un portfolio numérique avec Jekyll</title>
+      <link href="http://localhost:4000/esnu/realisation-portfolio-numerique" rel="alternate" type="text/html" title="Réalisation d'un portfolio numérique avec Jekyll" />
+      <published>2020-01-17T11:18:00+01:00</published>
+      <updated>2020-01-17T11:18:00+01:00</updated>
+      <id>http://localhost:4000/esnu/realisation-portfolio-numerique</id>
+      <content type="html" xml:base="http://localhost:4000/esnu/realisation-portfolio-numerique">&lt;p&gt;Cet article présentera brièvement comment ce site a été construit en utilisant des technologies libres et open sources.&lt;/p&gt;
+
+&lt;h2 id=&quot;hébergement&quot;&gt;Hébergement&lt;/h2&gt;
+&lt;p&gt;GitHub permet d’héberger des sites via son service &lt;a href=&quot;https://pages.github.com/&quot;&gt;Pages&lt;/a&gt;.
+L’une des méthodes pour l’activer consiste à créer un dossier &lt;code class=&quot;highlighter-rouge&quot;&gt;docs&lt;/code&gt; dans le dépôt du projet.
+En allant ensuite dans les options (&lt;em&gt;Settings&lt;/em&gt;), de descendre jusqu’à l’encart &lt;code class=&quot;highlighter-rouge&quot;&gt;GitHub Pages&lt;/code&gt; et de sélectionner la source &lt;code class=&quot;highlighter-rouge&quot;&gt;master branch /docs folder&lt;/code&gt;.
+Le site sera immédiatement disponible à l’adresse https://&lt;code class=&quot;highlighter-rouge&quot;&gt;nom d'utilisateur&lt;/code&gt;.github.io/&lt;code class=&quot;highlighter-rouge&quot;&gt;nom du projet&lt;/code&gt;,
+comme par exemple &lt;a href=&quot;https://parastuffs.github.io/esnu/&quot;&gt;https://parastuffs.github.io/esnu/&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;générer-un-site-web-statique&quot;&gt;Générer un site web statique&lt;/h2&gt;
+&lt;p&gt;GitHub Pages se contente d’afficher des pages web statiques, c’est-à-dire dont le contenu est généré à l’avance et ne peut pas être modifier par les visiteurs.
+Pour générer un tel site, on peut utiliser &lt;a href=&quot;https://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt; fonctionnant avec &lt;a href=&quot;https://www.ruby-lang.org/fr/&quot;&gt;Ruby&lt;/a&gt; en utilisant la commande suivante pour l’installer : &lt;code class=&quot;highlighter-rouge&quot;&gt;gem install bundler jekyll&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Mais au lieu de créer un site entier à partir de rien, il est plus simple et rapide de partir d’un theme existant.
+Par exemple, on peut utiliser &lt;a href=&quot;https://github.com/jekyller/jasper2&quot;&gt;jasper2&lt;/a&gt; dont il suffit de télécharger l’archive dans le dépôt du projet.
+Depuis le dossier &lt;code class=&quot;highlighter-rouge&quot;&gt;jasper2&lt;/code&gt;, une seule commande permet de générer le site : &lt;code class=&quot;highlighter-rouge&quot;&gt;bundle exec jekyll serve&lt;/code&gt;.
+Cette opération génère tous les fichiers du site web dans le dossier &lt;code class=&quot;highlighter-rouge&quot;&gt;jasper2-pages&lt;/code&gt; par défaut et héberge une version locale du site à l’adresse &lt;code class=&quot;highlighter-rouge&quot;&gt;http://127.0.0.1:4000/jasper2/&lt;/code&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;configuration-de-jasper2&quot;&gt;Configuration de jasper2&lt;/h2&gt;
+&lt;p&gt;Le premier fichier de configuration à mettre à jour est le principal : &lt;a href=&quot;https://github.com/parastuffs/esnu/blob/master/jasper2/_config.yml&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt;&lt;/a&gt;.
+Toutes les options sont commentées dans le fichier, mais l’une des essentielles est le dossier de destination à changer en &lt;code class=&quot;highlighter-rouge&quot;&gt;../docs/&lt;/code&gt; ainsi que l’option &lt;code class=&quot;highlighter-rouge&quot;&gt;baseurl&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;gérer-les-tags&quot;&gt;Gérer les tags&lt;/h3&gt;
+&lt;p&gt;Pour ajouter un tag, ça se passe dans le fichier &lt;code class=&quot;highlighter-rouge&quot;&gt;_data/tags.yml&lt;/code&gt;.
+Il faut ensuite ajouter les lignes suivantes dans le fichier :&lt;/p&gt;
+&lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;na&quot;&gt;nouveau-tag&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;nouveau-tag&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;description&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;Déroulé du projet de podcats.&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;cover&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;assets/images/couverture.jpg&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;où &lt;code class=&quot;highlighter-rouge&quot;&gt;nouveau-tag&lt;/code&gt; est le nom de votre nouveau tag.
+Vous pouvez lui ajouter une description et une image de couverture, mais ces derniers sont facultatifs.
+Le résultat peut donner &lt;a href=&quot;/esnu//tag/coulisses&quot;&gt;quelque chose comme ceci&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;gérer-les-auteurs&quot;&gt;Gérer les auteurs&lt;/h3&gt;
+&lt;p&gt;Cette fois-ci, c’est au fichier &lt;code class=&quot;highlighter-rouge&quot;&gt;_data/authors.yml&lt;/code&gt; qu’il faut ajouter les lignes suivantes :&lt;/p&gt;
+&lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;na&quot;&gt;quentin&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;username&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;johnny&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;John Mouette&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;https://perdu.com/&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;url_full&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;https://perdu.com/&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;bio&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;J'aime les mouettes&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;cover&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;false&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;picture&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;assets/images/orlyowl.jpg&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;location&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;false&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;facebook&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;False&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;twitter&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;False&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;Le résultat peut donner &lt;a href=&quot;/esnu//author/quentin&quot;&gt;quelque chose comme ceci&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;écrire-un-article&quot;&gt;Écrire un article&lt;/h3&gt;
+&lt;p&gt;Un article est un fichier Markdown placé dans le dossier &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt;. Son nom doit commencer par sa date de publication, suivie de son titre, par exemple : &lt;code class=&quot;highlighter-rouge&quot;&gt;2020-01-17-realisation-portfolio-numerique.md&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Le début du fichier doit toujours contenir des informations sur son contenu, comme son titre, son auteur, etc.&lt;/p&gt;
+&lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nn&quot;&gt;---&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;layout&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;post&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;current&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;post&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;cover&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;assets/images/typewriter-801921_1280.jpg&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;navigation&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;True&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;Réalisation d'un portfolio numérique avec Jekyll&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;date&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;2020-01-17 10:18:00&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;tags&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;coulisses&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;class&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;post-template&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;subclass&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;post&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;tag-coulisses'&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;author&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;quentin&lt;/span&gt;
+&lt;span class=&quot;nn&quot;&gt;---&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;Davantage d’informations et de détails sont disponibles dans la &lt;a href=&quot;https://jekyllrb.com/docs/posts/&quot;&gt;documentation de Jekyll&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Le fichier ayant servi à générer ce site se trouve par exemple &lt;a href=&quot;https://github.com/parastuffs/esnu/blob/master/jasper2/_posts/2020-01-17-realisation-portfolio-numerique.md&quot;&gt;ici&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h4 id=&quot;brouillons&quot;&gt;Brouillons&lt;/h4&gt;
+&lt;p&gt;Les brouillons doivent être écrits dans un dossier &lt;code class=&quot;highlighter-rouge&quot;&gt;_drafts&lt;/code&gt; et ne nécessitent pas de date dans leur nom de fichier.
+Ensuite, si vous souhaitez les voir sur la version locale de votre site, il faut compiler le site en ajoutant une option à la commande : &lt;code class=&quot;highlighter-rouge&quot;&gt;bundle exec jekyll serve ---draft&lt;/code&gt;.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Quentin Delhaye</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="coulisses" />
+      
+
+      
+        <summary type="html">Cet article présentera brièvement comment ce site a été construit en utilisant des technologies libres et open sources.</summary>
+      
+
+      
+      
+    </entry>
   
     <entry>
       <title type="html">Enseigner dans le supérieur avec le numé-quoi ?</title>
