@@ -28,8 +28,8 @@ twitter: False # replace by your username
 facebook: False # replace by your username
 
 # Disqus
-disqus: False
-disqus_shortname: jekyller # replace with your disqus username
+disqus: True
+disqus_shortname: esnu # replace with your disqus username
 
 # Google Analytics
 google_analytics: UA-156438039-1 # replace with your GA tracking identifier
@@ -74,8 +74,8 @@ repo: esnu
 branch: gh-pages
 relative_source: ../jasper2/
 destination: ../docs/
-production_url:  https://parastuffs.github.io/esnu/
-source_url:  https://parastuffs.github.io/esnu/
+production_url:  https://parastuffs.github.io/esnu
+source_url:  https://parastuffs.github.io/esnu
 
 exclude:
   - assets/css

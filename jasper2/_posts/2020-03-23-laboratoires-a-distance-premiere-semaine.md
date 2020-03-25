@@ -31,7 +31,7 @@ Deux cours sont étudiés dans ce billet. Je présente rapidement leurs caracté
 * Évaluation : Devoirs à remettre une semaine après la séance de laboratoire. La remise de ces devoirs exploite des module Moodle sur l'UV, l'expérience est donc déjà numérique pour les apprenants.
 
 ## Outils mis en place
-1. Un communication claire et détaillée par mail via Moodle.  
+1. Une communication claire et détaillée par mail via Moodle.  
 La première étape a été d'informer les apprenants des mesures prises pour assurer la continuité des laboratoires malgré la distance.
 Ce message avait donc pour but de clarifier quels outils sont nécessaire pour *réaliser* le laboratoire, quels autres outils sont utilisés pour *communiquer* durant la séance et enfin le statut des évaluations afférentes aux manipulations.  
 Une capture du message envoyé pour ELECH402 peut être consultée [ici](assets/images/labo-distance/uv-h402.png) et celle de ELECH473 [ici](assets/images/labo-distance/uv-h473.png).
