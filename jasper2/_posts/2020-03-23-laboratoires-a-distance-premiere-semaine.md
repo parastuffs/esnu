@@ -18,27 +18,27 @@ Cette première semaine de distanciation forcée est une bonne occasion de reven
 ## Enseignements étudiés
 Deux cours sont étudiés dans ce billet. Je présente rapidement leurs caractéristiques pertinentes ci-dessous avant de passer aux dispositifs d'enseignement à distance.
 
-### ELECH402 - Électronique analogique
-* Public : Cours dispensé aux MA1 Polytech option Biomédical. Il s'agit d'une cohorte d'environ 25 étudiants.
-* Type de laboratoire : Simulations de circuits électronique en utilisant *Cadence PSPICE*. Ce logiciel ne tourne que sous Windows (natif ou en machine virtuelle).
-* Évaluation : Examen de laboratoire prévu mi-mai.  
-*Note* : La communication à ce sujet a été effectuée lorsque les cours devaient encore reprendre le 19 avril. Étant donné que le reste du quadrimestre se déroulera à distance, cette évaluation devra être revue, dans sa forme voire dans son existence.
-
 ### ELECH473 - Microprocessor Architectures
 * Public : Cours dispensé aux MA1 Polytech Informatique, Électronique et aux MA1 Sciences informatiques. Il s'agit d'une cohorte d'environ 100 étudiants.  
 *Note* : L'option *Électronique* fait partie du programme [Bruface](http://www.bruface.eu/), accueillant des étudiants de l'ULB, de la VUB et de nombreux étrangers, diversifiant d'autant plus le public de ce cours.
 * Type de laboratoire : Coder dans des logiciels multi-plate-formes (Windows/macOS/Linux).
 * Évaluation : Devoirs à remettre une semaine après la séance de laboratoire. La remise de ces devoirs exploite des module Moodle sur l'UV, l'expérience est donc déjà numérique pour les apprenants.
 
+### ELECH402 - Électronique analogique
+* Public : Cours dispensé aux MA1 Polytech option Biomédical. Il s'agit d'une cohorte d'environ 25 étudiants.
+* Type de laboratoire : Simulations de circuits électronique en utilisant *Cadence PSPICE*. Ce logiciel ne tourne que sous Windows (natif ou en machine virtuelle).
+* Évaluation : Examen de laboratoire prévu mi-mai.  
+*Note* : La communication à ce sujet a été effectuée lorsque les cours devaient encore reprendre le 19 avril. Étant donné que le reste du quadrimestre se déroulera à distance, cette évaluation devra être revue, dans sa forme voire dans son existence.
+
 ## Outils mis en place
 1. Une communication claire et détaillée par mail via Moodle.  
 La première étape a été d'informer les apprenants des mesures prises pour assurer la continuité des laboratoires malgré la distance.
 Ce message avait donc pour but de clarifier quels outils sont nécessaire pour *réaliser* le laboratoire, quels autres outils sont utilisés pour *communiquer* durant la séance et enfin le statut des évaluations afférentes aux manipulations.  
-Une capture du message envoyé pour ELECH402 peut être consultée [ici](assets/images/labo-distance/uv-h402.png) et celle de ELECH473 [ici](assets/images/labo-distance/uv-h473.png).
+Une capture du message envoyé pour ELECH473 peut être consultée [ici](assets/images/labo-distance/uv-h473.png) et celle pour ELECH402 [ici](assets/images/labo-distance/uv-h402.png).
 
 
 2. Le maintien de l'évaluation.  
-Pour beaucoup d'apprenants, nous constatons que l'implication dans les laboratoires est directement corrélée à des éléments concordants avec leur stratégie d'apprentissage, notamment la présence d'un examen de laboratoire (dans le cas de ELECH402) ou de devoirs évalués (ELECH473).
+Pour beaucoup d'apprenants, nous constatons que l'implication dans les laboratoires est directement corrélée à des éléments concordants avec leur stratégie d'apprentissage, notamment la présence de devoirs évalués (ELECH473) ou  d'un examen de laboratoire (dans le cas de ELECH402).
 
 3. Communication durant la séance.  
 Deux outils ont été proposés aux apprenant : (1) [Slack](https://slack.com/) pour la communication ne nécessitant pas une réponse immédiate et (2) [Jitsi](https://jitsi.org/) au cas où ils veulent poser une question de vive voix ou partager leur écran.
@@ -54,9 +54,9 @@ Les résultats de l'efficacité de ces outils est mesurées par la simple implic
 Trois questions.  
 Trois questions ont été posées sur l'ensemble des trois séances de laboratoire de la semaine. En plus d'être décevant, ce premier résultat n'augurait rien de bon pour le laboratoire de ELECH402 devant se dérouler en fin de semaine.
 
-Au cours des séances de laboratoire en présentiel, nous avons deux façon différentes de gérer les questions des étudiants.
+Au cours des séances de laboratoire en présentiel, nous avons deux façons différentes de gérer les questions des étudiants.
 Lors de la première, nous passons derrière les étudiants, montrant notre disponibilité et les interpellant directement si nous voyons qu'ils sont bloqués ou qu'ils se fourvoient.
-Pour la seconde, nous leur indiquons clairement que nous disponibles, mais restons à un endroit fixes où ils peuvent venir quérir notre aide si nécessaire.
+Pour la seconde, nous leur indiquons clairement que nous sommes disponibles, mais restons a un endroit fixes où ils peuvent venir quérir notre aide si nécessaire.
 Bien que la première méthode génère évidemment plus de questions de la part des étudiants, la seconde n'en est pas moins efficace. Ils sont simplement davantage confrontés à leur problèmes et doivent explicitement passer par une étape de formulation de leur problème s'il veulent efficacement poser leur question.  
 Il serait aussi raisonnable de penser qu'un groupe habitué à ce genre d'interaction en présentiel serait plus apte à s'adapter à une communication synchrone à distance.
 
@@ -73,7 +73,7 @@ Ils n'ont pas hésité à poser leurs questions dans le salon public, mes répon
 
 ![Slack ELECH402](assets/images/labo-distance/slack-h402.png)
 
-Pour cette cohorte, l'utilisation de ces outils à distance à été un franc succès.
+Pour cette cohorte, l'utilisation de ces outils à distance a été un franc succès.
 
 ## Pourquoi une telle différence ?
 Sur le papier, ces deux cohortes ont énormément de points communs : 

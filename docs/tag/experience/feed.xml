@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
   <link href="http://localhost:4000/esnu/tag/experience/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/esnu/" rel="alternate" type="text/html" />
-  <updated>2020-03-25T16:44:14+01:00</updated>
+  <updated>2020-03-25T16:52:59+01:00</updated>
   <id>http://localhost:4000/esnu/tag/experience/feed.xml</id>
 
   
@@ -44,14 +44,6 @@
 &lt;h2 id=&quot;enseignements-étudiés&quot;&gt;Enseignements étudiés&lt;/h2&gt;
 &lt;p&gt;Deux cours sont étudiés dans ce billet. Je présente rapidement leurs caractéristiques pertinentes ci-dessous avant de passer aux dispositifs d’enseignement à distance.&lt;/p&gt;
 
-&lt;h3 id=&quot;elech402---électronique-analogique&quot;&gt;ELECH402 - Électronique analogique&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;Public : Cours dispensé aux MA1 Polytech option Biomédical. Il s’agit d’une cohorte d’environ 25 étudiants.&lt;/li&gt;
-  &lt;li&gt;Type de laboratoire : Simulations de circuits électronique en utilisant &lt;em&gt;Cadence PSPICE&lt;/em&gt;. Ce logiciel ne tourne que sous Windows (natif ou en machine virtuelle).&lt;/li&gt;
-  &lt;li&gt;Évaluation : Examen de laboratoire prévu mi-mai.&lt;br /&gt;
-&lt;em&gt;Note&lt;/em&gt; : La communication à ce sujet a été effectuée lorsque les cours devaient encore reprendre le 19 avril. Étant donné que le reste du quadrimestre se déroulera à distance, cette évaluation devra être revue, dans sa forme voire dans son existence.&lt;/li&gt;
-&lt;/ul&gt;
-
 &lt;h3 id=&quot;elech473---microprocessor-architectures&quot;&gt;ELECH473 - Microprocessor Architectures&lt;/h3&gt;
 &lt;ul&gt;
   &lt;li&gt;Public : Cours dispensé aux MA1 Polytech Informatique, Électronique et aux MA1 Sciences informatiques. Il s’agit d’une cohorte d’environ 100 étudiants.&lt;br /&gt;
@@ -60,17 +52,25 @@
   &lt;li&gt;Évaluation : Devoirs à remettre une semaine après la séance de laboratoire. La remise de ces devoirs exploite des module Moodle sur l’UV, l’expérience est donc déjà numérique pour les apprenants.&lt;/li&gt;
 &lt;/ul&gt;
 
+&lt;h3 id=&quot;elech402---électronique-analogique&quot;&gt;ELECH402 - Électronique analogique&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Public : Cours dispensé aux MA1 Polytech option Biomédical. Il s’agit d’une cohorte d’environ 25 étudiants.&lt;/li&gt;
+  &lt;li&gt;Type de laboratoire : Simulations de circuits électronique en utilisant &lt;em&gt;Cadence PSPICE&lt;/em&gt;. Ce logiciel ne tourne que sous Windows (natif ou en machine virtuelle).&lt;/li&gt;
+  &lt;li&gt;Évaluation : Examen de laboratoire prévu mi-mai.&lt;br /&gt;
+&lt;em&gt;Note&lt;/em&gt; : La communication à ce sujet a été effectuée lorsque les cours devaient encore reprendre le 19 avril. Étant donné que le reste du quadrimestre se déroulera à distance, cette évaluation devra être revue, dans sa forme voire dans son existence.&lt;/li&gt;
+&lt;/ul&gt;
+
 &lt;h2 id=&quot;outils-mis-en-place&quot;&gt;Outils mis en place&lt;/h2&gt;
 &lt;ol&gt;
   &lt;li&gt;
     &lt;p&gt;Une communication claire et détaillée par mail via Moodle.&lt;br /&gt;
 La première étape a été d’informer les apprenants des mesures prises pour assurer la continuité des laboratoires malgré la distance.
 Ce message avait donc pour but de clarifier quels outils sont nécessaire pour &lt;em&gt;réaliser&lt;/em&gt; le laboratoire, quels autres outils sont utilisés pour &lt;em&gt;communiquer&lt;/em&gt; durant la séance et enfin le statut des évaluations afférentes aux manipulations.&lt;br /&gt;
-Une capture du message envoyé pour ELECH402 peut être consultée &lt;a href=&quot;assets/images/labo-distance/uv-h402.png&quot;&gt;ici&lt;/a&gt; et celle de ELECH473 &lt;a href=&quot;assets/images/labo-distance/uv-h473.png&quot;&gt;ici&lt;/a&gt;.&lt;/p&gt;
+Une capture du message envoyé pour ELECH473 peut être consultée &lt;a href=&quot;assets/images/labo-distance/uv-h473.png&quot;&gt;ici&lt;/a&gt; et celle pour ELECH402 &lt;a href=&quot;assets/images/labo-distance/uv-h402.png&quot;&gt;ici&lt;/a&gt;.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;Le maintien de l’évaluation.&lt;br /&gt;
-Pour beaucoup d’apprenants, nous constatons que l’implication dans les laboratoires est directement corrélée à des éléments concordants avec leur stratégie d’apprentissage, notamment la présence d’un examen de laboratoire (dans le cas de ELECH402) ou de devoirs évalués (ELECH473).&lt;/p&gt;
+Pour beaucoup d’apprenants, nous constatons que l’implication dans les laboratoires est directement corrélée à des éléments concordants avec leur stratégie d’apprentissage, notamment la présence de devoirs évalués (ELECH473) ou  d’un examen de laboratoire (dans le cas de ELECH402).&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;Communication durant la séance.&lt;br /&gt;
@@ -89,9 +89,9 @@ Deux outils ont été proposés aux apprenant : (1) &lt;a href=&quot;https://sla
 &lt;p&gt;Trois questions.&lt;br /&gt;
 Trois questions ont été posées sur l’ensemble des trois séances de laboratoire de la semaine. En plus d’être décevant, ce premier résultat n’augurait rien de bon pour le laboratoire de ELECH402 devant se dérouler en fin de semaine.&lt;/p&gt;
 
-&lt;p&gt;Au cours des séances de laboratoire en présentiel, nous avons deux façon différentes de gérer les questions des étudiants.
+&lt;p&gt;Au cours des séances de laboratoire en présentiel, nous avons deux façons différentes de gérer les questions des étudiants.
 Lors de la première, nous passons derrière les étudiants, montrant notre disponibilité et les interpellant directement si nous voyons qu’ils sont bloqués ou qu’ils se fourvoient.
-Pour la seconde, nous leur indiquons clairement que nous disponibles, mais restons à un endroit fixes où ils peuvent venir quérir notre aide si nécessaire.
+Pour la seconde, nous leur indiquons clairement que nous sommes disponibles, mais restons a un endroit fixes où ils peuvent venir quérir notre aide si nécessaire.
 Bien que la première méthode génère évidemment plus de questions de la part des étudiants, la seconde n’en est pas moins efficace. Ils sont simplement davantage confrontés à leur problèmes et doivent explicitement passer par une étape de formulation de leur problème s’il veulent efficacement poser leur question.&lt;br /&gt;
 Il serait aussi raisonnable de penser qu’un groupe habitué à ce genre d’interaction en présentiel serait plus apte à s’adapter à une communication synchrone à distance.&lt;/p&gt;
 
@@ -108,7 +108,7 @@ Ils n’ont pas hésité à poser leurs questions dans le salon public, mes rép
 
 &lt;p&gt;&lt;img src=&quot;assets/images/labo-distance/slack-h402.png&quot; alt=&quot;Slack ELECH402&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Pour cette cohorte, l’utilisation de ces outils à distance à été un franc succès.&lt;/p&gt;
+&lt;p&gt;Pour cette cohorte, l’utilisation de ces outils à distance a été un franc succès.&lt;/p&gt;
 
 &lt;h2 id=&quot;pourquoi-une-telle-différence-&quot;&gt;Pourquoi une telle différence ?&lt;/h2&gt;
 &lt;p&gt;Sur le papier, ces deux cohortes ont énormément de points communs :&lt;/p&gt;
