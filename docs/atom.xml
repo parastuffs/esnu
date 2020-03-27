@@ -8,6 +8,21 @@
     
       
       <item>
+        <title>Création d'une vidéo-minute pour introduire un laboratoire</title>
+        
+          <description>&lt;p&gt;Afin de garder le contact avec les étudiants lors d’un laboratoire à distance, il peut être intéressant de les accueillir avec une courte vidéo remplaçant le mot d’introduction en présentiel.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Fri, 27 Mar 2020 09:00:00 +0100</pubDate>
+        <link>
+        http://localhost:4000/video-intro-labo-improvisee</link>
+        <guid isPermaLink="true">http://localhost:4000/video-intro-labo-improvisee</guid>
+      </item>
+      
+    
+      
+      <item>
         <title>Ajouter une section de commentaires à Jekyll avec Disqus</title>
         
           <description>&lt;p&gt;Rien de tel que des commentaires pour ajouter de l’interactivité dans un article.&lt;/p&gt;

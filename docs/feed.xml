@@ -1,4 +1,34 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="http://localhost:4000/esnu/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/esnu/" rel="alternate" type="text/html" /><updated>2020-03-25T16:52:59+01:00</updated><id>http://localhost:4000/esnu/</id><title type="html">ESNU Portfolio</title><subtitle>Portfolio de l'édition 2019-2020 du certificat ESNU</subtitle><entry><title type="html">Ajouter une section de commentaires à Jekyll avec Disqus</title><link href="http://localhost:4000/esnu/commentaires-disqus-jekyll" rel="alternate" type="text/html" title="Ajouter une section de commentaires à Jekyll avec Disqus" /><published>2020-03-25T14:30:00+01:00</published><updated>2020-03-25T14:30:00+01:00</updated><id>http://localhost:4000/esnu/commentaires-disqus-jekyll</id><content type="html" xml:base="http://localhost:4000/esnu/commentaires-disqus-jekyll">&lt;p&gt;Rien de tel que des commentaires pour ajouter de l’interactivité dans un article.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="http://localhost:4000/esnu/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/esnu/" rel="alternate" type="text/html" /><updated>2020-03-27T11:10:47+01:00</updated><id>http://localhost:4000/esnu/</id><title type="html">ESNU Portfolio</title><subtitle>Portfolio de l'édition 2019-2020 du certificat ESNU</subtitle><entry><title type="html">Création d’une vidéo-minute pour introduire un laboratoire</title><link href="http://localhost:4000/esnu/video-intro-labo-improvisee" rel="alternate" type="text/html" title="Création d'une vidéo-minute pour introduire un laboratoire" /><published>2020-03-27T09:00:00+01:00</published><updated>2020-03-27T09:00:00+01:00</updated><id>http://localhost:4000/esnu/video-intro-labo-improvisee</id><content type="html" xml:base="http://localhost:4000/esnu/video-intro-labo-improvisee">&lt;p&gt;Afin de garder le contact avec les étudiants lors d’un laboratoire à distance, il peut être intéressant de les accueillir avec une courte vidéo remplaçant le mot d’introduction en présentiel.&lt;/p&gt;
+
+&lt;p&gt;Non seulement elle permet de les engager dans le laboratoire, elle leur montre aussi ma disponibilité en la distribuant quelques minutes avant la séance sur le canal de communication choisi, Slack dans le cas présent.&lt;/p&gt;
+
+&lt;h2 id=&quot;la-vidéo-minute-en-une-minute&quot;&gt;La vidéo-minute, en une minute…&lt;/h2&gt;
+&lt;p&gt;Improvisée et réalisée en quelques minutes, la vidéo-minute est facile à mettre en place et à diffuser.&lt;/p&gt;
+
+&lt;h3 id=&quot;-dinstallation&quot;&gt;… d’installation&lt;/h3&gt;
+&lt;p&gt;Brancher la webcam, allumer l’ordinateur et s’installer à son bureau, en une minute c’est réglé.&lt;/p&gt;
+
+&lt;h3 id=&quot;-de-configuration&quot;&gt;… de configuration&lt;/h3&gt;
+&lt;p&gt;Si ce n’est pas encore fait, on peut configurer &lt;a href=&quot;https://obsproject.com/&quot;&gt;OBS&lt;/a&gt; en ajoutant une source « Video Capture Device » pour capturer la Webcam.
+&lt;img src=&quot;assets/images/video-minute/obs-scene.png&quot; alt=&quot;Scène OBS&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Il faut ensuite s’assurer que le canvas et la vidéo sont à la même définition que la webcam.
+&lt;img src=&quot;assets/images/video-minute/obs-settings.png&quot; alt=&quot;Paramètres vidéo OBS&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;-dimprovisation&quot;&gt;… d’improvisation&lt;/h3&gt;
+&lt;p&gt;Le laboratoire étant déjà préparé, il est aisé d’improviser un bref résumé de la manipulation, de ses objectifs et des ressources particulières à disposition des étudiants.&lt;br /&gt;
+Une minute plus tard, la vidéo est terminée.&lt;/p&gt;
+
+&lt;h3 id=&quot;-de-diffusion&quot;&gt;… de diffusion&lt;/h3&gt;
+&lt;p&gt;Dernière étape : diffuser la vidéo sur la plate-forme, que ce soit Teams, Slack, Moodle ou par email.&lt;/p&gt;
+
+&lt;iframe width=&quot;420&quot; height=&quot;240&quot; src=&quot;http://www.youtube.com/embed/7bCLhckAR0w&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;h2 id=&quot;la-vidéo--montrer-notre-présence-à-distance&quot;&gt;La vidéo : montrer notre présence à distance&lt;/h2&gt;
+&lt;p&gt;De la même façon, il peut être encore plus aisé de donner rendez-vous aux étudiants à une heure fixe, tout comme pour les séances en présentiel, et diffuser la vidéo en direct.
+L’avantage étant qu’on les pousse à être présents dès le début de la séance pour profiter de l’introduction.&lt;br /&gt;
+Cependant, c’est aussi un désavantage : ils ne peuvent en bénéficier que s’ils sont présents.
+Dès lors qu’on organise des laboratoires à distance avec une certaine asynchronité, il me semble judicieux de certes garder une temporalité clairement établie : une heure de début et de fin de laboratoire, des séances régulières, etc., mais ce n’est pas plus coûtant en investissement de la part de l’enseignant de mettre ces même ressources à disposition des apprenants ayant un rythme différent.&lt;/p&gt;</content><author><name>Quentin Delhaye</name></author><category term="projet" /><summary type="html">Afin de garder le contact avec les étudiants lors d’un laboratoire à distance, il peut être intéressant de les accueillir avec une courte vidéo remplaçant le mot d’introduction en présentiel.</summary></entry><entry><title type="html">Ajouter une section de commentaires à Jekyll avec Disqus</title><link href="http://localhost:4000/esnu/commentaires-disqus-jekyll" rel="alternate" type="text/html" title="Ajouter une section de commentaires à Jekyll avec Disqus" /><published>2020-03-25T14:30:00+01:00</published><updated>2020-03-25T14:30:00+01:00</updated><id>http://localhost:4000/esnu/commentaires-disqus-jekyll</id><content type="html" xml:base="http://localhost:4000/esnu/commentaires-disqus-jekyll">&lt;p&gt;Rien de tel que des commentaires pour ajouter de l’interactivité dans un article.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://disqus.com/&quot;&gt;Disqus&lt;/a&gt; est un plug-in permettant d’ajouter une section de commentaires sur n’importe quelle page web.
 Son implémentation est relativement simple et permet aux lecteurs de donner un feedback sur le contenu qu’ils viennent de lire.&lt;/p&gt;
