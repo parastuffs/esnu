@@ -33,7 +33,7 @@ Le laboratoire étant déjà préparé, il est aisé d'improviser un bref résum
 Une minute plus tard, la vidéo est terminée.
 
 ### ... de diffusion
-Dernière étape : diffuser la vidéo sur la plate-forme, que ce soit Teams, Slack, Moodle ou par email.
+Dernière étape : [diffuser la vidéo](https://www.youtube.com/watch?v=7bCLhckAR0w) sur la plate-forme, que ce soit Teams, Slack, Moodle ou par email.
 
 <iframe width="420" height="240" src="http://www.youtube.com/embed/7bCLhckAR0w?wmode=opaque" frameborder="0" allowfullscreen="allowfullscreen"> useless text to render the iframe on GitHub Pages </iframe>
 
