@@ -35,7 +35,7 @@ Une minute plus tard, la vidéo est terminée.
 ### ... de diffusion
 Dernière étape : diffuser la vidéo sur la plate-forme, que ce soit Teams, Slack, Moodle ou par email.
 
-<iframe width="420" height="240" src="http://www.youtube.com/embed/7bCLhckAR0w" frameborder="0" allowfullscreen> useless text to render the iframe on GitHub Pages </iframe>
+<iframe width="420" height="240" src="http://www.youtube.com/embed/7bCLhckAR0w" frameborder="0" allowfullscreen="allowfullscreen"> useless text to render the iframe on GitHub Pages </iframe>
 
 ## La vidéo : montrer notre présence à distance
 De la même façon, il peut être encore plus aisé de donner rendez-vous aux étudiants à une heure fixe, tout comme pour les séances en présentiel, et diffuser la vidéo en direct.
