@@ -33,9 +33,7 @@ Le laboratoire étant déjà préparé, il est aisé d'improviser un bref résum
 Une minute plus tard, la vidéo est terminée.
 
 ### ... de diffusion
-Dernière étape : [diffuser la vidéo](https://www.youtube.com/watch?v=7bCLhckAR0w) sur la plate-forme, que ce soit Teams, Slack, Moodle ou par email.
-
-<iframe width="420" height="240" src="http://www.youtube.com/embed/7bCLhckAR0w?wmode=opaque" frameborder="0" allowfullscreen="allowfullscreen"> useless text to render the iframe on GitHub Pages </iframe>
+Dernière étape : [diffuser la vidéo](https://www.youtube.com/watch?v=7bCLhckAR0w&list=PLOQHyfCR7VoA05r6ljZtoU3LKU5DNoeds&index=2) sur la plate-forme, que ce soit Teams, Slack, Moodle ou par email.
 
 ## La vidéo : montrer notre présence à distance
 De la même façon, il peut être encore plus aisé de donner rendez-vous aux étudiants à une heure fixe, tout comme pour les séances en présentiel, et diffuser la vidéo en direct.
