@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
   <link href="http://localhost:4000/esnu/tag/projet/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/esnu/" rel="alternate" type="text/html" />
-  <updated>2020-04-09T18:25:16+02:00</updated>
+  <updated>2020-05-02T20:15:53+02:00</updated>
   <id>http://localhost:4000/esnu/tag/projet/feed.xml</id>
 
   
@@ -149,6 +149,234 @@ De plus, en utilisant la fonctionnalité de suivi de progression, ils peuvent ma
 
       
         <summary type="html">Avoir un site pour proposer les supports de cours aux étudiants c’est bien, qu’il soit agréable à naviguer, c’est mieux.</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Construire des personas</title>
+      <link href="http://localhost:4000/esnu/construire-des-personas" rel="alternate" type="text/html" title="Construire des personas" />
+      <published>2020-02-16T11:18:00+01:00</published>
+      <updated>2020-02-16T11:18:00+01:00</updated>
+      <id>http://localhost:4000/esnu/construire-des-personas</id>
+      <content type="html" xml:base="http://localhost:4000/esnu/construire-des-personas">&lt;p&gt;Pour qu’un dispositif soit efficace, il faut qu’il réponde à des besoins.
+Pour identifier les besoins, il faut connaître son public.&lt;/p&gt;
+
+&lt;p&gt;Afin de savoir exactement si le dispositif que je voulais mettre en place correspondait aux attentes de mes étudiants, j’ai commencé par établir des &lt;em&gt;persona&lt;/em&gt;, des profils caractéristiques représentant le public visé.&lt;/p&gt;
+
+&lt;h2 id=&quot;première-étape--interviews&quot;&gt;Première étape : interviews&lt;/h2&gt;
+
+&lt;p&gt;Le public visé était les étudiants de BA bloc 3 suivant mes laboratoires d’électronique.
+J’avais déjà eu l’occasion de les côtoyer lors des séances d’exercices précédant les laboratoires et je savais donc qui contacter afin d’avoir un échantillon d’étudiants coopérant et représentatif.&lt;/p&gt;
+
+&lt;p&gt;J’ai ainsi procédé à quelques interviews réparties sur une semaines avec des étudiants ayant commencé les laboratoires pour la première fois, ainsi qu’avec des étudiants de Master 1 pour faire appel à leur expérience &lt;em&gt;a posteriori&lt;/em&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;guide-dentretien&quot;&gt;Guide d’entretien&lt;/h3&gt;
+
+&lt;p&gt;Afin de réaliser des entretiens efficaces, un bref guide avait été rédigé en amont.&lt;/p&gt;
+
+&lt;p&gt;Il se composait en substance des questions suivantes :&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Utilisez-vous des outils numériques en-dehors des cours ?
+Pourquoi êtes-vous en Polytech ?
+Pourquoi avez-vous choisi votre section ?
+Qu’espérez-vous tirer de votre formation ?
+Que faites-vous pendant le cours ?
+Que faites-vous pendant le laboratoire ?
+Utilisez-vous des outils numériques pour vos études ?
+Quels outils devraient être à votre disposition ?
+Rencontrez-vous des problèmes lors des laboratoires ?
+Comment compareriez-vous le cours d’électronique aux autres cours ?
+Comment évalueriez-vous votre niveau de compétence en numérique ?
+Comment préparez-vous vos laboratoires ?
+Comment étudiez-vous le cours ?
+Comment pensez-vous préparer un éventuel examen de seconde session ?
+Pourquoi participez-vous aux laboratoires ?
+Avez-vous des suggestions sur le déroulement des laboratoires ?
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;compiler-les-résultats&quot;&gt;Compiler les résultats&lt;/h2&gt;
+
+&lt;p&gt;Les résultats des entretiens ont été compilés en trois persona différents en utilisant &lt;a href=&quot;https://milanote.com/&quot;&gt;Milanote&lt;/a&gt;, suivant un template fourni par Nicolas Roland.&lt;/p&gt;
+
+&lt;p&gt;Les résultats sont accessibles &lt;a href=&quot;assets/persona&quot;&gt;ici&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;La partie compliquée est finalement de fusionner toutes les réponses avant de les séparer à nouveau pour créer de nouvelles personnes fictives, tout en restant réaliste quant aux profils ainsi établis.&lt;/p&gt;
+
+&lt;h2 id=&quot;apprendre-des-persona&quot;&gt;Apprendre des persona&lt;/h2&gt;
+
+&lt;p&gt;Ces entretiens et persona m’ont apporté un élément essentiel dans le développement de mon projet.
+Comment présenter au début de ce billet, ils m’ont permi de comprendre les &lt;em&gt;vrais&lt;/em&gt; problèmes que rencontrent mes étudiants en laboratoire.&lt;/p&gt;
+
+&lt;p&gt;Contrairement à ce que j’envisageais, ils n’étaient pas tant demandeurs d’outils de préparation des laboratoires ou de révision de la matière.
+Ce qu’ils voulaient, c’était :&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Comprendre comment utiliser le matériel mis à leur disposition chaque semaine.&lt;/li&gt;
+  &lt;li&gt;Avoir plus d’assistants pour répondre à leurs questions.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Si la deuxième demande ne peut pas être rencontrée, une solution à la première pourrait tout même aider.
+En effet, les assistants passent beaucoup de temps en laboratoire à aider les étudiants à configurer correctement leur matériel. En réalisant des tutoriaux clairs à ce sujet :&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Les étudiants comprendraient mieux comment utiliser le matériel&lt;/li&gt;
+  &lt;li&gt;Les assistants seraient davantage disponibles.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Mais nous reviendrons sur cet aspect 
+&lt;a href=&quot;/esnu//definition-du-probleme&quot;&gt;dans un autre billet&lt;/a&gt;&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Quentin Delhaye</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="projet" />
+      
+
+      
+        <summary type="html">Pour qu’un dispositif soit efficace, il faut qu’il réponde à des besoins. Pour identifier les besoins, il faut connaître son public.</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Définition du problème</title>
+      <link href="http://localhost:4000/esnu/definition-du-probleme" rel="alternate" type="text/html" title="Définition du problème" />
+      <published>2020-01-21T11:18:00+01:00</published>
+      <updated>2020-01-21T11:18:00+01:00</updated>
+      <id>http://localhost:4000/esnu/definition-du-probleme</id>
+      <content type="html" xml:base="http://localhost:4000/esnu/definition-du-probleme">&lt;p&gt;Comment définir précisément la problématique à adresser ?&lt;/p&gt;
+
+&lt;p&gt;La première étape consiste à &lt;a href=&quot;2020-01-20-construire-des-personas&quot;&gt;connaître son public&lt;/a&gt;, par exemple en établissant des persona les représentant.&lt;/p&gt;
+
+&lt;p&gt;Ensuite, il faut extraire les informations pertinentes sous-jacentes aux profils des persona.
+Deux outils permettent d’y parvenir : « Les cinq pourquoi » et la définition du problèmes proprement dite.&lt;/p&gt;
+
+&lt;h2 id=&quot;les-cinq-pourquoi&quot;&gt;Les cinq pourquoi&lt;/h2&gt;
+
+&lt;p&gt;Le but de cet exercice est de nous pousser à creuser la problématique afin de mettre en évidence son origine profonde.
+Nous voulons traiter le problème à sa racine et non ses simples symptômes.&lt;/p&gt;
+
+&lt;p&gt;Alors quel est le problème ?&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Ils ne savent pas bien utiliser le matériel.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Pourquoi ?&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Ils ne lisent pas les ressources à leur disposition et ils n’essaient pas par eux-mêmes et veulent qu’on le fasse pour eux.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Pourquoi ?&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Ils sont désemparés face à un document trop long et dont les schémas ne collent pas suffisamment à la réalité.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Pourquoi ?&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Leur durée d’attention et de concentration est très courte et le document se veut généraliste et spécifique en même temps, mais les généralités ne les intéressent guère.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Pourquoi ?&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Ils ont besoin d’information utile et utilisable directement en laboratoire, afin d’avancer efficacement dans la manipulation.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;définir-le-problème&quot;&gt;Définir le problème&lt;/h2&gt;
+
+&lt;p&gt;Avant de définir clairement le problème, passons par quelques étapes permettant d’analyser les persona.&lt;/p&gt;
+
+&lt;h3 id=&quot;contradictions&quot;&gt;Contradictions&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Ils veulent plus d’explications et d’introduction au matériel, mais ils ne lisent pas les supports existants.&lt;/li&gt;
+  &lt;li&gt;S’ils sont bien tous d’accord pour dire qu’ils souhaitent développer leur autonomie et leur esprit critique, beaucoup ont encore trop besoin d’aide pour avancer dans le labo.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;révélations-ou-remarques-intéressantes&quot;&gt;Révélations ou remarques intéressantes&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Le manque de rythme &lt;em&gt;imposé&lt;/em&gt; et de mise en commun est perçue comme un problème, là où je vois une autonomisation des séances.&lt;/li&gt;
+  &lt;li&gt;Ils aimeraient avoir des vidéos explicatives du matériel de base.&lt;/li&gt;
+  &lt;li&gt;Très peu d’étudiants cherchent des ressources supplémentaires pour mieux comprendre la matière.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Ce dernier point est notamment mis en évidence par Endrizzi et Sibut &lt;a href=&quot;#référence&quot;&gt;[1]&lt;/a&gt; : les étudiants semblent ne pas s’écarter d’un étroit cercle d’outils familiers.
+Dans ce cas, faut-il les sortir de leur zone de confort ou s’y insérer afin de s’assurer que la nouvelle ressource est bien exploitée ?&lt;/p&gt;
+
+&lt;h3 id=&quot;frustrations-ou-questions-sans-réponse&quot;&gt;Frustrations ou questions sans réponse&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;On prend trop de temps à venir répondre à leurs questions en séance.&lt;/li&gt;
+  &lt;li&gt;Ils n’ont pas le temps de tout faire parfaitement et de tout préparer.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;difficultés-problèmes-ou-besoins-vécusressentis-par-lapprenante&quot;&gt;Difficultés, problèmes ou besoins vécus/ressentis par l’apprenant.e&lt;/h3&gt;
+
+&lt;p&gt;C’est notamment pour ce point que &lt;a href=&quot;#les-cinq-pourquoi&quot;&gt;les cinq pourquoi&lt;/a&gt; est intéressant à réaliser préalablement à la définition du problème.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Problème d’utilisation du matériel&lt;/li&gt;
+  &lt;li&gt;Disponibilité de l’assistant en laboratoire&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;la-problématique-en-un-dessin&quot;&gt;La problématique en un dessin&lt;/h3&gt;
+
+&lt;h3 id=&quot;la-problématique-en-une-question&quot;&gt;La problématique en une question&lt;/h3&gt;
+
+&lt;p&gt;On arrive enfin à la finalité de l’activité : la formulation de la problèmatique en question.
+Après cette analyse, on pourrait la formuler ainsi :&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Comment pourrais-je donner aux étudiants les outils nécessaires pour qu’ils puissent s’approprier le matériel de laboratoire et l’utiliser en toute autonomie ?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Une réponse à cette question : un podcast vidéo illustrant comment utiliser le matériel de laboratoire en situation réelle.
+Vous pourrez en lire plus à ce sujet &lt;a href=&quot;/esnu//realiser-une-video&quot;&gt;dans la suite du projet&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h4 id=&quot;référence&quot;&gt;Référence&lt;/h4&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://veille-et-analyses.ens-lyon.fr/DA-Veille/106-decembre-2015.pdf&quot;&gt;Endrizzi, Laure et Sibut, Florence, &lt;em&gt;Les nouveaux étudiants, d’hier à aujourd’hui&lt;/em&gt;, 2015, Dossier de veille de l’IFÉ, n° 106&lt;/a&gt;&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Quentin Delhaye</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="projet" />
+      
+
+      
+        <summary type="html">Comment définir précisément la problématique à adresser ?</summary>
       
 
       

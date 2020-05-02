@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
   <link href="http://localhost:4000/esnu/tag/coulisses/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/esnu/" rel="alternate" type="text/html" />
-  <updated>2020-04-09T18:25:16+02:00</updated>
+  <updated>2020-05-02T20:15:53+02:00</updated>
   <id>http://localhost:4000/esnu/tag/coulisses/feed.xml</id>
 
   
@@ -111,6 +111,50 @@ Dans mon cas, l’endroit en question se trouve entre la fin de la balise &lt;co
 
       
         <summary type="html">Rien de tel que des commentaires pour ajouter de l’interactivité dans un article.</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Réaliser une vidéo</title>
+      <link href="http://localhost:4000/esnu/realiser-une-video" rel="alternate" type="text/html" title="Réaliser une vidéo" />
+      <published>2020-01-17T11:18:00+01:00</published>
+      <updated>2020-01-17T11:18:00+01:00</updated>
+      <id>http://localhost:4000/esnu/realiser-une-video</id>
+      <content type="html" xml:base="http://localhost:4000/esnu/realiser-une-video">&lt;p&gt;Les vidéos c’est sympa, mais comment on fait ? Quelle marche suivre et quels outils utiliser ?&lt;/p&gt;
+
+&lt;h2 id=&quot;scénarisation&quot;&gt;Scénarisation&lt;/h2&gt;
+
+&lt;h2 id=&quot;tournage&quot;&gt;Tournage&lt;/h2&gt;
+
+&lt;h2 id=&quot;enregistrement-des-voix&quot;&gt;Enregistrement des voix&lt;/h2&gt;
+
+&lt;h2 id=&quot;montage&quot;&gt;Montage&lt;/h2&gt;
+
+&lt;h2 id=&quot;publication&quot;&gt;Publication&lt;/h2&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Quentin Delhaye</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="coulisses" />
+      
+
+      
+        <summary type="html">Les vidéos c’est sympa, mais comment on fait ? Quelle marche suivre et quels outils utiliser ?</summary>
       
 
       
