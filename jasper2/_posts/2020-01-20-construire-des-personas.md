@@ -30,22 +30,22 @@ Afin de réaliser des entretiens efficaces, un bref guide avait été rédigé e
 
 Il se composait en substance des questions suivantes :
 
-	Utilisez-vous des outils numériques en-dehors des cours ?
-	Pourquoi êtes-vous en Polytech ?
-	Pourquoi avez-vous choisi votre section ?
-	Qu’espérez-vous tirer de votre formation ?
-	Que faites-vous pendant le cours ?
-	Que faites-vous pendant le laboratoire ?
-	Utilisez-vous des outils numériques pour vos études ?
-	Quels outils devraient être à votre disposition ?
-	Rencontrez-vous des problèmes lors des laboratoires ?
-	Comment compareriez-vous le cours d’électronique aux autres cours ?
-	Comment évalueriez-vous votre niveau de compétence en numérique ?
-	Comment préparez-vous vos laboratoires ?
-	Comment étudiez-vous le cours ?
-	Comment pensez-vous préparer un éventuel examen de seconde session ?
-	Pourquoi participez-vous aux laboratoires ?
-	Avez-vous des suggestions sur le déroulement des laboratoires ?
+| Utilisez-vous des outils numériques en-dehors des cours ? |
+| Pourquoi êtes-vous en Polytech ? |
+| Pourquoi avez-vous choisi votre section ? |
+| Qu’espérez-vous tirer de votre formation ? |
+| Que faites-vous pendant le cours ? |
+| Que faites-vous pendant le laboratoire ? |
+| Utilisez-vous des outils numériques pour vos études ? |
+| Quels outils devraient être à votre disposition ? |
+| Rencontrez-vous des problèmes lors des laboratoires ? |
+| Comment compareriez-vous le cours d’électronique aux autres cours ? |
+| Comment évalueriez-vous votre niveau de compétence en numérique ? |
+| Comment préparez-vous vos laboratoires ? |
+| Comment étudiez-vous le cours ? |
+| Comment pensez-vous préparer un éventuel examen de seconde session ? |
+| Pourquoi participez-vous aux laboratoires ? |
+| Avez-vous des suggestions sur le déroulement des laboratoires ? |
 
 
 ## Compiler les résultats

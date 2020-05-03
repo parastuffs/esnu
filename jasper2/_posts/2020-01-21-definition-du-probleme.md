@@ -82,6 +82,7 @@ C'est notamment pour ce point que [les cinq pourquoi](#les-cinq-pourquoi) est in
 
 ### La problématique en un dessin
 
+![Illustration de la problématique](assets/images/problematique/Problematique_en_un_dessin.png "La problématique en un dessin")
 
 
 ### La problématique en une question

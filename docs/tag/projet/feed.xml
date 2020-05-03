@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
   <link href="http://localhost:4000/esnu/tag/projet/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/esnu/" rel="alternate" type="text/html" />
-  <updated>2020-05-02T20:15:53+02:00</updated>
+  <updated>2020-05-03T12:37:00+02:00</updated>
   <id>http://localhost:4000/esnu/tag/projet/feed.xml</id>
 
   
@@ -179,23 +179,58 @@ J’avais déjà eu l’occasion de les côtoyer lors des séances d’exercices
 
 &lt;p&gt;Il se composait en substance des questions suivantes :&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Utilisez-vous des outils numériques en-dehors des cours ?
-Pourquoi êtes-vous en Polytech ?
-Pourquoi avez-vous choisi votre section ?
-Qu’espérez-vous tirer de votre formation ?
-Que faites-vous pendant le cours ?
-Que faites-vous pendant le laboratoire ?
-Utilisez-vous des outils numériques pour vos études ?
-Quels outils devraient être à votre disposition ?
-Rencontrez-vous des problèmes lors des laboratoires ?
-Comment compareriez-vous le cours d’électronique aux autres cours ?
-Comment évalueriez-vous votre niveau de compétence en numérique ?
-Comment préparez-vous vos laboratoires ?
-Comment étudiez-vous le cours ?
-Comment pensez-vous préparer un éventuel examen de seconde session ?
-Pourquoi participez-vous aux laboratoires ?
-Avez-vous des suggestions sur le déroulement des laboratoires ?
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Utilisez-vous des outils numériques en-dehors des cours ?&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Pourquoi êtes-vous en Polytech ?&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Pourquoi avez-vous choisi votre section ?&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Qu’espérez-vous tirer de votre formation ?&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Que faites-vous pendant le cours ?&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Que faites-vous pendant le laboratoire ?&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Utilisez-vous des outils numériques pour vos études ?&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Quels outils devraient être à votre disposition ?&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Rencontrez-vous des problèmes lors des laboratoires ?&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Comment compareriez-vous le cours d’électronique aux autres cours ?&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Comment évalueriez-vous votre niveau de compétence en numérique ?&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Comment préparez-vous vos laboratoires ?&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Comment étudiez-vous le cours ?&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Comment pensez-vous préparer un éventuel examen de seconde session ?&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Pourquoi participez-vous aux laboratoires ?&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Avez-vous des suggestions sur le déroulement des laboratoires ?&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
 
 &lt;h2 id=&quot;compiler-les-résultats&quot;&gt;Compiler les résultats&lt;/h2&gt;
 
@@ -340,6 +375,8 @@ Dans ce cas, faut-il les sortir de leur zone de confort ou s’y insérer afin d
 &lt;/ul&gt;
 
 &lt;h3 id=&quot;la-problématique-en-un-dessin&quot;&gt;La problématique en un dessin&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/images/problematique/Problematique_en_un_dessin.png&quot; alt=&quot;Illustration de la problématique&quot; title=&quot;La problématique en un dessin&quot; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;la-problématique-en-une-question&quot;&gt;La problématique en une question&lt;/h3&gt;
 
