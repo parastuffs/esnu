@@ -144,5 +144,22 @@ Pour identifier les besoins, il faut connaître son public.&lt;/p&gt;
       </item>
       
     
+      
+      <item>
+        <title>Première diffusion d'un podcast aux étudiants</title>
+        
+          <description>&lt;ul&gt;
+  &lt;li&gt;Statistiques tirées de Youtube Analytics&lt;/li&gt;
+  &lt;li&gt;Amélioration à opérer sur la vidéo&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        
+        <pubDate>Tue, 10 Dec 2019 11:18:00 +0100</pubDate>
+        <link>
+        http://localhost:4000/premiere-diffusion-podcast</link>
+        <guid isPermaLink="true">http://localhost:4000/premiere-diffusion-podcast</guid>
+      </item>
+      
+    
   </channel>
 </rss>
