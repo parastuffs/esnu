@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
   <link href="http://localhost:4000/esnu/tag/projet/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/esnu/" rel="alternate" type="text/html" />
-  <updated>2020-05-03T15:19:54+02:00</updated>
+  <updated>2020-05-06T22:57:44+02:00</updated>
   <id>http://localhost:4000/esnu/tag/projet/feed.xml</id>
 
   
@@ -426,10 +426,140 @@ Vous pourrez en lire plus à ce sujet &lt;a href=&quot;/esnu//realiser-une-video
       <published>2019-12-10T11:18:00+01:00</published>
       <updated>2019-12-10T11:18:00+01:00</updated>
       <id>http://localhost:4000/esnu/premiere-diffusion-podcast</id>
-      <content type="html" xml:base="http://localhost:4000/esnu/premiere-diffusion-podcast">&lt;ul&gt;
-  &lt;li&gt;Statistiques tirées de Youtube Analytics&lt;/li&gt;
-  &lt;li&gt;Amélioration à opérer sur la vidéo&lt;/li&gt;
-&lt;/ul&gt;</content>
+      <content type="html" xml:base="http://localhost:4000/esnu/premiere-diffusion-podcast">&lt;p&gt;Après la diffusion de la vidéo aux étudiants, il est temps d’analyser son impact.&lt;/p&gt;
+
+&lt;p&gt;Pour rappel, la vidéo avait pour ambition de présenter une fonctionnalité particulière d’un appareil de laboratoire.
+Elle a été diffusée aux étudiants au début de la semaine durant laquelle se déroulaient les séances nécessitant cette fonctionnalité.&lt;/p&gt;
+
+&lt;p&gt;Ce billet va étudier la vidéo selon trois aspects : son analyse au travers de YouTube Studio, son impact sur le déroulement des laboratoires et enfin quelles leçons peuvent être tirées de cette expérience.&lt;/p&gt;
+
+&lt;h2 id=&quot;analyse-du-visionage-par-les-étudiants&quot;&gt;Analyse du visionage par les étudiants&lt;/h2&gt;
+&lt;p&gt;Comme expliqué dans la &lt;a href=&quot;/esnu//realiser-une-video&quot;&gt;réalisation de la vidéo&lt;/a&gt;, le média choisi pour sa diffusion a été YouTube.
+La justification majeure est la quantité d’outils d’analyse proposés aux créateurs par la plate-forme.&lt;/p&gt;
+
+&lt;p&gt;Pour cette analyse, nous allons nous concentrer sur la période « utile » de la vidéo, c’est-à-dire la semaine durant laquelle la manipulation dont parle la vidéo a eu lieu : du 2 au 6 décembre 2019.&lt;/p&gt;
+
+&lt;h3 id=&quot;nombre-de-vues&quot;&gt;Nombre de vues&lt;/h3&gt;
+&lt;p&gt;Commençons par le nombre de fois que la vidéo a été visionnée.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/images/YouTube-analytics/views.png&quot; alt=&quot;YouTube views&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;La vidéo ayant été publiée le lundi 2 décembre en début de soirée, il est normal qu’elle n’ait pas accumulé beaucoup de vue le premier jour.
+En revanche, elle a eu beaucoup plus de succès le deuxième, pour un total de 100 vues sur la semaine.
+Le public effectivement présent en laboratoire (et donc pouvant bénéficier de cette vidéo) les quatre derniers jours de la semaine était composé d’un total de &lt;strong&gt;102&lt;/strong&gt; étudiants.
+Cela voudrait-il dire que la vidéo a eu un taux de visionnage proche de 100 % ?&lt;/p&gt;
+
+&lt;p&gt;Malheureusement non.
+Un étudiant a très bien pu regarder la vidéo à plusieurs reprises et en pratique, c’est effectivement ce qu’il s’est passé.&lt;/p&gt;
+
+&lt;p&gt;Quand on y regarde de plus près, YouTube nous indique qu’il n’y a eut que 73 visiteurs uniques sur la vidéo, ce qui signifie qu’elle a en moyenne été visionnée 1.37 fois par visiteur.
+Ce sera le &lt;strong&gt;premier indicateur&lt;/strong&gt; qu’il y a quelque chose à améliorer dans la vidéo.&lt;/p&gt;
+
+&lt;p&gt;Notons qu’avoir 73 % des étudiants visionnant la vidéo est un score plus que satisfaisant, étant donné que nombre d’entre eux l’ont visionnée pendant le laboratoire à plusieurs sur un même support.&lt;/p&gt;
+
+&lt;h3 id=&quot;durée-de-rétention&quot;&gt;Durée de rétention&lt;/h3&gt;
+&lt;p&gt;Combien de temps les étudiants regardent-ils la vidéo ? Quittent-ils après quelques secondes ou passent-ils la fin ?&lt;/p&gt;
+
+&lt;p&gt;En réalité, ils semblent passer plus de temps sur la vidéo que la durée de la vidéo elle-même.
+Nous avons ici le &lt;strong&gt;deuxième indicateur&lt;/strong&gt; d’imperfection de la vidéo : alors que la vidéo ne dure que 2 minutes et 20 secondes, les visiteurs restent en moyenne 2 minutes et &lt;em&gt;24&lt;/em&gt; secondes.&lt;/p&gt;
+
+&lt;p&gt;Les étudiants reviennent-ils en arrière dans la vidéo ? La regardent-ils plusieurs fois ?
+Cette indication concorde en tout cas avec la première observation.&lt;/p&gt;
+
+&lt;h3 id=&quot;rétention-de-laudience&quot;&gt;Rétention de l’audience&lt;/h3&gt;
+&lt;p&gt;Nous avons à présent la certitude que les étudiants regardent certains passage de la vidéo à plusieur reprises, mais de quels moments s’agit-il précisément ?&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/images/YouTube-analytics/retention.png&quot; alt=&quot;YouTube viewer retention&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Ce graphe indique le taux de visionnage de la vidéo à chaque instant, un taux supérieur à 100 % indiquant que le visiteur est revenu en arrière pour visionner le passage à nouveau.
+C’est le &lt;strong&gt;troisième indicateur&lt;/strong&gt; qu’un seul passage au travers de la vidéo n’est pas suffisant.&lt;/p&gt;
+
+&lt;p&gt;Quand on y regarde de plus près, ces instants supérieurs à 100 % correspondent aux branchements des sondes dans le montage, il est donc compréhensible que les étudiants reviennent en arrière après avoir vu l’information une première fois afin de mimer mes gestes en laboratoire.&lt;/p&gt;
+
+&lt;h3 id=&quot;bonus--quel-support-utilisent-les-étudiants-&quot;&gt;Bonus : Quel support utilisent les étudiants ?&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Appareil&lt;/th&gt;
+      &lt;th&gt;Vues&lt;/th&gt;
+      &lt;th&gt;Durée moyenne de visionnage&lt;/th&gt;
+      &lt;th&gt;Vues moyennes par visiteur&lt;/th&gt;
+      &lt;th&gt;Pourcentage moyen visionné&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Total&lt;/td&gt;
+      &lt;td&gt;100&lt;/td&gt;
+      &lt;td&gt;2:24&lt;/td&gt;
+      &lt;td&gt;1.4&lt;/td&gt;
+      &lt;td&gt;103.2 %&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Ordinateur&lt;/td&gt;
+      &lt;td&gt;69&lt;/td&gt;
+      &lt;td&gt;2:38&lt;/td&gt;
+      &lt;td&gt;1.3&lt;/td&gt;
+      &lt;td&gt;113.0%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Smartphone&lt;/td&gt;
+      &lt;td&gt;28&lt;/td&gt;
+      &lt;td&gt;1:51&lt;/td&gt;
+      &lt;td&gt;1.4&lt;/td&gt;
+      &lt;td&gt;80.0 %&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Tablette&lt;/td&gt;
+      &lt;td&gt;3&lt;/td&gt;
+      &lt;td&gt;2:14&lt;/td&gt;
+      &lt;td&gt;1.5&lt;/td&gt;
+      &lt;td&gt;95.8 %&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Toute conclusion tirée de ce tableau ne serait que conjecture, mais on peut supposer que les visionnages en laboratoire sur les PCs fournis composent une bonne partie des vues sur ordinateur.
+Il serait alors compréhensible que les étudiants reviennent en arrière dans la vidéo pour mieux en mimer le contenu, alongeant la durée moyenne de visionnage.&lt;/p&gt;
+
+&lt;p&gt;Quoi qu’il en soit, il reste intéressant de remarque qu’&lt;strong&gt;une bonne partie des étudiants ont visionné la vidéo sur un smartphone, signe qu’il faut faire en sorte que nos dispositifs soient compatibles avec ce support&lt;/strong&gt; (on pense à toi, Moodle).&lt;/p&gt;
+
+&lt;h2 id=&quot;impact-de-la-vidéo-en-laboratoire&quot;&gt;Impact de la vidéo en laboratoire&lt;/h2&gt;
+&lt;p&gt;Immédiatement après la mise à disposition de la vidéo, tous les assistants du laboratoire ont pu remarquer que le nombre de questions afférentes au fonctionnement de l’oscilloscope (le sujet de la vidéo) a drastiquement diminué.
+Pour les quelques irréductibles, il a suffit de leur indiquer l’existence de cette vidéo qui semblait avoir échappé à leur vigilance pour qu’ils la regardent derechef pendant la séance, répondant ainsi seuls à leur propre question.&lt;/p&gt;
+
+&lt;p&gt;Nous pouvons faire ici écho à la &lt;a href=&quot;/esnu//definition-du-probleme&quot;&gt;définition du problème&lt;/a&gt; : la vidéo semble effectivement avoir utilisé cet outil pour s’approprier le matériel de laboratoire.
+Ce qui à son tour répond à leurs deux demandes &lt;a href=&quot;/esnu//construire-des-personas&quot;&gt;identifiées dans les persona&lt;/a&gt; : comprendre le matériel et rendre les assistants plus disponibles.&lt;/p&gt;
+
+&lt;h2 id=&quot;améliorations&quot;&gt;Améliorations&lt;/h2&gt;
+&lt;p&gt;Reprenons les indications que des améliorations sont nécessaires :&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;1.37 visionnages par personne en moyenne&lt;/li&gt;
+  &lt;li&gt;Une durée moyenne de visionnage plus longue que celle de la vidéo&lt;/li&gt;
+  &lt;li&gt;Certains passages avec un taux de visionnage supérieur à 100 %&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Outre les améliorations quant à la qualité de production de la vidéo déjà abordée dans l’article &lt;a href=&quot;/esnu//realiser-une-video&quot;&gt;précédent&lt;/a&gt;, il semble que le contenu puisse aussi bénéficier d’une mise à jour.&lt;/p&gt;
+
+&lt;p&gt;Quelques pistes pourraient être mises en évidence :&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Accompagner la vidéo d’un documents reprenant des captures de la vidéo avec les connexions à effectuer.&lt;br /&gt;
+Non seulement le document prendrait du temps supplémentaire à être construit, il ne représenterait qu’un support supplémentaire n’apportant pas de nouvelle information, rendant peu probable sa lecture par les étudiants.&lt;/li&gt;
+  &lt;li&gt;Effectuer une démonstration en début de laboratoire en suivant les étapes de la vidéo.&lt;br /&gt;
+Certes faisable, mais pose le problème de visibilité par une quarantaine d’étudiants en simultané.&lt;/li&gt;
+  &lt;li&gt;Séparer clairement les étapes lors du montage de la vidéo afin de mieux la structurer.&lt;br /&gt;
+Cet élément pourrait aider les étudiants, mais peut-être au détriment de la fluidité de la vidéo en hachant son rythme.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Quoi qu’il arrive, il semble innévitable que les étudiants reviennent en arrière dans la vidéo pour mieux en analyser les étapes.
+Et au final, est-ce vraiment un problème ? N’est-ce pas finalement l’avantage de la vidéo par rapport à la démonstration réelle : pouvoir revoir un passage mal compris ?&lt;/p&gt;
+
+&lt;p&gt;Il faut tout de même rester prudent et continuer à s’interroger sur l’utilisation de la vidéo par le public. Il convient de distinguer un taux de visionnage supérieur à 100 % dû à une incompréhension ou au contraire afin de répéter les gestes de la vidéo avec précision.
+Dans un monde idéal, une vidéo parfaitement claire se suffira d’un visionnage d’une traite et son contenu sera d’une clareté telle qu’il ne sera jamais nécessaire de revenir en arrière pour en répéter les gestes.&lt;/p&gt;
+
+&lt;p&gt;Néanmoins, il est particulièrement réjouissant de voir que cette vidéo a pu atteindre la majorité des étudiants, qu’ils l’aient visionnée dans son entièreté, qu’ils en aient été contents et qu’elle a soulagé les assistants, remplissant ainsi pleinement ses objectifs.&lt;/p&gt;</content>
 
       
       
@@ -450,7 +580,7 @@ Vous pourrez en lire plus à ce sujet &lt;a href=&quot;/esnu//realiser-une-video
       
 
       
-        <summary type="html">Statistiques tirées de Youtube Analytics Amélioration à opérer sur la vidéo</summary>
+        <summary type="html">Après la diffusion de la vidéo aux étudiants, il est temps d’analyser son impact.</summary>
       
 
       
