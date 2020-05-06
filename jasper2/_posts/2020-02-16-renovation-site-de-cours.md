@@ -26,7 +26,7 @@ Les étudiants ne remarquaient pas certaines ressources qui étaient pourtant mi
 La page était austère, consistant en une suite de liens et documents triés, mais peu catégorisés.
 Les étudiants ne remarquaient pas certaines ressources qui étaient pourtant mises à leur disposition.
 
-La capture suivante représante la refonte du site (cliquez sur l'image pour visualiser une capture de toute la page).
+La capture suivante représente la refonte du site (cliquez sur l'image pour visualiser une capture de toute la page).
 <a href="assets/images/renovation/H473-new-full.png" target="_blank_" >
 <img src="assets/images/renovation/H473-new-crop.png" alt="alt text" >
 </a>
