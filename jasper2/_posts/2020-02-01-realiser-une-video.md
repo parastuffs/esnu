@@ -5,9 +5,9 @@ cover: assets/images/sony-1455032_1280.jpg
 navigation: True
 title: Réaliser une vidéo
 date: 2020-01-17 10:18:00
-tags: coulisses
+tags: projet
 class: post-template
-subclass: 'post tag-coulisses'
+subclass: 'post tag-projet'
 author: quentin
 ---
 

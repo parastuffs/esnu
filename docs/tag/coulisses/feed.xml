@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
   <link href="http://localhost:4000/esnu/tag/coulisses/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/esnu/" rel="alternate" type="text/html" />
-  <updated>2020-05-06T23:04:36+02:00</updated>
+  <updated>2020-05-07T12:44:03+02:00</updated>
   <id>http://localhost:4000/esnu/tag/coulisses/feed.xml</id>
 
   
@@ -111,129 +111,6 @@ Dans mon cas, l’endroit en question se trouve entre la fin de la balise &lt;co
 
       
         <summary type="html">Rien de tel que des commentaires pour ajouter de l’interactivité dans un article.</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">Réaliser une vidéo</title>
-      <link href="http://localhost:4000/esnu/realiser-une-video" rel="alternate" type="text/html" title="Réaliser une vidéo" />
-      <published>2020-01-17T11:18:00+01:00</published>
-      <updated>2020-01-17T11:18:00+01:00</updated>
-      <id>http://localhost:4000/esnu/realiser-une-video</id>
-      <content type="html" xml:base="http://localhost:4000/esnu/realiser-une-video">&lt;p&gt;Les vidéos c’est sympa, mais comment on fait ? Quelle marche suivre et quels outils utiliser ?&lt;/p&gt;
-
-&lt;p&gt;Ce billet présente les différentes étapes de réalisation d’une vidéo à destination des apprenants, en illustrant chacune avec ma réalisation pratique.&lt;/p&gt;
-
-&lt;h2 id=&quot;scénarisation&quot;&gt;Scénarisation&lt;/h2&gt;
-
-&lt;p&gt;Avant de commencer à filmer quoi que ce soit, il faut savoir ce qu’on veut montrer.
-La première étape consiste donc à &lt;em&gt;scénariser&lt;/em&gt; la vidéo, écrire l’histoire qu’on veut raconter.&lt;/p&gt;
-
-&lt;p&gt;Le scénario peut prendre différentes formes : un &lt;em&gt;story board&lt;/em&gt;, un texte construit de l’ensemble du contenu ou une simple liste des éléments à aborder et les points d’attention sur lesquels insister.&lt;/p&gt;
-
-&lt;h4 id=&quot;application&quot;&gt;Application&lt;/h4&gt;
-
-&lt;p&gt;Le but de cette vidéo est d’expliquer aux étudiants comment manipuler la matériel à leur disposition afin de réaliser une mesure particulière.
-Pour être un peu technique, il s’agit de mesurer le temps de propagation d’un signal au sein d’un circuit logique à l’aide d’un oscilloscope.&lt;/p&gt;
-
-&lt;p&gt;Ma scénarisation a donc commencé par concevoir un montage intéressant et réaliser la manipulation en entier par moi-même.
-Une fois terminée, j’ai pu la déconstruire pour mettre en évidence les &lt;strong&gt;étapes clefs&lt;/strong&gt; par lesquelles les étudiants devront passer à leur tour.&lt;/p&gt;
-
-&lt;p&gt;Ce scénario a pris la forme d’une liste d’étapes, certaines illustrées par les schémas.&lt;/p&gt;
-
-&lt;h2 id=&quot;tournage&quot;&gt;Tournage&lt;/h2&gt;
-
-&lt;p&gt;Le scénario terminé, il est temps de tourner les différents plans constituant l’histoire.
-Il n’est pas encore essentiel de savoir ce qu’on va raconter ou d’enregistrer les voix en même temps. Il est même plus simple de séparer les deux étapes de vidéo et audio afin de les paufiner chacune de leur côté.&lt;/p&gt;
-
-&lt;p&gt;Cependant, cette manière de procéder nécessite de filmer des &lt;strong&gt;scènes supplémentaires&lt;/strong&gt; « au cas où », afin d’avoir suffisamment de matériel.&lt;/p&gt;
-
-&lt;p&gt;Si le scénario est complet et qu’on est capable d’imaginer des plans supplémentaires pour compléter la trame principale, cette étape peut être réalisée en peu de temps, sans nécessiter de resortir la caméra par la suite.&lt;/p&gt;
-
-&lt;h4 id=&quot;application-1&quot;&gt;Application&lt;/h4&gt;
-
-&lt;p&gt;Je me suis filmé à l’aide d’un appareil photo de bonne qualité (Panasonic Lumix GX80) en séparant les différents plans, facilitant le montage pour la suite.
-Chaque courte vidéo ne dure que quelques secondes, me permettant par la suite de trouver facilement une étape particulière.&lt;/p&gt;
-
-&lt;p&gt;La qualité du tournage aurait pu être drastiquement améliorée avec l’aide d’une autre personne pour manipuler la caméra ou avec la simple utilisation d’un trépied pour stabiliser l’image pendant les manipulations.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;assets/images/realisation-video/protoboard.JPG&quot; alt=&quot;Photo du montage non-utilisée dans la réalisation&quot; title=&quot;Photo du montage non-utilisée dans la réalisation&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;enregistrement-des-voix&quot;&gt;Enregistrement des voix&lt;/h2&gt;
-
-&lt;p&gt;Il ne sert à rien d’improviser l’entièreté de la vidéo.
-Certes, lire un texte écrit à l’avance peut retirer l’effet naturel d’une explication, mais ne pas avoir de support est encore pire. Le discours sera ponctué d’hésitations qui ne feraient qu’ajouter du bruit.&lt;/p&gt;
-
-&lt;p&gt;Mais comment écrire un texte qui semble quand même naturel ?
-Une méthode qui fonctionne assez bien est de complètement improviser la narration.
-Étant donné le travail déjà effectué sur cette vidéo, ça ne devrait pas poser de problème.
-Mais au lieu de directement utiliser cet enregistrement, on peut l’écouter et réécrire tout ce qu’on a raconté afin d’avoir un support propre pour un nouvel enregistrement.&lt;/p&gt;
-
-&lt;p&gt;Avant de se lancer pour de bon, il faut aussi bien &lt;strong&gt;préparer l’introduction et la fin&lt;/strong&gt; de la vidéo.&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;L’introduction devrait être courte et présenter clairement ce qui sera abordé dans la vidéo ainsi que les étapes de son déroulé.&lt;/li&gt;
-  &lt;li&gt;La conclusion peut servir de résumé en rappelant à nouveau les grandes étapes de la manipulation.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;application-2&quot;&gt;Application&lt;/h4&gt;
-
-&lt;p&gt;J’ai utilisé un micro Bird UM1 et &lt;a href=&quot;https://www.audacityteam.org/&quot;&gt;Audacity&lt;/a&gt; pour enregistrer l’audio de la vidéo.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;assets/images/realisation-video/audacity.png&quot; alt=&quot;Spectre Audacity&quot; title=&quot;Audacity&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;montage&quot;&gt;Montage&lt;/h2&gt;
-
-&lt;p&gt;Une fois l’audio enregistré, il s’agit de piocher dans les plans tourner plus tôt et de les coller au bon endroit afin d’illustrer la narration.
-Cette étape n’est pas compliquée avec un peu d’expérience, mais c’est celle qui impactera directement ce que regarderont les étudiants, c’est le moment où tout se joue.
-Les scènes supplémentaires seront probablement utiles, ne serait-ce qu’en &lt;em&gt;&lt;a href=&quot;https://fr.wikipedia.org/wiki/Bobine_B&quot;&gt;B-roll&lt;/a&gt;&lt;/em&gt; afin de combler les trous pendant l’introduction ou la conclusion.&lt;/p&gt;
-
-&lt;p&gt;Ajouter un écran d’accueil avec un titre clair et les logos de l’institution peut aussi s’avérer utile pour la publication à venir, mais aussi pour démarrer la vidéo en douceur pendant l’introduction.&lt;/p&gt;
-
-&lt;h4 id=&quot;application-3&quot;&gt;Application&lt;/h4&gt;
-&lt;p&gt;Il existe de nombreux logiciels gratuits et/ou libres permettant de monter ce genre de projet.&lt;/p&gt;
-
-&lt;p&gt;Du côté de le plus simple du spectre, &lt;a href=&quot;https://www.openshot.org/fr/download/&quot;&gt;OpenShot&lt;/a&gt; est une très bonne solution. Il permet des manipulations basiques du son et de l’image, rien de très élaboré, mais généralement suffisant pour une vidé sobre.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;assets/images/realisation-video/openshot.png&quot; alt=&quot;Openshot timeline&quot; title=&quot;Openshot Timeline&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;À l’autre extrémité se trouve &lt;a href=&quot;https://www.blackmagicdesign.com/products/davinciresolve/&quot;&gt;DaVinci Resolve&lt;/a&gt;, un logiciel de montage non-linéaire extrêmement complet et plus difficile à prendre en main. Il permet pourtant de faire un montage particulièrement soigné une fois apprivoisé et vaut le détour.&lt;/p&gt;
-
-&lt;h2 id=&quot;publication&quot;&gt;Publication&lt;/h2&gt;
-
-&lt;p&gt;Le rendu terminé, il faut publier la vidéo pour que les étudiants puissent enfin la visioner.
-Si on peut leur envoyer directement, une plate-forme de diffusion est beaucoup plus efficace et permet de suivre son impact.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://studio.youtube.com/&quot;&gt;YouTube&lt;/a&gt; est particulièrement approprié dans le cas présent.
-La plate-forme permet de procéder à de nombreuses analyses : nombres de vues, quand, qui, où, la durée d’attention, etc.
-Mais ça, c’est pour &lt;a href=&quot;/esnu//premiere-diffusion-podcast&quot;&gt;un autre billet&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h4 id=&quot;application-4&quot;&gt;Application&lt;/h4&gt;
-
-&lt;p&gt;Le résultat de toute cette procédure est disponible &lt;a href=&quot;https://youtu.be/5UpnbasZ3ng&quot;&gt;ici&lt;/a&gt;.&lt;/p&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Quentin Delhaye</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="coulisses" />
-      
-
-      
-        <summary type="html">Les vidéos c’est sympa, mais comment on fait ? Quelle marche suivre et quels outils utiliser ?</summary>
       
 
       

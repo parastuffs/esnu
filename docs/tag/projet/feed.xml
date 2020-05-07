@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
   <link href="http://localhost:4000/esnu/tag/projet/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/esnu/" rel="alternate" type="text/html" />
-  <updated>2020-05-06T23:04:36+02:00</updated>
+  <updated>2020-05-07T12:44:03+02:00</updated>
   <id>http://localhost:4000/esnu/tag/projet/feed.xml</id>
 
   
@@ -30,6 +30,129 @@
   
   
 
+  
+    <entry>
+      <title type="html">Distribuer des examens individuels</title>
+      <link href="http://localhost:4000/esnu/distribuer-des-examens-individuels" rel="alternate" type="text/html" title="Distribuer des examens individuels" />
+      <published>2020-04-30T12:18:00+02:00</published>
+      <updated>2020-04-30T12:18:00+02:00</updated>
+      <id>http://localhost:4000/esnu/distribuer-des-examens-individuels</id>
+      <content type="html" xml:base="http://localhost:4000/esnu/distribuer-des-examens-individuels">&lt;p&gt;Comment automatiser la distribution d’un examen individuel à chaque étudiant ?&lt;/p&gt;
+
+&lt;p&gt;Cette question se pose dans le cadre des examens à distance.
+Plusieurs solutions sont envisageables pour assurer ces évaluations, mais celle qui nous intéresse ici est de générer un examen différent pour chaque étudiant.
+Le problème qui survient ensuite, c’est de donner accès à chaque étudiant à sa copie uniquement.&lt;/p&gt;
+
+&lt;h4 id=&quot;utiliser-moodle-pour-distribuer-un-document-automatiquement&quot;&gt;Utiliser Moodle pour distribuer un document automatiquement&lt;/h4&gt;
+&lt;p&gt;C’est évidemment notre première idée : uploader tous les documents sur l’UV et les assigner automatiquement à chaque étudiant.
+S’il est effectivement possible de limiter l’accès à un document à une personne en particulier via le menu « Restreindre l’accès », ce n’est pas automatisable.
+La cohorte de l’examen en question étant composée de 200 personnes, ce n’est pas réaliste à la main.&lt;/p&gt;
+
+&lt;h4 id=&quot;protéger-le-document-par-un-mot-de-passe-unique-pour-chaque-étudiant&quot;&gt;Protéger le document par un mot de passe unique pour chaque étudiant&lt;/h4&gt;
+&lt;p&gt;Reste le problème de distribuer les mots de passe à chaque étudiant.
+On pourrait l’envoyer par email, mais il y a alors un problème de synchronisation de début de l’examen, il faut que le message arrive à tout le monde en même temps et surtout qu’il arrive tout court.&lt;/p&gt;
+
+&lt;h4 id=&quot;envoyer-le-document-par-email-à-chaque-étudiant&quot;&gt;Envoyer le document par email à chaque étudiant&lt;/h4&gt;
+&lt;p&gt;C’est une solution qui pourrait facilement être automatisée, mais nous avons alors le même problème de synchronisation et de fiabilité que précédemment.&lt;/p&gt;
+
+&lt;h4 id=&quot;utiliser-des-groupes&quot;&gt;Utiliser des groupes&lt;/h4&gt;
+&lt;p&gt;Il s’agit de la réponse cryptique renseignée par le support Moodle de l’ULB, sans que nous comprenions comment exploiter cette information.&lt;/p&gt;
+
+&lt;h4 id=&quot;combiner-moodle-et-un-serveur-externe&quot;&gt;Combiner Moodle et un serveur externe&lt;/h4&gt;
+&lt;p&gt;Une ressource de Moodle est paramétrisable à souhait : les URL.
+Cette ressource fonctionne en deux parties :&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;URL externe&lt;br /&gt;
+Il s’agit de l’adresse de base vers laquelle renvoyer l’utilisateur.
+Nous pouvons par exemple utiliser &lt;code class=&quot;highlighter-rouge&quot;&gt;http://monsite.be&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Variables d’URL&lt;br /&gt;
+Une variable d’URL est un mot-clef ressemblant à &lt;code class=&quot;highlighter-rouge&quot;&gt;mot-clef=valeur&lt;/code&gt;.
+La force de Moodle, c’est de permettre d’automatiser cette variable, par exemple en changeant la &lt;code class=&quot;highlighter-rouge&quot;&gt;valeur&lt;/code&gt; par une info unique aux participants, par exemple leur matricule.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;On peut ainsi générer une URL ressemblant à &lt;code class=&quot;highlighter-rouge&quot;&gt;http://monsite.be?matricule=matricule_unique&lt;/code&gt; où &lt;code class=&quot;highlighter-rouge&quot;&gt;matricule_unique&lt;/code&gt; est le matricule de l’étudiant.&lt;/p&gt;
+
+&lt;p&gt;L’URL ainsi générée sera unique pour chaque étudiant, reste à présent à lui envoyer le bon fichier lorsque qu’il y accède.&lt;/p&gt;
+
+&lt;p&gt;Pour ce faire, nous pouvons le rediriger vers un script qui analyse l’URL, récupère le numéro de matricule et envoie le fichier idoine à l’étudiant.
+C’est exament ce que réalise le bout de code suivant :&lt;/p&gt;
+
+&lt;div class=&quot;language-php highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;cp&quot;&gt;&amp;lt;?php&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;$mat&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$_GET&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;matricule&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;$file_url&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;examen_&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$mat&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;.pdf&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;header&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Content-Type: application/octet-stream'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;header&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Content-Transfer-Encoding: Binary&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt; 
+&lt;span class=&quot;nb&quot;&gt;header&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Content-disposition: attachment; filename=&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;basename&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$file_url&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt; 
+&lt;span class=&quot;nb&quot;&gt;readfile&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$file_url&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt; 
+&lt;span class=&quot;cp&quot;&gt;?&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Cette solution est donc utilisable sans effort particulier ou répétition de tâches identiques.&lt;/p&gt;
+
+&lt;h2 id=&quot;résumé-de-la-mise-en-place&quot;&gt;Résumé de la mise en place&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;On crée une ressource « URL » sur Moodle comme expliqué ci-dessus.&lt;/li&gt;
+  &lt;li&gt;On restreint l’accès à cette ressource aux heures de l’examen, ne la rendant accessible qu’au début de ce dernier.&lt;/li&gt;
+  &lt;li&gt;Sur un serveur externe, on uploade tous les fichiers générés auparavant.&lt;/li&gt;
+  &lt;li&gt;On crée le script décrit ci-dessus permettant de distribuer le fichier unique à l’étudiant.&lt;/li&gt;
+  &lt;li&gt;On communique clairement sur le sujet.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;scénario-dutilisation&quot;&gt;Scénario d’utilisation&lt;/h2&gt;
+&lt;p&gt;Voici comment devrait se dérouler l’utilisation de cette ressource par les étudiants.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Ils seront prévenus à l’avance des modalités précises de distribution de la copie.&lt;br /&gt;
+Actuellement, ils sont déjà au courant qu’ils recevront une copie unique, a priori via Moodle.&lt;/li&gt;
+  &lt;li&gt;À l’heure de l’examen, la ressource en question sera débloquée et ils pourront accéder à l’URL.&lt;/li&gt;
+  &lt;li&gt;Ils seront automatiquement redirigés vers le serveur externe où ils recevront leur copie sans intervention supplémentaire de leur part.&lt;/li&gt;
+  &lt;li&gt;Ils réalisent l’examen sur leur ordinateur.&lt;/li&gt;
+  &lt;li&gt;Ils envoient leur réponse sur Moodle sous la forme d’une activité « devoir ».&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;limites&quot;&gt;Limites&lt;/h2&gt;
+&lt;p&gt;Cette solution n’est pas parfaite et possède ses propres limites.&lt;/p&gt;
+
+&lt;h4 id=&quot;assurer-la-charge&quot;&gt;Assurer la charge&lt;/h4&gt;
+&lt;p&gt;Il faut être sûr que le serveur externe est capable de délivrer tous les fichiers en même temps lorsqu’ils seront tous téléchargés en l’intervalle d’une minute.
+Si 200 fichiers pdf ne devraient pas poser de soucis, il est tout de même possible de mettre en place un service de &lt;em&gt;load balancing&lt;/em&gt; afin de répartir la charge entre plusieurs serveurs si nécessaire.&lt;/p&gt;
+
+&lt;h4 id=&quot;besoin-dun-serveur-externe&quot;&gt;Besoin d’un serveur externe&lt;/h4&gt;
+&lt;p&gt;C’est le plus gros problème. Idéalement, on aimerait pouvoir envoyer tous les fichiers sur Moodle et permettre à l’URL de rediriger vers un fichier en particulier automatiquement, mais ce n’est malheureusement pas possible.&lt;/p&gt;
+
+&lt;h4 id=&quot;tous-les-fichiers-sont-tout-de-même-accessible-par-tout-le-monde&quot;&gt;Tous les fichiers sont tout de même accessible par tout le monde&lt;/h4&gt;
+&lt;p&gt;Certes, mais nous comptons sur la limite de temps pour nous assurer que chaque étudiant n’ait le temps de se concentrer uniquement sur son examen.
+Pourquoi nous fatiguer à mettre ce système en place, dans ce cas ? Pourquoi ne pas simplement demander aux étudiants de récupérer leur copie dans un dossier les comprenant toutes ?&lt;/p&gt;
+
+&lt;p&gt;Tout simplement pour leur éviter le stress de récupérer la mauvaise copie.
+Il faut aussi noter que le matricule « Moodle » n’est pas nécessaire le même que le matricule « étudiant », phénomène rencontré par exemple pour les étudiants de la VUB.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Quentin Delhaye</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="projet" />
+      
+
+      
+        <summary type="html">Comment automatiser la distribution d’un examen individuel à chaque étudiant ?</summary>
+      
+
+      
+      
+    </entry>
   
     <entry>
       <title type="html">Création d’une vidéo-minute pour introduire un laboratoire</title>
@@ -414,6 +537,129 @@ Vous pourrez en lire plus à ce sujet &lt;a href=&quot;/esnu//realiser-une-video
 
       
         <summary type="html">Comment définir précisément la problématique à adresser ?</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Réaliser une vidéo</title>
+      <link href="http://localhost:4000/esnu/realiser-une-video" rel="alternate" type="text/html" title="Réaliser une vidéo" />
+      <published>2020-01-17T11:18:00+01:00</published>
+      <updated>2020-01-17T11:18:00+01:00</updated>
+      <id>http://localhost:4000/esnu/realiser-une-video</id>
+      <content type="html" xml:base="http://localhost:4000/esnu/realiser-une-video">&lt;p&gt;Les vidéos c’est sympa, mais comment on fait ? Quelle marche suivre et quels outils utiliser ?&lt;/p&gt;
+
+&lt;p&gt;Ce billet présente les différentes étapes de réalisation d’une vidéo à destination des apprenants, en illustrant chacune avec ma réalisation pratique.&lt;/p&gt;
+
+&lt;h2 id=&quot;scénarisation&quot;&gt;Scénarisation&lt;/h2&gt;
+
+&lt;p&gt;Avant de commencer à filmer quoi que ce soit, il faut savoir ce qu’on veut montrer.
+La première étape consiste donc à &lt;em&gt;scénariser&lt;/em&gt; la vidéo, écrire l’histoire qu’on veut raconter.&lt;/p&gt;
+
+&lt;p&gt;Le scénario peut prendre différentes formes : un &lt;em&gt;story board&lt;/em&gt;, un texte construit de l’ensemble du contenu ou une simple liste des éléments à aborder et les points d’attention sur lesquels insister.&lt;/p&gt;
+
+&lt;h4 id=&quot;application&quot;&gt;Application&lt;/h4&gt;
+
+&lt;p&gt;Le but de cette vidéo est d’expliquer aux étudiants comment manipuler la matériel à leur disposition afin de réaliser une mesure particulière.
+Pour être un peu technique, il s’agit de mesurer le temps de propagation d’un signal au sein d’un circuit logique à l’aide d’un oscilloscope.&lt;/p&gt;
+
+&lt;p&gt;Ma scénarisation a donc commencé par concevoir un montage intéressant et réaliser la manipulation en entier par moi-même.
+Une fois terminée, j’ai pu la déconstruire pour mettre en évidence les &lt;strong&gt;étapes clefs&lt;/strong&gt; par lesquelles les étudiants devront passer à leur tour.&lt;/p&gt;
+
+&lt;p&gt;Ce scénario a pris la forme d’une liste d’étapes, certaines illustrées par les schémas.&lt;/p&gt;
+
+&lt;h2 id=&quot;tournage&quot;&gt;Tournage&lt;/h2&gt;
+
+&lt;p&gt;Le scénario terminé, il est temps de tourner les différents plans constituant l’histoire.
+Il n’est pas encore essentiel de savoir ce qu’on va raconter ou d’enregistrer les voix en même temps. Il est même plus simple de séparer les deux étapes de vidéo et audio afin de les paufiner chacune de leur côté.&lt;/p&gt;
+
+&lt;p&gt;Cependant, cette manière de procéder nécessite de filmer des &lt;strong&gt;scènes supplémentaires&lt;/strong&gt; « au cas où », afin d’avoir suffisamment de matériel.&lt;/p&gt;
+
+&lt;p&gt;Si le scénario est complet et qu’on est capable d’imaginer des plans supplémentaires pour compléter la trame principale, cette étape peut être réalisée en peu de temps, sans nécessiter de resortir la caméra par la suite.&lt;/p&gt;
+
+&lt;h4 id=&quot;application-1&quot;&gt;Application&lt;/h4&gt;
+
+&lt;p&gt;Je me suis filmé à l’aide d’un appareil photo de bonne qualité (Panasonic Lumix GX80) en séparant les différents plans, facilitant le montage pour la suite.
+Chaque courte vidéo ne dure que quelques secondes, me permettant par la suite de trouver facilement une étape particulière.&lt;/p&gt;
+
+&lt;p&gt;La qualité du tournage aurait pu être drastiquement améliorée avec l’aide d’une autre personne pour manipuler la caméra ou avec la simple utilisation d’un trépied pour stabiliser l’image pendant les manipulations.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/images/realisation-video/protoboard.JPG&quot; alt=&quot;Photo du montage non-utilisée dans la réalisation&quot; title=&quot;Photo du montage non-utilisée dans la réalisation&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;enregistrement-des-voix&quot;&gt;Enregistrement des voix&lt;/h2&gt;
+
+&lt;p&gt;Il ne sert à rien d’improviser l’entièreté de la vidéo.
+Certes, lire un texte écrit à l’avance peut retirer l’effet naturel d’une explication, mais ne pas avoir de support est encore pire. Le discours sera ponctué d’hésitations qui ne feraient qu’ajouter du bruit.&lt;/p&gt;
+
+&lt;p&gt;Mais comment écrire un texte qui semble quand même naturel ?
+Une méthode qui fonctionne assez bien est de complètement improviser la narration.
+Étant donné le travail déjà effectué sur cette vidéo, ça ne devrait pas poser de problème.
+Mais au lieu de directement utiliser cet enregistrement, on peut l’écouter et réécrire tout ce qu’on a raconté afin d’avoir un support propre pour un nouvel enregistrement.&lt;/p&gt;
+
+&lt;p&gt;Avant de se lancer pour de bon, il faut aussi bien &lt;strong&gt;préparer l’introduction et la fin&lt;/strong&gt; de la vidéo.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;L’introduction devrait être courte et présenter clairement ce qui sera abordé dans la vidéo ainsi que les étapes de son déroulé.&lt;/li&gt;
+  &lt;li&gt;La conclusion peut servir de résumé en rappelant à nouveau les grandes étapes de la manipulation.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;application-2&quot;&gt;Application&lt;/h4&gt;
+
+&lt;p&gt;J’ai utilisé un micro Bird UM1 et &lt;a href=&quot;https://www.audacityteam.org/&quot;&gt;Audacity&lt;/a&gt; pour enregistrer l’audio de la vidéo.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/images/realisation-video/audacity.png&quot; alt=&quot;Spectre Audacity&quot; title=&quot;Audacity&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;montage&quot;&gt;Montage&lt;/h2&gt;
+
+&lt;p&gt;Une fois l’audio enregistré, il s’agit de piocher dans les plans tourner plus tôt et de les coller au bon endroit afin d’illustrer la narration.
+Cette étape n’est pas compliquée avec un peu d’expérience, mais c’est celle qui impactera directement ce que regarderont les étudiants, c’est le moment où tout se joue.
+Les scènes supplémentaires seront probablement utiles, ne serait-ce qu’en &lt;em&gt;&lt;a href=&quot;https://fr.wikipedia.org/wiki/Bobine_B&quot;&gt;B-roll&lt;/a&gt;&lt;/em&gt; afin de combler les trous pendant l’introduction ou la conclusion.&lt;/p&gt;
+
+&lt;p&gt;Ajouter un écran d’accueil avec un titre clair et les logos de l’institution peut aussi s’avérer utile pour la publication à venir, mais aussi pour démarrer la vidéo en douceur pendant l’introduction.&lt;/p&gt;
+
+&lt;h4 id=&quot;application-3&quot;&gt;Application&lt;/h4&gt;
+&lt;p&gt;Il existe de nombreux logiciels gratuits et/ou libres permettant de monter ce genre de projet.&lt;/p&gt;
+
+&lt;p&gt;Du côté de le plus simple du spectre, &lt;a href=&quot;https://www.openshot.org/fr/download/&quot;&gt;OpenShot&lt;/a&gt; est une très bonne solution. Il permet des manipulations basiques du son et de l’image, rien de très élaboré, mais généralement suffisant pour une vidé sobre.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/images/realisation-video/openshot.png&quot; alt=&quot;Openshot timeline&quot; title=&quot;Openshot Timeline&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;À l’autre extrémité se trouve &lt;a href=&quot;https://www.blackmagicdesign.com/products/davinciresolve/&quot;&gt;DaVinci Resolve&lt;/a&gt;, un logiciel de montage non-linéaire extrêmement complet et plus difficile à prendre en main. Il permet pourtant de faire un montage particulièrement soigné une fois apprivoisé et vaut le détour.&lt;/p&gt;
+
+&lt;h2 id=&quot;publication&quot;&gt;Publication&lt;/h2&gt;
+
+&lt;p&gt;Le rendu terminé, il faut publier la vidéo pour que les étudiants puissent enfin la visioner.
+Si on peut leur envoyer directement, une plate-forme de diffusion est beaucoup plus efficace et permet de suivre son impact.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://studio.youtube.com/&quot;&gt;YouTube&lt;/a&gt; est particulièrement approprié dans le cas présent.
+La plate-forme permet de procéder à de nombreuses analyses : nombres de vues, quand, qui, où, la durée d’attention, etc.
+Mais ça, c’est pour &lt;a href=&quot;/esnu//premiere-diffusion-podcast&quot;&gt;un autre billet&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h4 id=&quot;application-4&quot;&gt;Application&lt;/h4&gt;
+
+&lt;p&gt;Le résultat de toute cette procédure est disponible &lt;a href=&quot;https://youtu.be/5UpnbasZ3ng&quot;&gt;ici&lt;/a&gt;.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Quentin Delhaye</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="projet" />
+      
+
+      
+        <summary type="html">Les vidéos c’est sympa, mais comment on fait ? Quelle marche suivre et quels outils utiliser ?</summary>
       
 
       
