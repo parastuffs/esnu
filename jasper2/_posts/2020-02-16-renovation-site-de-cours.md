@@ -5,9 +5,9 @@ cover: assets/images/dilapidated-983952_1280.jpg
 navigation: True
 title: Rénovation d'un site de cours
 date: 2020-02-16 10:18:00
-tags: projet
+tags: experience
 class: post-template
-subclass: 'post tag-projet'
+subclass: 'post tag-experience'
 author: quentin
 ---
 

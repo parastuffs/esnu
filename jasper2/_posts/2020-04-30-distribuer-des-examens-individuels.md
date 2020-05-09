@@ -5,9 +5,9 @@ cover: assets/images/stadium-165406_1280.jpg
 navigation: True
 title: Distribuer des examens individuels
 date: 2020-04-30 10:18:00
-tags: projet
+tags: experience
 class: post-template
-subclass: 'post tag-projet'
+subclass: 'post tag-experience'
 author: quentin
 ---
 Comment automatiser la distribution d'un examen individuel à chaque étudiant ?

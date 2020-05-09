@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
   <link href="http://localhost:4000/esnu/tag/projet/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/esnu/" rel="alternate" type="text/html" />
-  <updated>2020-05-09T16:28:44+02:00</updated>
+  <updated>2020-05-09T16:31:08+02:00</updated>
   <id>http://localhost:4000/esnu/tag/projet/feed.xml</id>
 
   
@@ -62,129 +62,6 @@ Perspectives d’amélioration.&lt;/p&gt;
 
       
         <summary type="html">Résumé des feedbacks étudiants sur le nouveau dispositif et analyse de ses résultats. Perspectives d’amélioration.</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">Distribuer des examens individuels</title>
-      <link href="http://localhost:4000/esnu/distribuer-des-examens-individuels" rel="alternate" type="text/html" title="Distribuer des examens individuels" />
-      <published>2020-04-30T12:18:00+02:00</published>
-      <updated>2020-04-30T12:18:00+02:00</updated>
-      <id>http://localhost:4000/esnu/distribuer-des-examens-individuels</id>
-      <content type="html" xml:base="http://localhost:4000/esnu/distribuer-des-examens-individuels">&lt;p&gt;Comment automatiser la distribution d’un examen individuel à chaque étudiant ?&lt;/p&gt;
-
-&lt;p&gt;Cette question se pose dans le cadre des examens à distance.
-Plusieurs solutions sont envisageables pour assurer ces évaluations, mais celle qui nous intéresse ici est de générer un examen différent pour chaque étudiant.
-Le problème qui survient ensuite, c’est de donner accès à chaque étudiant à sa copie uniquement.&lt;/p&gt;
-
-&lt;h4 id=&quot;utiliser-moodle-pour-distribuer-un-document-automatiquement&quot;&gt;Utiliser Moodle pour distribuer un document automatiquement&lt;/h4&gt;
-&lt;p&gt;C’est évidemment notre première idée : uploader tous les documents sur l’UV et les assigner automatiquement à chaque étudiant.
-S’il est effectivement possible de limiter l’accès à un document à une personne en particulier via le menu « Restreindre l’accès », ce n’est pas automatisable.
-La cohorte de l’examen en question étant composée de 200 personnes, ce n’est pas réaliste à la main.&lt;/p&gt;
-
-&lt;h4 id=&quot;protéger-le-document-par-un-mot-de-passe-unique-pour-chaque-étudiant&quot;&gt;Protéger le document par un mot de passe unique pour chaque étudiant&lt;/h4&gt;
-&lt;p&gt;Reste le problème de distribuer les mots de passe à chaque étudiant.
-On pourrait l’envoyer par email, mais il y a alors un problème de synchronisation de début de l’examen, il faut que le message arrive à tout le monde en même temps et surtout qu’il arrive tout court.&lt;/p&gt;
-
-&lt;h4 id=&quot;envoyer-le-document-par-email-à-chaque-étudiant&quot;&gt;Envoyer le document par email à chaque étudiant&lt;/h4&gt;
-&lt;p&gt;C’est une solution qui pourrait facilement être automatisée, mais nous avons alors le même problème de synchronisation et de fiabilité que précédemment.&lt;/p&gt;
-
-&lt;h4 id=&quot;utiliser-des-groupes&quot;&gt;Utiliser des groupes&lt;/h4&gt;
-&lt;p&gt;Il s’agit de la réponse cryptique renseignée par le support Moodle de l’ULB, sans que nous comprenions comment exploiter cette information.&lt;/p&gt;
-
-&lt;h4 id=&quot;combiner-moodle-et-un-serveur-externe&quot;&gt;Combiner Moodle et un serveur externe&lt;/h4&gt;
-&lt;p&gt;Une ressource de Moodle est paramétrisable à souhait : les URL.
-Cette ressource fonctionne en deux parties :&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;URL externe&lt;br /&gt;
-Il s’agit de l’adresse de base vers laquelle renvoyer l’utilisateur.
-Nous pouvons par exemple utiliser &lt;code class=&quot;highlighter-rouge&quot;&gt;http://monsite.be&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;Variables d’URL&lt;br /&gt;
-Une variable d’URL est un mot-clef ressemblant à &lt;code class=&quot;highlighter-rouge&quot;&gt;mot-clef=valeur&lt;/code&gt;.
-La force de Moodle, c’est de permettre d’automatiser cette variable, par exemple en changeant la &lt;code class=&quot;highlighter-rouge&quot;&gt;valeur&lt;/code&gt; par une info unique aux participants, par exemple leur matricule.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;On peut ainsi générer une URL ressemblant à &lt;code class=&quot;highlighter-rouge&quot;&gt;http://monsite.be?matricule=matricule_unique&lt;/code&gt; où &lt;code class=&quot;highlighter-rouge&quot;&gt;matricule_unique&lt;/code&gt; est le matricule de l’étudiant.&lt;/p&gt;
-
-&lt;p&gt;L’URL ainsi générée sera unique pour chaque étudiant, reste à présent à lui envoyer le bon fichier lorsque qu’il y accède.&lt;/p&gt;
-
-&lt;p&gt;Pour ce faire, nous pouvons le rediriger vers un script qui analyse l’URL, récupère le numéro de matricule et envoie le fichier idoine à l’étudiant.
-C’est exament ce que réalise le bout de code suivant :&lt;/p&gt;
-
-&lt;div class=&quot;language-php highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;cp&quot;&gt;&amp;lt;?php&lt;/span&gt;
-&lt;span class=&quot;nv&quot;&gt;$mat&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$_GET&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;matricule&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
-&lt;span class=&quot;nv&quot;&gt;$file_url&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;examen_&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$mat&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;.pdf&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;nb&quot;&gt;header&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Content-Type: application/octet-stream'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-&lt;span class=&quot;nb&quot;&gt;header&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Content-Transfer-Encoding: Binary&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt; 
-&lt;span class=&quot;nb&quot;&gt;header&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Content-disposition: attachment; filename=&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;basename&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$file_url&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt; 
-&lt;span class=&quot;nb&quot;&gt;readfile&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$file_url&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt; 
-&lt;span class=&quot;cp&quot;&gt;?&amp;gt;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Cette solution est donc utilisable sans effort particulier ou répétition de tâches identiques.&lt;/p&gt;
-
-&lt;h2 id=&quot;résumé-de-la-mise-en-place&quot;&gt;Résumé de la mise en place&lt;/h2&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;On crée une ressource « URL » sur Moodle comme expliqué ci-dessus.&lt;/li&gt;
-  &lt;li&gt;On restreint l’accès à cette ressource aux heures de l’examen, ne la rendant accessible qu’au début de ce dernier.&lt;/li&gt;
-  &lt;li&gt;Sur un serveur externe, on uploade tous les fichiers générés auparavant.&lt;/li&gt;
-  &lt;li&gt;On crée le script décrit ci-dessus permettant de distribuer le fichier unique à l’étudiant.&lt;/li&gt;
-  &lt;li&gt;On communique clairement sur le sujet.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&quot;scénario-dutilisation&quot;&gt;Scénario d’utilisation&lt;/h2&gt;
-&lt;p&gt;Voici comment devrait se dérouler l’utilisation de cette ressource par les étudiants.&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Ils seront prévenus à l’avance des modalités précises de distribution de la copie.&lt;br /&gt;
-Actuellement, ils sont déjà au courant qu’ils recevront une copie unique, a priori via Moodle.&lt;/li&gt;
-  &lt;li&gt;À l’heure de l’examen, la ressource en question sera débloquée et ils pourront accéder à l’URL.&lt;/li&gt;
-  &lt;li&gt;Ils seront automatiquement redirigés vers le serveur externe où ils recevront leur copie sans intervention supplémentaire de leur part.&lt;/li&gt;
-  &lt;li&gt;Ils réalisent l’examen sur leur ordinateur.&lt;/li&gt;
-  &lt;li&gt;Ils envoient leur réponse sur Moodle sous la forme d’une activité « devoir ».&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&quot;limites&quot;&gt;Limites&lt;/h2&gt;
-&lt;p&gt;Cette solution n’est pas parfaite et possède ses propres limites.&lt;/p&gt;
-
-&lt;h4 id=&quot;assurer-la-charge&quot;&gt;Assurer la charge&lt;/h4&gt;
-&lt;p&gt;Il faut être sûr que le serveur externe est capable de délivrer tous les fichiers en même temps lorsqu’ils seront tous téléchargés en l’intervalle d’une minute.
-Si 200 fichiers pdf ne devraient pas poser de soucis, il est tout de même possible de mettre en place un service de &lt;em&gt;load balancing&lt;/em&gt; afin de répartir la charge entre plusieurs serveurs si nécessaire.&lt;/p&gt;
-
-&lt;h4 id=&quot;besoin-dun-serveur-externe&quot;&gt;Besoin d’un serveur externe&lt;/h4&gt;
-&lt;p&gt;C’est le plus gros problème. Idéalement, on aimerait pouvoir envoyer tous les fichiers sur Moodle et permettre à l’URL de rediriger vers un fichier en particulier automatiquement, mais ce n’est malheureusement pas possible.&lt;/p&gt;
-
-&lt;h4 id=&quot;tous-les-fichiers-sont-tout-de-même-accessible-par-tout-le-monde&quot;&gt;Tous les fichiers sont tout de même accessible par tout le monde&lt;/h4&gt;
-&lt;p&gt;Certes, mais nous comptons sur la limite de temps pour nous assurer que chaque étudiant n’ait le temps de se concentrer uniquement sur son examen.
-Pourquoi nous fatiguer à mettre ce système en place, dans ce cas ? Pourquoi ne pas simplement demander aux étudiants de récupérer leur copie dans un dossier les comprenant toutes ?&lt;/p&gt;
-
-&lt;p&gt;Tout simplement pour leur éviter le stress de récupérer la mauvaise copie.
-Il faut aussi noter que le matricule « Moodle » n’est pas nécessaire le même que le matricule « étudiant », phénomène rencontré par exemple pour les étudiants de la VUB.&lt;/p&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Quentin Delhaye</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="projet" />
-      
-
-      
-        <summary type="html">Comment automatiser la distribution d’un examen individuel à chaque étudiant ?</summary>
       
 
       
@@ -400,68 +277,6 @@ Je suis parti sur la seconde possibilité en me concentrant sur un public légè
 
       
         <summary type="html">Améliorer le projet existant ou expérimenter un nouveau dispositif, que choisir ?</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">Rénovation d’un site de cours</title>
-      <link href="http://localhost:4000/esnu/renovation-site-de-cours" rel="alternate" type="text/html" title="Rénovation d'un site de cours" />
-      <published>2020-02-16T11:18:00+01:00</published>
-      <updated>2020-02-16T11:18:00+01:00</updated>
-      <id>http://localhost:4000/esnu/renovation-site-de-cours</id>
-      <content type="html" xml:base="http://localhost:4000/esnu/renovation-site-de-cours">&lt;p&gt;Avoir un site pour proposer les supports de cours aux étudiants c’est bien, qu’il soit agréable à naviguer, c’est mieux.&lt;/p&gt;
-
-&lt;p&gt;L’Université libre de Bruxelles a implémenté Moodle sur son &lt;a href=&quot;https://uv.ulb.ac.be/&quot;&gt;université virtuelle&lt;/a&gt;.
-Outil open source puissant, il nécessite néanmoins quelques réglages pour libérer tout son potentiel.
-Ci-suit par exemple une capture d’une première version brute du cours …&lt;/p&gt;
-
-&lt;p&gt;Ci-suit une première capture de l’ancienne version du site, tel qu’il était proposé jusqu’à l’année académique 2018-2019 (cliquez sur l’image pour visualiser une capture de toute la page).
-&lt;a href=&quot;assets/images/renovation/H473-old-full.png&quot; target=&quot;_blank_&quot;&gt;
-&lt;img src=&quot;assets/images/renovation/H473-old-crop.png&quot; alt=&quot;alt text&quot; /&gt;
-&lt;/a&gt;
-La page était austère, consistant en une suite de liens et documents triés, mais peu catégorisés.
-Les étudiants ne remarquaient pas certaines ressources qui étaient pourtant mises à leur disposition.
-La page était austère, consistant en une suite de liens et documents triés, mais peu catégorisés.
-Les étudiants ne remarquaient pas certaines ressources qui étaient pourtant mises à leur disposition.&lt;/p&gt;
-
-&lt;p&gt;La capture suivante représente la refonte du site (cliquez sur l’image pour visualiser une capture de toute la page).
-&lt;a href=&quot;assets/images/renovation/H473-new-full.png&quot; target=&quot;_blank_&quot;&gt;
-&lt;img src=&quot;assets/images/renovation/H473-new-crop.png&quot; alt=&quot;alt text&quot; /&gt;
-&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Le premier élément ayant permis cette mise à jour est un simple changement de la mise en page que propose Moodle : le format « &lt;a href=&quot;https://moodle.org/plugins/format_tiles&quot;&gt;tuiles&lt;/a&gt; » permettant d’afficher les ressources sous forme de petites cartes dont on peut changer l’arrière-plan.&lt;/p&gt;
-
-&lt;p&gt;En combinant cette mise en forme avec d’autres fonctionnalités, comme la remise de devoirs en ligne qui ne sont visible que si l’étudiant s’est inscrit dans un groupe, la page du cours est bien plus utilisée en laboratoire.&lt;/p&gt;
-
-&lt;p&gt;Le nouveau site propose des informations moins denses et est plus facile à naviguer.
-Les différentes sections sont clairement marquées afin que les étudiants sache où trouver les informations afférentes à un laboratoire en particulier.
-De plus, en utilisant la fonctionnalité de suivi de progression, ils peuvent marquer les ressources qu’ils ont visitées et ainsi remarquer s’ils ont raté quelque chose.&lt;/p&gt;
-
-&lt;p&gt;Une expérience intéressante sera de vérifier si la volonté d’atteindre les 100% de complétion leur permettra ou non de gagner du temps en ne remarquant pas certaines ressources qui étaient auparavant noyées dans une nuée de liens en tout genre.&lt;/p&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Quentin Delhaye</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="projet" />
-      
-
-      
-        <summary type="html">Avoir un site pour proposer les supports de cours aux étudiants c’est bien, qu’il soit agréable à naviguer, c’est mieux.</summary>
       
 
       
@@ -752,6 +567,271 @@ Mais ça, c’est pour &lt;a href=&quot;/esnu//premiere-diffusion-podcast&quot;&
 
       
         <summary type="html">Les vidéos c’est sympa, mais comment on fait ? Quelle marche suivre et quels outils utiliser ?</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Définition du problème</title>
+      <link href="http://localhost:4000/esnu/definition-du-probleme" rel="alternate" type="text/html" title="Définition du problème" />
+      <published>2019-11-15T11:18:00+01:00</published>
+      <updated>2019-11-15T11:18:00+01:00</updated>
+      <id>http://localhost:4000/esnu/definition-du-probleme</id>
+      <content type="html" xml:base="http://localhost:4000/esnu/definition-du-probleme">&lt;p&gt;Comment définir précisément la problématique à adresser ?&lt;/p&gt;
+
+&lt;p&gt;La première étape consiste à &lt;a href=&quot;2019-11-10-construire-des-personas&quot;&gt;connaître son public&lt;/a&gt;, par exemple en établissant des persona les représentant.&lt;/p&gt;
+
+&lt;p&gt;Ensuite, il faut extraire les informations pertinentes sous-jacentes aux profils des persona.
+Deux outils permettent d’y parvenir : « Les cinq pourquoi » et la définition du problèmes proprement dite.&lt;/p&gt;
+
+&lt;h2 id=&quot;les-cinq-pourquoi&quot;&gt;Les cinq pourquoi&lt;/h2&gt;
+
+&lt;p&gt;Le but de cet exercice est de nous pousser à creuser la problématique afin de mettre en évidence son origine profonde.
+Nous voulons traiter le problème à sa racine et non ses simples symptômes.&lt;/p&gt;
+
+&lt;p&gt;Alors quel est le problème ?&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Ils ne savent pas bien utiliser le matériel.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Pourquoi ?&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Ils ne lisent pas les ressources à leur disposition et ils n’essaient pas par eux-mêmes et veulent qu’on le fasse pour eux.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Pourquoi ?&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Ils sont désemparés face à un document trop long et dont les schémas ne collent pas suffisamment à la réalité.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Pourquoi ?&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Leur durée d’attention et de concentration est très courte et le document se veut généraliste et spécifique en même temps, mais les généralités ne les intéressent guère.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Pourquoi ?&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Ils ont besoin d’information utile et utilisable directement en laboratoire, afin d’avancer efficacement dans la manipulation.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;définir-le-problème&quot;&gt;Définir le problème&lt;/h2&gt;
+
+&lt;p&gt;Avant de définir clairement le problème, passons par quelques étapes permettant d’analyser les persona.&lt;/p&gt;
+
+&lt;h3 id=&quot;contradictions&quot;&gt;Contradictions&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Ils veulent plus d’explications et d’introduction au matériel, mais ils ne lisent pas les supports existants.&lt;/li&gt;
+  &lt;li&gt;S’ils sont bien tous d’accord pour dire qu’ils souhaitent développer leur autonomie et leur esprit critique, beaucoup ont encore trop besoin d’aide pour avancer dans le labo.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;révélations-ou-remarques-intéressantes&quot;&gt;Révélations ou remarques intéressantes&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Le manque de rythme &lt;em&gt;imposé&lt;/em&gt; et de mise en commun est perçue comme un problème, là où je vois une autonomisation des séances.&lt;/li&gt;
+  &lt;li&gt;Ils aimeraient avoir des vidéos explicatives du matériel de base.&lt;/li&gt;
+  &lt;li&gt;Très peu d’étudiants cherchent des ressources supplémentaires pour mieux comprendre la matière.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Ce dernier point est notamment mis en évidence par Endrizzi et Sibut &lt;a href=&quot;#référence&quot;&gt;[1]&lt;/a&gt; : les étudiants semblent ne pas s’écarter d’un étroit cercle d’outils familiers.
+Dans ce cas, faut-il les sortir de leur zone de confort ou s’y insérer afin de s’assurer que la nouvelle ressource est bien exploitée ?&lt;/p&gt;
+
+&lt;h3 id=&quot;frustrations-ou-questions-sans-réponse&quot;&gt;Frustrations ou questions sans réponse&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;On prend trop de temps à venir répondre à leurs questions en séance.&lt;/li&gt;
+  &lt;li&gt;Ils n’ont pas le temps de tout faire parfaitement et de tout préparer.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;difficultés-problèmes-ou-besoins-vécusressentis-par-lapprenante&quot;&gt;Difficultés, problèmes ou besoins vécus/ressentis par l’apprenant.e&lt;/h3&gt;
+
+&lt;p&gt;C’est notamment pour ce point que &lt;a href=&quot;#les-cinq-pourquoi&quot;&gt;les cinq pourquoi&lt;/a&gt; est intéressant à réaliser préalablement à la définition du problème.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Problème d’utilisation du matériel&lt;/li&gt;
+  &lt;li&gt;Disponibilité de l’assistant en laboratoire&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;la-problématique-en-un-dessin&quot;&gt;La problématique en un dessin&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/images/problematique/Problematique_en_un_dessin.png&quot; alt=&quot;Illustration de la problématique&quot; title=&quot;La problématique en un dessin&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;la-problématique-en-une-question&quot;&gt;La problématique en une question&lt;/h3&gt;
+
+&lt;p&gt;On arrive enfin à la finalité de l’activité : la formulation de la problèmatique en question.
+Après cette analyse, on pourrait la formuler ainsi :&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Comment pourrais-je donner aux étudiants les outils nécessaires pour qu’ils puissent s’approprier le matériel de laboratoire et l’utiliser en toute autonomie ?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Une réponse à cette question : un podcast vidéo illustrant comment utiliser le matériel de laboratoire en situation réelle.
+Vous pourrez en lire plus à ce sujet &lt;a href=&quot;/esnu//realiser-une-video&quot;&gt;dans la suite du projet&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h4 id=&quot;référence&quot;&gt;Référence&lt;/h4&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://veille-et-analyses.ens-lyon.fr/DA-Veille/106-decembre-2015.pdf&quot;&gt;Endrizzi, Laure et Sibut, Florence, &lt;em&gt;Les nouveaux étudiants, d’hier à aujourd’hui&lt;/em&gt;, 2015, Dossier de veille de l’IFÉ, n° 106&lt;/a&gt;&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Quentin Delhaye</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="projet" />
+      
+
+      
+        <summary type="html">Comment définir précisément la problématique à adresser ?</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Construire des personas</title>
+      <link href="http://localhost:4000/esnu/construire-des-personas" rel="alternate" type="text/html" title="Construire des personas" />
+      <published>2019-11-10T11:18:00+01:00</published>
+      <updated>2019-11-10T11:18:00+01:00</updated>
+      <id>http://localhost:4000/esnu/construire-des-personas</id>
+      <content type="html" xml:base="http://localhost:4000/esnu/construire-des-personas">&lt;p&gt;Pour qu’un dispositif soit efficace, il faut qu’il réponde à des besoins.
+Pour identifier les besoins, il faut connaître son public.&lt;/p&gt;
+
+&lt;p&gt;Afin de savoir exactement si le dispositif que je voulais mettre en place correspondait aux attentes de mes étudiants, j’ai commencé par établir des &lt;em&gt;persona&lt;/em&gt;, des profils caractéristiques représentant le public visé.&lt;/p&gt;
+
+&lt;h2 id=&quot;première-étape--interviews&quot;&gt;Première étape : interviews&lt;/h2&gt;
+
+&lt;p&gt;Le public visé était les étudiants de BA bloc 3 suivant mes laboratoires d’électronique.
+J’avais déjà eu l’occasion de les côtoyer lors des séances d’exercices précédant les laboratoires et je savais donc qui contacter afin d’avoir un échantillon d’étudiants coopérant et représentatif.&lt;/p&gt;
+
+&lt;p&gt;J’ai ainsi procédé à quelques interviews réparties sur une semaines avec des étudiants ayant commencé les laboratoires pour la première fois, ainsi qu’avec des étudiants de Master 1 pour faire appel à leur expérience &lt;em&gt;a posteriori&lt;/em&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;guide-dentretien&quot;&gt;Guide d’entretien&lt;/h3&gt;
+
+&lt;p&gt;Afin de réaliser des entretiens efficaces, un bref guide avait été rédigé en amont.&lt;/p&gt;
+
+&lt;p&gt;Il se composait en substance des questions suivantes :&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Utilisez-vous des outils numériques en-dehors des cours ?&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Pourquoi êtes-vous en Polytech ?&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Pourquoi avez-vous choisi votre section ?&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Qu’espérez-vous tirer de votre formation ?&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Que faites-vous pendant le cours ?&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Que faites-vous pendant le laboratoire ?&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Utilisez-vous des outils numériques pour vos études ?&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Quels outils devraient être à votre disposition ?&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Rencontrez-vous des problèmes lors des laboratoires ?&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Comment compareriez-vous le cours d’électronique aux autres cours ?&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Comment évalueriez-vous votre niveau de compétence en numérique ?&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Comment préparez-vous vos laboratoires ?&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Comment étudiez-vous le cours ?&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Comment pensez-vous préparer un éventuel examen de seconde session ?&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Pourquoi participez-vous aux laboratoires ?&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Avez-vous des suggestions sur le déroulement des laboratoires ?&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&quot;compiler-les-résultats&quot;&gt;Compiler les résultats&lt;/h2&gt;
+
+&lt;p&gt;Les résultats des entretiens ont été compilés en trois persona différents en utilisant &lt;a href=&quot;https://milanote.com/&quot;&gt;Milanote&lt;/a&gt;, suivant un template fourni par Nicolas Roland.&lt;/p&gt;
+
+&lt;p&gt;Les résultats sont accessibles &lt;a href=&quot;assets/persona&quot;&gt;ici&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;La partie compliquée est finalement de fusionner toutes les réponses avant de les séparer à nouveau pour créer de nouvelles personnes fictives, tout en restant réaliste quant aux profils ainsi établis.&lt;/p&gt;
+
+&lt;h2 id=&quot;apprendre-des-persona&quot;&gt;Apprendre des persona&lt;/h2&gt;
+
+&lt;p&gt;Ces entretiens et persona m’ont apporté un élément essentiel dans le développement de mon projet.
+Comment présenter au début de ce billet, ils m’ont permi de comprendre les &lt;em&gt;vrais&lt;/em&gt; problèmes que rencontrent mes étudiants en laboratoire.&lt;/p&gt;
+
+&lt;p&gt;Contrairement à ce que j’envisageais, ils n’étaient pas tant demandeurs d’outils de préparation des laboratoires ou de révision de la matière.
+Ce qu’ils voulaient, c’était :&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Comprendre comment utiliser le matériel mis à leur disposition chaque semaine.&lt;/li&gt;
+  &lt;li&gt;Avoir plus d’assistants pour répondre à leurs questions.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Si la deuxième demande ne peut pas être rencontrée, une solution à la première pourrait tout même aider.
+En effet, les assistants passent beaucoup de temps en laboratoire à aider les étudiants à configurer correctement leur matériel. En réalisant des tutoriaux clairs à ce sujet :&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Les étudiants comprendraient mieux comment utiliser le matériel&lt;/li&gt;
+  &lt;li&gt;Les assistants seraient davantage disponibles.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Mais nous reviendrons sur cet aspect 
+&lt;a href=&quot;/esnu//definition-du-probleme&quot;&gt;dans un autre billet&lt;/a&gt;&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Quentin Delhaye</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="projet" />
+      
+
+      
+        <summary type="html">Pour qu’un dispositif soit efficace, il faut qu’il réponde à des besoins. Pour identifier les besoins, il faut connaître son public.</summary>
       
 
       

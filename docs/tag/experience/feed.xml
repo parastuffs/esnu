@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
   <link href="http://localhost:4000/esnu/tag/experience/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/esnu/" rel="alternate" type="text/html" />
-  <updated>2020-05-09T16:28:44+02:00</updated>
+  <updated>2020-05-09T16:31:08+02:00</updated>
   <id>http://localhost:4000/esnu/tag/experience/feed.xml</id>
 
   
@@ -30,6 +30,129 @@
   
   
 
+  
+    <entry>
+      <title type="html">Distribuer des examens individuels</title>
+      <link href="http://localhost:4000/esnu/distribuer-des-examens-individuels" rel="alternate" type="text/html" title="Distribuer des examens individuels" />
+      <published>2020-04-30T12:18:00+02:00</published>
+      <updated>2020-04-30T12:18:00+02:00</updated>
+      <id>http://localhost:4000/esnu/distribuer-des-examens-individuels</id>
+      <content type="html" xml:base="http://localhost:4000/esnu/distribuer-des-examens-individuels">&lt;p&gt;Comment automatiser la distribution d’un examen individuel à chaque étudiant ?&lt;/p&gt;
+
+&lt;p&gt;Cette question se pose dans le cadre des examens à distance.
+Plusieurs solutions sont envisageables pour assurer ces évaluations, mais celle qui nous intéresse ici est de générer un examen différent pour chaque étudiant.
+Le problème qui survient ensuite, c’est de donner accès à chaque étudiant à sa copie uniquement.&lt;/p&gt;
+
+&lt;h4 id=&quot;utiliser-moodle-pour-distribuer-un-document-automatiquement&quot;&gt;Utiliser Moodle pour distribuer un document automatiquement&lt;/h4&gt;
+&lt;p&gt;C’est évidemment notre première idée : uploader tous les documents sur l’UV et les assigner automatiquement à chaque étudiant.
+S’il est effectivement possible de limiter l’accès à un document à une personne en particulier via le menu « Restreindre l’accès », ce n’est pas automatisable.
+La cohorte de l’examen en question étant composée de 200 personnes, ce n’est pas réaliste à la main.&lt;/p&gt;
+
+&lt;h4 id=&quot;protéger-le-document-par-un-mot-de-passe-unique-pour-chaque-étudiant&quot;&gt;Protéger le document par un mot de passe unique pour chaque étudiant&lt;/h4&gt;
+&lt;p&gt;Reste le problème de distribuer les mots de passe à chaque étudiant.
+On pourrait l’envoyer par email, mais il y a alors un problème de synchronisation de début de l’examen, il faut que le message arrive à tout le monde en même temps et surtout qu’il arrive tout court.&lt;/p&gt;
+
+&lt;h4 id=&quot;envoyer-le-document-par-email-à-chaque-étudiant&quot;&gt;Envoyer le document par email à chaque étudiant&lt;/h4&gt;
+&lt;p&gt;C’est une solution qui pourrait facilement être automatisée, mais nous avons alors le même problème de synchronisation et de fiabilité que précédemment.&lt;/p&gt;
+
+&lt;h4 id=&quot;utiliser-des-groupes&quot;&gt;Utiliser des groupes&lt;/h4&gt;
+&lt;p&gt;Il s’agit de la réponse cryptique renseignée par le support Moodle de l’ULB, sans que nous comprenions comment exploiter cette information.&lt;/p&gt;
+
+&lt;h4 id=&quot;combiner-moodle-et-un-serveur-externe&quot;&gt;Combiner Moodle et un serveur externe&lt;/h4&gt;
+&lt;p&gt;Une ressource de Moodle est paramétrisable à souhait : les URL.
+Cette ressource fonctionne en deux parties :&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;URL externe&lt;br /&gt;
+Il s’agit de l’adresse de base vers laquelle renvoyer l’utilisateur.
+Nous pouvons par exemple utiliser &lt;code class=&quot;highlighter-rouge&quot;&gt;http://monsite.be&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Variables d’URL&lt;br /&gt;
+Une variable d’URL est un mot-clef ressemblant à &lt;code class=&quot;highlighter-rouge&quot;&gt;mot-clef=valeur&lt;/code&gt;.
+La force de Moodle, c’est de permettre d’automatiser cette variable, par exemple en changeant la &lt;code class=&quot;highlighter-rouge&quot;&gt;valeur&lt;/code&gt; par une info unique aux participants, par exemple leur matricule.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;On peut ainsi générer une URL ressemblant à &lt;code class=&quot;highlighter-rouge&quot;&gt;http://monsite.be?matricule=matricule_unique&lt;/code&gt; où &lt;code class=&quot;highlighter-rouge&quot;&gt;matricule_unique&lt;/code&gt; est le matricule de l’étudiant.&lt;/p&gt;
+
+&lt;p&gt;L’URL ainsi générée sera unique pour chaque étudiant, reste à présent à lui envoyer le bon fichier lorsque qu’il y accède.&lt;/p&gt;
+
+&lt;p&gt;Pour ce faire, nous pouvons le rediriger vers un script qui analyse l’URL, récupère le numéro de matricule et envoie le fichier idoine à l’étudiant.
+C’est exament ce que réalise le bout de code suivant :&lt;/p&gt;
+
+&lt;div class=&quot;language-php highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;cp&quot;&gt;&amp;lt;?php&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;$mat&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$_GET&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;matricule&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;$file_url&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;examen_&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$mat&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;.pdf&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;header&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Content-Type: application/octet-stream'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;header&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Content-Transfer-Encoding: Binary&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt; 
+&lt;span class=&quot;nb&quot;&gt;header&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Content-disposition: attachment; filename=&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;basename&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$file_url&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt; 
+&lt;span class=&quot;nb&quot;&gt;readfile&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$file_url&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt; 
+&lt;span class=&quot;cp&quot;&gt;?&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Cette solution est donc utilisable sans effort particulier ou répétition de tâches identiques.&lt;/p&gt;
+
+&lt;h2 id=&quot;résumé-de-la-mise-en-place&quot;&gt;Résumé de la mise en place&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;On crée une ressource « URL » sur Moodle comme expliqué ci-dessus.&lt;/li&gt;
+  &lt;li&gt;On restreint l’accès à cette ressource aux heures de l’examen, ne la rendant accessible qu’au début de ce dernier.&lt;/li&gt;
+  &lt;li&gt;Sur un serveur externe, on uploade tous les fichiers générés auparavant.&lt;/li&gt;
+  &lt;li&gt;On crée le script décrit ci-dessus permettant de distribuer le fichier unique à l’étudiant.&lt;/li&gt;
+  &lt;li&gt;On communique clairement sur le sujet.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;scénario-dutilisation&quot;&gt;Scénario d’utilisation&lt;/h2&gt;
+&lt;p&gt;Voici comment devrait se dérouler l’utilisation de cette ressource par les étudiants.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Ils seront prévenus à l’avance des modalités précises de distribution de la copie.&lt;br /&gt;
+Actuellement, ils sont déjà au courant qu’ils recevront une copie unique, a priori via Moodle.&lt;/li&gt;
+  &lt;li&gt;À l’heure de l’examen, la ressource en question sera débloquée et ils pourront accéder à l’URL.&lt;/li&gt;
+  &lt;li&gt;Ils seront automatiquement redirigés vers le serveur externe où ils recevront leur copie sans intervention supplémentaire de leur part.&lt;/li&gt;
+  &lt;li&gt;Ils réalisent l’examen sur leur ordinateur.&lt;/li&gt;
+  &lt;li&gt;Ils envoient leur réponse sur Moodle sous la forme d’une activité « devoir ».&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;limites&quot;&gt;Limites&lt;/h2&gt;
+&lt;p&gt;Cette solution n’est pas parfaite et possède ses propres limites.&lt;/p&gt;
+
+&lt;h4 id=&quot;assurer-la-charge&quot;&gt;Assurer la charge&lt;/h4&gt;
+&lt;p&gt;Il faut être sûr que le serveur externe est capable de délivrer tous les fichiers en même temps lorsqu’ils seront tous téléchargés en l’intervalle d’une minute.
+Si 200 fichiers pdf ne devraient pas poser de soucis, il est tout de même possible de mettre en place un service de &lt;em&gt;load balancing&lt;/em&gt; afin de répartir la charge entre plusieurs serveurs si nécessaire.&lt;/p&gt;
+
+&lt;h4 id=&quot;besoin-dun-serveur-externe&quot;&gt;Besoin d’un serveur externe&lt;/h4&gt;
+&lt;p&gt;C’est le plus gros problème. Idéalement, on aimerait pouvoir envoyer tous les fichiers sur Moodle et permettre à l’URL de rediriger vers un fichier en particulier automatiquement, mais ce n’est malheureusement pas possible.&lt;/p&gt;
+
+&lt;h4 id=&quot;tous-les-fichiers-sont-tout-de-même-accessible-par-tout-le-monde&quot;&gt;Tous les fichiers sont tout de même accessible par tout le monde&lt;/h4&gt;
+&lt;p&gt;Certes, mais nous comptons sur la limite de temps pour nous assurer que chaque étudiant n’ait le temps de se concentrer uniquement sur son examen.
+Pourquoi nous fatiguer à mettre ce système en place, dans ce cas ? Pourquoi ne pas simplement demander aux étudiants de récupérer leur copie dans un dossier les comprenant toutes ?&lt;/p&gt;
+
+&lt;p&gt;Tout simplement pour leur éviter le stress de récupérer la mauvaise copie.
+Il faut aussi noter que le matricule « Moodle » n’est pas nécessaire le même que le matricule « étudiant », phénomène rencontré par exemple pour les étudiants de la VUB.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Quentin Delhaye</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="experience" />
+      
+
+      
+        <summary type="html">Comment automatiser la distribution d’un examen individuel à chaque étudiant ?</summary>
+      
+
+      
+      
+    </entry>
   
     <entry>
       <title type="html">Laboratoires à distance, première semaine</title>
@@ -160,6 +283,68 @@ Chaque activité d’enseignement s’adressant à une cohorte particulière dev
 
       
         <summary type="html">Semaine du 16 mars 2020, le monde se transforme alors que tout le monde doit s’isoler. Comment les apprenants s’adaptent-ils aux dispositifs mis en place pour assurer l’enseignement à distance ?</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Rénovation d’un site de cours</title>
+      <link href="http://localhost:4000/esnu/renovation-site-de-cours" rel="alternate" type="text/html" title="Rénovation d'un site de cours" />
+      <published>2020-02-16T11:18:00+01:00</published>
+      <updated>2020-02-16T11:18:00+01:00</updated>
+      <id>http://localhost:4000/esnu/renovation-site-de-cours</id>
+      <content type="html" xml:base="http://localhost:4000/esnu/renovation-site-de-cours">&lt;p&gt;Avoir un site pour proposer les supports de cours aux étudiants c’est bien, qu’il soit agréable à naviguer, c’est mieux.&lt;/p&gt;
+
+&lt;p&gt;L’Université libre de Bruxelles a implémenté Moodle sur son &lt;a href=&quot;https://uv.ulb.ac.be/&quot;&gt;université virtuelle&lt;/a&gt;.
+Outil open source puissant, il nécessite néanmoins quelques réglages pour libérer tout son potentiel.
+Ci-suit par exemple une capture d’une première version brute du cours …&lt;/p&gt;
+
+&lt;p&gt;Ci-suit une première capture de l’ancienne version du site, tel qu’il était proposé jusqu’à l’année académique 2018-2019 (cliquez sur l’image pour visualiser une capture de toute la page).
+&lt;a href=&quot;assets/images/renovation/H473-old-full.png&quot; target=&quot;_blank_&quot;&gt;
+&lt;img src=&quot;assets/images/renovation/H473-old-crop.png&quot; alt=&quot;alt text&quot; /&gt;
+&lt;/a&gt;
+La page était austère, consistant en une suite de liens et documents triés, mais peu catégorisés.
+Les étudiants ne remarquaient pas certaines ressources qui étaient pourtant mises à leur disposition.
+La page était austère, consistant en une suite de liens et documents triés, mais peu catégorisés.
+Les étudiants ne remarquaient pas certaines ressources qui étaient pourtant mises à leur disposition.&lt;/p&gt;
+
+&lt;p&gt;La capture suivante représente la refonte du site (cliquez sur l’image pour visualiser une capture de toute la page).
+&lt;a href=&quot;assets/images/renovation/H473-new-full.png&quot; target=&quot;_blank_&quot;&gt;
+&lt;img src=&quot;assets/images/renovation/H473-new-crop.png&quot; alt=&quot;alt text&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Le premier élément ayant permis cette mise à jour est un simple changement de la mise en page que propose Moodle : le format « &lt;a href=&quot;https://moodle.org/plugins/format_tiles&quot;&gt;tuiles&lt;/a&gt; » permettant d’afficher les ressources sous forme de petites cartes dont on peut changer l’arrière-plan.&lt;/p&gt;
+
+&lt;p&gt;En combinant cette mise en forme avec d’autres fonctionnalités, comme la remise de devoirs en ligne qui ne sont visible que si l’étudiant s’est inscrit dans un groupe, la page du cours est bien plus utilisée en laboratoire.&lt;/p&gt;
+
+&lt;p&gt;Le nouveau site propose des informations moins denses et est plus facile à naviguer.
+Les différentes sections sont clairement marquées afin que les étudiants sache où trouver les informations afférentes à un laboratoire en particulier.
+De plus, en utilisant la fonctionnalité de suivi de progression, ils peuvent marquer les ressources qu’ils ont visitées et ainsi remarquer s’ils ont raté quelque chose.&lt;/p&gt;
+
+&lt;p&gt;Une expérience intéressante sera de vérifier si la volonté d’atteindre les 100% de complétion leur permettra ou non de gagner du temps en ne remarquant pas certaines ressources qui étaient auparavant noyées dans une nuée de liens en tout genre.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Quentin Delhaye</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="experience" />
+      
+
+      
+        <summary type="html">Avoir un site pour proposer les supports de cours aux étudiants c’est bien, qu’il soit agréable à naviguer, c’est mieux.</summary>
       
 
       
