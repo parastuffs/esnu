@@ -25,8 +25,9 @@ Contrairement aux autres, il est préférable de lire les articles liés au proj
 1. [Réalisation des persona]({{site.baseurl}}{% link _posts/2019-11-10-construire-des-personas.md %}) et [définition du problème](({{site.baseurl}}{% link _posts/2019-11-15-definition-du-probleme.md %}))
 2. [Réalisation du premier dispositif]({{site.baseurl}}{% link _posts/2019-12-02-realiser-une-video.md %})
 3. [Analyse du dispositif]({{site.baseurl}}{% link _posts/2019-12-10-premiere-diffusion-podcast.md %})
-4. Transformation du projet *- À venir*
-5. Scénarisation *- À venir*
-6. Mise à jour des persona *- À venir*
-7. Création du nouceau dispositif *- À venir*
-8. Retours et analyse *- À venir*
+4. [Transformation du projet]({{site.baseurl}}{% link _posts/2020-03-01-reorientation-du-projet.md %})
+5. [Mise à jour des persona et de la problématique]({{site.baseurl}}{% link _posts/2020-03-10-nouveau-public-nouvelle-problematique.md %}) *- À venir*
+6. [Scénarisation]({{site.baseurl}}{% link _posts/2020-04-05-scenarisation.md %}) *- À venir*
+7. [Création du nouceau dispositif]({{site.baseurl}}{% link _posts/2020-04-15-tester-maitrise-logiciel.md %}) *- À venir*
+8. [Retours et analyse]({{site.baseurl}}{% link _posts/2020-05-08-retour-et-analyse.md %}) *- À venir*
+
