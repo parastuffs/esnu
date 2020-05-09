@@ -4,7 +4,7 @@ current: post
 cover: assets/images/sony-1455032_1280.jpg
 navigation: True
 title: Réaliser une vidéo
-date: 2020-01-17 10:18:00
+date: 2019-12-02 10:18:00
 tags: projet
 class: post-template
 subclass: 'post tag-projet'

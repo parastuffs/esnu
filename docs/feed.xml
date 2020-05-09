@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="http://localhost:4000/esnu/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/esnu/" rel="alternate" type="text/html" /><updated>2020-05-07T12:44:03+02:00</updated><id>http://localhost:4000/esnu/</id><title type="html">ESNU Portfolio</title><subtitle>Portfolio de l'édition 2019-2020 du certificat ESNU</subtitle><entry><title type="html">Distribuer des examens individuels</title><link href="http://localhost:4000/esnu/distribuer-des-examens-individuels" rel="alternate" type="text/html" title="Distribuer des examens individuels" /><published>2020-04-30T12:18:00+02:00</published><updated>2020-04-30T12:18:00+02:00</updated><id>http://localhost:4000/esnu/distribuer-des-examens-individuels</id><content type="html" xml:base="http://localhost:4000/esnu/distribuer-des-examens-individuels">&lt;p&gt;Comment automatiser la distribution d’un examen individuel à chaque étudiant ?&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="http://localhost:4000/esnu/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/esnu/" rel="alternate" type="text/html" /><updated>2020-05-09T14:58:38+02:00</updated><id>http://localhost:4000/esnu/</id><title type="html">ESNU Portfolio</title><subtitle>Portfolio de l'édition 2019-2020 du certificat ESNU</subtitle><entry><title type="html">Distribuer des examens individuels</title><link href="http://localhost:4000/esnu/distribuer-des-examens-individuels" rel="alternate" type="text/html" title="Distribuer des examens individuels" /><published>2020-04-30T12:18:00+02:00</published><updated>2020-04-30T12:18:00+02:00</updated><id>http://localhost:4000/esnu/distribuer-des-examens-individuels</id><content type="html" xml:base="http://localhost:4000/esnu/distribuer-des-examens-individuels">&lt;p&gt;Comment automatiser la distribution d’un examen individuel à chaque étudiant ?&lt;/p&gt;
 
 &lt;p&gt;Cette question se pose dans le cadre des examens à distance.
 Plusieurs solutions sont envisageables pour assurer ces évaluations, mais celle qui nous intéresse ici est de générer un examen différent pour chaque étudiant.
@@ -296,7 +296,400 @@ Les étudiants ne remarquaient pas certaines ressources qui étaient pourtant mi
 Les différentes sections sont clairement marquées afin que les étudiants sache où trouver les informations afférentes à un laboratoire en particulier.
 De plus, en utilisant la fonctionnalité de suivi de progression, ils peuvent marquer les ressources qu’ils ont visitées et ainsi remarquer s’ils ont raté quelque chose.&lt;/p&gt;
 
-&lt;p&gt;Une expérience intéressante sera de vérifier si la volonté d’atteindre les 100% de complétion leur permettra ou non de gagner du temps en ne remarquant pas certaines ressources qui étaient auparavant noyées dans une nuée de liens en tout genre.&lt;/p&gt;</content><author><name>Quentin Delhaye</name></author><category term="projet" /><summary type="html">Avoir un site pour proposer les supports de cours aux étudiants c’est bien, qu’il soit agréable à naviguer, c’est mieux.</summary></entry><entry><title type="html">Construire des personas</title><link href="http://localhost:4000/esnu/construire-des-personas" rel="alternate" type="text/html" title="Construire des personas" /><published>2020-02-16T11:18:00+01:00</published><updated>2020-02-16T11:18:00+01:00</updated><id>http://localhost:4000/esnu/construire-des-personas</id><content type="html" xml:base="http://localhost:4000/esnu/construire-des-personas">&lt;p&gt;Pour qu’un dispositif soit efficace, il faut qu’il réponde à des besoins.
+&lt;p&gt;Une expérience intéressante sera de vérifier si la volonté d’atteindre les 100% de complétion leur permettra ou non de gagner du temps en ne remarquant pas certaines ressources qui étaient auparavant noyées dans une nuée de liens en tout genre.&lt;/p&gt;</content><author><name>Quentin Delhaye</name></author><category term="projet" /><summary type="html">Avoir un site pour proposer les supports de cours aux étudiants c’est bien, qu’il soit agréable à naviguer, c’est mieux.</summary></entry><entry><title type="html">Réalisation d’un portfolio numérique avec Jekyll</title><link href="http://localhost:4000/esnu/realisation-portfolio-numerique" rel="alternate" type="text/html" title="Réalisation d'un portfolio numérique avec Jekyll" /><published>2020-01-17T11:18:00+01:00</published><updated>2020-01-17T11:18:00+01:00</updated><id>http://localhost:4000/esnu/realisation-portfolio-numerique</id><content type="html" xml:base="http://localhost:4000/esnu/realisation-portfolio-numerique">&lt;p&gt;Cet article présentera brièvement comment ce site a été construit en utilisant des technologies libres et open sources.&lt;/p&gt;
+
+&lt;h2 id=&quot;hébergement&quot;&gt;Hébergement&lt;/h2&gt;
+&lt;p&gt;GitHub permet d’héberger des sites via son service &lt;a href=&quot;https://pages.github.com/&quot;&gt;Pages&lt;/a&gt;.
+L’une des méthodes pour l’activer consiste à créer un dossier &lt;code class=&quot;highlighter-rouge&quot;&gt;docs&lt;/code&gt; dans le dépôt du projet.
+En allant ensuite dans les options (&lt;em&gt;Settings&lt;/em&gt;), de descendre jusqu’à l’encart &lt;code class=&quot;highlighter-rouge&quot;&gt;GitHub Pages&lt;/code&gt; et de sélectionner la source &lt;code class=&quot;highlighter-rouge&quot;&gt;master branch /docs folder&lt;/code&gt;.
+Le site sera immédiatement disponible à l’adresse https://&lt;code class=&quot;highlighter-rouge&quot;&gt;nom d'utilisateur&lt;/code&gt;.github.io/&lt;code class=&quot;highlighter-rouge&quot;&gt;nom du projet&lt;/code&gt;,
+comme par exemple &lt;a href=&quot;https://parastuffs.github.io/esnu/&quot;&gt;https://parastuffs.github.io/esnu/&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;générer-un-site-web-statique&quot;&gt;Générer un site web statique&lt;/h2&gt;
+&lt;p&gt;GitHub Pages se contente d’afficher des pages web statiques, c’est-à-dire dont le contenu est généré à l’avance et ne peut pas être modifier par les visiteurs.
+Pour générer un tel site, on peut utiliser &lt;a href=&quot;https://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt; fonctionnant avec &lt;a href=&quot;https://www.ruby-lang.org/fr/&quot;&gt;Ruby&lt;/a&gt; en utilisant la commande suivante pour l’installer : &lt;code class=&quot;highlighter-rouge&quot;&gt;gem install bundler jekyll&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Mais au lieu de créer un site entier à partir de rien, il est plus simple et rapide de partir d’un theme existant.
+Par exemple, on peut utiliser &lt;a href=&quot;https://github.com/jekyller/jasper2&quot;&gt;jasper2&lt;/a&gt; dont il suffit de télécharger l’archive dans le dépôt du projet.
+Depuis le dossier &lt;code class=&quot;highlighter-rouge&quot;&gt;jasper2&lt;/code&gt;, une seule commande permet de générer le site : &lt;code class=&quot;highlighter-rouge&quot;&gt;bundle exec jekyll serve&lt;/code&gt;.
+Cette opération génère tous les fichiers du site web dans le dossier &lt;code class=&quot;highlighter-rouge&quot;&gt;jasper2-pages&lt;/code&gt; par défaut et héberge une version locale du site à l’adresse &lt;code class=&quot;highlighter-rouge&quot;&gt;http://127.0.0.1:4000/jasper2/&lt;/code&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;configuration-de-jasper2&quot;&gt;Configuration de jasper2&lt;/h2&gt;
+&lt;p&gt;Le premier fichier de configuration à mettre à jour est le principal : &lt;a href=&quot;https://github.com/parastuffs/esnu/blob/master/jasper2/_config.yml&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt;&lt;/a&gt;.
+Toutes les options sont commentées dans le fichier, mais l’une des essentielles est le dossier de destination à changer en &lt;code class=&quot;highlighter-rouge&quot;&gt;../docs/&lt;/code&gt; ainsi que l’option &lt;code class=&quot;highlighter-rouge&quot;&gt;baseurl&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;gérer-les-tags&quot;&gt;Gérer les tags&lt;/h3&gt;
+&lt;p&gt;Pour ajouter un tag, ça se passe dans le fichier &lt;code class=&quot;highlighter-rouge&quot;&gt;_data/tags.yml&lt;/code&gt;.
+Il faut ensuite ajouter les lignes suivantes dans le fichier :&lt;/p&gt;
+&lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;na&quot;&gt;nouveau-tag&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;nouveau-tag&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;description&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;Déroulé du projet de podcats.&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;cover&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;assets/images/couverture.jpg&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;où &lt;code class=&quot;highlighter-rouge&quot;&gt;nouveau-tag&lt;/code&gt; est le nom de votre nouveau tag.
+Vous pouvez lui ajouter une description et une image de couverture, mais ces derniers sont facultatifs.
+Le résultat peut donner &lt;a href=&quot;/esnu//tag/coulisses&quot;&gt;quelque chose comme ceci&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;gérer-les-auteurs&quot;&gt;Gérer les auteurs&lt;/h3&gt;
+&lt;p&gt;Cette fois-ci, c’est au fichier &lt;code class=&quot;highlighter-rouge&quot;&gt;_data/authors.yml&lt;/code&gt; qu’il faut ajouter les lignes suivantes :&lt;/p&gt;
+&lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;na&quot;&gt;quentin&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;username&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;johnny&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;John Mouette&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;https://perdu.com/&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;url_full&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;https://perdu.com/&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;bio&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;J'aime les mouettes&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;cover&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;false&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;picture&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;assets/images/orlyowl.jpg&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;location&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;false&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;facebook&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;False&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;twitter&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;False&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;Le résultat peut donner &lt;a href=&quot;/esnu//author/quentin&quot;&gt;quelque chose comme ceci&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;écrire-un-article&quot;&gt;Écrire un article&lt;/h3&gt;
+&lt;p&gt;Un article est un fichier Markdown placé dans le dossier &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt;. Son nom doit commencer par sa date de publication, suivie de son titre, par exemple : &lt;code class=&quot;highlighter-rouge&quot;&gt;2020-01-17-realisation-portfolio-numerique.md&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Le début du fichier doit toujours contenir des informations sur son contenu, comme son titre, son auteur, etc.&lt;/p&gt;
+&lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nn&quot;&gt;---&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;layout&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;post&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;current&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;post&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;cover&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;assets/images/typewriter-801921_1280.jpg&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;navigation&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;True&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;Réalisation d'un portfolio numérique avec Jekyll&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;date&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;2020-01-17 10:18:00&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;tags&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;coulisses&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;class&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;post-template&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;subclass&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;post&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;tag-coulisses'&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;author&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;quentin&lt;/span&gt;
+&lt;span class=&quot;nn&quot;&gt;---&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;Davantage d’informations et de détails sont disponibles dans la &lt;a href=&quot;https://jekyllrb.com/docs/posts/&quot;&gt;documentation de Jekyll&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Le fichier ayant servi à générer ce site se trouve par exemple &lt;a href=&quot;https://github.com/parastuffs/esnu/blob/master/jasper2/_posts/2020-01-17-realisation-portfolio-numerique.md&quot;&gt;ici&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h4 id=&quot;brouillons&quot;&gt;Brouillons&lt;/h4&gt;
+&lt;p&gt;Les brouillons doivent être écrits dans un dossier &lt;code class=&quot;highlighter-rouge&quot;&gt;_drafts&lt;/code&gt; et ne nécessitent pas de date dans leur nom de fichier.
+Ensuite, si vous souhaitez les voir sur la version locale de votre site, il faut compiler le site en ajoutant une option à la commande : &lt;code class=&quot;highlighter-rouge&quot;&gt;bundle exec jekyll serve ---draft&lt;/code&gt;.&lt;/p&gt;</content><author><name>Quentin Delhaye</name></author><category term="coulisses" /><summary type="html">Cet article présentera brièvement comment ce site a été construit en utilisant des technologies libres et open sources.</summary></entry><entry><title type="html">Première diffusion d’un podcast aux étudiants</title><link href="http://localhost:4000/esnu/premiere-diffusion-podcast" rel="alternate" type="text/html" title="Première diffusion d'un podcast aux étudiants" /><published>2019-12-10T11:18:00+01:00</published><updated>2019-12-10T11:18:00+01:00</updated><id>http://localhost:4000/esnu/premiere-diffusion-podcast</id><content type="html" xml:base="http://localhost:4000/esnu/premiere-diffusion-podcast">&lt;p&gt;Après la diffusion de la vidéo aux étudiants, il est temps d’analyser son impact.&lt;/p&gt;
+
+&lt;p&gt;Pour rappel, la vidéo avait pour ambition de présenter une fonctionnalité particulière d’un appareil de laboratoire.
+Elle a été diffusée aux étudiants au début de la semaine durant laquelle se déroulaient les séances nécessitant cette fonctionnalité.&lt;/p&gt;
+
+&lt;p&gt;Ce billet va étudier la vidéo selon trois aspects : son analyse au travers de YouTube Studio, son impact sur le déroulement des laboratoires et enfin quelles leçons peuvent être tirées de cette expérience.&lt;/p&gt;
+
+&lt;h2 id=&quot;analyse-du-visionage-par-les-étudiants&quot;&gt;Analyse du visionage par les étudiants&lt;/h2&gt;
+&lt;p&gt;Comme expliqué dans la &lt;a href=&quot;/esnu//realiser-une-video&quot;&gt;réalisation de la vidéo&lt;/a&gt;, le média choisi pour sa diffusion a été YouTube.
+La justification majeure est la quantité d’outils d’analyse proposés aux créateurs par la plate-forme.&lt;/p&gt;
+
+&lt;p&gt;Pour cette analyse, nous allons nous concentrer sur la période « utile » de la vidéo, c’est-à-dire la semaine durant laquelle la manipulation dont parle la vidéo a eu lieu : du 2 au 6 décembre 2019.&lt;/p&gt;
+
+&lt;h3 id=&quot;nombre-de-vues&quot;&gt;Nombre de vues&lt;/h3&gt;
+&lt;p&gt;Commençons par le nombre de fois que la vidéo a été visionnée.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/images/YouTube-analytics/views.png&quot; alt=&quot;YouTube views&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;La vidéo ayant été publiée le lundi 2 décembre en début de soirée, il est normal qu’elle n’ait pas accumulé beaucoup de vue le premier jour.
+En revanche, elle a eu beaucoup plus de succès le deuxième, pour un total de 100 vues sur la semaine.
+Le public effectivement présent en laboratoire (et donc pouvant bénéficier de cette vidéo) les quatre derniers jours de la semaine était composé d’un total de &lt;strong&gt;102&lt;/strong&gt; étudiants.
+Cela voudrait-il dire que la vidéo a eu un taux de visionnage proche de 100 % ?&lt;/p&gt;
+
+&lt;p&gt;Malheureusement non.
+Un étudiant a très bien pu regarder la vidéo à plusieurs reprises et en pratique, c’est effectivement ce qu’il s’est passé.&lt;/p&gt;
+
+&lt;p&gt;Quand on y regarde de plus près, YouTube nous indique qu’il n’y a eut que 73 visiteurs uniques sur la vidéo, ce qui signifie qu’elle a en moyenne été visionnée 1.37 fois par visiteur.
+Ce sera le &lt;strong&gt;premier indicateur&lt;/strong&gt; qu’il y a quelque chose à améliorer dans la vidéo.&lt;/p&gt;
+
+&lt;p&gt;Notons qu’avoir 73 % des étudiants visionnant la vidéo est un score plus que satisfaisant, étant donné que nombre d’entre eux l’ont visionnée pendant le laboratoire à plusieurs sur un même support.&lt;/p&gt;
+
+&lt;h3 id=&quot;durée-de-rétention&quot;&gt;Durée de rétention&lt;/h3&gt;
+&lt;p&gt;Combien de temps les étudiants regardent-ils la vidéo ? Quittent-ils après quelques secondes ou passent-ils la fin ?&lt;/p&gt;
+
+&lt;p&gt;En réalité, ils semblent passer plus de temps sur la vidéo que la durée de la vidéo elle-même.
+Nous avons ici le &lt;strong&gt;deuxième indicateur&lt;/strong&gt; d’imperfection de la vidéo : alors que la vidéo ne dure que 2 minutes et 20 secondes, les visiteurs restent en moyenne 2 minutes et &lt;em&gt;24&lt;/em&gt; secondes.&lt;/p&gt;
+
+&lt;p&gt;Les étudiants reviennent-ils en arrière dans la vidéo ? La regardent-ils plusieurs fois ?
+Cette indication concorde en tout cas avec la première observation.&lt;/p&gt;
+
+&lt;h3 id=&quot;rétention-de-laudience&quot;&gt;Rétention de l’audience&lt;/h3&gt;
+&lt;p&gt;Nous avons à présent la certitude que les étudiants regardent certains passage de la vidéo à plusieur reprises, mais de quels moments s’agit-il précisément ?&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/images/YouTube-analytics/retention.png&quot; alt=&quot;YouTube viewer retention&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Ce graphe indique le taux de visionnage de la vidéo à chaque instant, un taux supérieur à 100 % indiquant que le visiteur est revenu en arrière pour visionner le passage à nouveau.
+C’est le &lt;strong&gt;troisième indicateur&lt;/strong&gt; qu’un seul passage au travers de la vidéo n’est pas suffisant.&lt;/p&gt;
+
+&lt;p&gt;Quand on y regarde de plus près, ces instants supérieurs à 100 % correspondent aux branchements des sondes dans le montage, il est donc compréhensible que les étudiants reviennent en arrière après avoir vu l’information une première fois afin de mimer mes gestes en laboratoire.&lt;/p&gt;
+
+&lt;h3 id=&quot;bonus--quel-support-utilisent-les-étudiants-&quot;&gt;Bonus : Quel support utilisent les étudiants ?&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Appareil&lt;/th&gt;
+      &lt;th&gt;Vues&lt;/th&gt;
+      &lt;th&gt;Durée moyenne de visionnage&lt;/th&gt;
+      &lt;th&gt;Vues moyennes par visiteur&lt;/th&gt;
+      &lt;th&gt;Pourcentage moyen visionné&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Total&lt;/td&gt;
+      &lt;td&gt;100&lt;/td&gt;
+      &lt;td&gt;2:24&lt;/td&gt;
+      &lt;td&gt;1.4&lt;/td&gt;
+      &lt;td&gt;103.2 %&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Ordinateur&lt;/td&gt;
+      &lt;td&gt;69&lt;/td&gt;
+      &lt;td&gt;2:38&lt;/td&gt;
+      &lt;td&gt;1.3&lt;/td&gt;
+      &lt;td&gt;113.0%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Smartphone&lt;/td&gt;
+      &lt;td&gt;28&lt;/td&gt;
+      &lt;td&gt;1:51&lt;/td&gt;
+      &lt;td&gt;1.4&lt;/td&gt;
+      &lt;td&gt;80.0 %&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Tablette&lt;/td&gt;
+      &lt;td&gt;3&lt;/td&gt;
+      &lt;td&gt;2:14&lt;/td&gt;
+      &lt;td&gt;1.5&lt;/td&gt;
+      &lt;td&gt;95.8 %&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Toute conclusion tirée de ce tableau ne serait que conjecture, mais on peut supposer que les visionnages en laboratoire sur les PCs fournis composent une bonne partie des vues sur ordinateur.
+Il serait alors compréhensible que les étudiants reviennent en arrière dans la vidéo pour mieux en mimer le contenu, alongeant la durée moyenne de visionnage.&lt;/p&gt;
+
+&lt;p&gt;Quoi qu’il en soit, il reste intéressant de remarque qu’&lt;strong&gt;une bonne partie des étudiants ont visionné la vidéo sur un smartphone, signe qu’il faut faire en sorte que nos dispositifs soient compatibles avec ce support&lt;/strong&gt; (on pense à toi, Moodle).&lt;/p&gt;
+
+&lt;h2 id=&quot;impact-de-la-vidéo-en-laboratoire&quot;&gt;Impact de la vidéo en laboratoire&lt;/h2&gt;
+&lt;p&gt;Immédiatement après la mise à disposition de la vidéo, tous les assistants du laboratoire ont pu remarquer que le nombre de questions afférentes au fonctionnement de l’oscilloscope (le sujet de la vidéo) a drastiquement diminué.
+Pour les quelques irréductibles, il a suffit de leur indiquer l’existence de cette vidéo qui semblait avoir échappé à leur vigilance pour qu’ils la regardent derechef pendant la séance, répondant ainsi seuls à leur propre question.&lt;/p&gt;
+
+&lt;p&gt;Nous pouvons faire ici écho à la &lt;a href=&quot;/esnu//definition-du-probleme&quot;&gt;définition du problème&lt;/a&gt; : la vidéo semble effectivement avoir utilisé cet outil pour s’approprier le matériel de laboratoire.
+Ce qui à son tour répond à leurs deux demandes &lt;a href=&quot;/esnu//construire-des-personas&quot;&gt;identifiées dans les persona&lt;/a&gt; : comprendre le matériel et rendre les assistants plus disponibles.&lt;/p&gt;
+
+&lt;h2 id=&quot;améliorations&quot;&gt;Améliorations&lt;/h2&gt;
+&lt;p&gt;Reprenons les indications que des améliorations sont nécessaires :&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;1.37 visionnages par personne en moyenne&lt;/li&gt;
+  &lt;li&gt;Une durée moyenne de visionnage plus longue que celle de la vidéo&lt;/li&gt;
+  &lt;li&gt;Certains passages avec un taux de visionnage supérieur à 100 %&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Outre les améliorations quant à la qualité de production de la vidéo déjà abordée dans l’article &lt;a href=&quot;/esnu//realiser-une-video&quot;&gt;précédent&lt;/a&gt;, il semble que le contenu puisse aussi bénéficier d’une mise à jour.&lt;/p&gt;
+
+&lt;p&gt;Quelques pistes pourraient être mises en évidence :&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Accompagner la vidéo d’un documents reprenant des captures de la vidéo avec les connexions à effectuer.&lt;br /&gt;
+Non seulement le document prendrait du temps supplémentaire à être construit, il ne représenterait qu’un support supplémentaire n’apportant pas de nouvelle information, rendant peu probable sa lecture par les étudiants.&lt;/li&gt;
+  &lt;li&gt;Effectuer une démonstration en début de laboratoire en suivant les étapes de la vidéo.&lt;br /&gt;
+Certes faisable, mais pose le problème de visibilité par une quarantaine d’étudiants en simultané.&lt;/li&gt;
+  &lt;li&gt;Séparer clairement les étapes lors du montage de la vidéo afin de mieux la structurer.&lt;br /&gt;
+Cet élément pourrait aider les étudiants, mais peut-être au détriment de la fluidité de la vidéo en hachant son rythme.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Quoi qu’il arrive, il semble innévitable que les étudiants reviennent en arrière dans la vidéo pour mieux en analyser les étapes.
+Et au final, est-ce vraiment un problème ? N’est-ce pas finalement l’avantage de la vidéo par rapport à la démonstration réelle : pouvoir revoir un passage mal compris ?&lt;/p&gt;
+
+&lt;p&gt;Il faut tout de même rester prudent et continuer à s’interroger sur l’utilisation de la vidéo par le public. Il convient de distinguer un taux de visionnage supérieur à 100 % dû à une incompréhension ou au contraire afin de répéter les gestes de la vidéo avec précision.
+Dans un monde idéal, une vidéo parfaitement claire se suffira d’un visionnage d’une traite et son contenu sera d’une clareté telle qu’il ne sera jamais nécessaire de revenir en arrière pour en répéter les gestes.&lt;/p&gt;
+
+&lt;p&gt;Néanmoins, il est particulièrement réjouissant de voir que cette vidéo a pu atteindre la majorité des étudiants, qu’ils l’aient visionnée dans son entièreté, qu’ils en aient été contents et qu’elle a soulagé les assistants, remplissant ainsi pleinement ses objectifs.&lt;/p&gt;</content><author><name>Quentin Delhaye</name></author><category term="projet" /><summary type="html">Après la diffusion de la vidéo aux étudiants, il est temps d’analyser son impact.</summary></entry><entry><title type="html">Réaliser une vidéo</title><link href="http://localhost:4000/esnu/realiser-une-video" rel="alternate" type="text/html" title="Réaliser une vidéo" /><published>2019-12-02T11:18:00+01:00</published><updated>2019-12-02T11:18:00+01:00</updated><id>http://localhost:4000/esnu/realiser-une-video</id><content type="html" xml:base="http://localhost:4000/esnu/realiser-une-video">&lt;p&gt;Les vidéos c’est sympa, mais comment on fait ? Quelle marche suivre et quels outils utiliser ?&lt;/p&gt;
+
+&lt;p&gt;Ce billet présente les différentes étapes de réalisation d’une vidéo à destination des apprenants, en illustrant chacune avec ma réalisation pratique.&lt;/p&gt;
+
+&lt;h2 id=&quot;scénarisation&quot;&gt;Scénarisation&lt;/h2&gt;
+
+&lt;p&gt;Avant de commencer à filmer quoi que ce soit, il faut savoir ce qu’on veut montrer.
+La première étape consiste donc à &lt;em&gt;scénariser&lt;/em&gt; la vidéo, écrire l’histoire qu’on veut raconter.&lt;/p&gt;
+
+&lt;p&gt;Le scénario peut prendre différentes formes : un &lt;em&gt;story board&lt;/em&gt;, un texte construit de l’ensemble du contenu ou une simple liste des éléments à aborder et les points d’attention sur lesquels insister.&lt;/p&gt;
+
+&lt;h4 id=&quot;application&quot;&gt;Application&lt;/h4&gt;
+
+&lt;p&gt;Le but de cette vidéo est d’expliquer aux étudiants comment manipuler la matériel à leur disposition afin de réaliser une mesure particulière.
+Pour être un peu technique, il s’agit de mesurer le temps de propagation d’un signal au sein d’un circuit logique à l’aide d’un oscilloscope.&lt;/p&gt;
+
+&lt;p&gt;Ma scénarisation a donc commencé par concevoir un montage intéressant et réaliser la manipulation en entier par moi-même.
+Une fois terminée, j’ai pu la déconstruire pour mettre en évidence les &lt;strong&gt;étapes clefs&lt;/strong&gt; par lesquelles les étudiants devront passer à leur tour.&lt;/p&gt;
+
+&lt;p&gt;Ce scénario a pris la forme d’une liste d’étapes, certaines illustrées par les schémas.&lt;/p&gt;
+
+&lt;h2 id=&quot;tournage&quot;&gt;Tournage&lt;/h2&gt;
+
+&lt;p&gt;Le scénario terminé, il est temps de tourner les différents plans constituant l’histoire.
+Il n’est pas encore essentiel de savoir ce qu’on va raconter ou d’enregistrer les voix en même temps. Il est même plus simple de séparer les deux étapes de vidéo et audio afin de les paufiner chacune de leur côté.&lt;/p&gt;
+
+&lt;p&gt;Cependant, cette manière de procéder nécessite de filmer des &lt;strong&gt;scènes supplémentaires&lt;/strong&gt; « au cas où », afin d’avoir suffisamment de matériel.&lt;/p&gt;
+
+&lt;p&gt;Si le scénario est complet et qu’on est capable d’imaginer des plans supplémentaires pour compléter la trame principale, cette étape peut être réalisée en peu de temps, sans nécessiter de resortir la caméra par la suite.&lt;/p&gt;
+
+&lt;h4 id=&quot;application-1&quot;&gt;Application&lt;/h4&gt;
+
+&lt;p&gt;Je me suis filmé à l’aide d’un appareil photo de bonne qualité (Panasonic Lumix GX80) en séparant les différents plans, facilitant le montage pour la suite.
+Chaque courte vidéo ne dure que quelques secondes, me permettant par la suite de trouver facilement une étape particulière.&lt;/p&gt;
+
+&lt;p&gt;La qualité du tournage aurait pu être drastiquement améliorée avec l’aide d’une autre personne pour manipuler la caméra ou avec la simple utilisation d’un trépied pour stabiliser l’image pendant les manipulations.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/images/realisation-video/protoboard.JPG&quot; alt=&quot;Photo du montage non-utilisée dans la réalisation&quot; title=&quot;Photo du montage non-utilisée dans la réalisation&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;enregistrement-des-voix&quot;&gt;Enregistrement des voix&lt;/h2&gt;
+
+&lt;p&gt;Il ne sert à rien d’improviser l’entièreté de la vidéo.
+Certes, lire un texte écrit à l’avance peut retirer l’effet naturel d’une explication, mais ne pas avoir de support est encore pire. Le discours sera ponctué d’hésitations qui ne feraient qu’ajouter du bruit.&lt;/p&gt;
+
+&lt;p&gt;Mais comment écrire un texte qui semble quand même naturel ?
+Une méthode qui fonctionne assez bien est de complètement improviser la narration.
+Étant donné le travail déjà effectué sur cette vidéo, ça ne devrait pas poser de problème.
+Mais au lieu de directement utiliser cet enregistrement, on peut l’écouter et réécrire tout ce qu’on a raconté afin d’avoir un support propre pour un nouvel enregistrement.&lt;/p&gt;
+
+&lt;p&gt;Avant de se lancer pour de bon, il faut aussi bien &lt;strong&gt;préparer l’introduction et la fin&lt;/strong&gt; de la vidéo.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;L’introduction devrait être courte et présenter clairement ce qui sera abordé dans la vidéo ainsi que les étapes de son déroulé.&lt;/li&gt;
+  &lt;li&gt;La conclusion peut servir de résumé en rappelant à nouveau les grandes étapes de la manipulation.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;application-2&quot;&gt;Application&lt;/h4&gt;
+
+&lt;p&gt;J’ai utilisé un micro Bird UM1 et &lt;a href=&quot;https://www.audacityteam.org/&quot;&gt;Audacity&lt;/a&gt; pour enregistrer l’audio de la vidéo.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/images/realisation-video/audacity.png&quot; alt=&quot;Spectre Audacity&quot; title=&quot;Audacity&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;montage&quot;&gt;Montage&lt;/h2&gt;
+
+&lt;p&gt;Une fois l’audio enregistré, il s’agit de piocher dans les plans tourner plus tôt et de les coller au bon endroit afin d’illustrer la narration.
+Cette étape n’est pas compliquée avec un peu d’expérience, mais c’est celle qui impactera directement ce que regarderont les étudiants, c’est le moment où tout se joue.
+Les scènes supplémentaires seront probablement utiles, ne serait-ce qu’en &lt;em&gt;&lt;a href=&quot;https://fr.wikipedia.org/wiki/Bobine_B&quot;&gt;B-roll&lt;/a&gt;&lt;/em&gt; afin de combler les trous pendant l’introduction ou la conclusion.&lt;/p&gt;
+
+&lt;p&gt;Ajouter un écran d’accueil avec un titre clair et les logos de l’institution peut aussi s’avérer utile pour la publication à venir, mais aussi pour démarrer la vidéo en douceur pendant l’introduction.&lt;/p&gt;
+
+&lt;h4 id=&quot;application-3&quot;&gt;Application&lt;/h4&gt;
+&lt;p&gt;Il existe de nombreux logiciels gratuits et/ou libres permettant de monter ce genre de projet.&lt;/p&gt;
+
+&lt;p&gt;Du côté de le plus simple du spectre, &lt;a href=&quot;https://www.openshot.org/fr/download/&quot;&gt;OpenShot&lt;/a&gt; est une très bonne solution. Il permet des manipulations basiques du son et de l’image, rien de très élaboré, mais généralement suffisant pour une vidé sobre.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/images/realisation-video/openshot.png&quot; alt=&quot;Openshot timeline&quot; title=&quot;Openshot Timeline&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;À l’autre extrémité se trouve &lt;a href=&quot;https://www.blackmagicdesign.com/products/davinciresolve/&quot;&gt;DaVinci Resolve&lt;/a&gt;, un logiciel de montage non-linéaire extrêmement complet et plus difficile à prendre en main. Il permet pourtant de faire un montage particulièrement soigné une fois apprivoisé et vaut le détour.&lt;/p&gt;
+
+&lt;h2 id=&quot;publication&quot;&gt;Publication&lt;/h2&gt;
+
+&lt;p&gt;Le rendu terminé, il faut publier la vidéo pour que les étudiants puissent enfin la visioner.
+Si on peut leur envoyer directement, une plate-forme de diffusion est beaucoup plus efficace et permet de suivre son impact.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://studio.youtube.com/&quot;&gt;YouTube&lt;/a&gt; est particulièrement approprié dans le cas présent.
+La plate-forme permet de procéder à de nombreuses analyses : nombres de vues, quand, qui, où, la durée d’attention, etc.
+Mais ça, c’est pour &lt;a href=&quot;/esnu//premiere-diffusion-podcast&quot;&gt;un autre billet&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h4 id=&quot;application-4&quot;&gt;Application&lt;/h4&gt;
+
+&lt;p&gt;Le résultat de toute cette procédure est disponible &lt;a href=&quot;https://youtu.be/5UpnbasZ3ng&quot;&gt;ici&lt;/a&gt;.&lt;/p&gt;</content><author><name>Quentin Delhaye</name></author><category term="projet" /><summary type="html">Les vidéos c’est sympa, mais comment on fait ? Quelle marche suivre et quels outils utiliser ?</summary></entry><entry><title type="html">Définition du problème</title><link href="http://localhost:4000/esnu/definition-du-probleme" rel="alternate" type="text/html" title="Définition du problème" /><published>2019-11-15T11:18:00+01:00</published><updated>2019-11-15T11:18:00+01:00</updated><id>http://localhost:4000/esnu/definition-du-probleme</id><content type="html" xml:base="http://localhost:4000/esnu/definition-du-probleme">&lt;p&gt;Comment définir précisément la problématique à adresser ?&lt;/p&gt;
+
+&lt;p&gt;La première étape consiste à &lt;a href=&quot;2019-11-10-construire-des-personas&quot;&gt;connaître son public&lt;/a&gt;, par exemple en établissant des persona les représentant.&lt;/p&gt;
+
+&lt;p&gt;Ensuite, il faut extraire les informations pertinentes sous-jacentes aux profils des persona.
+Deux outils permettent d’y parvenir : « Les cinq pourquoi » et la définition du problèmes proprement dite.&lt;/p&gt;
+
+&lt;h2 id=&quot;les-cinq-pourquoi&quot;&gt;Les cinq pourquoi&lt;/h2&gt;
+
+&lt;p&gt;Le but de cet exercice est de nous pousser à creuser la problématique afin de mettre en évidence son origine profonde.
+Nous voulons traiter le problème à sa racine et non ses simples symptômes.&lt;/p&gt;
+
+&lt;p&gt;Alors quel est le problème ?&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Ils ne savent pas bien utiliser le matériel.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Pourquoi ?&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Ils ne lisent pas les ressources à leur disposition et ils n’essaient pas par eux-mêmes et veulent qu’on le fasse pour eux.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Pourquoi ?&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Ils sont désemparés face à un document trop long et dont les schémas ne collent pas suffisamment à la réalité.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Pourquoi ?&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Leur durée d’attention et de concentration est très courte et le document se veut généraliste et spécifique en même temps, mais les généralités ne les intéressent guère.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Pourquoi ?&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Ils ont besoin d’information utile et utilisable directement en laboratoire, afin d’avancer efficacement dans la manipulation.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;définir-le-problème&quot;&gt;Définir le problème&lt;/h2&gt;
+
+&lt;p&gt;Avant de définir clairement le problème, passons par quelques étapes permettant d’analyser les persona.&lt;/p&gt;
+
+&lt;h3 id=&quot;contradictions&quot;&gt;Contradictions&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Ils veulent plus d’explications et d’introduction au matériel, mais ils ne lisent pas les supports existants.&lt;/li&gt;
+  &lt;li&gt;S’ils sont bien tous d’accord pour dire qu’ils souhaitent développer leur autonomie et leur esprit critique, beaucoup ont encore trop besoin d’aide pour avancer dans le labo.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;révélations-ou-remarques-intéressantes&quot;&gt;Révélations ou remarques intéressantes&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Le manque de rythme &lt;em&gt;imposé&lt;/em&gt; et de mise en commun est perçue comme un problème, là où je vois une autonomisation des séances.&lt;/li&gt;
+  &lt;li&gt;Ils aimeraient avoir des vidéos explicatives du matériel de base.&lt;/li&gt;
+  &lt;li&gt;Très peu d’étudiants cherchent des ressources supplémentaires pour mieux comprendre la matière.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Ce dernier point est notamment mis en évidence par Endrizzi et Sibut &lt;a href=&quot;#référence&quot;&gt;[1]&lt;/a&gt; : les étudiants semblent ne pas s’écarter d’un étroit cercle d’outils familiers.
+Dans ce cas, faut-il les sortir de leur zone de confort ou s’y insérer afin de s’assurer que la nouvelle ressource est bien exploitée ?&lt;/p&gt;
+
+&lt;h3 id=&quot;frustrations-ou-questions-sans-réponse&quot;&gt;Frustrations ou questions sans réponse&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;On prend trop de temps à venir répondre à leurs questions en séance.&lt;/li&gt;
+  &lt;li&gt;Ils n’ont pas le temps de tout faire parfaitement et de tout préparer.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;difficultés-problèmes-ou-besoins-vécusressentis-par-lapprenante&quot;&gt;Difficultés, problèmes ou besoins vécus/ressentis par l’apprenant.e&lt;/h3&gt;
+
+&lt;p&gt;C’est notamment pour ce point que &lt;a href=&quot;#les-cinq-pourquoi&quot;&gt;les cinq pourquoi&lt;/a&gt; est intéressant à réaliser préalablement à la définition du problème.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Problème d’utilisation du matériel&lt;/li&gt;
+  &lt;li&gt;Disponibilité de l’assistant en laboratoire&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;la-problématique-en-un-dessin&quot;&gt;La problématique en un dessin&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/images/problematique/Problematique_en_un_dessin.png&quot; alt=&quot;Illustration de la problématique&quot; title=&quot;La problématique en un dessin&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;la-problématique-en-une-question&quot;&gt;La problématique en une question&lt;/h3&gt;
+
+&lt;p&gt;On arrive enfin à la finalité de l’activité : la formulation de la problèmatique en question.
+Après cette analyse, on pourrait la formuler ainsi :&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Comment pourrais-je donner aux étudiants les outils nécessaires pour qu’ils puissent s’approprier le matériel de laboratoire et l’utiliser en toute autonomie ?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Une réponse à cette question : un podcast vidéo illustrant comment utiliser le matériel de laboratoire en situation réelle.
+Vous pourrez en lire plus à ce sujet &lt;a href=&quot;/esnu//realiser-une-video&quot;&gt;dans la suite du projet&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h4 id=&quot;référence&quot;&gt;Référence&lt;/h4&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://veille-et-analyses.ens-lyon.fr/DA-Veille/106-decembre-2015.pdf&quot;&gt;Endrizzi, Laure et Sibut, Florence, &lt;em&gt;Les nouveaux étudiants, d’hier à aujourd’hui&lt;/em&gt;, 2015, Dossier de veille de l’IFÉ, n° 106&lt;/a&gt;&lt;/p&gt;</content><author><name>Quentin Delhaye</name></author><category term="projet" /><summary type="html">Comment définir précisément la problématique à adresser ?</summary></entry><entry><title type="html">Construire des personas</title><link href="http://localhost:4000/esnu/construire-des-personas" rel="alternate" type="text/html" title="Construire des personas" /><published>2019-11-10T11:18:00+01:00</published><updated>2019-11-10T11:18:00+01:00</updated><id>http://localhost:4000/esnu/construire-des-personas</id><content type="html" xml:base="http://localhost:4000/esnu/construire-des-personas">&lt;p&gt;Pour qu’un dispositif soit efficace, il faut qu’il réponde à des besoins.
 Pour identifier les besoins, il faut connaître son public.&lt;/p&gt;
 
 &lt;p&gt;Afin de savoir exactement si le dispositif que je voulais mettre en place correspondait aux attentes de mes étudiants, j’ai commencé par établir des &lt;em&gt;persona&lt;/em&gt;, des profils caractéristiques représentant le public visé.&lt;/p&gt;
@@ -395,269 +788,4 @@ En effet, les assistants passent beaucoup de temps en laboratoire à aider les �
 &lt;/ol&gt;
 
 &lt;p&gt;Mais nous reviendrons sur cet aspect 
-&lt;a href=&quot;/esnu//definition-du-probleme&quot;&gt;dans un autre billet&lt;/a&gt;&lt;/p&gt;</content><author><name>Quentin Delhaye</name></author><category term="projet" /><summary type="html">Pour qu’un dispositif soit efficace, il faut qu’il réponde à des besoins. Pour identifier les besoins, il faut connaître son public.</summary></entry><entry><title type="html">Définition du problème</title><link href="http://localhost:4000/esnu/definition-du-probleme" rel="alternate" type="text/html" title="Définition du problème" /><published>2020-01-21T11:18:00+01:00</published><updated>2020-01-21T11:18:00+01:00</updated><id>http://localhost:4000/esnu/definition-du-probleme</id><content type="html" xml:base="http://localhost:4000/esnu/definition-du-probleme">&lt;p&gt;Comment définir précisément la problématique à adresser ?&lt;/p&gt;
-
-&lt;p&gt;La première étape consiste à &lt;a href=&quot;2020-01-20-construire-des-personas&quot;&gt;connaître son public&lt;/a&gt;, par exemple en établissant des persona les représentant.&lt;/p&gt;
-
-&lt;p&gt;Ensuite, il faut extraire les informations pertinentes sous-jacentes aux profils des persona.
-Deux outils permettent d’y parvenir : « Les cinq pourquoi » et la définition du problèmes proprement dite.&lt;/p&gt;
-
-&lt;h2 id=&quot;les-cinq-pourquoi&quot;&gt;Les cinq pourquoi&lt;/h2&gt;
-
-&lt;p&gt;Le but de cet exercice est de nous pousser à creuser la problématique afin de mettre en évidence son origine profonde.
-Nous voulons traiter le problème à sa racine et non ses simples symptômes.&lt;/p&gt;
-
-&lt;p&gt;Alors quel est le problème ?&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Ils ne savent pas bien utiliser le matériel.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Pourquoi ?&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Ils ne lisent pas les ressources à leur disposition et ils n’essaient pas par eux-mêmes et veulent qu’on le fasse pour eux.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Pourquoi ?&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Ils sont désemparés face à un document trop long et dont les schémas ne collent pas suffisamment à la réalité.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Pourquoi ?&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Leur durée d’attention et de concentration est très courte et le document se veut généraliste et spécifique en même temps, mais les généralités ne les intéressent guère.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Pourquoi ?&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Ils ont besoin d’information utile et utilisable directement en laboratoire, afin d’avancer efficacement dans la manipulation.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;définir-le-problème&quot;&gt;Définir le problème&lt;/h2&gt;
-
-&lt;p&gt;Avant de définir clairement le problème, passons par quelques étapes permettant d’analyser les persona.&lt;/p&gt;
-
-&lt;h3 id=&quot;contradictions&quot;&gt;Contradictions&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Ils veulent plus d’explications et d’introduction au matériel, mais ils ne lisent pas les supports existants.&lt;/li&gt;
-  &lt;li&gt;S’ils sont bien tous d’accord pour dire qu’ils souhaitent développer leur autonomie et leur esprit critique, beaucoup ont encore trop besoin d’aide pour avancer dans le labo.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;révélations-ou-remarques-intéressantes&quot;&gt;Révélations ou remarques intéressantes&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Le manque de rythme &lt;em&gt;imposé&lt;/em&gt; et de mise en commun est perçue comme un problème, là où je vois une autonomisation des séances.&lt;/li&gt;
-  &lt;li&gt;Ils aimeraient avoir des vidéos explicatives du matériel de base.&lt;/li&gt;
-  &lt;li&gt;Très peu d’étudiants cherchent des ressources supplémentaires pour mieux comprendre la matière.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Ce dernier point est notamment mis en évidence par Endrizzi et Sibut &lt;a href=&quot;#référence&quot;&gt;[1]&lt;/a&gt; : les étudiants semblent ne pas s’écarter d’un étroit cercle d’outils familiers.
-Dans ce cas, faut-il les sortir de leur zone de confort ou s’y insérer afin de s’assurer que la nouvelle ressource est bien exploitée ?&lt;/p&gt;
-
-&lt;h3 id=&quot;frustrations-ou-questions-sans-réponse&quot;&gt;Frustrations ou questions sans réponse&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;On prend trop de temps à venir répondre à leurs questions en séance.&lt;/li&gt;
-  &lt;li&gt;Ils n’ont pas le temps de tout faire parfaitement et de tout préparer.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;difficultés-problèmes-ou-besoins-vécusressentis-par-lapprenante&quot;&gt;Difficultés, problèmes ou besoins vécus/ressentis par l’apprenant.e&lt;/h3&gt;
-
-&lt;p&gt;C’est notamment pour ce point que &lt;a href=&quot;#les-cinq-pourquoi&quot;&gt;les cinq pourquoi&lt;/a&gt; est intéressant à réaliser préalablement à la définition du problème.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Problème d’utilisation du matériel&lt;/li&gt;
-  &lt;li&gt;Disponibilité de l’assistant en laboratoire&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;la-problématique-en-un-dessin&quot;&gt;La problématique en un dessin&lt;/h3&gt;
-
-&lt;p&gt;&lt;img src=&quot;assets/images/problematique/Problematique_en_un_dessin.png&quot; alt=&quot;Illustration de la problématique&quot; title=&quot;La problématique en un dessin&quot; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;la-problématique-en-une-question&quot;&gt;La problématique en une question&lt;/h3&gt;
-
-&lt;p&gt;On arrive enfin à la finalité de l’activité : la formulation de la problèmatique en question.
-Après cette analyse, on pourrait la formuler ainsi :&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Comment pourrais-je donner aux étudiants les outils nécessaires pour qu’ils puissent s’approprier le matériel de laboratoire et l’utiliser en toute autonomie ?&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Une réponse à cette question : un podcast vidéo illustrant comment utiliser le matériel de laboratoire en situation réelle.
-Vous pourrez en lire plus à ce sujet &lt;a href=&quot;/esnu//realiser-une-video&quot;&gt;dans la suite du projet&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h4 id=&quot;référence&quot;&gt;Référence&lt;/h4&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://veille-et-analyses.ens-lyon.fr/DA-Veille/106-decembre-2015.pdf&quot;&gt;Endrizzi, Laure et Sibut, Florence, &lt;em&gt;Les nouveaux étudiants, d’hier à aujourd’hui&lt;/em&gt;, 2015, Dossier de veille de l’IFÉ, n° 106&lt;/a&gt;&lt;/p&gt;</content><author><name>Quentin Delhaye</name></author><category term="projet" /><summary type="html">Comment définir précisément la problématique à adresser ?</summary></entry><entry><title type="html">Réaliser une vidéo</title><link href="http://localhost:4000/esnu/realiser-une-video" rel="alternate" type="text/html" title="Réaliser une vidéo" /><published>2020-01-17T11:18:00+01:00</published><updated>2020-01-17T11:18:00+01:00</updated><id>http://localhost:4000/esnu/realiser-une-video</id><content type="html" xml:base="http://localhost:4000/esnu/realiser-une-video">&lt;p&gt;Les vidéos c’est sympa, mais comment on fait ? Quelle marche suivre et quels outils utiliser ?&lt;/p&gt;
-
-&lt;p&gt;Ce billet présente les différentes étapes de réalisation d’une vidéo à destination des apprenants, en illustrant chacune avec ma réalisation pratique.&lt;/p&gt;
-
-&lt;h2 id=&quot;scénarisation&quot;&gt;Scénarisation&lt;/h2&gt;
-
-&lt;p&gt;Avant de commencer à filmer quoi que ce soit, il faut savoir ce qu’on veut montrer.
-La première étape consiste donc à &lt;em&gt;scénariser&lt;/em&gt; la vidéo, écrire l’histoire qu’on veut raconter.&lt;/p&gt;
-
-&lt;p&gt;Le scénario peut prendre différentes formes : un &lt;em&gt;story board&lt;/em&gt;, un texte construit de l’ensemble du contenu ou une simple liste des éléments à aborder et les points d’attention sur lesquels insister.&lt;/p&gt;
-
-&lt;h4 id=&quot;application&quot;&gt;Application&lt;/h4&gt;
-
-&lt;p&gt;Le but de cette vidéo est d’expliquer aux étudiants comment manipuler la matériel à leur disposition afin de réaliser une mesure particulière.
-Pour être un peu technique, il s’agit de mesurer le temps de propagation d’un signal au sein d’un circuit logique à l’aide d’un oscilloscope.&lt;/p&gt;
-
-&lt;p&gt;Ma scénarisation a donc commencé par concevoir un montage intéressant et réaliser la manipulation en entier par moi-même.
-Une fois terminée, j’ai pu la déconstruire pour mettre en évidence les &lt;strong&gt;étapes clefs&lt;/strong&gt; par lesquelles les étudiants devront passer à leur tour.&lt;/p&gt;
-
-&lt;p&gt;Ce scénario a pris la forme d’une liste d’étapes, certaines illustrées par les schémas.&lt;/p&gt;
-
-&lt;h2 id=&quot;tournage&quot;&gt;Tournage&lt;/h2&gt;
-
-&lt;p&gt;Le scénario terminé, il est temps de tourner les différents plans constituant l’histoire.
-Il n’est pas encore essentiel de savoir ce qu’on va raconter ou d’enregistrer les voix en même temps. Il est même plus simple de séparer les deux étapes de vidéo et audio afin de les paufiner chacune de leur côté.&lt;/p&gt;
-
-&lt;p&gt;Cependant, cette manière de procéder nécessite de filmer des &lt;strong&gt;scènes supplémentaires&lt;/strong&gt; « au cas où », afin d’avoir suffisamment de matériel.&lt;/p&gt;
-
-&lt;p&gt;Si le scénario est complet et qu’on est capable d’imaginer des plans supplémentaires pour compléter la trame principale, cette étape peut être réalisée en peu de temps, sans nécessiter de resortir la caméra par la suite.&lt;/p&gt;
-
-&lt;h4 id=&quot;application-1&quot;&gt;Application&lt;/h4&gt;
-
-&lt;p&gt;Je me suis filmé à l’aide d’un appareil photo de bonne qualité (Panasonic Lumix GX80) en séparant les différents plans, facilitant le montage pour la suite.
-Chaque courte vidéo ne dure que quelques secondes, me permettant par la suite de trouver facilement une étape particulière.&lt;/p&gt;
-
-&lt;p&gt;La qualité du tournage aurait pu être drastiquement améliorée avec l’aide d’une autre personne pour manipuler la caméra ou avec la simple utilisation d’un trépied pour stabiliser l’image pendant les manipulations.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;assets/images/realisation-video/protoboard.JPG&quot; alt=&quot;Photo du montage non-utilisée dans la réalisation&quot; title=&quot;Photo du montage non-utilisée dans la réalisation&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;enregistrement-des-voix&quot;&gt;Enregistrement des voix&lt;/h2&gt;
-
-&lt;p&gt;Il ne sert à rien d’improviser l’entièreté de la vidéo.
-Certes, lire un texte écrit à l’avance peut retirer l’effet naturel d’une explication, mais ne pas avoir de support est encore pire. Le discours sera ponctué d’hésitations qui ne feraient qu’ajouter du bruit.&lt;/p&gt;
-
-&lt;p&gt;Mais comment écrire un texte qui semble quand même naturel ?
-Une méthode qui fonctionne assez bien est de complètement improviser la narration.
-Étant donné le travail déjà effectué sur cette vidéo, ça ne devrait pas poser de problème.
-Mais au lieu de directement utiliser cet enregistrement, on peut l’écouter et réécrire tout ce qu’on a raconté afin d’avoir un support propre pour un nouvel enregistrement.&lt;/p&gt;
-
-&lt;p&gt;Avant de se lancer pour de bon, il faut aussi bien &lt;strong&gt;préparer l’introduction et la fin&lt;/strong&gt; de la vidéo.&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;L’introduction devrait être courte et présenter clairement ce qui sera abordé dans la vidéo ainsi que les étapes de son déroulé.&lt;/li&gt;
-  &lt;li&gt;La conclusion peut servir de résumé en rappelant à nouveau les grandes étapes de la manipulation.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;application-2&quot;&gt;Application&lt;/h4&gt;
-
-&lt;p&gt;J’ai utilisé un micro Bird UM1 et &lt;a href=&quot;https://www.audacityteam.org/&quot;&gt;Audacity&lt;/a&gt; pour enregistrer l’audio de la vidéo.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;assets/images/realisation-video/audacity.png&quot; alt=&quot;Spectre Audacity&quot; title=&quot;Audacity&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;montage&quot;&gt;Montage&lt;/h2&gt;
-
-&lt;p&gt;Une fois l’audio enregistré, il s’agit de piocher dans les plans tourner plus tôt et de les coller au bon endroit afin d’illustrer la narration.
-Cette étape n’est pas compliquée avec un peu d’expérience, mais c’est celle qui impactera directement ce que regarderont les étudiants, c’est le moment où tout se joue.
-Les scènes supplémentaires seront probablement utiles, ne serait-ce qu’en &lt;em&gt;&lt;a href=&quot;https://fr.wikipedia.org/wiki/Bobine_B&quot;&gt;B-roll&lt;/a&gt;&lt;/em&gt; afin de combler les trous pendant l’introduction ou la conclusion.&lt;/p&gt;
-
-&lt;p&gt;Ajouter un écran d’accueil avec un titre clair et les logos de l’institution peut aussi s’avérer utile pour la publication à venir, mais aussi pour démarrer la vidéo en douceur pendant l’introduction.&lt;/p&gt;
-
-&lt;h4 id=&quot;application-3&quot;&gt;Application&lt;/h4&gt;
-&lt;p&gt;Il existe de nombreux logiciels gratuits et/ou libres permettant de monter ce genre de projet.&lt;/p&gt;
-
-&lt;p&gt;Du côté de le plus simple du spectre, &lt;a href=&quot;https://www.openshot.org/fr/download/&quot;&gt;OpenShot&lt;/a&gt; est une très bonne solution. Il permet des manipulations basiques du son et de l’image, rien de très élaboré, mais généralement suffisant pour une vidé sobre.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;assets/images/realisation-video/openshot.png&quot; alt=&quot;Openshot timeline&quot; title=&quot;Openshot Timeline&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;À l’autre extrémité se trouve &lt;a href=&quot;https://www.blackmagicdesign.com/products/davinciresolve/&quot;&gt;DaVinci Resolve&lt;/a&gt;, un logiciel de montage non-linéaire extrêmement complet et plus difficile à prendre en main. Il permet pourtant de faire un montage particulièrement soigné une fois apprivoisé et vaut le détour.&lt;/p&gt;
-
-&lt;h2 id=&quot;publication&quot;&gt;Publication&lt;/h2&gt;
-
-&lt;p&gt;Le rendu terminé, il faut publier la vidéo pour que les étudiants puissent enfin la visioner.
-Si on peut leur envoyer directement, une plate-forme de diffusion est beaucoup plus efficace et permet de suivre son impact.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://studio.youtube.com/&quot;&gt;YouTube&lt;/a&gt; est particulièrement approprié dans le cas présent.
-La plate-forme permet de procéder à de nombreuses analyses : nombres de vues, quand, qui, où, la durée d’attention, etc.
-Mais ça, c’est pour &lt;a href=&quot;/esnu//premiere-diffusion-podcast&quot;&gt;un autre billet&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h4 id=&quot;application-4&quot;&gt;Application&lt;/h4&gt;
-
-&lt;p&gt;Le résultat de toute cette procédure est disponible &lt;a href=&quot;https://youtu.be/5UpnbasZ3ng&quot;&gt;ici&lt;/a&gt;.&lt;/p&gt;</content><author><name>Quentin Delhaye</name></author><category term="projet" /><summary type="html">Les vidéos c’est sympa, mais comment on fait ? Quelle marche suivre et quels outils utiliser ?</summary></entry><entry><title type="html">Réalisation d’un portfolio numérique avec Jekyll</title><link href="http://localhost:4000/esnu/realisation-portfolio-numerique" rel="alternate" type="text/html" title="Réalisation d'un portfolio numérique avec Jekyll" /><published>2020-01-17T11:18:00+01:00</published><updated>2020-01-17T11:18:00+01:00</updated><id>http://localhost:4000/esnu/realisation-portfolio-numerique</id><content type="html" xml:base="http://localhost:4000/esnu/realisation-portfolio-numerique">&lt;p&gt;Cet article présentera brièvement comment ce site a été construit en utilisant des technologies libres et open sources.&lt;/p&gt;
-
-&lt;h2 id=&quot;hébergement&quot;&gt;Hébergement&lt;/h2&gt;
-&lt;p&gt;GitHub permet d’héberger des sites via son service &lt;a href=&quot;https://pages.github.com/&quot;&gt;Pages&lt;/a&gt;.
-L’une des méthodes pour l’activer consiste à créer un dossier &lt;code class=&quot;highlighter-rouge&quot;&gt;docs&lt;/code&gt; dans le dépôt du projet.
-En allant ensuite dans les options (&lt;em&gt;Settings&lt;/em&gt;), de descendre jusqu’à l’encart &lt;code class=&quot;highlighter-rouge&quot;&gt;GitHub Pages&lt;/code&gt; et de sélectionner la source &lt;code class=&quot;highlighter-rouge&quot;&gt;master branch /docs folder&lt;/code&gt;.
-Le site sera immédiatement disponible à l’adresse https://&lt;code class=&quot;highlighter-rouge&quot;&gt;nom d'utilisateur&lt;/code&gt;.github.io/&lt;code class=&quot;highlighter-rouge&quot;&gt;nom du projet&lt;/code&gt;,
-comme par exemple &lt;a href=&quot;https://parastuffs.github.io/esnu/&quot;&gt;https://parastuffs.github.io/esnu/&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;générer-un-site-web-statique&quot;&gt;Générer un site web statique&lt;/h2&gt;
-&lt;p&gt;GitHub Pages se contente d’afficher des pages web statiques, c’est-à-dire dont le contenu est généré à l’avance et ne peut pas être modifier par les visiteurs.
-Pour générer un tel site, on peut utiliser &lt;a href=&quot;https://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt; fonctionnant avec &lt;a href=&quot;https://www.ruby-lang.org/fr/&quot;&gt;Ruby&lt;/a&gt; en utilisant la commande suivante pour l’installer : &lt;code class=&quot;highlighter-rouge&quot;&gt;gem install bundler jekyll&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;Mais au lieu de créer un site entier à partir de rien, il est plus simple et rapide de partir d’un theme existant.
-Par exemple, on peut utiliser &lt;a href=&quot;https://github.com/jekyller/jasper2&quot;&gt;jasper2&lt;/a&gt; dont il suffit de télécharger l’archive dans le dépôt du projet.
-Depuis le dossier &lt;code class=&quot;highlighter-rouge&quot;&gt;jasper2&lt;/code&gt;, une seule commande permet de générer le site : &lt;code class=&quot;highlighter-rouge&quot;&gt;bundle exec jekyll serve&lt;/code&gt;.
-Cette opération génère tous les fichiers du site web dans le dossier &lt;code class=&quot;highlighter-rouge&quot;&gt;jasper2-pages&lt;/code&gt; par défaut et héberge une version locale du site à l’adresse &lt;code class=&quot;highlighter-rouge&quot;&gt;http://127.0.0.1:4000/jasper2/&lt;/code&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;configuration-de-jasper2&quot;&gt;Configuration de jasper2&lt;/h2&gt;
-&lt;p&gt;Le premier fichier de configuration à mettre à jour est le principal : &lt;a href=&quot;https://github.com/parastuffs/esnu/blob/master/jasper2/_config.yml&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt;&lt;/a&gt;.
-Toutes les options sont commentées dans le fichier, mais l’une des essentielles est le dossier de destination à changer en &lt;code class=&quot;highlighter-rouge&quot;&gt;../docs/&lt;/code&gt; ainsi que l’option &lt;code class=&quot;highlighter-rouge&quot;&gt;baseurl&lt;/code&gt;.&lt;/p&gt;
-
-&lt;h3 id=&quot;gérer-les-tags&quot;&gt;Gérer les tags&lt;/h3&gt;
-&lt;p&gt;Pour ajouter un tag, ça se passe dans le fichier &lt;code class=&quot;highlighter-rouge&quot;&gt;_data/tags.yml&lt;/code&gt;.
-Il faut ensuite ajouter les lignes suivantes dans le fichier :&lt;/p&gt;
-&lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;na&quot;&gt;nouveau-tag&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
-  &lt;span class=&quot;na&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;nouveau-tag&lt;/span&gt;
-  &lt;span class=&quot;na&quot;&gt;description&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;Déroulé du projet de podcats.&lt;/span&gt;
-  &lt;span class=&quot;na&quot;&gt;cover&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;assets/images/couverture.jpg&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;où &lt;code class=&quot;highlighter-rouge&quot;&gt;nouveau-tag&lt;/code&gt; est le nom de votre nouveau tag.
-Vous pouvez lui ajouter une description et une image de couverture, mais ces derniers sont facultatifs.
-Le résultat peut donner &lt;a href=&quot;/esnu//tag/coulisses&quot;&gt;quelque chose comme ceci&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h3 id=&quot;gérer-les-auteurs&quot;&gt;Gérer les auteurs&lt;/h3&gt;
-&lt;p&gt;Cette fois-ci, c’est au fichier &lt;code class=&quot;highlighter-rouge&quot;&gt;_data/authors.yml&lt;/code&gt; qu’il faut ajouter les lignes suivantes :&lt;/p&gt;
-&lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;na&quot;&gt;quentin&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
-  &lt;span class=&quot;na&quot;&gt;username&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;johnny&lt;/span&gt;
-  &lt;span class=&quot;na&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;John Mouette&lt;/span&gt;
-  &lt;span class=&quot;na&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;https://perdu.com/&lt;/span&gt;
-  &lt;span class=&quot;na&quot;&gt;url_full&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;https://perdu.com/&lt;/span&gt;
-  &lt;span class=&quot;na&quot;&gt;bio&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;J'aime les mouettes&lt;/span&gt;
-  &lt;span class=&quot;na&quot;&gt;cover&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;false&lt;/span&gt;
-  &lt;span class=&quot;na&quot;&gt;picture&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;assets/images/orlyowl.jpg&lt;/span&gt;
-  &lt;span class=&quot;na&quot;&gt;location&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;false&lt;/span&gt;
-  &lt;span class=&quot;na&quot;&gt;facebook&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;False&lt;/span&gt;
-  &lt;span class=&quot;na&quot;&gt;twitter&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;False&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;Le résultat peut donner &lt;a href=&quot;/esnu//author/quentin&quot;&gt;quelque chose comme ceci&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h3 id=&quot;écrire-un-article&quot;&gt;Écrire un article&lt;/h3&gt;
-&lt;p&gt;Un article est un fichier Markdown placé dans le dossier &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt;. Son nom doit commencer par sa date de publication, suivie de son titre, par exemple : &lt;code class=&quot;highlighter-rouge&quot;&gt;2020-01-17-realisation-portfolio-numerique.md&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;Le début du fichier doit toujours contenir des informations sur son contenu, comme son titre, son auteur, etc.&lt;/p&gt;
-&lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nn&quot;&gt;---&lt;/span&gt;
-&lt;span class=&quot;na&quot;&gt;layout&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;post&lt;/span&gt;
-&lt;span class=&quot;na&quot;&gt;current&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;post&lt;/span&gt;
-&lt;span class=&quot;na&quot;&gt;cover&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;assets/images/typewriter-801921_1280.jpg&lt;/span&gt;
-&lt;span class=&quot;na&quot;&gt;navigation&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;True&lt;/span&gt;
-&lt;span class=&quot;na&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;Réalisation d'un portfolio numérique avec Jekyll&lt;/span&gt;
-&lt;span class=&quot;na&quot;&gt;date&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;2020-01-17 10:18:00&lt;/span&gt;
-&lt;span class=&quot;na&quot;&gt;tags&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;coulisses&lt;/span&gt;
-&lt;span class=&quot;na&quot;&gt;class&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;post-template&lt;/span&gt;
-&lt;span class=&quot;na&quot;&gt;subclass&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;post&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;tag-coulisses'&lt;/span&gt;
-&lt;span class=&quot;na&quot;&gt;author&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;quentin&lt;/span&gt;
-&lt;span class=&quot;nn&quot;&gt;---&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;Davantage d’informations et de détails sont disponibles dans la &lt;a href=&quot;https://jekyllrb.com/docs/posts/&quot;&gt;documentation de Jekyll&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Le fichier ayant servi à générer ce site se trouve par exemple &lt;a href=&quot;https://github.com/parastuffs/esnu/blob/master/jasper2/_posts/2020-01-17-realisation-portfolio-numerique.md&quot;&gt;ici&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h4 id=&quot;brouillons&quot;&gt;Brouillons&lt;/h4&gt;
-&lt;p&gt;Les brouillons doivent être écrits dans un dossier &lt;code class=&quot;highlighter-rouge&quot;&gt;_drafts&lt;/code&gt; et ne nécessitent pas de date dans leur nom de fichier.
-Ensuite, si vous souhaitez les voir sur la version locale de votre site, il faut compiler le site en ajoutant une option à la commande : &lt;code class=&quot;highlighter-rouge&quot;&gt;bundle exec jekyll serve ---draft&lt;/code&gt;.&lt;/p&gt;</content><author><name>Quentin Delhaye</name></author><category term="coulisses" /><summary type="html">Cet article présentera brièvement comment ce site a été construit en utilisant des technologies libres et open sources.</summary></entry><entry><title type="html">Enseigner dans le supérieur avec le numé-quoi ?</title><link href="http://localhost:4000/esnu/Enseigner-dans-le-sup%C3%A9rieur-avec-le-num%C3%A9-quoi" rel="alternate" type="text/html" title="Enseigner dans le supérieur avec le numé-quoi ?" /><published>2020-01-17T11:18:00+01:00</published><updated>2020-01-17T11:18:00+01:00</updated><id>http://localhost:4000/esnu/Enseigner-dans-le-sup%C3%A9rieur-avec-le-num%C3%A9-quoi</id><content type="html" xml:base="http://localhost:4000/esnu/Enseigner-dans-le-sup%C3%A9rieur-avec-le-num%C3%A9-quoi">&lt;blockquote&gt;
-  &lt;p&gt;Enseigner dans le supérieur avec le numérique&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Un projet ambitieux incarné sous la forme d’un nouveau certificat encadré en collaboration par l’ULB, la Haute École Bruxelles-Brabant (HE2B), la Haute École Francisco Ferrer.
-Pour en savoir plus, rendez-vous sur le site de l’&lt;a href=&quot;http://esnu.be/&quot;&gt;ESNU&lt;/a&gt;.&lt;/p&gt;</content><author><name>Quentin Delhaye</name></author><category term="coulisses" /><summary type="html">Enseigner dans le supérieur avec le numérique</summary></entry></feed>
+&lt;a href=&quot;/esnu//definition-du-probleme&quot;&gt;dans un autre billet&lt;/a&gt;&lt;/p&gt;</content><author><name>Quentin Delhaye</name></author><category term="projet" /><summary type="html">Pour qu’un dispositif soit efficace, il faut qu’il réponde à des besoins. Pour identifier les besoins, il faut connaître son public.</summary></entry></feed>

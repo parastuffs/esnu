@@ -4,7 +4,7 @@ current: post
 cover: assets/images/laptop-1280536_1920.jpg
 navigation: True
 title: Enseigner dans le supérieur avec le numé-quoi ?
-date: 2020-01-17 10:18:00
+date: 2019-10-25 10:18:00
 tags: coulisses
 class: post-template
 subclass: 'post tag-coulisses'

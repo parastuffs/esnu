@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
   <link href="http://localhost:4000/esnu/tag/projet/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/esnu/" rel="alternate" type="text/html" />
-  <updated>2020-05-07T12:44:03+02:00</updated>
+  <updated>2020-05-09T14:58:38+02:00</updated>
   <id>http://localhost:4000/esnu/tag/projet/feed.xml</id>
 
   
@@ -279,394 +279,6 @@ De plus, en utilisant la fonctionnalité de suivi de progression, ils peuvent ma
     </entry>
   
     <entry>
-      <title type="html">Construire des personas</title>
-      <link href="http://localhost:4000/esnu/construire-des-personas" rel="alternate" type="text/html" title="Construire des personas" />
-      <published>2020-02-16T11:18:00+01:00</published>
-      <updated>2020-02-16T11:18:00+01:00</updated>
-      <id>http://localhost:4000/esnu/construire-des-personas</id>
-      <content type="html" xml:base="http://localhost:4000/esnu/construire-des-personas">&lt;p&gt;Pour qu’un dispositif soit efficace, il faut qu’il réponde à des besoins.
-Pour identifier les besoins, il faut connaître son public.&lt;/p&gt;
-
-&lt;p&gt;Afin de savoir exactement si le dispositif que je voulais mettre en place correspondait aux attentes de mes étudiants, j’ai commencé par établir des &lt;em&gt;persona&lt;/em&gt;, des profils caractéristiques représentant le public visé.&lt;/p&gt;
-
-&lt;h2 id=&quot;première-étape--interviews&quot;&gt;Première étape : interviews&lt;/h2&gt;
-
-&lt;p&gt;Le public visé était les étudiants de BA bloc 3 suivant mes laboratoires d’électronique.
-J’avais déjà eu l’occasion de les côtoyer lors des séances d’exercices précédant les laboratoires et je savais donc qui contacter afin d’avoir un échantillon d’étudiants coopérant et représentatif.&lt;/p&gt;
-
-&lt;p&gt;J’ai ainsi procédé à quelques interviews réparties sur une semaines avec des étudiants ayant commencé les laboratoires pour la première fois, ainsi qu’avec des étudiants de Master 1 pour faire appel à leur expérience &lt;em&gt;a posteriori&lt;/em&gt;.&lt;/p&gt;
-
-&lt;h3 id=&quot;guide-dentretien&quot;&gt;Guide d’entretien&lt;/h3&gt;
-
-&lt;p&gt;Afin de réaliser des entretiens efficaces, un bref guide avait été rédigé en amont.&lt;/p&gt;
-
-&lt;p&gt;Il se composait en substance des questions suivantes :&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Utilisez-vous des outils numériques en-dehors des cours ?&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Pourquoi êtes-vous en Polytech ?&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Pourquoi avez-vous choisi votre section ?&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Qu’espérez-vous tirer de votre formation ?&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Que faites-vous pendant le cours ?&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Que faites-vous pendant le laboratoire ?&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Utilisez-vous des outils numériques pour vos études ?&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Quels outils devraient être à votre disposition ?&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Rencontrez-vous des problèmes lors des laboratoires ?&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Comment compareriez-vous le cours d’électronique aux autres cours ?&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Comment évalueriez-vous votre niveau de compétence en numérique ?&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Comment préparez-vous vos laboratoires ?&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Comment étudiez-vous le cours ?&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Comment pensez-vous préparer un éventuel examen de seconde session ?&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Pourquoi participez-vous aux laboratoires ?&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Avez-vous des suggestions sur le déroulement des laboratoires ?&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h2 id=&quot;compiler-les-résultats&quot;&gt;Compiler les résultats&lt;/h2&gt;
-
-&lt;p&gt;Les résultats des entretiens ont été compilés en trois persona différents en utilisant &lt;a href=&quot;https://milanote.com/&quot;&gt;Milanote&lt;/a&gt;, suivant un template fourni par Nicolas Roland.&lt;/p&gt;
-
-&lt;p&gt;Les résultats sont accessibles &lt;a href=&quot;assets/persona&quot;&gt;ici&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;La partie compliquée est finalement de fusionner toutes les réponses avant de les séparer à nouveau pour créer de nouvelles personnes fictives, tout en restant réaliste quant aux profils ainsi établis.&lt;/p&gt;
-
-&lt;h2 id=&quot;apprendre-des-persona&quot;&gt;Apprendre des persona&lt;/h2&gt;
-
-&lt;p&gt;Ces entretiens et persona m’ont apporté un élément essentiel dans le développement de mon projet.
-Comment présenter au début de ce billet, ils m’ont permi de comprendre les &lt;em&gt;vrais&lt;/em&gt; problèmes que rencontrent mes étudiants en laboratoire.&lt;/p&gt;
-
-&lt;p&gt;Contrairement à ce que j’envisageais, ils n’étaient pas tant demandeurs d’outils de préparation des laboratoires ou de révision de la matière.
-Ce qu’ils voulaient, c’était :&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;Comprendre comment utiliser le matériel mis à leur disposition chaque semaine.&lt;/li&gt;
-  &lt;li&gt;Avoir plus d’assistants pour répondre à leurs questions.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Si la deuxième demande ne peut pas être rencontrée, une solution à la première pourrait tout même aider.
-En effet, les assistants passent beaucoup de temps en laboratoire à aider les étudiants à configurer correctement leur matériel. En réalisant des tutoriaux clairs à ce sujet :&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;Les étudiants comprendraient mieux comment utiliser le matériel&lt;/li&gt;
-  &lt;li&gt;Les assistants seraient davantage disponibles.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Mais nous reviendrons sur cet aspect 
-&lt;a href=&quot;/esnu//definition-du-probleme&quot;&gt;dans un autre billet&lt;/a&gt;&lt;/p&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Quentin Delhaye</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="projet" />
-      
-
-      
-        <summary type="html">Pour qu’un dispositif soit efficace, il faut qu’il réponde à des besoins. Pour identifier les besoins, il faut connaître son public.</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">Définition du problème</title>
-      <link href="http://localhost:4000/esnu/definition-du-probleme" rel="alternate" type="text/html" title="Définition du problème" />
-      <published>2020-01-21T11:18:00+01:00</published>
-      <updated>2020-01-21T11:18:00+01:00</updated>
-      <id>http://localhost:4000/esnu/definition-du-probleme</id>
-      <content type="html" xml:base="http://localhost:4000/esnu/definition-du-probleme">&lt;p&gt;Comment définir précisément la problématique à adresser ?&lt;/p&gt;
-
-&lt;p&gt;La première étape consiste à &lt;a href=&quot;2020-01-20-construire-des-personas&quot;&gt;connaître son public&lt;/a&gt;, par exemple en établissant des persona les représentant.&lt;/p&gt;
-
-&lt;p&gt;Ensuite, il faut extraire les informations pertinentes sous-jacentes aux profils des persona.
-Deux outils permettent d’y parvenir : « Les cinq pourquoi » et la définition du problèmes proprement dite.&lt;/p&gt;
-
-&lt;h2 id=&quot;les-cinq-pourquoi&quot;&gt;Les cinq pourquoi&lt;/h2&gt;
-
-&lt;p&gt;Le but de cet exercice est de nous pousser à creuser la problématique afin de mettre en évidence son origine profonde.
-Nous voulons traiter le problème à sa racine et non ses simples symptômes.&lt;/p&gt;
-
-&lt;p&gt;Alors quel est le problème ?&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Ils ne savent pas bien utiliser le matériel.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Pourquoi ?&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Ils ne lisent pas les ressources à leur disposition et ils n’essaient pas par eux-mêmes et veulent qu’on le fasse pour eux.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Pourquoi ?&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Ils sont désemparés face à un document trop long et dont les schémas ne collent pas suffisamment à la réalité.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Pourquoi ?&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Leur durée d’attention et de concentration est très courte et le document se veut généraliste et spécifique en même temps, mais les généralités ne les intéressent guère.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Pourquoi ?&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Ils ont besoin d’information utile et utilisable directement en laboratoire, afin d’avancer efficacement dans la manipulation.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;définir-le-problème&quot;&gt;Définir le problème&lt;/h2&gt;
-
-&lt;p&gt;Avant de définir clairement le problème, passons par quelques étapes permettant d’analyser les persona.&lt;/p&gt;
-
-&lt;h3 id=&quot;contradictions&quot;&gt;Contradictions&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Ils veulent plus d’explications et d’introduction au matériel, mais ils ne lisent pas les supports existants.&lt;/li&gt;
-  &lt;li&gt;S’ils sont bien tous d’accord pour dire qu’ils souhaitent développer leur autonomie et leur esprit critique, beaucoup ont encore trop besoin d’aide pour avancer dans le labo.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;révélations-ou-remarques-intéressantes&quot;&gt;Révélations ou remarques intéressantes&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Le manque de rythme &lt;em&gt;imposé&lt;/em&gt; et de mise en commun est perçue comme un problème, là où je vois une autonomisation des séances.&lt;/li&gt;
-  &lt;li&gt;Ils aimeraient avoir des vidéos explicatives du matériel de base.&lt;/li&gt;
-  &lt;li&gt;Très peu d’étudiants cherchent des ressources supplémentaires pour mieux comprendre la matière.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Ce dernier point est notamment mis en évidence par Endrizzi et Sibut &lt;a href=&quot;#référence&quot;&gt;[1]&lt;/a&gt; : les étudiants semblent ne pas s’écarter d’un étroit cercle d’outils familiers.
-Dans ce cas, faut-il les sortir de leur zone de confort ou s’y insérer afin de s’assurer que la nouvelle ressource est bien exploitée ?&lt;/p&gt;
-
-&lt;h3 id=&quot;frustrations-ou-questions-sans-réponse&quot;&gt;Frustrations ou questions sans réponse&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;On prend trop de temps à venir répondre à leurs questions en séance.&lt;/li&gt;
-  &lt;li&gt;Ils n’ont pas le temps de tout faire parfaitement et de tout préparer.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;difficultés-problèmes-ou-besoins-vécusressentis-par-lapprenante&quot;&gt;Difficultés, problèmes ou besoins vécus/ressentis par l’apprenant.e&lt;/h3&gt;
-
-&lt;p&gt;C’est notamment pour ce point que &lt;a href=&quot;#les-cinq-pourquoi&quot;&gt;les cinq pourquoi&lt;/a&gt; est intéressant à réaliser préalablement à la définition du problème.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Problème d’utilisation du matériel&lt;/li&gt;
-  &lt;li&gt;Disponibilité de l’assistant en laboratoire&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;la-problématique-en-un-dessin&quot;&gt;La problématique en un dessin&lt;/h3&gt;
-
-&lt;p&gt;&lt;img src=&quot;assets/images/problematique/Problematique_en_un_dessin.png&quot; alt=&quot;Illustration de la problématique&quot; title=&quot;La problématique en un dessin&quot; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;la-problématique-en-une-question&quot;&gt;La problématique en une question&lt;/h3&gt;
-
-&lt;p&gt;On arrive enfin à la finalité de l’activité : la formulation de la problèmatique en question.
-Après cette analyse, on pourrait la formuler ainsi :&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Comment pourrais-je donner aux étudiants les outils nécessaires pour qu’ils puissent s’approprier le matériel de laboratoire et l’utiliser en toute autonomie ?&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Une réponse à cette question : un podcast vidéo illustrant comment utiliser le matériel de laboratoire en situation réelle.
-Vous pourrez en lire plus à ce sujet &lt;a href=&quot;/esnu//realiser-une-video&quot;&gt;dans la suite du projet&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h4 id=&quot;référence&quot;&gt;Référence&lt;/h4&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://veille-et-analyses.ens-lyon.fr/DA-Veille/106-decembre-2015.pdf&quot;&gt;Endrizzi, Laure et Sibut, Florence, &lt;em&gt;Les nouveaux étudiants, d’hier à aujourd’hui&lt;/em&gt;, 2015, Dossier de veille de l’IFÉ, n° 106&lt;/a&gt;&lt;/p&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Quentin Delhaye</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="projet" />
-      
-
-      
-        <summary type="html">Comment définir précisément la problématique à adresser ?</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">Réaliser une vidéo</title>
-      <link href="http://localhost:4000/esnu/realiser-une-video" rel="alternate" type="text/html" title="Réaliser une vidéo" />
-      <published>2020-01-17T11:18:00+01:00</published>
-      <updated>2020-01-17T11:18:00+01:00</updated>
-      <id>http://localhost:4000/esnu/realiser-une-video</id>
-      <content type="html" xml:base="http://localhost:4000/esnu/realiser-une-video">&lt;p&gt;Les vidéos c’est sympa, mais comment on fait ? Quelle marche suivre et quels outils utiliser ?&lt;/p&gt;
-
-&lt;p&gt;Ce billet présente les différentes étapes de réalisation d’une vidéo à destination des apprenants, en illustrant chacune avec ma réalisation pratique.&lt;/p&gt;
-
-&lt;h2 id=&quot;scénarisation&quot;&gt;Scénarisation&lt;/h2&gt;
-
-&lt;p&gt;Avant de commencer à filmer quoi que ce soit, il faut savoir ce qu’on veut montrer.
-La première étape consiste donc à &lt;em&gt;scénariser&lt;/em&gt; la vidéo, écrire l’histoire qu’on veut raconter.&lt;/p&gt;
-
-&lt;p&gt;Le scénario peut prendre différentes formes : un &lt;em&gt;story board&lt;/em&gt;, un texte construit de l’ensemble du contenu ou une simple liste des éléments à aborder et les points d’attention sur lesquels insister.&lt;/p&gt;
-
-&lt;h4 id=&quot;application&quot;&gt;Application&lt;/h4&gt;
-
-&lt;p&gt;Le but de cette vidéo est d’expliquer aux étudiants comment manipuler la matériel à leur disposition afin de réaliser une mesure particulière.
-Pour être un peu technique, il s’agit de mesurer le temps de propagation d’un signal au sein d’un circuit logique à l’aide d’un oscilloscope.&lt;/p&gt;
-
-&lt;p&gt;Ma scénarisation a donc commencé par concevoir un montage intéressant et réaliser la manipulation en entier par moi-même.
-Une fois terminée, j’ai pu la déconstruire pour mettre en évidence les &lt;strong&gt;étapes clefs&lt;/strong&gt; par lesquelles les étudiants devront passer à leur tour.&lt;/p&gt;
-
-&lt;p&gt;Ce scénario a pris la forme d’une liste d’étapes, certaines illustrées par les schémas.&lt;/p&gt;
-
-&lt;h2 id=&quot;tournage&quot;&gt;Tournage&lt;/h2&gt;
-
-&lt;p&gt;Le scénario terminé, il est temps de tourner les différents plans constituant l’histoire.
-Il n’est pas encore essentiel de savoir ce qu’on va raconter ou d’enregistrer les voix en même temps. Il est même plus simple de séparer les deux étapes de vidéo et audio afin de les paufiner chacune de leur côté.&lt;/p&gt;
-
-&lt;p&gt;Cependant, cette manière de procéder nécessite de filmer des &lt;strong&gt;scènes supplémentaires&lt;/strong&gt; « au cas où », afin d’avoir suffisamment de matériel.&lt;/p&gt;
-
-&lt;p&gt;Si le scénario est complet et qu’on est capable d’imaginer des plans supplémentaires pour compléter la trame principale, cette étape peut être réalisée en peu de temps, sans nécessiter de resortir la caméra par la suite.&lt;/p&gt;
-
-&lt;h4 id=&quot;application-1&quot;&gt;Application&lt;/h4&gt;
-
-&lt;p&gt;Je me suis filmé à l’aide d’un appareil photo de bonne qualité (Panasonic Lumix GX80) en séparant les différents plans, facilitant le montage pour la suite.
-Chaque courte vidéo ne dure que quelques secondes, me permettant par la suite de trouver facilement une étape particulière.&lt;/p&gt;
-
-&lt;p&gt;La qualité du tournage aurait pu être drastiquement améliorée avec l’aide d’une autre personne pour manipuler la caméra ou avec la simple utilisation d’un trépied pour stabiliser l’image pendant les manipulations.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;assets/images/realisation-video/protoboard.JPG&quot; alt=&quot;Photo du montage non-utilisée dans la réalisation&quot; title=&quot;Photo du montage non-utilisée dans la réalisation&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;enregistrement-des-voix&quot;&gt;Enregistrement des voix&lt;/h2&gt;
-
-&lt;p&gt;Il ne sert à rien d’improviser l’entièreté de la vidéo.
-Certes, lire un texte écrit à l’avance peut retirer l’effet naturel d’une explication, mais ne pas avoir de support est encore pire. Le discours sera ponctué d’hésitations qui ne feraient qu’ajouter du bruit.&lt;/p&gt;
-
-&lt;p&gt;Mais comment écrire un texte qui semble quand même naturel ?
-Une méthode qui fonctionne assez bien est de complètement improviser la narration.
-Étant donné le travail déjà effectué sur cette vidéo, ça ne devrait pas poser de problème.
-Mais au lieu de directement utiliser cet enregistrement, on peut l’écouter et réécrire tout ce qu’on a raconté afin d’avoir un support propre pour un nouvel enregistrement.&lt;/p&gt;
-
-&lt;p&gt;Avant de se lancer pour de bon, il faut aussi bien &lt;strong&gt;préparer l’introduction et la fin&lt;/strong&gt; de la vidéo.&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;L’introduction devrait être courte et présenter clairement ce qui sera abordé dans la vidéo ainsi que les étapes de son déroulé.&lt;/li&gt;
-  &lt;li&gt;La conclusion peut servir de résumé en rappelant à nouveau les grandes étapes de la manipulation.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;application-2&quot;&gt;Application&lt;/h4&gt;
-
-&lt;p&gt;J’ai utilisé un micro Bird UM1 et &lt;a href=&quot;https://www.audacityteam.org/&quot;&gt;Audacity&lt;/a&gt; pour enregistrer l’audio de la vidéo.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;assets/images/realisation-video/audacity.png&quot; alt=&quot;Spectre Audacity&quot; title=&quot;Audacity&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;montage&quot;&gt;Montage&lt;/h2&gt;
-
-&lt;p&gt;Une fois l’audio enregistré, il s’agit de piocher dans les plans tourner plus tôt et de les coller au bon endroit afin d’illustrer la narration.
-Cette étape n’est pas compliquée avec un peu d’expérience, mais c’est celle qui impactera directement ce que regarderont les étudiants, c’est le moment où tout se joue.
-Les scènes supplémentaires seront probablement utiles, ne serait-ce qu’en &lt;em&gt;&lt;a href=&quot;https://fr.wikipedia.org/wiki/Bobine_B&quot;&gt;B-roll&lt;/a&gt;&lt;/em&gt; afin de combler les trous pendant l’introduction ou la conclusion.&lt;/p&gt;
-
-&lt;p&gt;Ajouter un écran d’accueil avec un titre clair et les logos de l’institution peut aussi s’avérer utile pour la publication à venir, mais aussi pour démarrer la vidéo en douceur pendant l’introduction.&lt;/p&gt;
-
-&lt;h4 id=&quot;application-3&quot;&gt;Application&lt;/h4&gt;
-&lt;p&gt;Il existe de nombreux logiciels gratuits et/ou libres permettant de monter ce genre de projet.&lt;/p&gt;
-
-&lt;p&gt;Du côté de le plus simple du spectre, &lt;a href=&quot;https://www.openshot.org/fr/download/&quot;&gt;OpenShot&lt;/a&gt; est une très bonne solution. Il permet des manipulations basiques du son et de l’image, rien de très élaboré, mais généralement suffisant pour une vidé sobre.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;assets/images/realisation-video/openshot.png&quot; alt=&quot;Openshot timeline&quot; title=&quot;Openshot Timeline&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;À l’autre extrémité se trouve &lt;a href=&quot;https://www.blackmagicdesign.com/products/davinciresolve/&quot;&gt;DaVinci Resolve&lt;/a&gt;, un logiciel de montage non-linéaire extrêmement complet et plus difficile à prendre en main. Il permet pourtant de faire un montage particulièrement soigné une fois apprivoisé et vaut le détour.&lt;/p&gt;
-
-&lt;h2 id=&quot;publication&quot;&gt;Publication&lt;/h2&gt;
-
-&lt;p&gt;Le rendu terminé, il faut publier la vidéo pour que les étudiants puissent enfin la visioner.
-Si on peut leur envoyer directement, une plate-forme de diffusion est beaucoup plus efficace et permet de suivre son impact.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://studio.youtube.com/&quot;&gt;YouTube&lt;/a&gt; est particulièrement approprié dans le cas présent.
-La plate-forme permet de procéder à de nombreuses analyses : nombres de vues, quand, qui, où, la durée d’attention, etc.
-Mais ça, c’est pour &lt;a href=&quot;/esnu//premiere-diffusion-podcast&quot;&gt;un autre billet&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h4 id=&quot;application-4&quot;&gt;Application&lt;/h4&gt;
-
-&lt;p&gt;Le résultat de toute cette procédure est disponible &lt;a href=&quot;https://youtu.be/5UpnbasZ3ng&quot;&gt;ici&lt;/a&gt;.&lt;/p&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Quentin Delhaye</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="projet" />
-      
-
-      
-        <summary type="html">Les vidéos c’est sympa, mais comment on fait ? Quelle marche suivre et quels outils utiliser ?</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
       <title type="html">Première diffusion d’un podcast aux étudiants</title>
       <link href="http://localhost:4000/esnu/premiere-diffusion-podcast" rel="alternate" type="text/html" title="Première diffusion d'un podcast aux étudiants" />
       <published>2019-12-10T11:18:00+01:00</published>
@@ -827,6 +439,394 @@ Dans un monde idéal, une vidéo parfaitement claire se suffira d’un visionnag
 
       
         <summary type="html">Après la diffusion de la vidéo aux étudiants, il est temps d’analyser son impact.</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Réaliser une vidéo</title>
+      <link href="http://localhost:4000/esnu/realiser-une-video" rel="alternate" type="text/html" title="Réaliser une vidéo" />
+      <published>2019-12-02T11:18:00+01:00</published>
+      <updated>2019-12-02T11:18:00+01:00</updated>
+      <id>http://localhost:4000/esnu/realiser-une-video</id>
+      <content type="html" xml:base="http://localhost:4000/esnu/realiser-une-video">&lt;p&gt;Les vidéos c’est sympa, mais comment on fait ? Quelle marche suivre et quels outils utiliser ?&lt;/p&gt;
+
+&lt;p&gt;Ce billet présente les différentes étapes de réalisation d’une vidéo à destination des apprenants, en illustrant chacune avec ma réalisation pratique.&lt;/p&gt;
+
+&lt;h2 id=&quot;scénarisation&quot;&gt;Scénarisation&lt;/h2&gt;
+
+&lt;p&gt;Avant de commencer à filmer quoi que ce soit, il faut savoir ce qu’on veut montrer.
+La première étape consiste donc à &lt;em&gt;scénariser&lt;/em&gt; la vidéo, écrire l’histoire qu’on veut raconter.&lt;/p&gt;
+
+&lt;p&gt;Le scénario peut prendre différentes formes : un &lt;em&gt;story board&lt;/em&gt;, un texte construit de l’ensemble du contenu ou une simple liste des éléments à aborder et les points d’attention sur lesquels insister.&lt;/p&gt;
+
+&lt;h4 id=&quot;application&quot;&gt;Application&lt;/h4&gt;
+
+&lt;p&gt;Le but de cette vidéo est d’expliquer aux étudiants comment manipuler la matériel à leur disposition afin de réaliser une mesure particulière.
+Pour être un peu technique, il s’agit de mesurer le temps de propagation d’un signal au sein d’un circuit logique à l’aide d’un oscilloscope.&lt;/p&gt;
+
+&lt;p&gt;Ma scénarisation a donc commencé par concevoir un montage intéressant et réaliser la manipulation en entier par moi-même.
+Une fois terminée, j’ai pu la déconstruire pour mettre en évidence les &lt;strong&gt;étapes clefs&lt;/strong&gt; par lesquelles les étudiants devront passer à leur tour.&lt;/p&gt;
+
+&lt;p&gt;Ce scénario a pris la forme d’une liste d’étapes, certaines illustrées par les schémas.&lt;/p&gt;
+
+&lt;h2 id=&quot;tournage&quot;&gt;Tournage&lt;/h2&gt;
+
+&lt;p&gt;Le scénario terminé, il est temps de tourner les différents plans constituant l’histoire.
+Il n’est pas encore essentiel de savoir ce qu’on va raconter ou d’enregistrer les voix en même temps. Il est même plus simple de séparer les deux étapes de vidéo et audio afin de les paufiner chacune de leur côté.&lt;/p&gt;
+
+&lt;p&gt;Cependant, cette manière de procéder nécessite de filmer des &lt;strong&gt;scènes supplémentaires&lt;/strong&gt; « au cas où », afin d’avoir suffisamment de matériel.&lt;/p&gt;
+
+&lt;p&gt;Si le scénario est complet et qu’on est capable d’imaginer des plans supplémentaires pour compléter la trame principale, cette étape peut être réalisée en peu de temps, sans nécessiter de resortir la caméra par la suite.&lt;/p&gt;
+
+&lt;h4 id=&quot;application-1&quot;&gt;Application&lt;/h4&gt;
+
+&lt;p&gt;Je me suis filmé à l’aide d’un appareil photo de bonne qualité (Panasonic Lumix GX80) en séparant les différents plans, facilitant le montage pour la suite.
+Chaque courte vidéo ne dure que quelques secondes, me permettant par la suite de trouver facilement une étape particulière.&lt;/p&gt;
+
+&lt;p&gt;La qualité du tournage aurait pu être drastiquement améliorée avec l’aide d’une autre personne pour manipuler la caméra ou avec la simple utilisation d’un trépied pour stabiliser l’image pendant les manipulations.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/images/realisation-video/protoboard.JPG&quot; alt=&quot;Photo du montage non-utilisée dans la réalisation&quot; title=&quot;Photo du montage non-utilisée dans la réalisation&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;enregistrement-des-voix&quot;&gt;Enregistrement des voix&lt;/h2&gt;
+
+&lt;p&gt;Il ne sert à rien d’improviser l’entièreté de la vidéo.
+Certes, lire un texte écrit à l’avance peut retirer l’effet naturel d’une explication, mais ne pas avoir de support est encore pire. Le discours sera ponctué d’hésitations qui ne feraient qu’ajouter du bruit.&lt;/p&gt;
+
+&lt;p&gt;Mais comment écrire un texte qui semble quand même naturel ?
+Une méthode qui fonctionne assez bien est de complètement improviser la narration.
+Étant donné le travail déjà effectué sur cette vidéo, ça ne devrait pas poser de problème.
+Mais au lieu de directement utiliser cet enregistrement, on peut l’écouter et réécrire tout ce qu’on a raconté afin d’avoir un support propre pour un nouvel enregistrement.&lt;/p&gt;
+
+&lt;p&gt;Avant de se lancer pour de bon, il faut aussi bien &lt;strong&gt;préparer l’introduction et la fin&lt;/strong&gt; de la vidéo.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;L’introduction devrait être courte et présenter clairement ce qui sera abordé dans la vidéo ainsi que les étapes de son déroulé.&lt;/li&gt;
+  &lt;li&gt;La conclusion peut servir de résumé en rappelant à nouveau les grandes étapes de la manipulation.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;application-2&quot;&gt;Application&lt;/h4&gt;
+
+&lt;p&gt;J’ai utilisé un micro Bird UM1 et &lt;a href=&quot;https://www.audacityteam.org/&quot;&gt;Audacity&lt;/a&gt; pour enregistrer l’audio de la vidéo.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/images/realisation-video/audacity.png&quot; alt=&quot;Spectre Audacity&quot; title=&quot;Audacity&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;montage&quot;&gt;Montage&lt;/h2&gt;
+
+&lt;p&gt;Une fois l’audio enregistré, il s’agit de piocher dans les plans tourner plus tôt et de les coller au bon endroit afin d’illustrer la narration.
+Cette étape n’est pas compliquée avec un peu d’expérience, mais c’est celle qui impactera directement ce que regarderont les étudiants, c’est le moment où tout se joue.
+Les scènes supplémentaires seront probablement utiles, ne serait-ce qu’en &lt;em&gt;&lt;a href=&quot;https://fr.wikipedia.org/wiki/Bobine_B&quot;&gt;B-roll&lt;/a&gt;&lt;/em&gt; afin de combler les trous pendant l’introduction ou la conclusion.&lt;/p&gt;
+
+&lt;p&gt;Ajouter un écran d’accueil avec un titre clair et les logos de l’institution peut aussi s’avérer utile pour la publication à venir, mais aussi pour démarrer la vidéo en douceur pendant l’introduction.&lt;/p&gt;
+
+&lt;h4 id=&quot;application-3&quot;&gt;Application&lt;/h4&gt;
+&lt;p&gt;Il existe de nombreux logiciels gratuits et/ou libres permettant de monter ce genre de projet.&lt;/p&gt;
+
+&lt;p&gt;Du côté de le plus simple du spectre, &lt;a href=&quot;https://www.openshot.org/fr/download/&quot;&gt;OpenShot&lt;/a&gt; est une très bonne solution. Il permet des manipulations basiques du son et de l’image, rien de très élaboré, mais généralement suffisant pour une vidé sobre.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/images/realisation-video/openshot.png&quot; alt=&quot;Openshot timeline&quot; title=&quot;Openshot Timeline&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;À l’autre extrémité se trouve &lt;a href=&quot;https://www.blackmagicdesign.com/products/davinciresolve/&quot;&gt;DaVinci Resolve&lt;/a&gt;, un logiciel de montage non-linéaire extrêmement complet et plus difficile à prendre en main. Il permet pourtant de faire un montage particulièrement soigné une fois apprivoisé et vaut le détour.&lt;/p&gt;
+
+&lt;h2 id=&quot;publication&quot;&gt;Publication&lt;/h2&gt;
+
+&lt;p&gt;Le rendu terminé, il faut publier la vidéo pour que les étudiants puissent enfin la visioner.
+Si on peut leur envoyer directement, une plate-forme de diffusion est beaucoup plus efficace et permet de suivre son impact.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://studio.youtube.com/&quot;&gt;YouTube&lt;/a&gt; est particulièrement approprié dans le cas présent.
+La plate-forme permet de procéder à de nombreuses analyses : nombres de vues, quand, qui, où, la durée d’attention, etc.
+Mais ça, c’est pour &lt;a href=&quot;/esnu//premiere-diffusion-podcast&quot;&gt;un autre billet&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h4 id=&quot;application-4&quot;&gt;Application&lt;/h4&gt;
+
+&lt;p&gt;Le résultat de toute cette procédure est disponible &lt;a href=&quot;https://youtu.be/5UpnbasZ3ng&quot;&gt;ici&lt;/a&gt;.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Quentin Delhaye</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="projet" />
+      
+
+      
+        <summary type="html">Les vidéos c’est sympa, mais comment on fait ? Quelle marche suivre et quels outils utiliser ?</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Définition du problème</title>
+      <link href="http://localhost:4000/esnu/definition-du-probleme" rel="alternate" type="text/html" title="Définition du problème" />
+      <published>2019-11-15T11:18:00+01:00</published>
+      <updated>2019-11-15T11:18:00+01:00</updated>
+      <id>http://localhost:4000/esnu/definition-du-probleme</id>
+      <content type="html" xml:base="http://localhost:4000/esnu/definition-du-probleme">&lt;p&gt;Comment définir précisément la problématique à adresser ?&lt;/p&gt;
+
+&lt;p&gt;La première étape consiste à &lt;a href=&quot;2019-11-10-construire-des-personas&quot;&gt;connaître son public&lt;/a&gt;, par exemple en établissant des persona les représentant.&lt;/p&gt;
+
+&lt;p&gt;Ensuite, il faut extraire les informations pertinentes sous-jacentes aux profils des persona.
+Deux outils permettent d’y parvenir : « Les cinq pourquoi » et la définition du problèmes proprement dite.&lt;/p&gt;
+
+&lt;h2 id=&quot;les-cinq-pourquoi&quot;&gt;Les cinq pourquoi&lt;/h2&gt;
+
+&lt;p&gt;Le but de cet exercice est de nous pousser à creuser la problématique afin de mettre en évidence son origine profonde.
+Nous voulons traiter le problème à sa racine et non ses simples symptômes.&lt;/p&gt;
+
+&lt;p&gt;Alors quel est le problème ?&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Ils ne savent pas bien utiliser le matériel.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Pourquoi ?&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Ils ne lisent pas les ressources à leur disposition et ils n’essaient pas par eux-mêmes et veulent qu’on le fasse pour eux.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Pourquoi ?&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Ils sont désemparés face à un document trop long et dont les schémas ne collent pas suffisamment à la réalité.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Pourquoi ?&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Leur durée d’attention et de concentration est très courte et le document se veut généraliste et spécifique en même temps, mais les généralités ne les intéressent guère.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Pourquoi ?&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Ils ont besoin d’information utile et utilisable directement en laboratoire, afin d’avancer efficacement dans la manipulation.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;définir-le-problème&quot;&gt;Définir le problème&lt;/h2&gt;
+
+&lt;p&gt;Avant de définir clairement le problème, passons par quelques étapes permettant d’analyser les persona.&lt;/p&gt;
+
+&lt;h3 id=&quot;contradictions&quot;&gt;Contradictions&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Ils veulent plus d’explications et d’introduction au matériel, mais ils ne lisent pas les supports existants.&lt;/li&gt;
+  &lt;li&gt;S’ils sont bien tous d’accord pour dire qu’ils souhaitent développer leur autonomie et leur esprit critique, beaucoup ont encore trop besoin d’aide pour avancer dans le labo.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;révélations-ou-remarques-intéressantes&quot;&gt;Révélations ou remarques intéressantes&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Le manque de rythme &lt;em&gt;imposé&lt;/em&gt; et de mise en commun est perçue comme un problème, là où je vois une autonomisation des séances.&lt;/li&gt;
+  &lt;li&gt;Ils aimeraient avoir des vidéos explicatives du matériel de base.&lt;/li&gt;
+  &lt;li&gt;Très peu d’étudiants cherchent des ressources supplémentaires pour mieux comprendre la matière.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Ce dernier point est notamment mis en évidence par Endrizzi et Sibut &lt;a href=&quot;#référence&quot;&gt;[1]&lt;/a&gt; : les étudiants semblent ne pas s’écarter d’un étroit cercle d’outils familiers.
+Dans ce cas, faut-il les sortir de leur zone de confort ou s’y insérer afin de s’assurer que la nouvelle ressource est bien exploitée ?&lt;/p&gt;
+
+&lt;h3 id=&quot;frustrations-ou-questions-sans-réponse&quot;&gt;Frustrations ou questions sans réponse&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;On prend trop de temps à venir répondre à leurs questions en séance.&lt;/li&gt;
+  &lt;li&gt;Ils n’ont pas le temps de tout faire parfaitement et de tout préparer.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;difficultés-problèmes-ou-besoins-vécusressentis-par-lapprenante&quot;&gt;Difficultés, problèmes ou besoins vécus/ressentis par l’apprenant.e&lt;/h3&gt;
+
+&lt;p&gt;C’est notamment pour ce point que &lt;a href=&quot;#les-cinq-pourquoi&quot;&gt;les cinq pourquoi&lt;/a&gt; est intéressant à réaliser préalablement à la définition du problème.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Problème d’utilisation du matériel&lt;/li&gt;
+  &lt;li&gt;Disponibilité de l’assistant en laboratoire&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;la-problématique-en-un-dessin&quot;&gt;La problématique en un dessin&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/images/problematique/Problematique_en_un_dessin.png&quot; alt=&quot;Illustration de la problématique&quot; title=&quot;La problématique en un dessin&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;la-problématique-en-une-question&quot;&gt;La problématique en une question&lt;/h3&gt;
+
+&lt;p&gt;On arrive enfin à la finalité de l’activité : la formulation de la problèmatique en question.
+Après cette analyse, on pourrait la formuler ainsi :&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Comment pourrais-je donner aux étudiants les outils nécessaires pour qu’ils puissent s’approprier le matériel de laboratoire et l’utiliser en toute autonomie ?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Une réponse à cette question : un podcast vidéo illustrant comment utiliser le matériel de laboratoire en situation réelle.
+Vous pourrez en lire plus à ce sujet &lt;a href=&quot;/esnu//realiser-une-video&quot;&gt;dans la suite du projet&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h4 id=&quot;référence&quot;&gt;Référence&lt;/h4&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://veille-et-analyses.ens-lyon.fr/DA-Veille/106-decembre-2015.pdf&quot;&gt;Endrizzi, Laure et Sibut, Florence, &lt;em&gt;Les nouveaux étudiants, d’hier à aujourd’hui&lt;/em&gt;, 2015, Dossier de veille de l’IFÉ, n° 106&lt;/a&gt;&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Quentin Delhaye</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="projet" />
+      
+
+      
+        <summary type="html">Comment définir précisément la problématique à adresser ?</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Construire des personas</title>
+      <link href="http://localhost:4000/esnu/construire-des-personas" rel="alternate" type="text/html" title="Construire des personas" />
+      <published>2019-11-10T11:18:00+01:00</published>
+      <updated>2019-11-10T11:18:00+01:00</updated>
+      <id>http://localhost:4000/esnu/construire-des-personas</id>
+      <content type="html" xml:base="http://localhost:4000/esnu/construire-des-personas">&lt;p&gt;Pour qu’un dispositif soit efficace, il faut qu’il réponde à des besoins.
+Pour identifier les besoins, il faut connaître son public.&lt;/p&gt;
+
+&lt;p&gt;Afin de savoir exactement si le dispositif que je voulais mettre en place correspondait aux attentes de mes étudiants, j’ai commencé par établir des &lt;em&gt;persona&lt;/em&gt;, des profils caractéristiques représentant le public visé.&lt;/p&gt;
+
+&lt;h2 id=&quot;première-étape--interviews&quot;&gt;Première étape : interviews&lt;/h2&gt;
+
+&lt;p&gt;Le public visé était les étudiants de BA bloc 3 suivant mes laboratoires d’électronique.
+J’avais déjà eu l’occasion de les côtoyer lors des séances d’exercices précédant les laboratoires et je savais donc qui contacter afin d’avoir un échantillon d’étudiants coopérant et représentatif.&lt;/p&gt;
+
+&lt;p&gt;J’ai ainsi procédé à quelques interviews réparties sur une semaines avec des étudiants ayant commencé les laboratoires pour la première fois, ainsi qu’avec des étudiants de Master 1 pour faire appel à leur expérience &lt;em&gt;a posteriori&lt;/em&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;guide-dentretien&quot;&gt;Guide d’entretien&lt;/h3&gt;
+
+&lt;p&gt;Afin de réaliser des entretiens efficaces, un bref guide avait été rédigé en amont.&lt;/p&gt;
+
+&lt;p&gt;Il se composait en substance des questions suivantes :&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Utilisez-vous des outils numériques en-dehors des cours ?&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Pourquoi êtes-vous en Polytech ?&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Pourquoi avez-vous choisi votre section ?&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Qu’espérez-vous tirer de votre formation ?&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Que faites-vous pendant le cours ?&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Que faites-vous pendant le laboratoire ?&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Utilisez-vous des outils numériques pour vos études ?&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Quels outils devraient être à votre disposition ?&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Rencontrez-vous des problèmes lors des laboratoires ?&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Comment compareriez-vous le cours d’électronique aux autres cours ?&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Comment évalueriez-vous votre niveau de compétence en numérique ?&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Comment préparez-vous vos laboratoires ?&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Comment étudiez-vous le cours ?&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Comment pensez-vous préparer un éventuel examen de seconde session ?&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Pourquoi participez-vous aux laboratoires ?&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Avez-vous des suggestions sur le déroulement des laboratoires ?&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&quot;compiler-les-résultats&quot;&gt;Compiler les résultats&lt;/h2&gt;
+
+&lt;p&gt;Les résultats des entretiens ont été compilés en trois persona différents en utilisant &lt;a href=&quot;https://milanote.com/&quot;&gt;Milanote&lt;/a&gt;, suivant un template fourni par Nicolas Roland.&lt;/p&gt;
+
+&lt;p&gt;Les résultats sont accessibles &lt;a href=&quot;assets/persona&quot;&gt;ici&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;La partie compliquée est finalement de fusionner toutes les réponses avant de les séparer à nouveau pour créer de nouvelles personnes fictives, tout en restant réaliste quant aux profils ainsi établis.&lt;/p&gt;
+
+&lt;h2 id=&quot;apprendre-des-persona&quot;&gt;Apprendre des persona&lt;/h2&gt;
+
+&lt;p&gt;Ces entretiens et persona m’ont apporté un élément essentiel dans le développement de mon projet.
+Comment présenter au début de ce billet, ils m’ont permi de comprendre les &lt;em&gt;vrais&lt;/em&gt; problèmes que rencontrent mes étudiants en laboratoire.&lt;/p&gt;
+
+&lt;p&gt;Contrairement à ce que j’envisageais, ils n’étaient pas tant demandeurs d’outils de préparation des laboratoires ou de révision de la matière.
+Ce qu’ils voulaient, c’était :&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Comprendre comment utiliser le matériel mis à leur disposition chaque semaine.&lt;/li&gt;
+  &lt;li&gt;Avoir plus d’assistants pour répondre à leurs questions.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Si la deuxième demande ne peut pas être rencontrée, une solution à la première pourrait tout même aider.
+En effet, les assistants passent beaucoup de temps en laboratoire à aider les étudiants à configurer correctement leur matériel. En réalisant des tutoriaux clairs à ce sujet :&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Les étudiants comprendraient mieux comment utiliser le matériel&lt;/li&gt;
+  &lt;li&gt;Les assistants seraient davantage disponibles.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Mais nous reviendrons sur cet aspect 
+&lt;a href=&quot;/esnu//definition-du-probleme&quot;&gt;dans un autre billet&lt;/a&gt;&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Quentin Delhaye</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="projet" />
+      
+
+      
+        <summary type="html">Pour qu’un dispositif soit efficace, il faut qu’il réponde à des besoins. Pour identifier les besoins, il faut connaître son public.</summary>
       
 
       

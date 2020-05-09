@@ -4,7 +4,7 @@ current: post
 cover: assets/images/creativity-819371_1280.jpg
 navigation: True
 title: Définition du problème
-date: 2020-01-21 10:18:00
+date: 2019-11-15 10:18:00
 tags: projet
 class: post-template
 subclass: 'post tag-projet'
@@ -13,7 +13,7 @@ author: quentin
 
 Comment définir précisément la problématique à adresser ?
 
-La première étape consiste à [connaître son public](2020-01-20-construire-des-personas), par exemple en établissant des persona les représentant.
+La première étape consiste à [connaître son public](2019-11-10-construire-des-personas), par exemple en établissant des persona les représentant.
 
 Ensuite, il faut extraire les informations pertinentes sous-jacentes aux profils des persona.
 Deux outils permettent d'y parvenir : « Les cinq pourquoi » et la définition du problèmes proprement dite.
@@ -93,7 +93,7 @@ Après cette analyse, on pourrait la formuler ainsi :
 > Comment pourrais-je donner aux étudiants les outils nécessaires pour qu'ils puissent s'approprier le matériel de laboratoire et l'utiliser en toute autonomie ?
 
 Une réponse à cette question : un podcast vidéo illustrant comment utiliser le matériel de laboratoire en situation réelle.
-Vous pourrez en lire plus à ce sujet [dans la suite du projet]({{site.baseurl}}{% link _posts/2020-02-01-realiser-une-video.md %}).
+Vous pourrez en lire plus à ce sujet [dans la suite du projet]({{site.baseurl}}{% link _posts/2019-12-02-realiser-une-video.md %}).
 
 
 

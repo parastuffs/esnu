@@ -18,7 +18,7 @@ Elle a été diffusée aux étudiants au début de la semaine durant laquelle se
 Ce billet va étudier la vidéo selon trois aspects : son analyse au travers de YouTube Studio, son impact sur le déroulement des laboratoires et enfin quelles leçons peuvent être tirées de cette expérience.
 
 ## Analyse du visionage par les étudiants
-Comme expliqué dans la [réalisation de la vidéo]({{site.baseurl}}{% link _posts/2020-02-01-realiser-une-video.md %}), le média choisi pour sa diffusion a été YouTube.
+Comme expliqué dans la [réalisation de la vidéo]({{site.baseurl}}{% link _posts/2019-12-02-realiser-une-video.md %}), le média choisi pour sa diffusion a été YouTube.
 La justification majeure est la quantité d'outils d'analyse proposés aux créateurs par la plate-forme.
 
 Pour cette analyse, nous allons nous concentrer sur la période « utile » de la vidéo, c'est-à-dire la semaine durant laquelle la manipulation dont parle la vidéo a eu lieu : du 2 au 6 décembre 2019.
@@ -80,8 +80,8 @@ Quoi qu'il en soit, il reste intéressant de remarque qu'**une bonne partie des 
 Immédiatement après la mise à disposition de la vidéo, tous les assistants du laboratoire ont pu remarquer que le nombre de questions afférentes au fonctionnement de l'oscilloscope (le sujet de la vidéo) a drastiquement diminué.
 Pour les quelques irréductibles, il a suffit de leur indiquer l'existence de cette vidéo qui semblait avoir échappé à leur vigilance pour qu'ils la regardent derechef pendant la séance, répondant ainsi seuls à leur propre question.
 
-Nous pouvons faire ici écho à la [définition du problème]({{site.baseurl}}{% link _posts/2020-01-21-definition-du-probleme.md %}) : la vidéo semble effectivement avoir utilisé cet outil pour s'approprier le matériel de laboratoire.
-Ce qui à son tour répond à leurs deux demandes [identifiées dans les persona]({{site.baseurl}}{% link _posts/2020-01-20-construire-des-personas.md %}) : comprendre le matériel et rendre les assistants plus disponibles.
+Nous pouvons faire ici écho à la [définition du problème]({{site.baseurl}}{% link _posts/2019-11-15-definition-du-probleme.md %}) : la vidéo semble effectivement avoir utilisé cet outil pour s'approprier le matériel de laboratoire.
+Ce qui à son tour répond à leurs deux demandes [identifiées dans les persona]({{site.baseurl}}{% link _posts/2019-11-10-construire-des-personas.md %}) : comprendre le matériel et rendre les assistants plus disponibles.
 
 
 ## Améliorations
@@ -91,7 +91,7 @@ Reprenons les indications que des améliorations sont nécessaires :
 - Une durée moyenne de visionnage plus longue que celle de la vidéo
 - Certains passages avec un taux de visionnage supérieur à 100 %
 
-Outre les améliorations quant à la qualité de production de la vidéo déjà abordée dans l'article [précédent]({{site.baseurl}}{% link _posts/2020-02-01-realiser-une-video.md %}), il semble que le contenu puisse aussi bénéficier d'une mise à jour.
+Outre les améliorations quant à la qualité de production de la vidéo déjà abordée dans l'article [précédent]({{site.baseurl}}{% link _posts/2019-12-02-realiser-une-video.md %}), il semble que le contenu puisse aussi bénéficier d'une mise à jour.
 
 Quelques pistes pourraient être mises en évidence :
 - Accompagner la vidéo d'un documents reprenant des captures de la vidéo avec les connexions à effectuer.  

@@ -83,52 +83,6 @@
     
       
       <item>
-        <title>Construire des personas</title>
-        
-          <description>&lt;p&gt;Pour qu’un dispositif soit efficace, il faut qu’il réponde à des besoins.
-Pour identifier les besoins, il faut connaître son public.&lt;/p&gt;
-
-</description>
-        
-        <pubDate>Sun, 16 Feb 2020 11:18:00 +0100</pubDate>
-        <link>
-        http://localhost:4000/construire-des-personas</link>
-        <guid isPermaLink="true">http://localhost:4000/construire-des-personas</guid>
-      </item>
-      
-    
-      
-      <item>
-        <title>Définition du problème</title>
-        
-          <description>&lt;p&gt;Comment définir précisément la problématique à adresser ?&lt;/p&gt;
-
-</description>
-        
-        <pubDate>Tue, 21 Jan 2020 11:18:00 +0100</pubDate>
-        <link>
-        http://localhost:4000/definition-du-probleme</link>
-        <guid isPermaLink="true">http://localhost:4000/definition-du-probleme</guid>
-      </item>
-      
-    
-      
-      <item>
-        <title>Réaliser une vidéo</title>
-        
-          <description>&lt;p&gt;Les vidéos c’est sympa, mais comment on fait ? Quelle marche suivre et quels outils utiliser ?&lt;/p&gt;
-
-</description>
-        
-        <pubDate>Fri, 17 Jan 2020 11:18:00 +0100</pubDate>
-        <link>
-        http://localhost:4000/realiser-une-video</link>
-        <guid isPermaLink="true">http://localhost:4000/realiser-une-video</guid>
-      </item>
-      
-    
-      
-      <item>
         <title>Réalisation d'un portfolio numérique avec Jekyll</title>
         
           <description>&lt;p&gt;Cet article présentera brièvement comment ce site a été construit en utilisant des technologies libres et open sources.&lt;/p&gt;
@@ -144,23 +98,6 @@ Pour identifier les besoins, il faut connaître son public.&lt;/p&gt;
     
       
       <item>
-        <title>Enseigner dans le supérieur avec le numé-quoi ?</title>
-        
-          <description>&lt;blockquote&gt;
-  &lt;p&gt;Enseigner dans le supérieur avec le numérique&lt;/p&gt;
-&lt;/blockquote&gt;
-
-</description>
-        
-        <pubDate>Fri, 17 Jan 2020 11:18:00 +0100</pubDate>
-        <link>
-        http://localhost:4000/Enseigner-dans-le-sup%C3%A9rieur-avec-le-num%C3%A9-quoi</link>
-        <guid isPermaLink="true">http://localhost:4000/Enseigner-dans-le-sup%C3%A9rieur-avec-le-num%C3%A9-quoi</guid>
-      </item>
-      
-    
-      
-      <item>
         <title>Première diffusion d'un podcast aux étudiants</title>
         
           <description>&lt;p&gt;Après la diffusion de la vidéo aux étudiants, il est temps d’analyser son impact.&lt;/p&gt;
@@ -171,6 +108,69 @@ Pour identifier les besoins, il faut connaître son public.&lt;/p&gt;
         <link>
         http://localhost:4000/premiere-diffusion-podcast</link>
         <guid isPermaLink="true">http://localhost:4000/premiere-diffusion-podcast</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Réaliser une vidéo</title>
+        
+          <description>&lt;p&gt;Les vidéos c’est sympa, mais comment on fait ? Quelle marche suivre et quels outils utiliser ?&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Mon, 02 Dec 2019 11:18:00 +0100</pubDate>
+        <link>
+        http://localhost:4000/realiser-une-video</link>
+        <guid isPermaLink="true">http://localhost:4000/realiser-une-video</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Définition du problème</title>
+        
+          <description>&lt;p&gt;Comment définir précisément la problématique à adresser ?&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Fri, 15 Nov 2019 11:18:00 +0100</pubDate>
+        <link>
+        http://localhost:4000/definition-du-probleme</link>
+        <guid isPermaLink="true">http://localhost:4000/definition-du-probleme</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Construire des personas</title>
+        
+          <description>&lt;p&gt;Pour qu’un dispositif soit efficace, il faut qu’il réponde à des besoins.
+Pour identifier les besoins, il faut connaître son public.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Sun, 10 Nov 2019 11:18:00 +0100</pubDate>
+        <link>
+        http://localhost:4000/construire-des-personas</link>
+        <guid isPermaLink="true">http://localhost:4000/construire-des-personas</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Enseigner dans le supérieur avec le numé-quoi ?</title>
+        
+          <description>&lt;blockquote&gt;
+  &lt;p&gt;Enseigner dans le supérieur avec le numérique&lt;/p&gt;
+&lt;/blockquote&gt;
+
+</description>
+        
+        <pubDate>Fri, 25 Oct 2019 12:18:00 +0200</pubDate>
+        <link>
+        http://localhost:4000/Enseigner-dans-le-sup%C3%A9rieur-avec-le-num%C3%A9-quoi</link>
+        <guid isPermaLink="true">http://localhost:4000/Enseigner-dans-le-sup%C3%A9rieur-avec-le-num%C3%A9-quoi</guid>
       </item>
       
     

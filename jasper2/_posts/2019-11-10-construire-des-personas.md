@@ -4,7 +4,7 @@ current: post
 cover: assets/images/neonbrand-CXDw96Oy-Yw-unsplash.jpg
 navigation: True
 title: Construire des personas
-date: 2020-02-16 10:18:00
+date: 2019-11-10 10:18:00
 tags: projet
 class: post-template
 subclass: 'post tag-projet'
@@ -72,4 +72,4 @@ En effet, les assistants passent beaucoup de temps en laboratoire Ã  aider les Ã
 2. Les assistants seraient davantage disponibles.
 
 Mais nous reviendrons sur cet aspect 
-[dans un autre billet]({{site.baseurl}}{% link _posts/2020-01-21-definition-du-probleme.md %})
+[dans un autre billet]({{site.baseurl}}{% link _posts/2019-11-15-definition-du-probleme.md %})
