@@ -25,7 +25,7 @@ Deux cours sont étudiés dans ce billet. Je présente rapidement leurs caracté
 * Évaluation : Devoirs à remettre une semaine après la séance de laboratoire. La remise de ces devoirs exploite des module Moodle sur l'UV, l'expérience est donc déjà numérique pour les apprenants.
 
 ### ELECH402 - Électronique analogique
-* Public : Cours dispensé aux MA1 Polytech option Biomédical. Il s'agit d'une cohorte d'environ 25 étudiants.
+* Public : Cours dispensé aux MA1 Polytech option Biomédical. Il s'agit d'une cohorte d'environ 25 étudiants (les mêmes dont je parlais lors de la [réorientation de mon projet]({{site.baseurl}}{% link _posts/2020-03-01-reorientation-du-projet.md %}))
 * Type de laboratoire : Simulations de circuits électronique en utilisant *Cadence PSPICE*. Ce logiciel ne tourne que sous Windows (natif ou en machine virtuelle).
 * Évaluation : Examen de laboratoire prévu mi-mai.  
 *Note* : La communication à ce sujet a été effectuée lorsque les cours devaient encore reprendre le 19 avril. Étant donné que le reste du quadrimestre se déroulera à distance, cette évaluation devra être revue, dans sa forme voire dans son existence.

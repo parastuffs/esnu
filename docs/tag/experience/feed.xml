@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
   <link href="http://localhost:4000/esnu/tag/experience/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/esnu/" rel="alternate" type="text/html" />
-  <updated>2020-05-09T15:16:38+02:00</updated>
+  <updated>2020-05-09T16:25:06+02:00</updated>
   <id>http://localhost:4000/esnu/tag/experience/feed.xml</id>
 
   
@@ -54,7 +54,7 @@
 
 &lt;h3 id=&quot;elech402---électronique-analogique&quot;&gt;ELECH402 - Électronique analogique&lt;/h3&gt;
 &lt;ul&gt;
-  &lt;li&gt;Public : Cours dispensé aux MA1 Polytech option Biomédical. Il s’agit d’une cohorte d’environ 25 étudiants.&lt;/li&gt;
+  &lt;li&gt;Public : Cours dispensé aux MA1 Polytech option Biomédical. Il s’agit d’une cohorte d’environ 25 étudiants (les mêmes dont je parlais lors de la &lt;a href=&quot;/esnu//reorientation-du-projet&quot;&gt;réorientation de mon projet&lt;/a&gt;)&lt;/li&gt;
   &lt;li&gt;Type de laboratoire : Simulations de circuits électronique en utilisant &lt;em&gt;Cadence PSPICE&lt;/em&gt;. Ce logiciel ne tourne que sous Windows (natif ou en machine virtuelle).&lt;/li&gt;
   &lt;li&gt;Évaluation : Examen de laboratoire prévu mi-mai.&lt;br /&gt;
 &lt;em&gt;Note&lt;/em&gt; : La communication à ce sujet a été effectuée lorsque les cours devaient encore reprendre le 19 avril. Étant donné que le reste du quadrimestre se déroulera à distance, cette évaluation devra être revue, dans sa forme voire dans son existence.&lt;/li&gt;
