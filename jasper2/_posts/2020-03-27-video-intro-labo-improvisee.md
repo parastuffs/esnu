@@ -35,6 +35,8 @@ Une minute plus tard, la vidéo est terminée.
 ### ... de diffusion
 Dernière étape : [diffuser la vidéo](https://www.youtube.com/watch?v=7bCLhckAR0w&list=PLOQHyfCR7VoA05r6ljZtoU3LKU5DNoeds&index=2) sur la plate-forme, que ce soit Teams, Slack, Moodle ou par email.
 
+{% include youtube.html id="7bCLhckAR0w" %}
+
 ## La vidéo : montrer notre présence à distance
 De la même façon, il peut être encore plus aisé de donner rendez-vous aux étudiants à une heure fixe, tout comme pour les séances en présentiel, et diffuser la vidéo en direct.
 L'avantage étant qu'on les pousse à être présents dès le début de la séance pour profiter de l'introduction.  

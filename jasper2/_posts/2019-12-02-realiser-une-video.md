@@ -110,4 +110,4 @@ Mais ça, c'est pour [un autre billet]({{site.baseurl}}{% link _posts/2019-12-10
 
 Le résultat de toute cette procédure est disponible [ici](https://youtu.be/5UpnbasZ3ng).
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+{% include youtube.html id="5UpnbasZ3ng" %}
