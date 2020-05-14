@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
   <link href="http://localhost:4000/esnu/author/quentin/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/esnu/" rel="alternate" type="text/html" />
-  <updated>2020-05-12T14:55:34+02:00</updated>
+  <updated>2020-05-14T18:10:18+02:00</updated>
   <id>http://localhost:4000/esnu/author/quentin/feed.xml</id>
 
   
@@ -572,7 +572,70 @@ Chaque activité d’enseignement s’adressant à une cohorte particulière dev
       <published>2020-03-10T11:18:00+01:00</published>
       <updated>2020-03-10T11:18:00+01:00</updated>
       <id>http://localhost:4000/esnu/nouveau-public-nouvelle-problematique</id>
-      <content type="html" xml:base="http://localhost:4000/esnu/nouveau-public-nouvelle-problematique">&lt;p&gt;Mise à jour des persona et de la problématique pour l’adapter au nouveau public de ELECH402.&lt;/p&gt;</content>
+      <content type="html" xml:base="http://localhost:4000/esnu/nouveau-public-nouvelle-problematique">&lt;p&gt;Mise à jour des persona et de la problématique suite à la &lt;a href=&quot;/esnu//reorientation-du-projet&quot;&gt;réorientation du projet&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;changement-de-public&quot;&gt;Changement de public&lt;/h2&gt;
+
+&lt;p&gt;Comme expliqué dans le billet parlant de mon choix de changer le projet, nous avons changé de public : il s’agit à présent d’une série d’étudiants de première année de master, à orientation biomédicale.
+Quant au cours, il s’agit toujours d’électronique, mais analogique cette fosi-ci.
+Les laboratoires s’y déroulent en trois temps : des simulations numériques à l’aide d’un logiciel (&lt;a href=&quot;https://www.orcad.com/&quot;&gt;OrCAD&lt;/a&gt;), la conception d’un circuit imprimé à l’aide d’un autre (&lt;a href=&quot;https://kicad-pcb.org/&quot;&gt;KiCad&lt;/a&gt;), pour terminer avec l’assemblage et le test physique de leur réalisation.&lt;/p&gt;
+
+&lt;p&gt;Quelques échanges en fin de laboratoire avec des étudiants, en suivant le même canvas que pour les &lt;a href=&quot;/esnu//construire-des-personas&quot;&gt;premiers persona&lt;/a&gt;, ont permis de dresser un &lt;a href=&quot;assets/persona/elech402/export_canvas_persona-esnu-elech402--camille-200514_1301.pdf&quot;&gt;personna représentant le groupe entier&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Ce profil est fort similaire à ceux des étudiants de BA3 précédemment étudiés (ce qui est compréhensible).
+L’un des changements notables est qu’ils ont un examen de laboratoire qu’ils se demandent comment préparer.&lt;/p&gt;
+
+&lt;h2 id=&quot;changement-de-projet&quot;&gt;Changement de projet&lt;/h2&gt;
+
+&lt;p&gt;Le cours, le public et leurs besoins ayant changés, le projet doit aussi être mis jour.&lt;/p&gt;
+
+&lt;h3 id=&quot;définition-du-problème&quot;&gt;Définition du problème&lt;/h3&gt;
+
+&lt;p&gt;Cette réflexion suit le même cheminement que la &lt;a href=&quot;/esnu//definition-du-probleme&quot;&gt;première définition&lt;/a&gt; et en partage certains points.&lt;/p&gt;
+
+&lt;h4 id=&quot;contradictions&quot;&gt;Contradictions&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Ils veulent des corrigés détaillés des laboratoires, mais il ne prennent pas note de leur propres méthodes et développements.&lt;br /&gt;
+Des corrigés ont néanmoins été mis à disposition, principalement pour les réponses numériques finales. Certaines manipulations permettant d’y arriver ont aussi été ajoutées, mais l’essentiel est détaillé dans les vidéos d’explication du logiciel.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;révélations-ou-remarques-intéressantes&quot;&gt;Révélations ou remarques intéressantes&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Très rares sont les étudiants allant chercher des ressources supplémentaires sur Internet pour mieux comprendre le fonctionnement du logiciel, des composants utilisés ou pour les aider à résoudre un message d’erreur.&lt;/li&gt;
+  &lt;li&gt;Ils regardent les vidéos avant ou pendant le laboratoire, mais n’en retiennent pas le contenu.&lt;/li&gt;
+  &lt;li&gt;Ils se contentent de regarder les vidéos une seule fois, généralement juste avant le premier laboratoire, mais n’y reviennent plus ensuite.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;difficultés-problèmes-ou-besoins-vécusressentis-par-lapprenante&quot;&gt;Difficultés, problèmes ou besoins vécus/ressentis par l’apprenant.e&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Identifier ses propres erreurs et en tirer des leçons.&lt;br /&gt;
+La majorité du temps, quand ils sont aidés pour résoudre un problème de manipulation du logiciel, ils ne notent nulle part comme ils ont résolu l’erreur.&lt;/li&gt;
+  &lt;li&gt;Ils ont globalement peur de l’examen de laboratoire.
+Pas tant pour sa difficulté théorique, mais pour la maîtrise nécessaire du logiciel « qui bug tout le temps » selon eux, mais qui sont 99% du temps des erreurs de manipulation qui sont justement évaluées.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;reformulation-de-la-problématique&quot;&gt;Reformulation de la problématique&lt;/h3&gt;
+
+&lt;p&gt;L’essentiel de leurs inquiétudes tournant autour de l’examen de laboratoire et du logiciel de simulation, la problématique pourrait être reformulée comme suit :&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Comment pourrais-je aider les étudiants à tester leur maîtrise du logiciel en vue de l’examen de laboratoire ?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;matériel-existant&quot;&gt;Matériel existant&lt;/h3&gt;
+
+&lt;p&gt;Pour m’aider dans cette tâche, il existe déjà des ressources que j’ai developpées au cours des années.
+Un &lt;a href=&quot;https://github.com/BEAMS-EE/ELECH402/wiki/KiCad:-project&quot;&gt;Wiki&lt;/a&gt; pour KiCad et surtout des &lt;a href=&quot;https://www.youtube.com/playlist?list=PLOQHyfCR7VoDGZA_SN9r1AEn83DdWCXU0&quot;&gt;vidéos&lt;/a&gt; pour OrCAD.&lt;/p&gt;
+
+&lt;p&gt;Ces dernières sont celles dont je parlais plus tôt : les étudiants les regardent généralement quelques jours avant le premier laboratoire pour se faire une idée de la manipulation du logiciel.&lt;/p&gt;
+
+&lt;h3 id=&quot;nouveau-matériel-à-développer&quot;&gt;Nouveau matériel à développer&lt;/h3&gt;
+
+&lt;p&gt;Elles ne sont cependant pas suffisantes pour préparer correctement les étudiants, elles manquent d’interactivité afin de les engager dans leur apprentissage.
+Il serait donc intéressant de développer un petit module d’auto-évaluation à l’utilisation du logiciel, mais ça, c’est pour un &lt;a href=&quot;/esnu//tester-maitrise-logiciel&quot;&gt;autre billet&lt;/a&gt;.&lt;/p&gt;</content>
 
       
       
@@ -593,7 +656,7 @@ Chaque activité d’enseignement s’adressant à une cohorte particulière dev
       
 
       
-        <summary type="html">Mise à jour des persona et de la problématique pour l’adapter au nouveau public de ELECH402.</summary>
+        <summary type="html">Mise à jour des persona et de la problématique suite à la réorientation du projet.</summary>
       
 
       

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="http://localhost:4000/esnu/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/esnu/" rel="alternate" type="text/html" /><updated>2020-05-12T14:55:34+02:00</updated><id>http://localhost:4000/esnu/</id><title type="html">ESNU Portfolio</title><subtitle>Portfolio de l'édition 2019-2020 du certificat ESNU</subtitle><entry><title type="html">Retours utilisateurs et analyse du dispositif</title><link href="http://localhost:4000/esnu/retour-et-analyse" rel="alternate" type="text/html" title="Retours utilisateurs et analyse du dispositif" /><published>2020-05-08T12:18:00+02:00</published><updated>2020-05-08T12:18:00+02:00</updated><id>http://localhost:4000/esnu/retour-et-analyse</id><content type="html" xml:base="http://localhost:4000/esnu/retour-et-analyse">&lt;p&gt;Résumé des feedbacks étudiants sur le nouveau dispositif et analyse de ses résultats.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="http://localhost:4000/esnu/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/esnu/" rel="alternate" type="text/html" /><updated>2020-05-14T18:10:18+02:00</updated><id>http://localhost:4000/esnu/</id><title type="html">ESNU Portfolio</title><subtitle>Portfolio de l'édition 2019-2020 du certificat ESNU</subtitle><entry><title type="html">Retours utilisateurs et analyse du dispositif</title><link href="http://localhost:4000/esnu/retour-et-analyse" rel="alternate" type="text/html" title="Retours utilisateurs et analyse du dispositif" /><published>2020-05-08T12:18:00+02:00</published><updated>2020-05-08T12:18:00+02:00</updated><id>http://localhost:4000/esnu/retour-et-analyse</id><content type="html" xml:base="http://localhost:4000/esnu/retour-et-analyse">&lt;p&gt;Résumé des feedbacks étudiants sur le nouveau dispositif et analyse de ses résultats.
 Perspectives d’amélioration.&lt;/p&gt;
 
 &lt;p&gt;Garder à l’esprit que les étudiants sont particulièrement chargés en cette période et que le but n’est pas de leur ajouter du travail supplémentaire. Le développement de cette solution avait pour but de leur faciliter la tâche, pas de la compliquer.&lt;/p&gt;</content><author><name>Quentin Delhaye</name></author><category term="projet" /><summary type="html">Résumé des feedbacks étudiants sur le nouveau dispositif et analyse de ses résultats. Perspectives d’amélioration.</summary></entry><entry><title type="html">Distribuer des examens individuels</title><link href="http://localhost:4000/esnu/distribuer-des-examens-individuels" rel="alternate" type="text/html" title="Distribuer des examens individuels" /><published>2020-04-30T12:18:00+02:00</published><updated>2020-04-30T12:18:00+02:00</updated><id>http://localhost:4000/esnu/distribuer-des-examens-individuels</id><content type="html" xml:base="http://localhost:4000/esnu/distribuer-des-examens-individuels">&lt;p&gt;Comment automatiser la distribution d’un examen individuel à chaque étudiant ?&lt;/p&gt;
@@ -295,7 +295,70 @@ Je pense qu’il s’agit là de l’hypothèse la plus probante : les étudiant
 &lt;h2 id=&quot;il-nexiste-pas-de-plate-forme-idéale-et-universelle&quot;&gt;Il n’existe pas de plate-forme idéale et universelle&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://discordapp.com/&quot;&gt;Discord&lt;/a&gt;, &lt;a href=&quot;https://zoom.us/&quot;&gt;Zoom&lt;/a&gt;, &lt;a href=&quot;https://meet.google.com/&quot;&gt;Google Meet&lt;/a&gt;, &lt;a href=&quot;https://www.adobe.com/fr/products/adobeconnect.html&quot;&gt;Adobe Connect&lt;/a&gt;, &lt;a href=&quot;https://zoom.us/&quot;&gt;Zoom&lt;/a&gt;, &lt;a href=&quot;https://products.office.com/fr-be/microsoft-teams/group-chat-software&quot;&gt;Microsoft Teams&lt;/a&gt;, les solutions sont aussi diverses que nombreuses.
-Chaque activité d’enseignement s’adressant à une cohorte particulière devrait se poser la question de la plate-forme la plus appropriée, tout en évitant de les démultipliser et perdre les apprenant en route.&lt;/p&gt;</content><author><name>Quentin Delhaye</name></author><category term="experience" /><summary type="html">Semaine du 16 mars 2020, le monde se transforme alors que tout le monde doit s’isoler. Comment les apprenants s’adaptent-ils aux dispositifs mis en place pour assurer l’enseignement à distance ?</summary></entry><entry><title type="html">Nouveau public, nouvelle problématique</title><link href="http://localhost:4000/esnu/nouveau-public-nouvelle-problematique" rel="alternate" type="text/html" title="Nouveau public, nouvelle problématique" /><published>2020-03-10T11:18:00+01:00</published><updated>2020-03-10T11:18:00+01:00</updated><id>http://localhost:4000/esnu/nouveau-public-nouvelle-problematique</id><content type="html" xml:base="http://localhost:4000/esnu/nouveau-public-nouvelle-problematique">&lt;p&gt;Mise à jour des persona et de la problématique pour l’adapter au nouveau public de ELECH402.&lt;/p&gt;</content><author><name>Quentin Delhaye</name></author><category term="projet" /><summary type="html">Mise à jour des persona et de la problématique pour l’adapter au nouveau public de ELECH402.</summary></entry><entry><title type="html">Réorientation du projet</title><link href="http://localhost:4000/esnu/reorientation-du-projet" rel="alternate" type="text/html" title="Réorientation du projet" /><published>2020-03-01T11:18:00+01:00</published><updated>2020-03-01T11:18:00+01:00</updated><id>http://localhost:4000/esnu/reorientation-du-projet</id><content type="html" xml:base="http://localhost:4000/esnu/reorientation-du-projet">&lt;p&gt;Améliorer le projet existant ou expérimenter un nouveau dispositif, que choisir ?&lt;/p&gt;
+Chaque activité d’enseignement s’adressant à une cohorte particulière devrait se poser la question de la plate-forme la plus appropriée, tout en évitant de les démultipliser et perdre les apprenant en route.&lt;/p&gt;</content><author><name>Quentin Delhaye</name></author><category term="experience" /><summary type="html">Semaine du 16 mars 2020, le monde se transforme alors que tout le monde doit s’isoler. Comment les apprenants s’adaptent-ils aux dispositifs mis en place pour assurer l’enseignement à distance ?</summary></entry><entry><title type="html">Nouveau public, nouvelle problématique</title><link href="http://localhost:4000/esnu/nouveau-public-nouvelle-problematique" rel="alternate" type="text/html" title="Nouveau public, nouvelle problématique" /><published>2020-03-10T11:18:00+01:00</published><updated>2020-03-10T11:18:00+01:00</updated><id>http://localhost:4000/esnu/nouveau-public-nouvelle-problematique</id><content type="html" xml:base="http://localhost:4000/esnu/nouveau-public-nouvelle-problematique">&lt;p&gt;Mise à jour des persona et de la problématique suite à la &lt;a href=&quot;/esnu//reorientation-du-projet&quot;&gt;réorientation du projet&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;changement-de-public&quot;&gt;Changement de public&lt;/h2&gt;
+
+&lt;p&gt;Comme expliqué dans le billet parlant de mon choix de changer le projet, nous avons changé de public : il s’agit à présent d’une série d’étudiants de première année de master, à orientation biomédicale.
+Quant au cours, il s’agit toujours d’électronique, mais analogique cette fosi-ci.
+Les laboratoires s’y déroulent en trois temps : des simulations numériques à l’aide d’un logiciel (&lt;a href=&quot;https://www.orcad.com/&quot;&gt;OrCAD&lt;/a&gt;), la conception d’un circuit imprimé à l’aide d’un autre (&lt;a href=&quot;https://kicad-pcb.org/&quot;&gt;KiCad&lt;/a&gt;), pour terminer avec l’assemblage et le test physique de leur réalisation.&lt;/p&gt;
+
+&lt;p&gt;Quelques échanges en fin de laboratoire avec des étudiants, en suivant le même canvas que pour les &lt;a href=&quot;/esnu//construire-des-personas&quot;&gt;premiers persona&lt;/a&gt;, ont permis de dresser un &lt;a href=&quot;assets/persona/elech402/export_canvas_persona-esnu-elech402--camille-200514_1301.pdf&quot;&gt;personna représentant le groupe entier&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Ce profil est fort similaire à ceux des étudiants de BA3 précédemment étudiés (ce qui est compréhensible).
+L’un des changements notables est qu’ils ont un examen de laboratoire qu’ils se demandent comment préparer.&lt;/p&gt;
+
+&lt;h2 id=&quot;changement-de-projet&quot;&gt;Changement de projet&lt;/h2&gt;
+
+&lt;p&gt;Le cours, le public et leurs besoins ayant changés, le projet doit aussi être mis jour.&lt;/p&gt;
+
+&lt;h3 id=&quot;définition-du-problème&quot;&gt;Définition du problème&lt;/h3&gt;
+
+&lt;p&gt;Cette réflexion suit le même cheminement que la &lt;a href=&quot;/esnu//definition-du-probleme&quot;&gt;première définition&lt;/a&gt; et en partage certains points.&lt;/p&gt;
+
+&lt;h4 id=&quot;contradictions&quot;&gt;Contradictions&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Ils veulent des corrigés détaillés des laboratoires, mais il ne prennent pas note de leur propres méthodes et développements.&lt;br /&gt;
+Des corrigés ont néanmoins été mis à disposition, principalement pour les réponses numériques finales. Certaines manipulations permettant d’y arriver ont aussi été ajoutées, mais l’essentiel est détaillé dans les vidéos d’explication du logiciel.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;révélations-ou-remarques-intéressantes&quot;&gt;Révélations ou remarques intéressantes&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Très rares sont les étudiants allant chercher des ressources supplémentaires sur Internet pour mieux comprendre le fonctionnement du logiciel, des composants utilisés ou pour les aider à résoudre un message d’erreur.&lt;/li&gt;
+  &lt;li&gt;Ils regardent les vidéos avant ou pendant le laboratoire, mais n’en retiennent pas le contenu.&lt;/li&gt;
+  &lt;li&gt;Ils se contentent de regarder les vidéos une seule fois, généralement juste avant le premier laboratoire, mais n’y reviennent plus ensuite.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;difficultés-problèmes-ou-besoins-vécusressentis-par-lapprenante&quot;&gt;Difficultés, problèmes ou besoins vécus/ressentis par l’apprenant.e&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Identifier ses propres erreurs et en tirer des leçons.&lt;br /&gt;
+La majorité du temps, quand ils sont aidés pour résoudre un problème de manipulation du logiciel, ils ne notent nulle part comme ils ont résolu l’erreur.&lt;/li&gt;
+  &lt;li&gt;Ils ont globalement peur de l’examen de laboratoire.
+Pas tant pour sa difficulté théorique, mais pour la maîtrise nécessaire du logiciel « qui bug tout le temps » selon eux, mais qui sont 99% du temps des erreurs de manipulation qui sont justement évaluées.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;reformulation-de-la-problématique&quot;&gt;Reformulation de la problématique&lt;/h3&gt;
+
+&lt;p&gt;L’essentiel de leurs inquiétudes tournant autour de l’examen de laboratoire et du logiciel de simulation, la problématique pourrait être reformulée comme suit :&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Comment pourrais-je aider les étudiants à tester leur maîtrise du logiciel en vue de l’examen de laboratoire ?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;matériel-existant&quot;&gt;Matériel existant&lt;/h3&gt;
+
+&lt;p&gt;Pour m’aider dans cette tâche, il existe déjà des ressources que j’ai developpées au cours des années.
+Un &lt;a href=&quot;https://github.com/BEAMS-EE/ELECH402/wiki/KiCad:-project&quot;&gt;Wiki&lt;/a&gt; pour KiCad et surtout des &lt;a href=&quot;https://www.youtube.com/playlist?list=PLOQHyfCR7VoDGZA_SN9r1AEn83DdWCXU0&quot;&gt;vidéos&lt;/a&gt; pour OrCAD.&lt;/p&gt;
+
+&lt;p&gt;Ces dernières sont celles dont je parlais plus tôt : les étudiants les regardent généralement quelques jours avant le premier laboratoire pour se faire une idée de la manipulation du logiciel.&lt;/p&gt;
+
+&lt;h3 id=&quot;nouveau-matériel-à-développer&quot;&gt;Nouveau matériel à développer&lt;/h3&gt;
+
+&lt;p&gt;Elles ne sont cependant pas suffisantes pour préparer correctement les étudiants, elles manquent d’interactivité afin de les engager dans leur apprentissage.
+Il serait donc intéressant de développer un petit module d’auto-évaluation à l’utilisation du logiciel, mais ça, c’est pour un &lt;a href=&quot;/esnu//tester-maitrise-logiciel&quot;&gt;autre billet&lt;/a&gt;.&lt;/p&gt;</content><author><name>Quentin Delhaye</name></author><category term="projet" /><summary type="html">Mise à jour des persona et de la problématique suite à la réorientation du projet.</summary></entry><entry><title type="html">Réorientation du projet</title><link href="http://localhost:4000/esnu/reorientation-du-projet" rel="alternate" type="text/html" title="Réorientation du projet" /><published>2020-03-01T11:18:00+01:00</published><updated>2020-03-01T11:18:00+01:00</updated><id>http://localhost:4000/esnu/reorientation-du-projet</id><content type="html" xml:base="http://localhost:4000/esnu/reorientation-du-projet">&lt;p&gt;Améliorer le projet existant ou expérimenter un nouveau dispositif, que choisir ?&lt;/p&gt;
 
 &lt;p&gt;En réfléchissant au projet que je voulais mettre en place, ma première volonté était de donner la possibilité aux étudiants de tester leurs connaissances de façon ludique avant d’arriver en laboratoire.
 Cependant, la problématisation du sujet et l’étude du public ont mis en évidence qu’il était plus pertinent et urgent de mettre à leur disposition des outils permettant d’utiliser le matériel de manière efficace.
