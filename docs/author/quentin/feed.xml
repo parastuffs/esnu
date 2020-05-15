@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
   <link href="http://localhost:4000/esnu/author/quentin/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/esnu/" rel="alternate" type="text/html" />
-  <updated>2020-05-15T19:20:09+02:00</updated>
+  <updated>2020-05-15T19:25:48+02:00</updated>
   <id>http://localhost:4000/esnu/author/quentin/feed.xml</id>
 
   
@@ -498,7 +498,9 @@ Dans mon cas, l’endroit en question se trouve entre la fin de la balise &lt;co
                 &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;d&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;head&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;||&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;d&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;body&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;appendChild&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
             &lt;span class=&quot;p&quot;&gt;})();&lt;/span&gt;
         &lt;span class=&quot;nt&quot;&gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
-        &lt;span class=&quot;nt&quot;&gt;&amp;lt;noscript&amp;gt;&lt;/span&gt;Please enable JavaScript to view the &lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;https://disqus.com/?ref_noscript&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;comments powered by Disqus.&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&amp;lt;/noscript&amp;gt;&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;lt;noscript&amp;gt;&lt;/span&gt;Please enable JavaScript to view the
+        &lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;https://disqus.com/?ref_noscript&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;comments powered by Disqus.&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;lt;/noscript&amp;gt;&lt;/span&gt;
     &lt;span class=&quot;nt&quot;&gt;&amp;lt;/section&amp;gt;&lt;/span&gt;
 {% endif %}
 
