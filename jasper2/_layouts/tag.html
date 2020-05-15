@@ -19,7 +19,7 @@ logo: 'assets/images/ghost.png'
         {% include site-nav.html %}
         <div class="site-header-content">
             <h1 class="site-title">{{ page.tag | capitalizeall }}</h1>
-            <h2 class="site-description">
+            <h2 style="background-color: #000; opacity: .6; border: 1px solid #000;" class="site-description">
                 {% if tag_description %}
                     {{ tag_description }}
                 {% elsif page.tag %}
