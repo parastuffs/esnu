@@ -5,9 +5,9 @@ cover: assets/images/jason-rosewell-ASKeuOZqhYU-unsplash.jpg
 navigation: True
 title: Création d'une vidéo-minute pour introduire un laboratoire
 date: 2020-03-27 08:00:00
-tags: projet
+tags: experience
 class: post-template
-subclass: 'post tag-projet'
+subclass: 'post tag-experience'
 author: quentin
 ---
 

@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
   <link href="http://localhost:4000/esnu/author/quentin/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/esnu/" rel="alternate" type="text/html" />
-  <updated>2020-05-14T18:10:18+02:00</updated>
+  <updated>2020-05-15T19:20:09+02:00</updated>
   <id>http://localhost:4000/esnu/author/quentin/feed.xml</id>
 
   
@@ -30,6 +30,103 @@
   
   
 
+  
+    <entry>
+      <title type="html">Confinement et enseignement, comment donner laboratoire à distance</title>
+      <link href="http://localhost:4000/esnu/covid19" rel="alternate" type="text/html" title="Confinement et enseignement, comment donner laboratoire à distance" />
+      <published>2020-05-15T11:18:00+02:00</published>
+      <updated>2020-05-15T11:18:00+02:00</updated>
+      <id>http://localhost:4000/esnu/covid19</id>
+      <content type="html" xml:base="http://localhost:4000/esnu/covid19">&lt;p&gt;Distanciation rime avec adaptation, et ce n’est pas pour rien.&lt;/p&gt;
+
+&lt;p&gt;Bien que nous ayons été forcés de changer notre manière de donner cours, ce n’est pas une bonne raison pour abandonner nos étudiants.
+Leur envoyer un document et leur indiquer d’envoyer un mail s’ils ont une question n’est pas une alternative correcte et l’embrasser comme le Graal revient à se voiler la face.
+Il y a pourtant quelques outils faciles à mettre en place permettant de garder le contact avec les étudiants,&lt;/p&gt;
+
+&lt;h2 id=&quot;plate-forme-de-discussion&quot;&gt;Plate-forme de discussion&lt;/h2&gt;
+
+&lt;p&gt;Le premier point essentiel est d’assurer le contact avec les étudiants pendant la séance de travail.
+À cette fin, il est important de choisir une plate-forme adaptée.&lt;/p&gt;
+
+&lt;p&gt;L’ESNU a par exemple pris le parti d’expérimenter avec &lt;a href=&quot;https://www.adobe.com/fr/products/adobeconnect.html&quot;&gt;Adobe Connect&lt;/a&gt;, l’ULB ayant acquis une licence. Forte de fonctionnalités permettant la gestion de sous-groupe parmi les participants, cette solution est néanmoins couteûse et limitée à Windows, sans pour autant faire montre d’une meilleure fiabilité.&lt;/p&gt;
+
+&lt;p&gt;L’ULB semble avoir fait le choix d’utiliser &lt;a href=&quot;https://www.microsoft.com/fr-be/microsoft-365/microsoft-teams/group-chat-software&quot;&gt;Teams&lt;/a&gt; en tant qu’institution. Si on peut remettre en question ce choix qui semble avoir été fait par défaut plutôt qu’à la suite d’une étude comparative approfondie (tout comme l’adoption de la suite Office365), force est d’admettre qu’une fois ses premiers plâtres essuyés, la plate-forme s’avère riche en fonctionnalités permettant à la fois de donner cours et d’effectuer des entretiens avec les étudiants.&lt;/p&gt;
+
+&lt;p&gt;Cependant, c’est &lt;a href=&quot;https://slack.com&quot;&gt;Slack&lt;/a&gt; qui a été retenu pour le suivi des laboratoires d’électronique analogique, comme présenté à l’occasion du &lt;a href=&quot;/esnu//laboratoires-a-distance-premiere-semaine}&quot;&gt;retour de la première semaine de laboratoires à distance&lt;/a&gt;. J’y reviens sur les raisons qui ont justifié ce choix et y renvoie tout lecteur intéressé.&lt;/p&gt;
+
+&lt;h2 id=&quot;assurer-une-présence-à-distance&quot;&gt;Assurer une présence à distance&lt;/h2&gt;
+
+&lt;p&gt;La plate-forme de discussion est déjà un premier instrument permettant de se reconnecter avec les étudiants, mais &lt;strong&gt;disponibilité ne signifie pas présence&lt;/strong&gt;.
+La visio-conférence est une bonne solution synchrone, comme le permettent toutes les solutions proposées précédemment.
+Nombre d’autres solutions existent, comme &lt;a href=&quot;https://meet.google.com/&quot;&gt;Google Meet&lt;/a&gt; ou &lt;a href=&quot;https://jitsi.org/&quot;&gt;Jitsi&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Si l’immédiateté des interactions n’est pas nécessaire ou possible, il est encore possible d’apporter notre présence aux étudiants, par exemple avec de courtes vidéos préparées.
+Déjà présentée dans un &lt;a href=&quot;/esnu//video-intro-labo-improvisee&quot;&gt;article précédent&lt;/a&gt;, la vidéo d’introduction de laboratoire est un moyen simple et efficace de maintenanir cette proximité, malgré la distance.&lt;/p&gt;
+
+&lt;h2 id=&quot;proposer-des-outils-de-travail-adaptés&quot;&gt;Proposer des outils de travail adaptés&lt;/h2&gt;
+
+&lt;p&gt;L’essentiel de nos laboratoires du second quadrimestre se déroulant sur ordinateur, il est possible pour les étudiants de les réaliser chez eux.
+Néanmoins, même s’il s’agit généralement d’installer un logiciel, encore faut-il qu’ils aient le bon système d’exploitation.
+À cette fin, nous avons distribué une &lt;strong&gt;machine virtuelle&lt;/strong&gt; comprenant tous les logiciels nécessaires préinstallés : il suffit de télécharger l’image et vous êtes prêt au travail sans rien devoir installer en plus.
+Malheureusement, faire fonctionner une machine virtuelle demande des ressources conséquentes que tous les étudiants n’ont pas forcément.&lt;/p&gt;
+
+&lt;p&gt;Pour ces derniers, il existe une autre solution : le &lt;strong&gt;contrôle à distance&lt;/strong&gt; des ordinateurs du laboratoire.
+Ce type de manipulation est largement répandu et s’appelle un &lt;a href=&quot;https://fr.wikipedia.org/wiki/Virtual_Network_Computing&quot;&gt;&lt;em&gt;Virtual Network Computing&lt;/em&gt; (VNC)&lt;/a&gt;. Ce système est implémenté par de nombreuses solution libres et propriétaires.
+La solution que nous avons retenue est &lt;a href=&quot;https://www.dwservice.net/&quot;&gt;DWService&lt;/a&gt;. Parmi ses avantages, on peut compter sa gratuité pour une utilisation limitée, le contrôle par navigateur évitant de devoir installer un logiciel supplémentaire, la facilité de partage des machines et c’est évidemment un &lt;a href=&quot;https://github.com/dwservice/agent&quot;&gt;projet open source&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h4 id=&quot;du-matériel-livré-à-domicile&quot;&gt;Du matériel livré à domicile&lt;/h4&gt;
+
+&lt;p&gt;Pour d’autres laboratoires, un ordinateur n’est cependant pas suffisant.
+Il y a quelques années, François Quitin a décroché un Fonds d’Encouragement à l’Enseignement (FEE) afin de proposer des &lt;strong&gt;take home labs&lt;/strong&gt; pour que les étudiants puissent réaliser leur projet d’électronique numérique directement chez eux.
+Ce financement s’est avéré salvateur pour permettre aux étudiants de poursuivre un enseignement cohérent avec les objectifs du cours : mettre les mains dans le cambouis et réaliser un prototype physique.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.rtbf.be/info/regions/detail_travaux-pratiques-a-domicile-pour-certains-etudiants-de-la-faculte-de-polytech-de-l-ulb?id=10468500&quot;&gt;Des dizaines de boîtes ont ainsi été expédiées&lt;/a&gt; directement à un étudiant de chaque groupe, travaillant ensuite à distance avec leurs collègues.
+Ce genre d’organisation n’est bien entendu pas réalisable pour tous les cours, mais cet exemple montre que c’est tout de même possible avec de bonnes ressources.&lt;/p&gt;
+
+&lt;h4 id=&quot;travailler-en-laboratoire-à-distance&quot;&gt;Travailler en laboratoire à distance&lt;/h4&gt;
+
+&lt;p&gt;Les étudiants ne sont pas les seuls à devoir travailler à distance, les assistants doivent aussi pouvoir se partager du matériel afin notamment de pouvoir répondre aux questions des étudiants à qui on a déjà envoyé tout notre matériel.&lt;/p&gt;
+
+&lt;p&gt;Le but est ici de permettre à plusieurs personnes d’interagir avec du matériel électronique à distance, à n’importe quel moment du jour ou de la nuit.
+Le setup est donc le suivant : le micro-contrôleur et sa carte d’extension verte sont connectés à l’ordinateur et les moteurs, photo-résistance, haut-parleur et autres composants électroniques sont branchés dans un protoboard et sur la carte d’extension.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/images/vnc/20200427_110311.jpg&quot; alt=&quot;setup complet&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Une webcam est ensuite accrochée à une lampe de bureau afin de capturer tous les éléments en une seule vue.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/images/vnc/IMAG0032.jpg&quot; alt=&quot;setup complet&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Sur l’ordinateur, un simple agent est installé afin de pouvoir en prendre le contrôle à distance à l’aide de DWService présenté plus haut et une instance &lt;a href=&quot;/esnu//video-intro-labo-improvisee&quot;&gt;OBS&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/images/vnc/20200427_110316.jpg&quot; alt=&quot;setup complet&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Un mois plus tard, l’installation fonctionne toujours et a été très utile pour les assistants, comme vous pouvez peut-être encore le voir sur &lt;a href=&quot;https://psoc.ig11.ananas.space/player/&quot;&gt;ce lien de streaming&lt;/a&gt; mis en place par Ken Hasselmann.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Quentin Delhaye</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="experience" />
+      
+
+      
+        <summary type="html">Distanciation rime avec adaptation, et ce n’est pas pour rien.</summary>
+      
+
+      
+      
+    </entry>
   
     <entry>
       <title type="html">Retours utilisateurs et analyse du dispositif</title>
@@ -249,9 +346,14 @@ Il faut aussi noter que le matricule « Moodle » n’est pas nécessaire le mê
       <id>http://localhost:4000/esnu/scenarisation</id>
       <content type="html" xml:base="http://localhost:4000/esnu/scenarisation">&lt;p&gt;Scénarisation du dispositif v2.&lt;/p&gt;
 
+&lt;p&gt;Le dispositif lui-même ne concerne que les points 1, 4 et 5, mais il ne va pas sans la réalisation préalable des séances de laboratoire et leur préparation.&lt;/p&gt;
+
 &lt;ol&gt;
   &lt;li&gt;Communication auprès des étudiants (mail, uv)&lt;/li&gt;
-  &lt;li&gt;Réalisation des activités par les étudiants (uv)&lt;/li&gt;
+  &lt;li&gt;Visionnage des vidéos par les étudiants (YouTube)&lt;/li&gt;
+  &lt;li&gt;Réalisation des laboratoires en présentiel (Labo)
+Perturbé par le confinement, mise à jour du dispositif pour soutenir l’enseignement à distance&lt;/li&gt;
+  &lt;li&gt;Réalisation des activités par les étudiants (uv).&lt;/li&gt;
   &lt;li&gt;Feedback des étudiants&lt;/li&gt;
 &lt;/ol&gt;</content>
 
@@ -334,7 +436,7 @@ Dès lors qu’on organise des laboratoires à distance avec une certaine asynch
       
 
       
-        <category term="projet" />
+        <category term="experience" />
       
 
       
@@ -702,68 +804,6 @@ Je suis parti sur la seconde possibilité en me concentrant sur un public légè
 
       
         <summary type="html">Améliorer le projet existant ou expérimenter un nouveau dispositif, que choisir ?</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">Rénovation d’un site de cours</title>
-      <link href="http://localhost:4000/esnu/renovation-site-de-cours" rel="alternate" type="text/html" title="Rénovation d'un site de cours" />
-      <published>2020-02-16T11:18:00+01:00</published>
-      <updated>2020-02-16T11:18:00+01:00</updated>
-      <id>http://localhost:4000/esnu/renovation-site-de-cours</id>
-      <content type="html" xml:base="http://localhost:4000/esnu/renovation-site-de-cours">&lt;p&gt;Avoir un site pour proposer les supports de cours aux étudiants c’est bien, qu’il soit agréable à naviguer, c’est mieux.&lt;/p&gt;
-
-&lt;p&gt;L’Université libre de Bruxelles a implémenté Moodle sur son &lt;a href=&quot;https://uv.ulb.ac.be/&quot;&gt;université virtuelle&lt;/a&gt;.
-Outil open source puissant, il nécessite néanmoins quelques réglages pour libérer tout son potentiel.
-Ci-suit par exemple une capture d’une première version brute du cours …&lt;/p&gt;
-
-&lt;p&gt;Ci-suit une première capture de l’ancienne version du site, tel qu’il était proposé jusqu’à l’année académique 2018-2019 (cliquez sur l’image pour visualiser une capture de toute la page).
-&lt;a href=&quot;assets/images/renovation/H473-old-full.png&quot; target=&quot;_blank_&quot;&gt;
-&lt;img src=&quot;assets/images/renovation/H473-old-crop.png&quot; alt=&quot;alt text&quot; /&gt;
-&lt;/a&gt;
-La page était austère, consistant en une suite de liens et documents triés, mais peu catégorisés.
-Les étudiants ne remarquaient pas certaines ressources qui étaient pourtant mises à leur disposition.
-La page était austère, consistant en une suite de liens et documents triés, mais peu catégorisés.
-Les étudiants ne remarquaient pas certaines ressources qui étaient pourtant mises à leur disposition.&lt;/p&gt;
-
-&lt;p&gt;La capture suivante représente la refonte du site (cliquez sur l’image pour visualiser une capture de toute la page).
-&lt;a href=&quot;assets/images/renovation/H473-new-full.png&quot; target=&quot;_blank_&quot;&gt;
-&lt;img src=&quot;assets/images/renovation/H473-new-crop.png&quot; alt=&quot;alt text&quot; /&gt;
-&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Le premier élément ayant permis cette mise à jour est un simple changement de la mise en page que propose Moodle : le format « &lt;a href=&quot;https://moodle.org/plugins/format_tiles&quot;&gt;tuiles&lt;/a&gt; » permettant d’afficher les ressources sous forme de petites cartes dont on peut changer l’arrière-plan.&lt;/p&gt;
-
-&lt;p&gt;En combinant cette mise en forme avec d’autres fonctionnalités, comme la remise de devoirs en ligne qui ne sont visible que si l’étudiant s’est inscrit dans un groupe, la page du cours est bien plus utilisée en laboratoire.&lt;/p&gt;
-
-&lt;p&gt;Le nouveau site propose des informations moins denses et est plus facile à naviguer.
-Les différentes sections sont clairement marquées afin que les étudiants sache où trouver les informations afférentes à un laboratoire en particulier.
-De plus, en utilisant la fonctionnalité de suivi de progression, ils peuvent marquer les ressources qu’ils ont visitées et ainsi remarquer s’ils ont raté quelque chose.&lt;/p&gt;
-
-&lt;p&gt;Une expérience intéressante sera de vérifier si la volonté d’atteindre les 100% de complétion leur permettra ou non de gagner du temps en ne remarquant pas certaines ressources qui étaient auparavant noyées dans une nuée de liens en tout genre.&lt;/p&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Quentin Delhaye</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="experience" />
-      
-
-      
-        <summary type="html">Avoir un site pour proposer les supports de cours aux étudiants c’est bien, qu’il soit agréable à naviguer, c’est mieux.</summary>
       
 
       
