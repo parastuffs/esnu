@@ -27,7 +27,7 @@ Contrairement aux autres, il est préférable de lire les articles liés au proj
 3. [Analyse du dispositif]({{site.baseurl}}{% link _posts/2019-12-10-premiere-diffusion-podcast.md %})
 4. [Transformation du projet]({{site.baseurl}}{% link _posts/2020-03-01-reorientation-du-projet.md %})
 5. [Mise à jour des persona et de la problématique]({{site.baseurl}}{% link _posts/2020-03-10-nouveau-public-nouvelle-problematique.md %})
-6. [Scénarisation]({{site.baseurl}}{% link _posts/2020-04-05-scenarisation.md %}) *- À venir*
+6. [Scénarisation]({{site.baseurl}}{% link _posts/2020-04-05-scenarisation.md %})
 7. [Création du nouceau dispositif]({{site.baseurl}}{% link _posts/2020-04-15-tester-maitrise-logiciel.md %}) *- À venir*
 8. [Retours et analyse]({{site.baseurl}}{% link _posts/2020-05-08-retour-et-analyse.md %}) *- À venir*
 

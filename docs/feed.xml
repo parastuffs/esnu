@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="http://localhost:4000/esnu/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/esnu/" rel="alternate" type="text/html" /><updated>2020-05-15T22:16:54+02:00</updated><id>http://localhost:4000/esnu/</id><title type="html">ESNU Portfolio</title><subtitle>Portfolio de l'édition 2019-2020 du certificat ESNU</subtitle><entry><title type="html">Confinement et enseignement, comment donner laboratoire à distance</title><link href="http://localhost:4000/esnu/covid19" rel="alternate" type="text/html" title="Confinement et enseignement, comment donner laboratoire à distance" /><published>2020-05-15T11:18:00+02:00</published><updated>2020-05-15T11:18:00+02:00</updated><id>http://localhost:4000/esnu/covid19</id><content type="html" xml:base="http://localhost:4000/esnu/covid19">&lt;p&gt;Distanciation rime avec adaptation, et ce n’est pas pour rien.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="http://localhost:4000/esnu/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/esnu/" rel="alternate" type="text/html" /><updated>2020-05-16T13:46:12+02:00</updated><id>http://localhost:4000/esnu/</id><title type="html">ESNU Portfolio</title><subtitle>Portfolio de l'édition 2019-2020 du certificat ESNU</subtitle><entry><title type="html">Confinement et enseignement, comment donner laboratoire à distance</title><link href="http://localhost:4000/esnu/covid19" rel="alternate" type="text/html" title="Confinement et enseignement, comment donner laboratoire à distance" /><published>2020-05-15T11:18:00+02:00</published><updated>2020-05-15T11:18:00+02:00</updated><id>http://localhost:4000/esnu/covid19</id><content type="html" xml:base="http://localhost:4000/esnu/covid19">&lt;p&gt;Distanciation rime avec adaptation, et ce n’est pas pour rien.&lt;/p&gt;
 
 &lt;p&gt;Bien que nous ayons été forcés de changer notre manière de donner cours, ce n’est pas une bonne raison pour abandonner nos étudiants.
 Leur envoyer un document et leur indiquer d’envoyer un mail s’ils ont une question n’est pas une alternative correcte et l’embrasser comme le Graal revient à se voiler la face.
@@ -169,18 +169,162 @@ Il faut aussi noter que le matricule « Moodle » n’est pas nécessaire le mê
 
 &lt;p&gt;&lt;img src=&quot;assets/images/H5P/error_overview.png&quot; alt=&quot;Overview H5P du projet où il faut trouver l'erreur&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;assets/images/H5P/serie-erreurs.gif&quot; alt=&quot;Animation du projet où il faut trouver l'erreur&quot; /&gt;&lt;/p&gt;</content><author><name>Quentin Delhaye</name></author><category term="projet" /><summary type="html">Création du nouveau dispositif sur l’UV utilisant H5P.</summary></entry><entry><title type="html">Scénarisation du nouveau dispositif</title><link href="http://localhost:4000/esnu/scenarisation" rel="alternate" type="text/html" title="Scénarisation du nouveau dispositif" /><published>2020-04-05T12:18:00+02:00</published><updated>2020-04-05T12:18:00+02:00</updated><id>http://localhost:4000/esnu/scenarisation</id><content type="html" xml:base="http://localhost:4000/esnu/scenarisation">&lt;p&gt;Scénarisation du dispositif v2.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;assets/images/H5P/serie-erreurs.gif&quot; alt=&quot;Animation du projet où il faut trouver l'erreur&quot; /&gt;&lt;/p&gt;</content><author><name>Quentin Delhaye</name></author><category term="projet" /><summary type="html">Création du nouveau dispositif sur l’UV utilisant H5P.</summary></entry><entry><title type="html">Scénarisation du nouveau dispositif</title><link href="http://localhost:4000/esnu/scenarisation" rel="alternate" type="text/html" title="Scénarisation du nouveau dispositif" /><published>2020-04-05T12:18:00+02:00</published><updated>2020-04-05T12:18:00+02:00</updated><id>http://localhost:4000/esnu/scenarisation</id><content type="html" xml:base="http://localhost:4000/esnu/scenarisation">&lt;p&gt;Réflexions sur l’introduction du dispositif auprès des étudiants.&lt;/p&gt;
 
-&lt;p&gt;Le dispositif lui-même ne concerne que les points 1, 4 et 5, mais il ne va pas sans la réalisation préalable des séances de laboratoire et leur préparation.&lt;/p&gt;
+&lt;p&gt;La mise en œuvre de ce dernier peut s’improviser, mais en scénariser l’introduction le rendra d’autant plus efficace.
+Au cours de cet article, nous allons voir par quelles étapes il devrait passer afin d’en maximiser l’impact.
+Ces séquences seront inspirées librement du &lt;a href=&quot;assets/scenario/Gabarit_ESNU_ScenarioPedagogique.pdf&quot;&gt;gabarit de scénario pédagogique&lt;/a&gt; fourni par Nicolas Roland.&lt;/p&gt;
 
-&lt;ol&gt;
-  &lt;li&gt;Communication auprès des étudiants (mail, uv)&lt;/li&gt;
-  &lt;li&gt;Visionnage des vidéos par les étudiants (YouTube)&lt;/li&gt;
-  &lt;li&gt;Réalisation des laboratoires en présentiel (Labo)
-Perturbé par le confinement, mise à jour du dispositif pour soutenir l’enseignement à distance&lt;/li&gt;
-  &lt;li&gt;Réalisation des activités par les étudiants (uv).&lt;/li&gt;
-  &lt;li&gt;Feedback des étudiants&lt;/li&gt;
-&lt;/ol&gt;</content><author><name>Quentin Delhaye</name></author><category term="projet" /><summary type="html">Scénarisation du dispositif v2.</summary></entry><entry><title type="html">Création d’une vidéo-minute pour introduire un laboratoire</title><link href="http://localhost:4000/esnu/video-intro-labo-improvisee" rel="alternate" type="text/html" title="Création d'une vidéo-minute pour introduire un laboratoire" /><published>2020-03-27T09:00:00+01:00</published><updated>2020-03-27T09:00:00+01:00</updated><id>http://localhost:4000/esnu/video-intro-labo-improvisee</id><content type="html" xml:base="http://localhost:4000/esnu/video-intro-labo-improvisee">&lt;p&gt;Afin de garder le contact avec les étudiants lors d’un laboratoire à distance, il peut être intéressant de les accueillir avec une courte vidéo remplaçant le mot d’introduction en présentiel.&lt;/p&gt;
+&lt;p&gt;Le projet lui-même ne concerne que les séquences 4 et 5 (et la 1 dans une moindre mesure), mais n’a de sens que s’il est intégré dans un dispositif plus large.&lt;/p&gt;
+
+&lt;h3 id=&quot;séquence-1--premier-contact-avec-les-étudiants&quot;&gt;Séquence 1 : Premier contact avec les étudiants&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Modalité&lt;/th&gt;
+      &lt;th&gt;À distance par mail via Moodle&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Rôles&lt;/td&gt;
+      &lt;td&gt;Étudiants : reçoivent les informations&lt;br /&gt;Enseignant : Rédaction et envoi de ces informations&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Objectif(s)&lt;/td&gt;
+      &lt;td&gt;Informer les étudiants des modalités, les préparer aux laboratoires&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Contenu(s)&lt;/td&gt;
+      &lt;td&gt;Liens vers différents tutoriels, énoncés de laboratoire et logiciels qui seront utilisés.&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Ce n’est qu’une première anonce servant à introduire la séquence suivante.
+Elle n’a rien d’exceptionnel, mais elle est tout de même nécessaire et doit être soignée.&lt;/p&gt;
+
+&lt;h3 id=&quot;séquence-2--visionnage-des-vidéos-par-les-étudiants&quot;&gt;Séquence 2 : Visionnage des vidéos par les étudiants&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Modalité&lt;/th&gt;
+      &lt;th&gt;À distance&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Rôles&lt;/td&gt;
+      &lt;td&gt;Étudiants : Regardent les vidéos&lt;br /&gt;Enseignant : Pense à autre chose et travaille peut-être sur sa recherche&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Objectif(s)&lt;/td&gt;
+      &lt;td&gt;Préparer les laboratoires&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Contenu(s)&lt;/td&gt;
+      &lt;td&gt;Liens vers différents tutoriel, énoncés de laboratoire et logiciel qui seront utilisés.&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Le but est d’ici de les préparer aux laboratoires, qu’ils aient une première idée de ce qu’ils devront réaliser au cours des manipulations.
+La matière qui y est abordée devrait leur être familière, la seule nouveauté étant le logiciel en lui-même.&lt;/p&gt;
+
+&lt;p&gt;Toutes les vidéos sont sur YouTube et durent au total 35 minutes réparties en cinq vidéos. Seule la première est essentielle pour le premier laboratoire, pour 7 minutes et 38 secondes de fun.&lt;/p&gt;
+
+&lt;h3 id=&quot;séquence-3--réalisation-des-laboratoires&quot;&gt;Séquence 3 : Réalisation des laboratoires&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Modalité&lt;/th&gt;
+      &lt;th&gt;En présence (&lt;a href=&quot;/esnu//covid19&quot;&gt;&lt;em&gt;finalement à distance&lt;/em&gt;&lt;/a&gt;)&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Rôles&lt;/td&gt;
+      &lt;td&gt;Étudiants : Travaillent en groupe&lt;br /&gt;Enseignant : Répond aux questions&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Objectif(s)&lt;/td&gt;
+      &lt;td&gt;Développer des compétences de résolution de problème&lt;br /&gt;et maîtriser des logiciels de simulation de circuit.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Contenu(s)&lt;/td&gt;
+      &lt;td&gt;Montages d’électronique anaogique avec à la fois des réflexions théoriques&lt;br /&gt; et leur confrontation avec la réalité simulée.&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Il s’agit d’un laboratoire tout ce qu’il y a de plus classique : les étudiants passent quatre heures à manipuler les logiciels afin de résoudre des problèmes posés dans des énoncés.&lt;/p&gt;
+
+&lt;p&gt;Malgré la banalité de l’actvité, le rôle de l’enseignant, et particulièrement son comportement, sont intéressants.
+L’attitude que je préfère habituellement adopter consister à me rendre disponible pour répondre à leurs questions, mais à ne pas activement leur poser des questions au cours du laboratoire.
+Mon raisonnement est qu’ils ne recourent ainsi pas systématiquement à mon aide dès qu’ils ont un problème et qu’ils sont forcés à formuler leur problème lorsqu’ils veulent demander mon aide.&lt;br /&gt;
+Cette attitude m’a cependant été reprochée au cours d’une &lt;a href=&quot;https://www.ulb.be/fr/aides-services-et-accompagnement/votre-avis-compte&quot;&gt;évaluation des enseignements par les étudiants&lt;/a&gt;, sans doute par manque de communication et de clareté de ma part.&lt;br /&gt;
+Dorénavant j’adopte un comportement hybride plus ou moins proactif en fonction de la cohorte, tout en communiquant clairement sur mon rôle dès le début de la séance.&lt;/p&gt;
+
+&lt;h3 id=&quot;séquence-4--réalisation-des-activités-dentraînement&quot;&gt;Séquence 4 : Réalisation des activités d’entraînement&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Modalité&lt;/th&gt;
+      &lt;th&gt;À distance sur Moodle&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Rôles&lt;/td&gt;
+      &lt;td&gt;Étudiants : s’entraînent à la maîtrise du logiciel&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Objectif(s)&lt;/td&gt;
+      &lt;td&gt;Vérifier sa maîtrise du logiciel sans toutefois l’utiliser&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Contenu(s)&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;/esnu//tester-maitrise-logiciel&quot;&gt;Activités H5P sur Moodle&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;On arrive enfin au cœur du sujet avec l’expérimentation du projet par le public cible.
+Ces activités ne devraient leur prrendre que quelques minutes à réaliser, mais devraient néanmoins leur permettre de se rendre compte de lacunes fondamentales s’ils rencontrent des difficultés.&lt;/p&gt;
+
+&lt;p&gt;Cette séquence ne peut avoir lieu avant les laboratoires ou avant que les étudiants aient expérimenté une première fois les logiciels. Il s’agit bien de tester leur &lt;em&gt;maîtrise&lt;/em&gt; des outils afin de les préparer à l’examen de laboratoire.&lt;/p&gt;
+
+&lt;h3 id=&quot;séquence-5--feedback-des-étudiants&quot;&gt;Séquence 5 : Feedback des étudiants&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Modalité&lt;/th&gt;
+      &lt;th&gt;À distance sur Moodle&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Rôles&lt;/td&gt;
+      &lt;td&gt;Étudiants : Se défoulent anonymement&lt;br /&gt;Enseignant : Lit le retour des utilisateurs&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Objectif(s)&lt;/td&gt;
+      &lt;td&gt;Pour l’étudiant : Réfléchir à ce qu’il vient de réaliser et à l’adéquation du dispositif &lt;br /&gt;Pour l’enseignant : Améliorer le dispositif fort du retour des utilisateurs&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Contenu(s)&lt;/td&gt;
+      &lt;td&gt;Module de Feedback anonyme&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Parce qu’un dispositif perd beaucoup de sens si on ne peut pas en analyser l’impact, le &lt;a href=&quot;/esnu//retour-et-analyse&quot;&gt;feedback des utilisateurs&lt;/a&gt; est essentiel.
+Afin de ne pas décourager les étudiants à laisser leur avis, une simple question leur est posée : « Qu’avez-vous pensé de ces activités ? »&lt;/p&gt;</content><author><name>Quentin Delhaye</name></author><category term="projet" /><summary type="html">Réflexions sur l’introduction du dispositif auprès des étudiants.</summary></entry><entry><title type="html">Création d’une vidéo-minute pour introduire un laboratoire</title><link href="http://localhost:4000/esnu/video-intro-labo-improvisee" rel="alternate" type="text/html" title="Création d'une vidéo-minute pour introduire un laboratoire" /><published>2020-03-27T09:00:00+01:00</published><updated>2020-03-27T09:00:00+01:00</updated><id>http://localhost:4000/esnu/video-intro-labo-improvisee</id><content type="html" xml:base="http://localhost:4000/esnu/video-intro-labo-improvisee">&lt;p&gt;Afin de garder le contact avec les étudiants lors d’un laboratoire à distance, il peut être intéressant de les accueillir avec une courte vidéo remplaçant le mot d’introduction en présentiel.&lt;/p&gt;
 
 &lt;p&gt;Non seulement elle permet de les engager dans le laboratoire, elle leur montre aussi ma disponibilité en la distribuant quelques minutes avant la séance sur le canal de communication choisi, Slack dans le cas présent.&lt;/p&gt;
 
