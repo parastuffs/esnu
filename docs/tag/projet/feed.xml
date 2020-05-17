@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
   <link href="http://localhost:4000/esnu/tag/projet/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/esnu/" rel="alternate" type="text/html" />
-  <updated>2020-05-16T13:46:12+02:00</updated>
+  <updated>2020-05-17T18:51:09+02:00</updated>
   <id>http://localhost:4000/esnu/tag/projet/feed.xml</id>
 
   
@@ -74,23 +74,66 @@ Perspectives d’amélioration.&lt;/p&gt;
       <published>2020-04-15T12:18:00+02:00</published>
       <updated>2020-04-15T12:18:00+02:00</updated>
       <id>http://localhost:4000/esnu/tester-maitrise-logiciel</id>
-      <content type="html" xml:base="http://localhost:4000/esnu/tester-maitrise-logiciel">&lt;p&gt;Création du nouveau dispositif sur l’UV utilisant H5P.&lt;/p&gt;
+      <content type="html" xml:base="http://localhost:4000/esnu/tester-maitrise-logiciel">&lt;p&gt;Comment aider les étudiants à tester leur maîtrise du logiciel en vue de l’examen de laboratoire ?&lt;/p&gt;
 
-&lt;h3 id=&quot;une-simple-suite-décran&quot;&gt;Une simple suite d’écran&lt;/h3&gt;
+&lt;p&gt;Ce questionnement découle de la &lt;a href=&quot;/esnu//nouveau-public-nouvelle-problematique&quot;&gt;problématique mise en évidence&lt;/a&gt; et ce billet en présentera quelques réponses.&lt;/p&gt;
+
+&lt;p&gt;Le but de ces activités est de permettre aux étudiants de mettre leur maîtrise à l’épreuve sans devoir directement utiliser le logiciel, éliminant ainsi une source de problèmes et de frustration.
+Ils auront tout de même déjà manipulé ce dernier, comme expliqué dans la &lt;a href=&quot;/esnu//scenarisation}&quot;&gt;scénarisation du dispositif&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;La solution retenue a été d’exploiter à nouveau Moodle au travers de modules &lt;a href=&quot;https://h5p.org/&quot;&gt;H5P&lt;/a&gt;, permettant de créer des contenus dynamiques et interactifs variés.
+Trois volets ont ainsi été développés : (1) &lt;a href=&quot;#maîtrise-de-la-navigation&quot;&gt;la navigation dans l’interface du logiciel&lt;/a&gt;, (2) &lt;a href=&quot;#maîtrise-des-types-de-simulation&quot;&gt;la connaissance des différents types de simulation&lt;/a&gt; et (3) &lt;a href=&quot;#maîtrise-des-erreurs&quot;&gt;vérifier qu’ils savent gérer les erreurs de manipulation&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;maîtrise-de-la-navigation&quot;&gt;Maîtrise de la navigation&lt;/h3&gt;
+
+&lt;p&gt;Les étudiants peuvent ici vérifier qu’ils savent afficher la courbe de Bode d’un réponse en fréquence en navigant dans l’interface de PSpice.
+L’activité consiste en une suite de modules « &lt;strong&gt;Find the Hotspot&lt;/strong&gt; », chacun avec une zone sensible correspondant au bouton ou menu à activer.&lt;/p&gt;
+
+&lt;p&gt;Idéalement, j’aurais préféré n’avoir qu’une seule image affichée à la fois, la suivante apparaissant losque le &lt;em&gt;hotspot&lt;/em&gt; aurait été trouvé.
+La solution la plus proche que j’ai trouvée était d’attribuer des points à la complétion d’une image, la suivante ne s’affichant que losqu’un certain seuil de points était atteint.
+Le problème étant néanmoins qu’il fallait rafraîchir la page après chaque image afin que les points soient comptabilisés. De plus, l’activité n’aurait pu être réalisée qu’une seule fois, l’étudiant ne pouvant remettre ses points à zéro.&lt;/p&gt;
+
+&lt;p&gt;Ci-suit une animation de la réalisation de l’activité.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;assets/images/H5P/quete-bode.gif&quot; alt=&quot;Animation du projet de la quête de la courbe de Bode&quot; /&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;expérimenter-avec-un-scénario-à-embranchements&quot;&gt;Expérimenter avec un scénario à embranchements&lt;/h3&gt;
+&lt;h3 id=&quot;maîtrise-des-types-de-simulation&quot;&gt;Maîtrise des types de simulation&lt;/h3&gt;
+
+&lt;p&gt;Un autre aspect essentiel à maîtriser est de savoir choisir le bon type de simualtion afin d’obtenir des résultats pertinents.&lt;/p&gt;
+
+&lt;p&gt;Un nouveau module H5P est adapté : la scénarisation (&lt;strong&gt;&lt;em&gt;Branching Scenario&lt;/em&gt;&lt;/strong&gt;).
+L’étudiant est ici maître de son destin et l’évolution de l’activité dépend de ses réponses.&lt;/p&gt;
+
+&lt;p&gt;Pour ce premire essai, je suis resté bref, comme vous pouvez le voir sur l’aperçu du scénario.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;assets/images/H5P/simu_overview.png&quot; alt=&quot;Overview H5P du projet de simulation&quot; /&gt;&lt;/p&gt;
 
+&lt;p&gt;Je propose une situation requérant une simulation particulière.
+Les quatre types sont proposés et pour chacun, le résultat que l’étudiant obtiendrait est affiché, accompagné d’un feedback leur expliquant pourquoi la réponse est bonne ou mauvaise.
+En cas de mauvaise réponse, ils sont renvoyés vers la question afin de donner une autre réponse.&lt;/p&gt;
+
 &lt;p&gt;&lt;img src=&quot;assets/images/H5P/bonne-simu.gif&quot; alt=&quot;Animation du projet de la recherche de la bonne simulation&quot; /&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;aller-plus-en-profondeur-dans-les-embranchements&quot;&gt;Aller plus en profondeur dans les embranchements&lt;/h3&gt;
+&lt;h3 id=&quot;maîtrise-des-erreurs&quot;&gt;Maîtrise des erreurs&lt;/h3&gt;
+
+&lt;p&gt;Le dernier aspect tester dans ce projet n’est pas le plus anodin : d’où viennent les erreurs qu’il est possible de rencontrer dans le logiciel ?&lt;/p&gt;
+
+&lt;p&gt;Quatre erreurs typiques sont ainsi présentées dans ce nouveau scénario.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;assets/images/H5P/error_overview.png&quot; alt=&quot;Overview H5P du projet où il faut trouver l'erreur&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;assets/images/H5P/serie-erreurs.gif&quot; alt=&quot;Animation du projet où il faut trouver l'erreur&quot; /&gt;&lt;/p&gt;</content>
+&lt;p&gt;En cas de mauvaise réponses, l’utilisateur est à nouveau renvoyé vers le début de l’erreur afin qu’il puisse en ré-analyser les messages et mieux en diagnostiquer la cause.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/images/H5P/serie-erreurs.gif&quot; alt=&quot;Animation du projet où il faut trouver l'erreur&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;un-dispositif-différent&quot;&gt;Un dispositif différent&lt;/h2&gt;
+
+&lt;p&gt;Ce genre d’activité est résolument différent des vidéos dont j’ai l’habitude.
+Elle nécessite davantage de planification et de vérification afin de m’assurer qu’elle est bien &lt;em&gt;fool-&lt;/em&gt; et &lt;em&gt;idiot-proof&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Les objectifs sont cependant différents ; il ne s’agit pas ici de présenter un nouveau concept ou de la nouvelle matière, mais bien de rendre l’utilisateur actif et de le pousser à se poser des questions.&lt;/p&gt;
+
+&lt;p&gt;H5P est une excellente boîte à outils et pourrait être utile pour rendre les tutoriels vidéos existant plus interactifs et peut-être plus accrocheurs.&lt;/p&gt;</content>
 
       
       
@@ -111,7 +154,7 @@ Perspectives d’amélioration.&lt;/p&gt;
       
 
       
-        <summary type="html">Création du nouveau dispositif sur l’UV utilisant H5P.</summary>
+        <summary type="html">Comment aider les étudiants à tester leur maîtrise du logiciel en vue de l’examen de laboratoire ?</summary>
       
 
       

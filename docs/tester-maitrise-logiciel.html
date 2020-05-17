@@ -43,24 +43,7 @@
     <meta property="og:site_name" content="ESNU Portfolio" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Tester la maîtrise d'un logiciel, sans ce dernier" />
-    <meta property="og:description" content="Création du nouveau dispositif sur l’UV utilisant H5P.
-
-Une simple suite d’écran
-
-
-
-Expérimenter avec un scénario à embranchements
-
-
-
-
-
-Aller plus en profondeur dans les embranchements
-
-
-
-
-" />
+    <meta property="og:description" content="Comment aider les étudiants à tester leur maîtrise du logiciel en vue de l’examen de laboratoire ? Ce questionnement découle de la problématique mise en évidence et ce billet en présentera quelques réponses. Le but de ces activités est de permettre aux étudiants de mettre leur maîtrise à l’épreuve sans" />
     <meta property="og:url" content="/esnu/tester-maitrise-logiciel" />
     <meta property="og:image" content="/esnu/assets/images/code-h5p-custom.jpg" />
     <meta property="article:publisher" content="https://www.facebook.com/false" />
@@ -70,24 +53,7 @@ Aller plus en profondeur dans les embranchements
     <meta property="article:tag" content="Projet" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Tester la maîtrise d'un logiciel, sans ce dernier" />
-    <meta name="twitter:description" content="Création du nouveau dispositif sur l’UV utilisant H5P.
-
-Une simple suite d’écran
-
-
-
-Expérimenter avec un scénario à embranchements
-
-
-
-
-
-Aller plus en profondeur dans les embranchements
-
-
-
-
-" />
+    <meta name="twitter:description" content="Comment aider les étudiants à tester leur maîtrise du logiciel en vue de l’examen de laboratoire ? Ce questionnement découle de la problématique mise en évidence et ce billet en présentera quelques réponses. Le but de ces activités est de permettre aux étudiants de mettre leur maîtrise à l’épreuve sans" />
     <meta name="twitter:url" content="/esnu/" />
     <meta name="twitter:image" content="/esnu/assets/images/code-h5p-custom.jpg" />
     <meta name="twitter:label1" content="Written by" />
@@ -119,24 +85,7 @@ Aller plus en profondeur dans les embranchements
         "@type": "WebPage",
         "@id": "/esnu/tester-maitrise-logiciel"
     },
-    "description": "Création du nouveau dispositif sur l’UV utilisant H5P.
-
-Une simple suite d’écran
-
-
-
-Expérimenter avec un scénario à embranchements
-
-
-
-
-
-Aller plus en profondeur dans les embranchements
-
-
-
-
-"
+    "description": "Comment aider les étudiants à tester leur maîtrise du logiciel en vue de l’examen de laboratoire ? Ce questionnement découle de la problématique mise en évidence et ce billet en présentera quelques réponses. Le but de ces activités est de permettre aux étudiants de mettre leur maîtrise à l’épreuve sans"
 }
     </script>
 
@@ -221,23 +170,66 @@ into the {body} of the default.hbs template -->
 
             <section class="post-full-content">
                 <div class="kg-card-markdown">
-                    <p>Création du nouveau dispositif sur l’UV utilisant H5P.</p>
+                    <p>Comment aider les étudiants à tester leur maîtrise du logiciel en vue de l’examen de laboratoire ?</p>
 
-<h3 id="une-simple-suite-décran">Une simple suite d’écran</h3>
+<p>Ce questionnement découle de la <a href="/esnu//nouveau-public-nouvelle-problematique">problématique mise en évidence</a> et ce billet en présentera quelques réponses.</p>
+
+<p>Le but de ces activités est de permettre aux étudiants de mettre leur maîtrise à l’épreuve sans devoir directement utiliser le logiciel, éliminant ainsi une source de problèmes et de frustration.
+Ils auront tout de même déjà manipulé ce dernier, comme expliqué dans la <a href="/esnu//scenarisation}">scénarisation du dispositif</a>.</p>
+
+<p>La solution retenue a été d’exploiter à nouveau Moodle au travers de modules <a href="https://h5p.org/">H5P</a>, permettant de créer des contenus dynamiques et interactifs variés.
+Trois volets ont ainsi été développés : (1) <a href="#maîtrise-de-la-navigation">la navigation dans l’interface du logiciel</a>, (2) <a href="#maîtrise-des-types-de-simulation">la connaissance des différents types de simulation</a> et (3) <a href="#maîtrise-des-erreurs">vérifier qu’ils savent gérer les erreurs de manipulation</a>.</p>
+
+<h3 id="maîtrise-de-la-navigation">Maîtrise de la navigation</h3>
+
+<p>Les étudiants peuvent ici vérifier qu’ils savent afficher la courbe de Bode d’un réponse en fréquence en navigant dans l’interface de PSpice.
+L’activité consiste en une suite de modules « <strong>Find the Hotspot</strong> », chacun avec une zone sensible correspondant au bouton ou menu à activer.</p>
+
+<p>Idéalement, j’aurais préféré n’avoir qu’une seule image affichée à la fois, la suivante apparaissant losque le <em>hotspot</em> aurait été trouvé.
+La solution la plus proche que j’ai trouvée était d’attribuer des points à la complétion d’une image, la suivante ne s’affichant que losqu’un certain seuil de points était atteint.
+Le problème étant néanmoins qu’il fallait rafraîchir la page après chaque image afin que les points soient comptabilisés. De plus, l’activité n’aurait pu être réalisée qu’une seule fois, l’étudiant ne pouvant remettre ses points à zéro.</p>
+
+<p>Ci-suit une animation de la réalisation de l’activité.</p>
 
 <p><img src="assets/images/H5P/quete-bode.gif" alt="Animation du projet de la quête de la courbe de Bode" /></p>
 
-<h3 id="expérimenter-avec-un-scénario-à-embranchements">Expérimenter avec un scénario à embranchements</h3>
+<h3 id="maîtrise-des-types-de-simulation">Maîtrise des types de simulation</h3>
+
+<p>Un autre aspect essentiel à maîtriser est de savoir choisir le bon type de simualtion afin d’obtenir des résultats pertinents.</p>
+
+<p>Un nouveau module H5P est adapté : la scénarisation (<strong><em>Branching Scenario</em></strong>).
+L’étudiant est ici maître de son destin et l’évolution de l’activité dépend de ses réponses.</p>
+
+<p>Pour ce premire essai, je suis resté bref, comme vous pouvez le voir sur l’aperçu du scénario.</p>
 
 <p><img src="assets/images/H5P/simu_overview.png" alt="Overview H5P du projet de simulation" /></p>
 
+<p>Je propose une situation requérant une simulation particulière.
+Les quatre types sont proposés et pour chacun, le résultat que l’étudiant obtiendrait est affiché, accompagné d’un feedback leur expliquant pourquoi la réponse est bonne ou mauvaise.
+En cas de mauvaise réponse, ils sont renvoyés vers la question afin de donner une autre réponse.</p>
+
 <p><img src="assets/images/H5P/bonne-simu.gif" alt="Animation du projet de la recherche de la bonne simulation" /></p>
 
-<h3 id="aller-plus-en-profondeur-dans-les-embranchements">Aller plus en profondeur dans les embranchements</h3>
+<h3 id="maîtrise-des-erreurs">Maîtrise des erreurs</h3>
+
+<p>Le dernier aspect tester dans ce projet n’est pas le plus anodin : d’où viennent les erreurs qu’il est possible de rencontrer dans le logiciel ?</p>
+
+<p>Quatre erreurs typiques sont ainsi présentées dans ce nouveau scénario.</p>
 
 <p><img src="assets/images/H5P/error_overview.png" alt="Overview H5P du projet où il faut trouver l'erreur" /></p>
 
+<p>En cas de mauvaise réponses, l’utilisateur est à nouveau renvoyé vers le début de l’erreur afin qu’il puisse en ré-analyser les messages et mieux en diagnostiquer la cause.</p>
+
 <p><img src="assets/images/H5P/serie-erreurs.gif" alt="Animation du projet où il faut trouver l'erreur" /></p>
+
+<h2 id="un-dispositif-différent">Un dispositif différent</h2>
+
+<p>Ce genre d’activité est résolument différent des vidéos dont j’ai l’habitude.
+Elle nécessite davantage de planification et de vérification afin de m’assurer qu’elle est bien <em>fool-</em> et <em>idiot-proof</em>.</p>
+
+<p>Les objectifs sont cependant différents ; il ne s’agit pas ici de présenter un nouveau concept ou de la nouvelle matière, mais bien de rendre l’utilisateur actif et de le pousser à se poser des questions.</p>
+
+<p>H5P est une excellente boîte à outils et pourrait être utile pour rendre les tutoriels vidéos existant plus interactifs et peut-être plus accrocheurs.</p>
 
                 </div>
             </section>
