@@ -1,6 +1,6 @@
 # Quelle influence des pratiques pédagogiques des enseignants sur la réussite des étudiants ?
 
-### Effet de site : quel est l'effet de l'endroit où on fait sees études ?
+### Effet de site : quel est l'effet de l'endroit où on fait ses études ?
 Dépend du niveau d'exigeance et de l'organisation pédagogique.
 
 ### Valeur ajoutée d'un établissement : différence entre les résultats attendus et obtenus.
@@ -26,7 +26,6 @@ Le sentiement de dérégulation (suivi trop lâche, rythme décousu) ne favorise
 Comme le dit Fabienne, non seulement le contexte intervient, mais aussi la matière en question.
 
 ## Pratiques pédagogiques et réussite
-=> La meuf prend une position très audacieuse et courage : les pratiques pédagogiques influencent la réussite. Mais no shit Sherlock ! C'est quoi ce bordel.
 
 Plus l'enseignant interragit, plus l'effet est bénéfique sur la réussite de l'étudiant. Peut être lié à l'effet maître.
 

@@ -56,7 +56,6 @@ Donner du sens par
 Plurisémiotisé : plein de type de représentations différentes (équations, images, texte, symboles, ...).
 Les comprendre demande des efforts supplémentaires et aussi faire des liens entre eux demande des efforts.
 
-=> Lit des témoignages d'étudiants qui sont des transicriptions d'interview, mais sans le jouer. Ça rend le texte assez désagréable et pas très cohérent. Soit tu le joues, soit tu réécris le texte pour garder le message.
 
 Il est parfois nécessaire d'avancer dans le cours pour en comprendre le début, pour arriver à faire des liens entre des concepts plus fondamentaux.
 

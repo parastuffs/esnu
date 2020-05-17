@@ -2,7 +2,7 @@
 
 Discussion sur le texte préparé.
 
-## Dimensions et figures de l'expérience étdiante dans l'université de masse.
+## Dimensions et figures de l'expérience étudiante dans l'université de masse.
 
 ### Que tirer du texte ?
 Discussion en groupe « d'experts » pendant 15 minutes.

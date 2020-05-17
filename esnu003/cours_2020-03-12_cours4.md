@@ -53,7 +53,7 @@ Il semble y avoir un lien entre le profil auto-déclaré par les apprenant et le
 ## Deuxième enquête
 Ressource supplémentaire : http://www.adapte.be/attachments/article/47/atelier%20AIPU%202016-2.pdf
 
-Graphe avec les triangles, etc. : lors de la réalisation d'une sythèse, ils mettent plus de stratégies volitionnelles en place.
+Graphe avec les triangles, etc. : lors de la réalisation d'une synthèse, ils mettent plus de stratégies volitionnelles en place.
 
 Les étudiants se sentant plus compétents dans une tâche mettent moins de stratégies en place.
 C'est le profil 4 qui est globalement avec un meilleur sentiment de compétence, et pourtant les moins bons résultats.
