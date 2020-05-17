@@ -1,7 +1,7 @@
 ---
 layout: post
 current: post
-cover: assets/images/lego-1044891_1280.jpg
+cover: assets/images/stormtrooper-1343877_1280.jpg
 navigation: True
 title: Nouveau public, nouvelle problématique
 date: 2020-03-10 10:18:00

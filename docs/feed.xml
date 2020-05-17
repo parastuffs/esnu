@@ -1,4 +1,118 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="http://localhost:4000/esnu/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/esnu/" rel="alternate" type="text/html" /><updated>2020-05-17T18:51:09+02:00</updated><id>http://localhost:4000/esnu/</id><title type="html">ESNU Portfolio</title><subtitle>Portfolio de l'édition 2019-2020 du certificat ESNU</subtitle><entry><title type="html">Confinement et enseignement, comment donner laboratoire à distance</title><link href="http://localhost:4000/esnu/covid19" rel="alternate" type="text/html" title="Confinement et enseignement, comment donner laboratoire à distance" /><published>2020-05-15T11:18:00+02:00</published><updated>2020-05-15T11:18:00+02:00</updated><id>http://localhost:4000/esnu/covid19</id><content type="html" xml:base="http://localhost:4000/esnu/covid19">&lt;p&gt;Distanciation rime avec adaptation, et ce n’est pas pour rien.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="http://localhost:4000/esnu/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/esnu/" rel="alternate" type="text/html" /><updated>2020-05-17T23:17:40+02:00</updated><id>http://localhost:4000/esnu/</id><title type="html">ESNU Portfolio</title><subtitle>Portfolio de l'édition 2019-2020 du certificat ESNU</subtitle><entry><title type="html">Facteurs d’échec et de réussite chez les étudiants</title><link href="http://localhost:4000/esnu/ehec-et-reussite" rel="alternate" type="text/html" title="Facteurs d'échec et de réussite chez les étudiants" /><published>2020-05-17T12:18:00+02:00</published><updated>2020-05-17T12:18:00+02:00</updated><id>http://localhost:4000/esnu/ehec-et-reussite</id><content type="html" xml:base="http://localhost:4000/esnu/ehec-et-reussite">&lt;p&gt;Retour sur le cours de Dorothée Baillet « Connaître son public » pour dresser le protrait de nos étudiants.&lt;/p&gt;
+
+&lt;p&gt;Au fil des séances de cours, Dorothée nous a présenté et organisé différentes activités permettant d’analyser notre public sours les prismes de l’échec et de la réussite.
+Le but final est de construire une nouvelle grille de lecture permettant mieux connaître nos étudiants, d’enrichir nos persona et &lt;em&gt;a fortiori&lt;/em&gt; nos projets.&lt;/p&gt;
+
+&lt;p&gt;Ce billet ce veut le résumé de &lt;a href=&quot;&quot;&gt;mes notes de cours&lt;/a&gt; enrichies de quelques réflexions sur le sujet.
+Les différentes questions qui y sont énoncées pourraient être reprises afin de construire cette grille d’analyse.&lt;/p&gt;
+
+&lt;h2 id=&quot;lhéritage-du-secondaire&quot;&gt;L’héritage du secondaire&lt;/h2&gt;
+
+&lt;p&gt;Les cours suivis par les étudiants durant les années de secondaire peuvent avoir une influence directe sur leur choix d’études supérieures d’une part, mais aussi sur leur vécu de celles-ci.&lt;br /&gt;
+Combien d’heures de math ou de sciences ont-ils suivis ? Quelle filière ont-ils suivie ? Ont-ils effectué un séjour à l’étranger ou pris une année sabbatique avant de s’inscrire dans le supérieur ? Quelles différences voient-ils entre le secondaire et le supérieur ?&lt;/p&gt;
+
+&lt;p&gt;Ce dernier aspect est intéressant puisqu’il semble que des étudiants ne voyant que des différences &lt;em&gt;quatitatives&lt;/em&gt; (charge de travail, par exemple) ont moins de chance de réussir que s’ils identifient des différences &lt;em&gt;qualitatives&lt;/em&gt; (cours plus ouverts, plus critiques et approfondis, par exemple) &lt;a href=&quot;#références&quot;&gt;[1]&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;quelques-facteurs-déchec-et-de-réussite&quot;&gt;Quelques facteurs d’échec et de réussite&lt;/h2&gt;
+
+&lt;p&gt;Suite à la mise en commun avec d’autres participants de l’esnu, quelques éléments ont pu être mis en évidence au sein de mes &lt;a href=&quot;/esnu//construire-des-personas&quot;&gt;premiers persona&lt;/a&gt;, facteurs qu’on peut aussi retrouver dans le persona révisé.&lt;/p&gt;
+
+&lt;h4 id=&quot;réussite&quot;&gt;Réussite&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Motivé par un bonus&lt;/li&gt;
+  &lt;li&gt;Présence d’exercices&lt;/li&gt;
+  &lt;li&gt;Révision régulière pour préparer les laboratoires&lt;/li&gt;
+  &lt;li&gt;Bonne articulation entre la théorie et la pratique&lt;/li&gt;
+  &lt;li&gt;Prise de note attentive&lt;/li&gt;
+  &lt;li&gt;Avoir beaucoup d’exemples pendant le cours&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;échec&quot;&gt;Échec&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Problème de rythme qui n’est pas nécessairement adapté à tout le monde.&lt;/li&gt;
+  &lt;li&gt;Support de cours trop pauvres qui ne soutiennent pas l’apprentissage&lt;/li&gt;
+  &lt;li&gt;Utilisation difficile ou absconse du matériel&lt;/li&gt;
+  &lt;li&gt;Trop de matière, problème d’assimilation&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Il ne s’agit ici que d’une analyse primaire des profils de nos étudiants.
+D’après Christophe Michaut, « À l’université, 50 % des facteurs de réussite restent inexpliqués. » &lt;a href=&quot;#références&quot;&gt;[2]&lt;/a&gt;&lt;br /&gt;
+Mais si 50 % est inexpliqué, les autres 50 % sont-ils correctement expliqués ? A-t-on vraiment compris pour les étudiants réussissent dans ces cas, ou ne sont-ce que des corrélations ?&lt;/p&gt;
+
+&lt;h2 id=&quot;catégorisation-des-étudiants&quot;&gt;Catégorisation des étudiants&lt;/h2&gt;
+
+&lt;p&gt;Plusieurs lectures nous ont permis de catégoriser les étudiants.
+Les résumés de ces derniers sont accessibles directement dans mes &lt;a href=&quot;https://github.com/parastuffs/esnu/blob/master/esnu003/cours_2020-03-05_cours3.md&quot;&gt;notes de cours&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Il pourrait être intéressant de reprendre ces catégories sur des échelles critériées dans une enquête à proposer aux étudiants afin de connaître leur positionnement par rapport à leur enseignement.
+Ces informations seraient très utiles pour dresser des persona précis et fidèle de notre public.&lt;/p&gt;
+
+&lt;h2 id=&quot;auto-régulation-des-apprentissages&quot;&gt;Auto-régulation des apprentissages&lt;/h2&gt;
+
+&lt;p&gt;Nos apprenants sont-ils capable de se mettre au travail et de s’y maintenir ?
+Ont-ils des &lt;strong&gt;stratégies volitionnelles&lt;/strong&gt; ?
+Ces dernières peuvent être&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Internes :
+    &lt;ul&gt;
+      &lt;li&gt;Gérer son temps.&lt;/li&gt;
+      &lt;li&gt;Son environnement.&lt;/li&gt;
+      &lt;li&gt;Ses ressources.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Externes :
+    &lt;ul&gt;
+      &lt;li&gt;Déploiement attentionnel, être capable de s’observer soi-même, de contrôler notre propre attention.&lt;/li&gt;
+      &lt;li&gt;Gestion de la motivation, en s’accordant par exemple des récompenses.&lt;/li&gt;
+      &lt;li&gt;Contrôle de nos émotions&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;influence-de-linstitution&quot;&gt;Influence de l’institution&lt;/h2&gt;
+
+&lt;p&gt;L’institution dans laquelle évoluent les étudiants à forcément une influence sur leur réussite.
+Non seulement les niveaux d’exigeance peuvent varier, mais le choix de la filière est aussi essentiel. Cette dernière change non seulement le type de population (et donc notamment son rapport avec ses études secondaires, comme discuté plus haut), mais aussi rapport à l’avanir que peut avoir l’apprenant.
+Avoir des dévouchés clairs est un atout et permet d’avoir une meilleure motivation de l’étudiant dans sa formation.&lt;/p&gt;
+
+&lt;p&gt;Les filières techniques jouissent généralement de cet avantage et on pourrait penser que Polytech entre dans cette catégorie.
+Pourtant il est assez paradoxal de se rendre compte que nombre d’étudiants n’ont pas une vision claire des débouchés possibles avant d’entrer en master, voire encore plus tard.&lt;br /&gt;
+Est-ce à cause de la richesse et de la diversité du métier d’ingénieur ?
+Est-ce à cause de la multiplicité des filières qui explosent d’autant plus les débouchés possibles ?
+Est-ce parce que cette formation est bien souvent un choix par défaut pour des étudiants qui ne veulent pas se limiter à un domaine particulier en entamant leurs études supérieurs ?
+Nous mettons peut-être ici le doigt sur l’un des pièges de Polytech : &lt;strong&gt;à penser qu’on peut tout faire, on ne sait pas ce qui est réellement possible, on entretient un brouillard dans lequel on se perd&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;L’institution ne consiste pas uniquement en un choix de filière, elle s’accompagne aussi d’enseignants qui influencent à leur tour la réussite de leurs étudiants.
+Ainsi, l’interractivité de l’enseignant semble bénéfique pour la réussite de ses étudiants, sans doute lié à l’effet maître.&lt;/p&gt;
+
+&lt;h2 id=&quot;influence-des-savoirs&quot;&gt;Influence des savoirs&lt;/h2&gt;
+
+&lt;p&gt;Il est intéressant de se poser la question du rapport qu’a l’étudiant avec son savoir, rapport qui se construit dans le temps selon trois registres :&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Qu’est-ce que j’apprends ?&lt;/li&gt;
+  &lt;li&gt;Pourquoi j’apprends ?&lt;/li&gt;
+  &lt;li&gt;Avec qui j’apprends ?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Il est ainsi édifiant qu’il est parfois nécessaire d’avancer dans le cours pour en comprendre le début, bien qu’à mon sens ce soit le signe d’un problème de contruction de l’accès au savoir. Il ne doit pas nécessairement être incrémental, mais le sens du cours ne devrait pas échapper à l’apprenant parce qu’il n’a pas les outils nécessaire pour le comprendre.&lt;/p&gt;
+
+&lt;p&gt;À une échelle temporelle plus locale, les étudiants sont aussi souvent confrontés à des supports plurisémiotisés, reprenant plusieurs types de représentation, ou polyphoniques, avec des voix différentes ayant des fonctions différentes qu’il faut d’autant mieux clarifier.
+Cette multiplicité de la présentation du savoir est à double tranchant pour l’étudiants :  la moindre discordance peut être bloquante et parfois, moins vaut mieux que trop.&lt;/p&gt;
+
+&lt;p&gt;Dans le cadre des différents cours d’électronique que j’encadre et faisant l’objet de mes deux projets, les supports sont effectivement plurisémiotiques : graphes, schémas, photographies, textes et équations cohabitent gaiement sur des supports de cours à la fois physiques, oraux et numériques.
+Comment nos étudiants jonglent-ils entre eux ?
+En préfèrent-ils certains ?
+Avons-nous des communications redondantes voire superfétatoires envers eux ?&lt;/p&gt;
+
+&lt;p&gt;Connaître notre public, ses stratégies, son parcours, ses rapports aux savoirs, à l’institution et à lui-même sont autant d’outils essentiels pour leur garantir les meilleures chances de réussite et afin de leur proposer des outils d’apprentissage toujours plus pertinents.&lt;/p&gt;
+
+&lt;h3 id=&quot;références&quot;&gt;Références&lt;/h3&gt;
+
+&lt;p&gt;[1] &lt;a href=&quot;https://difusion.ulb.ac.be/vufind/Record/ULB-DIPOT:oai:dipot.ulb.ac.be:2013/257684/Holdings&quot;&gt;Baillet (2017). Du rapport au savoir à des rapports aux savoirs : analyse des difficultés des étudiants de première année en Psychologie face aux caractéristiques des savoirs enseignés à l’université. Dissertation doctorale, Université libre de Bruxelles.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;[2] [Christophe Michaut, « À l’université, 50 % des facteurs de réussite restent inexpliqués », letudiant.fr, 2018 (https://www.letudiant.fr/educpros/actualite/christophe-michaut-universite-moitie-facteurs-reussite-restent-inexpliques.html)&lt;/p&gt;</content><author><name>Quentin Delhaye</name></author><category term="projet" /><summary type="html">Retour sur le cours de Dorothée Baillet « Connaître son public » pour dresser le protrait de nos étudiants.</summary></entry><entry><title type="html">Confinement et enseignement, comment donner laboratoire à distance</title><link href="http://localhost:4000/esnu/covid19" rel="alternate" type="text/html" title="Confinement et enseignement, comment donner laboratoire à distance" /><published>2020-05-15T11:18:00+02:00</published><updated>2020-05-15T11:18:00+02:00</updated><id>http://localhost:4000/esnu/covid19</id><content type="html" xml:base="http://localhost:4000/esnu/covid19">&lt;p&gt;Distanciation rime avec adaptation, et ce n’est pas pour rien.&lt;/p&gt;
 
 &lt;p&gt;Bien que nous ayons été forcés de changer notre manière de donner cours, ce n’est pas une bonne raison pour abandonner nos étudiants.
 Leur envoyer un document et leur indiquer d’envoyer un mail s’ils ont une question n’est pas une alternative correcte et l’embrasser comme le Graal revient à se voiler la face.
@@ -615,15 +729,4 @@ Un &lt;a href=&quot;https://github.com/BEAMS-EE/ELECH402/wiki/KiCad:-project&quo
 &lt;h3 id=&quot;nouveau-matériel-à-développer&quot;&gt;Nouveau matériel à développer&lt;/h3&gt;
 
 &lt;p&gt;Elles ne sont cependant pas suffisantes pour préparer correctement les étudiants, elles manquent d’interactivité afin de les engager dans leur apprentissage.
-Il serait donc intéressant de développer un petit module d’auto-évaluation à l’utilisation du logiciel, mais ça, c’est pour un &lt;a href=&quot;/esnu//tester-maitrise-logiciel&quot;&gt;autre billet&lt;/a&gt;.&lt;/p&gt;</content><author><name>Quentin Delhaye</name></author><category term="projet" /><summary type="html">Mise à jour des persona et de la problématique suite à la réorientation du projet.</summary></entry><entry><title type="html">Réorientation du projet</title><link href="http://localhost:4000/esnu/reorientation-du-projet" rel="alternate" type="text/html" title="Réorientation du projet" /><published>2020-03-01T11:18:00+01:00</published><updated>2020-03-01T11:18:00+01:00</updated><id>http://localhost:4000/esnu/reorientation-du-projet</id><content type="html" xml:base="http://localhost:4000/esnu/reorientation-du-projet">&lt;p&gt;Améliorer le projet existant ou expérimenter un nouveau dispositif, que choisir ?&lt;/p&gt;
-
-&lt;p&gt;En réfléchissant au projet que je voulais mettre en place, ma première volonté était de donner la possibilité aux étudiants de tester leurs connaissances de façon ludique avant d’arriver en laboratoire.
-Cependant, la problématisation du sujet et l’étude du public ont mis en évidence qu’il était plus pertinent et urgent de mettre à leur disposition des outils permettant d’utiliser le matériel de manière efficace.
-L’étape suivant aurait alors été de les compléter d’activités testant leur maîtrise.&lt;/p&gt;
-
-&lt;p&gt;Réalité de terrain oblige, le semestre et le cours sont terminés depuis janvier et je n’ai plus la même cohorte dans mes nouveau cours. Le matériel produit en décembre n’est donc plus utilisable avec mon nouveau public.&lt;/p&gt;
-
-&lt;p&gt;Il est donc temps de se poser les bonnes questions : continuer le même projet, mais sans pouvoir le tester sur le terrain, ou expérimenter de nouvelles choses avec de nouveaux étudiants ?
-Je suis parti sur la seconde possibilité en me concentrant sur un public légèrement différent : au lieu d’être des étudiants de troisième bachelier en sciences de l’ingénieur, toutes sections confondues, nous allons à présent travailler avec une trentaine d’étudiants de première année de master en sciences de l’ingénieur, orientation biomédicale.&lt;/p&gt;
-
-&lt;p&gt;Qui sont-ils, que veulent-ils et qu’allons-nous expérimenter avec eux ?&lt;/p&gt;</content><author><name>Quentin Delhaye</name></author><category term="projet" /><summary type="html">Améliorer le projet existant ou expérimenter un nouveau dispositif, que choisir ?</summary></entry></feed>
+Il serait donc intéressant de développer un petit module d’auto-évaluation à l’utilisation du logiciel, mais ça, c’est pour un &lt;a href=&quot;/esnu//tester-maitrise-logiciel&quot;&gt;autre billet&lt;/a&gt;.&lt;/p&gt;</content><author><name>Quentin Delhaye</name></author><category term="projet" /><summary type="html">Mise à jour des persona et de la problématique suite à la réorientation du projet.</summary></entry></feed>
