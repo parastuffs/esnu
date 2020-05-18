@@ -13,8 +13,11 @@ author: quentin
 
 Réflexions sur l'introduction du dispositif auprès des étudiants.
 
-La mise en œuvre de ce dernier peut s'improviser, mais en scénariser l'introduction le rendra d'autant plus efficace.
-Au cours de cet article, nous allons voir par quelles étapes il devrait passer afin d'en maximiser l'impact.
+Au cours du [dernier article abordant mon projet au sein de l'ESNU]({{site.baseurl}}{% link _posts/2020-03-10-nouveau-public-nouvelle-problematique.md %}), j'étais arrivé à la conclusion que ma nouvelle problématique était d'aider les étudiants à préparer leur examen de laboratoire.
+Le projet s'est ainsi vu réorienté vers le développement d'outils plus interactifs que les vidéos existantes.
+
+La mise en œuvre de ces derniers peut s'improviser, mais en scénariser l'introduction les rendra d'autant plus efficaces.
+Au cours de cet article, nous allons voir par quelles étapes ils devraient passer afin d'en maximiser l'impact.
 Ces séquences seront inspirées librement du [gabarit de scénario pédagogique](assets/scenario/Gabarit_ESNU_ScenarioPedagogique.pdf) fourni par Nicolas Roland.
 
 Le projet lui-même ne concerne que les séquences 4 et 5 (et la 1 dans une moindre mesure), mais n'a de sens que s'il est intégré dans un dispositif plus large.
