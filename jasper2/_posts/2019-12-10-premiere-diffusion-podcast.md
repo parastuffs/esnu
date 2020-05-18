@@ -28,7 +28,7 @@ Commençons par le nombre de fois que la vidéo a été visionnée.
 
 ![YouTube views](assets/images/YouTube-analytics/views.png)
 
-La vidéo ayant été publiée le lundi 2 décembre en début de soirée, il est normal qu'elle n'ait pas accumulé beaucoup de vue le premier jour.
+La vidéo ayant été publiée le lundi 2 décembre en début de soirée, il est normal qu'elle n'ait pas accumulé beaucoup de vues le premier jour.
 En revanche, elle a eu beaucoup plus de succès le deuxième, pour un total de 100 vues sur la semaine.
 Le public effectivement présent en laboratoire (et donc pouvant bénéficier de cette vidéo) les quatre derniers jours de la semaine était composé d'un total de **102** étudiants.
 Cela voudrait-il dire que la vidéo a eu un taux de visionnage proche de 100 % ?
@@ -77,7 +77,7 @@ Quoi qu'il en soit, il reste intéressant de remarque qu'**une partie non négli
 
 
 ## Impact de la vidéo en laboratoire
-Immédiatement après la mise à disposition de la vidéo, tous les assistants du laboratoire ont pu remarquer que le nombre de questions afférentes au fonctionnement de l'oscilloscope (le sujet de la vidéo) a drastiquement diminué.
+Immédiatement après la mise à disposition de la vidéo, les quatre enseignants dispensant ce laboratoire ont pu remarquer que le nombre de questions afférentes au fonctionnement de l'oscilloscope (le sujet de la vidéo) a drastiquement diminué.
 Pour les quelques irréductibles, il a suffit de leur indiquer l'existence de cette vidéo qui semblait avoir échappé à leur vigilance pour qu'ils la regardent derechef pendant la séance, répondant ainsi seuls à leur propre question.
 
 Nous pouvons faire ici écho à la [définition du problème]({{site.baseurl}}{% link _posts/2019-11-15-definition-du-probleme.md %}) : la vidéo semble effectivement avoir utilisé cet outil pour s'approprier le matériel de laboratoire.
