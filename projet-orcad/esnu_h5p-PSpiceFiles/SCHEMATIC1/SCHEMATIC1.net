@@ -1,0 +1,9 @@
+* source ESNU_H5P
+V_V1         N14380 0 DC 0Vdc AC 1vac 
+C_C1         0 N14373  10n  TC=0,0 
+R_R1         N14380 N14373  1k TC=0,0 
+X_U1         0 N15042 OUT 12 12 Ampli_parfait  params: Ao=30E3 
+V_V2         12 0 12Vdc
+V_V3         -12 0 -12Vdc
+R_R2         N14373 N15042  1k TC=0,0 
+R_R3         N15042 N15036  100k TC=0,0 

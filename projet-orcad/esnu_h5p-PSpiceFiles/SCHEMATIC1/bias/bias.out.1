@@ -1,0 +1,50 @@
+
+**** 05/04/20 19:53:29 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-bias"  [ F:\DOCUMENTS\ULB\ESNU\ESNU\esnu_h5p-pspicefiles\schematic1\bias.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "bias.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+.LIB "F:/Documents/ULB/ELECH402/2019-2020/Libraries for ELEC-H402/ELEC-H402.lib" 
+* From [PSPICE NETLIST] section of C:\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.AC DEC 100 1 1Meg
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source ESNU_H5P
+V_V1         N14380 0 DC 0Vdc AC 1vac 
+C_C1         0 N14373  10n  TC=0,0 
+R_R1         N14380 N14373  1k TC=0,0 
+X_U1         0 N15042 OUT 12 12 Ampli_parfait  params: Ao=30E3 
+V_V2         12 0 12Vdc
+V_V3         -12 0 -12Vdc
+R_R2         N14373 N15042  1k TC=0,0 
+R_R3         N15042 N15036  100k TC=0,0 
+
+**** RESUMING bias.cir ****
+.END
+
+INFO(ORPSIM-16573): AC analysis does not support expression evaluation at each frequency. ABM devices with non-linear operations will be evaluated only at bias point.
+
+ERROR(ORPSIM-15141): Less than 2 connections at node N15036.
+
