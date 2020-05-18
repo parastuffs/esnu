@@ -86,4 +86,4 @@ Confronté à des contradictions, il n'est pas évident de comprendre qu'il y a 
 # Livrable du cours
 On laisse tomber la grille.
 
-Il faut une analyse du public étudiant et du contexte dans lequel le cours s'insère. Doit aboutir à une v2.0 des personna du cours de Nicolas Roland.
+Il faut une analyse du public étudiant et du contexte dans lequel le cours s'insère. Doit aboutir à une v2.0 des personas du cours de Nicolas Roland.
