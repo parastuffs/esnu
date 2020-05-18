@@ -14,7 +14,7 @@ author: quentin
 Pour qu'un dispositif soit efficace, il faut qu'il réponde à des besoins.
 Pour identifier les besoins, il faut connaître son public.
 
-Afin de savoir exactement si le dispositif que je voulais mettre en place correspondait aux attentes de mes étudiants, j'ai commencé par établir des *persona*, des profils caractéristiques représentant le public visé.
+Afin de savoir exactement si le dispositif que je voulais mettre en place correspondait aux attentes de mes étudiants, j'ai commencé par établir des *personas*, des profils caractéristiques représentant le public visé.
 
 ## Première étape : interviews
 
@@ -50,15 +50,14 @@ Il se composait en substance des questions suivantes :
 
 ## Compiler les résultats
 
-Les résultats des entretiens ont été compilés en trois persona différents en utilisant [Milanote](https://milanote.com/), suivant un template fourni par Nicolas Roland.
+Les résultats des entretiens ont été compilés en trois personas différents en utilisant [Milanote](https://milanote.com/), suivant un template fourni par Nicolas Roland.
 
 Les résultats sont accessibles [ici](assets/persona)
 
 La partie compliquée est finalement de fusionner toutes les réponses avant de les séparer à nouveau pour créer de nouvelles personnes fictives, tout en restant réaliste quant aux profils ainsi établis.
 
-## Apprendre des persona
-
-Ces entretiens et persona m'ont apporté un élément essentiel dans le développement de mon projet.
+## Apprendre des personas
+Ces entretiens et personas m'ont apporté un élément essentiel dans le développement de mon projet.
 Comment présenter au début de ce billet, ils m'ont permi de comprendre les *vrais* problèmes que rencontrent mes étudiants en laboratoire.
 
 Contrairement à ce que j'envisageais, ils n'étaient pas tant demandeurs d'outils de préparation des laboratoires ou de révision de la matière.

@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="http://localhost:4000/esnu/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/esnu/" rel="alternate" type="text/html" /><updated>2020-05-17T23:17:40+02:00</updated><id>http://localhost:4000/esnu/</id><title type="html">ESNU Portfolio</title><subtitle>Portfolio de l'édition 2019-2020 du certificat ESNU</subtitle><entry><title type="html">Facteurs d’échec et de réussite chez les étudiants</title><link href="http://localhost:4000/esnu/ehec-et-reussite" rel="alternate" type="text/html" title="Facteurs d'échec et de réussite chez les étudiants" /><published>2020-05-17T12:18:00+02:00</published><updated>2020-05-17T12:18:00+02:00</updated><id>http://localhost:4000/esnu/ehec-et-reussite</id><content type="html" xml:base="http://localhost:4000/esnu/ehec-et-reussite">&lt;p&gt;Retour sur le cours de Dorothée Baillet « Connaître son public » pour dresser le protrait de nos étudiants.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="http://localhost:4000/esnu/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/esnu/" rel="alternate" type="text/html" /><updated>2020-05-18T22:15:39+02:00</updated><id>http://localhost:4000/esnu/</id><title type="html">ESNU Portfolio</title><subtitle>Portfolio de l'édition 2019-2020 du certificat ESNU</subtitle><entry><title type="html">Facteurs d’échec et de réussite chez les étudiants</title><link href="http://localhost:4000/esnu/echec-et-reussite" rel="alternate" type="text/html" title="Facteurs d'échec et de réussite chez les étudiants" /><published>2020-05-17T12:18:00+02:00</published><updated>2020-05-17T12:18:00+02:00</updated><id>http://localhost:4000/esnu/echec-et-reussite</id><content type="html" xml:base="http://localhost:4000/esnu/echec-et-reussite">&lt;p&gt;Retour sur le cours de Dorothée Baillet « Connaître son public » pour dresser le portrait de nos étudiants.&lt;/p&gt;
 
-&lt;p&gt;Au fil des séances de cours, Dorothée nous a présenté et organisé différentes activités permettant d’analyser notre public sours les prismes de l’échec et de la réussite.
-Le but final est de construire une nouvelle grille de lecture permettant mieux connaître nos étudiants, d’enrichir nos persona et &lt;em&gt;a fortiori&lt;/em&gt; nos projets.&lt;/p&gt;
+&lt;p&gt;Au fil des séances de cours, Dorothée nous a présenté et organisé différentes activités permettant d’analyser notre public sous les prismes de l’échec et de la réussite.
+Le but final est de construire une nouvelle grille de lecture permettant de mieux connaître nos étudiants, d’enrichir nos personas et &lt;em&gt;a fortiori&lt;/em&gt; nos projets.&lt;/p&gt;
 
-&lt;p&gt;Ce billet ce veut le résumé de &lt;a href=&quot;&quot;&gt;mes notes de cours&lt;/a&gt; enrichies de quelques réflexions sur le sujet.
+&lt;p&gt;Ce billet se veut le résumé de &lt;a href=&quot;&quot;&gt;mes notes de cours&lt;/a&gt; enrichies de quelques réflexions sur le sujet.
 Les différentes questions qui y sont énoncées pourraient être reprises afin de construire cette grille d’analyse.&lt;/p&gt;
 
 &lt;h2 id=&quot;lhéritage-du-secondaire&quot;&gt;L’héritage du secondaire&lt;/h2&gt;
@@ -11,11 +11,11 @@ Les différentes questions qui y sont énoncées pourraient être reprises afin 
 &lt;p&gt;Les cours suivis par les étudiants durant les années de secondaire peuvent avoir une influence directe sur leur choix d’études supérieures d’une part, mais aussi sur leur vécu de celles-ci.&lt;br /&gt;
 Combien d’heures de math ou de sciences ont-ils suivis ? Quelle filière ont-ils suivie ? Ont-ils effectué un séjour à l’étranger ou pris une année sabbatique avant de s’inscrire dans le supérieur ? Quelles différences voient-ils entre le secondaire et le supérieur ?&lt;/p&gt;
 
-&lt;p&gt;Ce dernier aspect est intéressant puisqu’il semble que des étudiants ne voyant que des différences &lt;em&gt;quatitatives&lt;/em&gt; (charge de travail, par exemple) ont moins de chance de réussir que s’ils identifient des différences &lt;em&gt;qualitatives&lt;/em&gt; (cours plus ouverts, plus critiques et approfondis, par exemple) &lt;a href=&quot;#références&quot;&gt;[1]&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Ce dernier aspect est intéressant puisqu’il semble que des étudiants ne voyant que des différences &lt;em&gt;quantitatives&lt;/em&gt; (charge de travail, par exemple) ont moins de chance de réussir que s’ils identifient des différences &lt;em&gt;qualitatives&lt;/em&gt; (cours plus ouverts, plus critiques et approfondis, par exemple) &lt;a href=&quot;#références&quot;&gt;[1]&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h2 id=&quot;quelques-facteurs-déchec-et-de-réussite&quot;&gt;Quelques facteurs d’échec et de réussite&lt;/h2&gt;
 
-&lt;p&gt;Suite à la mise en commun avec d’autres participants de l’esnu, quelques éléments ont pu être mis en évidence au sein de mes &lt;a href=&quot;/esnu//construire-des-personas&quot;&gt;premiers persona&lt;/a&gt;, facteurs qu’on peut aussi retrouver dans le persona révisé.&lt;/p&gt;
+&lt;p&gt;Suite à la mise en commun de réflexions avec d’autres participants de l’ESNU, quelques éléments ont pu être mis en évidence au sein de mes &lt;a href=&quot;/esnu//construire-des-personas&quot;&gt;premiers personas&lt;/a&gt;, facteurs qu’on peut aussi retrouver dans le persona révisé.&lt;/p&gt;
 
 &lt;h4 id=&quot;réussite&quot;&gt;Réussite&lt;/h4&gt;
 
@@ -32,7 +32,7 @@ Combien d’heures de math ou de sciences ont-ils suivis ? Quelle filière ont-i
 
 &lt;ul&gt;
   &lt;li&gt;Problème de rythme qui n’est pas nécessairement adapté à tout le monde.&lt;/li&gt;
-  &lt;li&gt;Support de cours trop pauvres qui ne soutiennent pas l’apprentissage&lt;/li&gt;
+  &lt;li&gt;Supports de cours trop pauvres qui ne soutiennent pas l’apprentissage&lt;/li&gt;
   &lt;li&gt;Utilisation difficile ou absconse du matériel&lt;/li&gt;
   &lt;li&gt;Trop de matière, problème d’assimilation&lt;/li&gt;
 &lt;/ul&gt;
@@ -47,13 +47,13 @@ Mais si 50 % est inexpliqué, les autres 50 % sont-ils correctement expliqués ?
 Les résumés de ces derniers sont accessibles directement dans mes &lt;a href=&quot;https://github.com/parastuffs/esnu/blob/master/esnu003/cours_2020-03-05_cours3.md&quot;&gt;notes de cours&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Il pourrait être intéressant de reprendre ces catégories sur des échelles critériées dans une enquête à proposer aux étudiants afin de connaître leur positionnement par rapport à leur enseignement.
-Ces informations seraient très utiles pour dresser des persona précis et fidèle de notre public.&lt;/p&gt;
+Ces informations seraient très utiles pour dresser des personas précis et fidèles de notre public.&lt;/p&gt;
 
 &lt;h2 id=&quot;auto-régulation-des-apprentissages&quot;&gt;Auto-régulation des apprentissages&lt;/h2&gt;
 
 &lt;p&gt;Nos apprenants sont-ils capable de se mettre au travail et de s’y maintenir ?
 Ont-ils des &lt;strong&gt;stratégies volitionnelles&lt;/strong&gt; ?
-Ces dernières peuvent être&lt;/p&gt;
+Ces dernières peuvent être :&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;Internes :
     &lt;ul&gt;
@@ -74,14 +74,14 @@ Ces dernières peuvent être&lt;/p&gt;
 &lt;h2 id=&quot;influence-de-linstitution&quot;&gt;Influence de l’institution&lt;/h2&gt;
 
 &lt;p&gt;L’institution dans laquelle évoluent les étudiants à forcément une influence sur leur réussite.
-Non seulement les niveaux d’exigeance peuvent varier, mais le choix de la filière est aussi essentiel. Cette dernière change non seulement le type de population (et donc notamment son rapport avec ses études secondaires, comme discuté plus haut), mais aussi rapport à l’avanir que peut avoir l’apprenant.
-Avoir des dévouchés clairs est un atout et permet d’avoir une meilleure motivation de l’étudiant dans sa formation.&lt;/p&gt;
+Non seulement les niveaux d’exigence peuvent varier, mais le choix de la filière est aussi essentiel. Cette dernière change non seulement le type de population (et donc notamment son rapport avec ses études secondaires, comme discuté plus haut), mais aussi le rapport à l’avenir que peut avoir l’apprenant.
+Avoir des débouchés clairs est un atout et permet une meilleure motivation de l’étudiant dans sa formation.&lt;/p&gt;
 
 &lt;p&gt;Les filières techniques jouissent généralement de cet avantage et on pourrait penser que Polytech entre dans cette catégorie.
 Pourtant il est assez paradoxal de se rendre compte que nombre d’étudiants n’ont pas une vision claire des débouchés possibles avant d’entrer en master, voire encore plus tard.&lt;br /&gt;
 Est-ce à cause de la richesse et de la diversité du métier d’ingénieur ?
 Est-ce à cause de la multiplicité des filières qui explosent d’autant plus les débouchés possibles ?
-Est-ce parce que cette formation est bien souvent un choix par défaut pour des étudiants qui ne veulent pas se limiter à un domaine particulier en entamant leurs études supérieurs ?
+Est-ce parce que cette formation est bien souvent un choix par défaut pour des étudiants qui ne veulent pas se limiter à un domaine particulier en entamant leurs études supérieures ?
 Nous mettons peut-être ici le doigt sur l’un des pièges de Polytech : &lt;strong&gt;à penser qu’on peut tout faire, on ne sait pas ce qui est réellement possible, on entretient un brouillard dans lequel on se perd&lt;/strong&gt;.&lt;/p&gt;
 
 &lt;p&gt;L’institution ne consiste pas uniquement en un choix de filière, elle s’accompagne aussi d’enseignants qui influencent à leur tour la réussite de leurs étudiants.
@@ -96,10 +96,10 @@ Ainsi, l’interractivité de l’enseignant semble bénéfique pour la réussit
   &lt;li&gt;Avec qui j’apprends ?&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Il est ainsi édifiant qu’il est parfois nécessaire d’avancer dans le cours pour en comprendre le début, bien qu’à mon sens ce soit le signe d’un problème de contruction de l’accès au savoir. Il ne doit pas nécessairement être incrémental, mais le sens du cours ne devrait pas échapper à l’apprenant parce qu’il n’a pas les outils nécessaire pour le comprendre.&lt;/p&gt;
+&lt;p&gt;Il est ainsi édifiant qu’il est parfois nécessaire d’avancer dans le cours pour en comprendre le début, bien qu’à mon sens ce soit le signe d’un problème de contruction de l’accès au savoir. Il ne doit pas nécessairement être incrémental, mais le sens du cours ne devrait pas échapper à l’apprenant parce qu’il n’a pas les outils nécessaires pour le comprendre.&lt;/p&gt;
 
 &lt;p&gt;À une échelle temporelle plus locale, les étudiants sont aussi souvent confrontés à des supports plurisémiotisés, reprenant plusieurs types de représentation, ou polyphoniques, avec des voix différentes ayant des fonctions différentes qu’il faut d’autant mieux clarifier.
-Cette multiplicité de la présentation du savoir est à double tranchant pour l’étudiants :  la moindre discordance peut être bloquante et parfois, moins vaut mieux que trop.&lt;/p&gt;
+Cette multiplicité de la présentation du savoir est à double tranchant pour l’étudiant :  la moindre discordance peut être bloquante et parfois, moins vaut mieux que trop.&lt;/p&gt;
 
 &lt;p&gt;Dans le cadre des différents cours d’électronique que j’encadre et faisant l’objet de mes deux projets, les supports sont effectivement plurisémiotiques : graphes, schémas, photographies, textes et équations cohabitent gaiement sur des supports de cours à la fois physiques, oraux et numériques.
 Comment nos étudiants jonglent-ils entre eux ?
@@ -112,11 +112,11 @@ Avons-nous des communications redondantes voire superfétatoires envers eux ?&lt
 
 &lt;p&gt;[1] &lt;a href=&quot;https://difusion.ulb.ac.be/vufind/Record/ULB-DIPOT:oai:dipot.ulb.ac.be:2013/257684/Holdings&quot;&gt;Baillet (2017). Du rapport au savoir à des rapports aux savoirs : analyse des difficultés des étudiants de première année en Psychologie face aux caractéristiques des savoirs enseignés à l’université. Dissertation doctorale, Université libre de Bruxelles.&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;[2] [Christophe Michaut, « À l’université, 50 % des facteurs de réussite restent inexpliqués », letudiant.fr, 2018 (https://www.letudiant.fr/educpros/actualite/christophe-michaut-universite-moitie-facteurs-reussite-restent-inexpliques.html)&lt;/p&gt;</content><author><name>Quentin Delhaye</name></author><category term="projet" /><summary type="html">Retour sur le cours de Dorothée Baillet « Connaître son public » pour dresser le protrait de nos étudiants.</summary></entry><entry><title type="html">Confinement et enseignement, comment donner laboratoire à distance</title><link href="http://localhost:4000/esnu/covid19" rel="alternate" type="text/html" title="Confinement et enseignement, comment donner laboratoire à distance" /><published>2020-05-15T11:18:00+02:00</published><updated>2020-05-15T11:18:00+02:00</updated><id>http://localhost:4000/esnu/covid19</id><content type="html" xml:base="http://localhost:4000/esnu/covid19">&lt;p&gt;Distanciation rime avec adaptation, et ce n’est pas pour rien.&lt;/p&gt;
+&lt;p&gt;[2] &lt;a href=&quot;https://www.letudiant.fr/educpros/actualite/christophe-michaut-universite-moitie-facteurs-reussite-restent-inexpliques.html&quot;&gt;Christophe Michaut, « À l’université, 50 % des facteurs de réussite restent inexpliqués », letudiant.fr, 2018&lt;/a&gt;&lt;/p&gt;</content><author><name>Quentin Delhaye</name></author><category term="projet" /><summary type="html">Retour sur le cours de Dorothée Baillet « Connaître son public » pour dresser le portrait de nos étudiants.</summary></entry><entry><title type="html">Confinement et enseignement, comment donner laboratoire à distance</title><link href="http://localhost:4000/esnu/covid19" rel="alternate" type="text/html" title="Confinement et enseignement, comment donner laboratoire à distance" /><published>2020-05-15T11:18:00+02:00</published><updated>2020-05-15T11:18:00+02:00</updated><id>http://localhost:4000/esnu/covid19</id><content type="html" xml:base="http://localhost:4000/esnu/covid19">&lt;p&gt;Distanciation rime avec adaptation, et ce n’est pas pour rien.&lt;/p&gt;
 
 &lt;p&gt;Bien que nous ayons été forcés de changer notre manière de donner cours, ce n’est pas une bonne raison pour abandonner nos étudiants.
 Leur envoyer un document et leur indiquer d’envoyer un mail s’ils ont une question n’est pas une alternative correcte et l’embrasser comme le Graal revient à se voiler la face.
-Il y a pourtant quelques outils faciles à mettre en place permettant de garder le contact avec les étudiants,&lt;/p&gt;
+Il y a pourtant quelques outils faciles à mettre en place permettant de garder le contact avec les étudiants.&lt;/p&gt;
 
 &lt;h2 id=&quot;plate-forme-de-discussion&quot;&gt;Plate-forme de discussion&lt;/h2&gt;
 
@@ -216,7 +216,7 @@ La force de Moodle, c’est de permettre d’automatiser cette variable, par exe
 &lt;p&gt;L’URL ainsi générée sera unique pour chaque étudiant, reste à présent à lui envoyer le bon fichier lorsque qu’il y accède.&lt;/p&gt;
 
 &lt;p&gt;Pour ce faire, nous pouvons le rediriger vers un script qui analyse l’URL, récupère le numéro de matricule et envoie le fichier idoine à l’étudiant.
-C’est exament ce que réalise le bout de code suivant :&lt;/p&gt;
+C’est exactement ce que réalise le bout de code suivant :&lt;/p&gt;
 
 &lt;div class=&quot;language-php highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;cp&quot;&gt;&amp;lt;?php&lt;/span&gt;
 &lt;span class=&quot;nv&quot;&gt;$mat&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$_GET&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;matricule&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
@@ -262,12 +262,12 @@ Si 200 fichiers pdf ne devraient pas poser de soucis, il est tout de même possi
 &lt;h4 id=&quot;besoin-dun-serveur-externe&quot;&gt;Besoin d’un serveur externe&lt;/h4&gt;
 &lt;p&gt;C’est le plus gros problème. Idéalement, on aimerait pouvoir envoyer tous les fichiers sur Moodle et permettre à l’URL de rediriger vers un fichier en particulier automatiquement, mais ce n’est malheureusement pas possible.&lt;/p&gt;
 
-&lt;h4 id=&quot;tous-les-fichiers-sont-tout-de-même-accessible-par-tout-le-monde&quot;&gt;Tous les fichiers sont tout de même accessible par tout le monde&lt;/h4&gt;
+&lt;h4 id=&quot;tous-les-fichiers-sont-tout-de-même-accessibles-par-tout-le-monde&quot;&gt;Tous les fichiers sont tout de même accessibles par tout le monde&lt;/h4&gt;
 &lt;p&gt;Certes, mais nous comptons sur la limite de temps pour nous assurer que chaque étudiant n’ait le temps de se concentrer uniquement sur son examen.
-Pourquoi nous fatiguer à mettre ce système en place, dans ce cas ? Pourquoi ne pas simplement demander aux étudiants de récupérer leur copie dans un dossier les comprenant toutes ?&lt;/p&gt;
+Pourquoi nous fatiguer à mettre ce système en place dans ce cas ? Pourquoi ne pas simplement demander aux étudiants de récupérer leur copie dans un dossier les comprenant toutes ?&lt;/p&gt;
 
 &lt;p&gt;Tout simplement pour leur éviter le stress de récupérer la mauvaise copie.
-Il faut aussi noter que le matricule « Moodle » n’est pas nécessaire le même que le matricule « étudiant », phénomène rencontré par exemple pour les étudiants de la VUB.&lt;/p&gt;</content><author><name>Quentin Delhaye</name></author><category term="experience" /><summary type="html">Comment automatiser la distribution d’un examen individuel à chaque étudiant ?</summary></entry><entry><title type="html">Tester la maîtrise d’un logiciel, sans ce dernier</title><link href="http://localhost:4000/esnu/tester-maitrise-logiciel" rel="alternate" type="text/html" title="Tester la maîtrise d'un logiciel, sans ce dernier" /><published>2020-04-15T12:18:00+02:00</published><updated>2020-04-15T12:18:00+02:00</updated><id>http://localhost:4000/esnu/tester-maitrise-logiciel</id><content type="html" xml:base="http://localhost:4000/esnu/tester-maitrise-logiciel">&lt;p&gt;Comment aider les étudiants à tester leur maîtrise du logiciel en vue de l’examen de laboratoire ?&lt;/p&gt;
+Il faut aussi noter que le matricule « Moodle » n’est pas nécessairement le même que le matricule « étudiant », phénomène rencontré par exemple pour les étudiants de la VUB.&lt;/p&gt;</content><author><name>Quentin Delhaye</name></author><category term="experience" /><summary type="html">Comment automatiser la distribution d’un examen individuel à chaque étudiant ?</summary></entry><entry><title type="html">Tester la maîtrise d’un logiciel, sans ce dernier</title><link href="http://localhost:4000/esnu/tester-maitrise-logiciel" rel="alternate" type="text/html" title="Tester la maîtrise d'un logiciel, sans ce dernier" /><published>2020-04-15T12:18:00+02:00</published><updated>2020-04-15T12:18:00+02:00</updated><id>http://localhost:4000/esnu/tester-maitrise-logiciel</id><content type="html" xml:base="http://localhost:4000/esnu/tester-maitrise-logiciel">&lt;p&gt;Comment aider les étudiants à tester leur maîtrise du logiciel en vue de l’examen de laboratoire ?&lt;/p&gt;
 
 &lt;p&gt;Ce questionnement découle de la &lt;a href=&quot;/esnu//nouveau-public-nouvelle-problematique&quot;&gt;problématique mise en évidence&lt;/a&gt; et ce billet en présentera quelques réponses.&lt;/p&gt;
 
@@ -275,11 +275,11 @@ Il faut aussi noter que le matricule « Moodle » n’est pas nécessaire le mê
 Ils auront tout de même déjà manipulé ce dernier, comme expliqué dans la &lt;a href=&quot;/esnu//scenarisation}&quot;&gt;scénarisation du dispositif&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;La solution retenue a été d’exploiter à nouveau Moodle au travers de modules &lt;a href=&quot;https://h5p.org/&quot;&gt;H5P&lt;/a&gt;, permettant de créer des contenus dynamiques et interactifs variés.
-Trois volets ont ainsi été développés : (1) &lt;a href=&quot;#maîtrise-de-la-navigation&quot;&gt;la navigation dans l’interface du logiciel&lt;/a&gt;, (2) &lt;a href=&quot;#maîtrise-des-types-de-simulation&quot;&gt;la connaissance des différents types de simulation&lt;/a&gt; et (3) &lt;a href=&quot;#maîtrise-des-erreurs&quot;&gt;vérifier qu’ils savent gérer les erreurs de manipulation&lt;/a&gt;.&lt;/p&gt;
+Trois volets ont ainsi été développés : (1) &lt;a href=&quot;#maîtrise-de-la-navigation&quot;&gt;la navigation dans l’interface du logiciel&lt;/a&gt;, (2) &lt;a href=&quot;#maîtrise-des-types-de-simulation&quot;&gt;la connaissance des différents types de simulation&lt;/a&gt; et (3) &lt;a href=&quot;#maîtrise-des-erreurs&quot;&gt;la gestion des erreurs de manipulation&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h3 id=&quot;maîtrise-de-la-navigation&quot;&gt;Maîtrise de la navigation&lt;/h3&gt;
 
-&lt;p&gt;Les étudiants peuvent ici vérifier qu’ils savent afficher la courbe de Bode d’un réponse en fréquence en navigant dans l’interface de PSpice.
+&lt;p&gt;Les étudiants peuvent ici vérifier qu’ils savent afficher la courbe de Bode d’une réponse en fréquence en naviguant dans l’interface de PSpice.
 L’activité consiste en une suite de modules « &lt;strong&gt;Find the Hotspot&lt;/strong&gt; », chacun avec une zone sensible correspondant au bouton ou menu à activer.&lt;/p&gt;
 
 &lt;p&gt;Idéalement, j’aurais préféré n’avoir qu’une seule image affichée à la fois, la suivante apparaissant losque le &lt;em&gt;hotspot&lt;/em&gt; aurait été trouvé.
@@ -302,14 +302,14 @@ L’étudiant est ici maître de son destin et l’évolution de l’activité d
 &lt;p&gt;&lt;img src=&quot;assets/images/H5P/simu_overview.png&quot; alt=&quot;Overview H5P du projet de simulation&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Je propose une situation requérant une simulation particulière.
-Les quatre types sont proposés et pour chacun, le résultat que l’étudiant obtiendrait est affiché, accompagné d’un feedback leur expliquant pourquoi la réponse est bonne ou mauvaise.
+Les quatres types de simulation sont proposés et pour chacun, le résultat de cette simulation est affiché, accompagné d’un feedback leur expliquant pourquoi la réponse est bonne ou mauvaise.
 En cas de mauvaise réponse, ils sont renvoyés vers la question afin de donner une autre réponse.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;assets/images/H5P/bonne-simu.gif&quot; alt=&quot;Animation du projet de la recherche de la bonne simulation&quot; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;maîtrise-des-erreurs&quot;&gt;Maîtrise des erreurs&lt;/h3&gt;
 
-&lt;p&gt;Le dernier aspect tester dans ce projet n’est pas le plus anodin : d’où viennent les erreurs qu’il est possible de rencontrer dans le logiciel ?&lt;/p&gt;
+&lt;p&gt;Le dernier aspect testé dans ce projet n’est pas le plus anodin : d’où viennent les erreurs qu’il est possible de rencontrer dans le logiciel ?&lt;/p&gt;
 
 &lt;p&gt;Quatre erreurs typiques sont ainsi présentées dans ce nouveau scénario.&lt;/p&gt;
 
@@ -359,8 +359,8 @@ Ces séquences seront inspirées librement du &lt;a href=&quot;assets/scenario/G
   &lt;/tbody&gt;
 &lt;/table&gt;
 
-&lt;p&gt;Ce n’est qu’une première anonce servant à introduire la séquence suivante.
-Elle n’a rien d’exceptionnel, mais elle est tout de même nécessaire et doit être soignée.&lt;/p&gt;
+&lt;p&gt;Ce n’est qu’une première annonce servant à introduire la séquence suivante.
+Elle n’a rien d’exceptionnelle, mais elle est tout de même nécessaire et doit être soignée.&lt;/p&gt;
 
 &lt;h3 id=&quot;séquence-2--visionnage-des-vidéos-par-les-étudiants&quot;&gt;Séquence 2 : Visionnage des vidéos par les étudiants&lt;/h3&gt;
 
@@ -382,7 +382,7 @@ Elle n’a rien d’exceptionnel, mais elle est tout de même nécessaire et doi
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;Contenu(s)&lt;/td&gt;
-      &lt;td&gt;Liens vers différents tutoriel, énoncés de laboratoire et logiciel qui seront utilisés.&lt;/td&gt;
+      &lt;td&gt;Liens vers différents tutoriels, énoncés de laboratoire et logiciel(s) qui seront utilisés.&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
@@ -412,14 +412,14 @@ La matière qui y est abordée devrait leur être familière, la seule nouveaut�
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;Contenu(s)&lt;/td&gt;
-      &lt;td&gt;Montages d’électronique anaogique avec à la fois des réflexions théoriques&lt;br /&gt; et leur confrontation avec la réalité simulée.&lt;/td&gt;
+      &lt;td&gt;Montages d’électronique analogique avec à la fois des réflexions théoriques&lt;br /&gt; et leur confrontation avec la réalité simulée.&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
 
 &lt;p&gt;Il s’agit d’un laboratoire tout ce qu’il y a de plus classique : les étudiants passent quatre heures à manipuler les logiciels afin de résoudre des problèmes posés dans des énoncés.&lt;/p&gt;
 
-&lt;p&gt;Malgré la banalité de l’actvité, le rôle de l’enseignant, et particulièrement son comportement, sont intéressants.
+&lt;p&gt;Malgré la banalité de l’activité, le rôle de l’enseignant, et particulièrement son comportement, sont intéressants.
 L’attitude que je préfère habituellement adopter consister à me rendre disponible pour répondre à leurs questions, mais à ne pas activement leur poser des questions au cours du laboratoire.
 Mon raisonnement est qu’ils ne recourent ainsi pas systématiquement à mon aide dès qu’ils ont un problème et qu’ils sont forcés à formuler leur problème lorsqu’ils veulent demander mon aide.&lt;br /&gt;
 Cette attitude m’a cependant été reprochée au cours d’une &lt;a href=&quot;https://www.ulb.be/fr/aides-services-et-accompagnement/votre-avis-compte&quot;&gt;évaluation des enseignements par les étudiants&lt;/a&gt;, sans doute par manque de communication et de clareté de ma part.&lt;br /&gt;
@@ -451,7 +451,7 @@ Dorénavant j’adopte un comportement hybride plus ou moins proactif en fonctio
 &lt;/table&gt;
 
 &lt;p&gt;On arrive enfin au cœur du sujet avec l’expérimentation du projet par le public cible.
-Ces activités ne devraient leur prrendre que quelques minutes à réaliser, mais devraient néanmoins leur permettre de se rendre compte de lacunes fondamentales s’ils rencontrent des difficultés.&lt;/p&gt;
+Ces activités ne devraient leur prendre que quelques minutes à réaliser, mais devraient néanmoins leur permettre de se rendre compte de lacunes fondamentales s’ils rencontrent des difficultés.&lt;/p&gt;
 
 &lt;p&gt;Cette séquence ne peut avoir lieu avant les laboratoires ou avant que les étudiants aient expérimenté une première fois les logiciels. Il s’agit bien de tester leur &lt;em&gt;maîtrise&lt;/em&gt; des outils afin de les préparer à l’examen de laboratoire.&lt;/p&gt;
 
@@ -481,7 +481,7 @@ Ces activités ne devraient leur prrendre que quelques minutes à réaliser, mai
 &lt;/table&gt;
 
 &lt;p&gt;Parce qu’un dispositif perd beaucoup de sens si on ne peut pas en analyser l’impact, le &lt;a href=&quot;/esnu//retour-et-analyse&quot;&gt;feedback des utilisateurs&lt;/a&gt; est essentiel.
-Afin de ne pas décourager les étudiants à laisser leur avis, une simple question leur est posée : « Qu’avez-vous pensé de ces activités ? »&lt;/p&gt;</content><author><name>Quentin Delhaye</name></author><category term="projet" /><summary type="html">Réflexions sur l’introduction du dispositif auprès des étudiants.</summary></entry><entry><title type="html">Création d’une vidéo-minute pour introduire un laboratoire</title><link href="http://localhost:4000/esnu/video-intro-labo-improvisee" rel="alternate" type="text/html" title="Création d'une vidéo-minute pour introduire un laboratoire" /><published>2020-03-27T09:00:00+01:00</published><updated>2020-03-27T09:00:00+01:00</updated><id>http://localhost:4000/esnu/video-intro-labo-improvisee</id><content type="html" xml:base="http://localhost:4000/esnu/video-intro-labo-improvisee">&lt;p&gt;Afin de garder le contact avec les étudiants lors d’un laboratoire à distance, il peut être intéressant de les accueillir avec une courte vidéo remplaçant le mot d’introduction en présentiel.&lt;/p&gt;
+Afin de ne pas décourager les étudiants à laisser leur avis, une unique question leur est posée : « Qu’avez-vous pensé de ces activités ? »&lt;/p&gt;</content><author><name>Quentin Delhaye</name></author><category term="projet" /><summary type="html">Réflexions sur l’introduction du dispositif auprès des étudiants.</summary></entry><entry><title type="html">Création d’une vidéo-minute pour introduire un laboratoire</title><link href="http://localhost:4000/esnu/video-intro-labo-improvisee" rel="alternate" type="text/html" title="Création d'une vidéo-minute pour introduire un laboratoire" /><published>2020-03-27T09:00:00+01:00</published><updated>2020-03-27T09:00:00+01:00</updated><id>http://localhost:4000/esnu/video-intro-labo-improvisee</id><content type="html" xml:base="http://localhost:4000/esnu/video-intro-labo-improvisee">&lt;p&gt;Afin de garder le contact avec les étudiants lors d’un laboratoire à distance, il peut être intéressant de les accueillir avec une courte vidéo remplaçant le mot d’introduction en présentiel.&lt;/p&gt;
 
 &lt;p&gt;Non seulement elle permet de les engager dans le laboratoire, elle leur montre aussi ma disponibilité en la distribuant quelques minutes avant la séance sur le canal de communication choisi, Slack dans le cas présent.&lt;/p&gt;
 
@@ -565,7 +565,7 @@ Dans mon cas, l’endroit en question se trouve entre la fin de la balise &lt;co
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;p&gt;où &lt;code class=&quot;highlighter-rouge&quot;&gt;site.production_url&lt;/code&gt; devrait être une variable du fichier &lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt; qui ressemble à ceci : &lt;code class=&quot;highlighter-rouge&quot;&gt;production_url:  https://parastuffs.github.io/esnu&lt;/code&gt;.&lt;/p&gt;
 
-&lt;p&gt;Normalement, les commentaires devraient à présent être activés sur l’instance locale de test ainsi que sur le site de production.&lt;/p&gt;</content><author><name>Quentin Delhaye</name></author><category term="coulisses" /><summary type="html">Rien de tel que des commentaires pour ajouter de l’interactivité dans un article.</summary></entry><entry><title type="html">Laboratoires à distance, première semaine</title><link href="http://localhost:4000/esnu/laboratoires-a-distance-premiere-semaine" rel="alternate" type="text/html" title="Laboratoires à distance, première semaine" /><published>2020-03-23T19:00:00+01:00</published><updated>2020-03-23T19:00:00+01:00</updated><id>http://localhost:4000/esnu/laboratoires-a-distance-premiere-semaine</id><content type="html" xml:base="http://localhost:4000/esnu/laboratoires-a-distance-premiere-semaine">&lt;p&gt;Semaine du 16 mars 2020, le monde se transforme alors que tout le monde doit s’isoler. Comment les apprenants s’adaptent-ils aux dispositifs mis en place pour assurer l’enseignement à distance ?&lt;/p&gt;
+&lt;p&gt;Les commentaires devraient à présent être activés sur l’instance locale de test ainsi que sur le site de production.&lt;/p&gt;</content><author><name>Quentin Delhaye</name></author><category term="coulisses" /><summary type="html">Rien de tel que des commentaires pour ajouter de l’interactivité dans un article.</summary></entry><entry><title type="html">Laboratoires à distance, première semaine</title><link href="http://localhost:4000/esnu/laboratoires-a-distance-premiere-semaine" rel="alternate" type="text/html" title="Laboratoires à distance, première semaine" /><published>2020-03-23T19:00:00+01:00</published><updated>2020-03-23T19:00:00+01:00</updated><id>http://localhost:4000/esnu/laboratoires-a-distance-premiere-semaine</id><content type="html" xml:base="http://localhost:4000/esnu/laboratoires-a-distance-premiere-semaine">&lt;p&gt;Semaine du 16 mars 2020, le monde se transforme alors que tout le monde doit s’isoler. Comment les apprenants s’adaptent-ils aux dispositifs mis en place pour assurer l’enseignement à distance ?&lt;/p&gt;
 
 &lt;p&gt;Cette première semaine de distanciation forcée est une bonne occasion de revenir sur l’efficacité de la combinaison de plusieurs outils en fonction du groupe d’apprenants exposés.&lt;/p&gt;
 
@@ -574,44 +574,42 @@ Dans mon cas, l’endroit en question se trouve entre la fin de la balise &lt;co
 
 &lt;h3 id=&quot;elech473---microprocessor-architectures&quot;&gt;ELECH473 - Microprocessor Architectures&lt;/h3&gt;
 &lt;ul&gt;
-  &lt;li&gt;Public : Cours dispensé aux MA1 Polytech Informatique, Électronique et aux MA1 Sciences informatiques. Il s’agit d’une cohorte d’environ 100 étudiants.&lt;br /&gt;
+  &lt;li&gt;&lt;strong&gt;Public&lt;/strong&gt; : Cours dispensé aux MA1 Polytech Informatique, Électronique et aux MA1 Sciences informatiques. Il s’agit d’une cohorte d’environ 100 étudiants.&lt;br /&gt;
 &lt;em&gt;Note&lt;/em&gt; : L’option &lt;em&gt;Électronique&lt;/em&gt; fait partie du programme &lt;a href=&quot;http://www.bruface.eu/&quot;&gt;Bruface&lt;/a&gt;, accueillant des étudiants de l’ULB, de la VUB et de nombreux étrangers, diversifiant d’autant plus le public de ce cours.&lt;/li&gt;
-  &lt;li&gt;Type de laboratoire : Coder dans des logiciels multi-plate-formes (Windows/macOS/Linux).&lt;/li&gt;
-  &lt;li&gt;Évaluation : Devoirs à remettre une semaine après la séance de laboratoire. La remise de ces devoirs exploite des module Moodle sur l’UV, l’expérience est donc déjà numérique pour les apprenants.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Type de laboratoire&lt;/strong&gt; : Coder dans des logiciels multi-plate-formes (Windows/macOS/Linux).&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Évaluation&lt;/strong&gt; : Devoirs à remettre une semaine après la séance de laboratoire. La remise de ces devoirs exploite des modules Moodle sur l’UV, l’expérience est donc déjà numérique pour les apprenants.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&quot;elech402---électronique-analogique&quot;&gt;ELECH402 - Électronique analogique&lt;/h3&gt;
 &lt;ul&gt;
-  &lt;li&gt;Public : Cours dispensé aux MA1 Polytech option Biomédical. Il s’agit d’une cohorte d’environ 25 étudiants (les mêmes dont je parlais lors de la &lt;a href=&quot;/esnu//reorientation-du-projet&quot;&gt;réorientation de mon projet&lt;/a&gt;)&lt;/li&gt;
-  &lt;li&gt;Type de laboratoire : Simulations de circuits électronique en utilisant &lt;em&gt;Cadence PSPICE&lt;/em&gt;. Ce logiciel ne tourne que sous Windows (natif ou en machine virtuelle).&lt;/li&gt;
-  &lt;li&gt;Évaluation : Examen de laboratoire prévu mi-mai.&lt;br /&gt;
+  &lt;li&gt;&lt;strong&gt;Public&lt;/strong&gt; : Cours dispensé aux MA1 Polytech option Biomédical. Il s’agit d’une cohorte d’environ 25 étudiants (les mêmes dont je parlais lors de la &lt;a href=&quot;/esnu//reorientation-du-projet&quot;&gt;réorientation de mon projet&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Type de laboratoire&lt;/strong&gt; : Simulations de circuits électronique en utilisant &lt;em&gt;Cadence PSPICE&lt;/em&gt;. Ce logiciel ne tourne que sous Windows (natif ou en machine virtuelle).&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Évaluation&lt;/strong&gt; : Examen de laboratoire prévu mi-mai.&lt;br /&gt;
 &lt;em&gt;Note&lt;/em&gt; : La communication à ce sujet a été effectuée lorsque les cours devaient encore reprendre le 19 avril. Étant donné que le reste du quadrimestre se déroulera à distance, cette évaluation devra être revue, dans sa forme voire dans son existence.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;outils-mis-en-place&quot;&gt;Outils mis en place&lt;/h2&gt;
 &lt;ol&gt;
   &lt;li&gt;
-    &lt;p&gt;Une communication claire et détaillée par mail via Moodle.&lt;br /&gt;
-La première étape a été d’informer les apprenants des mesures prises pour assurer la continuité des laboratoires malgré la distance.
+    &lt;p&gt;&lt;strong&gt;Une communication claire et détaillée par mail via Moodle.&lt;/strong&gt; 
+La première étape a été d’informer les apprenants des mesures prises pour assurer la continuité des laboratoires malgré la distance.&lt;br /&gt;
 Ce message avait donc pour but de clarifier quels outils sont nécessaire pour &lt;em&gt;réaliser&lt;/em&gt; le laboratoire, quels autres outils sont utilisés pour &lt;em&gt;communiquer&lt;/em&gt; durant la séance et enfin le statut des évaluations afférentes aux manipulations.&lt;br /&gt;
 Une capture du message envoyé pour ELECH473 peut être consultée &lt;a href=&quot;assets/images/labo-distance/uv-h473.png&quot;&gt;ici&lt;/a&gt; et celle pour ELECH402 &lt;a href=&quot;assets/images/labo-distance/uv-h402.png&quot;&gt;ici&lt;/a&gt;.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;Le maintien de l’évaluation.&lt;br /&gt;
+    &lt;p&gt;&lt;strong&gt;Le maintien de l’évaluation.&lt;/strong&gt;&lt;br /&gt;
 Pour beaucoup d’apprenants, nous constatons que l’implication dans les laboratoires est directement corrélée à des éléments concordants avec leur stratégie d’apprentissage, notamment la présence de devoirs évalués (ELECH473) ou  d’un examen de laboratoire (dans le cas de ELECH402).&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;Communication durant la séance.&lt;br /&gt;
-Deux outils ont été proposés aux apprenant : (1) &lt;a href=&quot;https://slack.com/&quot;&gt;Slack&lt;/a&gt; pour la communication ne nécessitant pas une réponse immédiate et (2) &lt;a href=&quot;https://jitsi.org/&quot;&gt;Jitsi&lt;/a&gt; au cas où ils veulent poser une question de vive voix ou partager leur écran.&lt;/p&gt;
+    &lt;p&gt;&lt;strong&gt;Communication durant la séance.&lt;/strong&gt;&lt;br /&gt;
+Deux outils ont été proposés aux apprenants : (1) &lt;a href=&quot;https://slack.com/&quot;&gt;Slack&lt;/a&gt; pour la communication ne nécessitant pas une réponse immédiate et (2) &lt;a href=&quot;https://jitsi.org/&quot;&gt;Jitsi&lt;/a&gt; au cas où ils veulent poser une question de vive voix ou partager leur écran.&lt;br /&gt;
+Le premier a été choisi pour sa versatilité (création de salons de discussions, fils de discussion, messages privés, bonne organisation globale des discussions). Bien que nous aurions pu choisir son alternative open source &lt;a href=&quot;https://matrix.org/&quot;&gt;Matrix&lt;/a&gt;, nous avons préféré capitaliser sur l’expérience que nous avions avec Slack et sa popularité.&lt;br /&gt;
+Nous avons opté pour le second afin de proposer un outil open source à nos apprenant, ne nécessitant aucune installation supplémentaire puisqu’il fonctionne dans le navigateur, et pouvant être accédé sans licence coûteuse ou limitante.&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;Le premier a été choisi pour sa versatilité (création de salons de discussions, fils de discussion, messages privés, bonne organisation globale des discussions). Bien que nous aurions pu choisir son alternative open source &lt;a href=&quot;https://matrix.org/&quot;&gt;Matrix&lt;/a&gt;, nous avons préféré capitaliser sur l’expérience que nous avions avec Slack et sa popularité.&lt;/p&gt;
-
-&lt;p&gt;Nous avons opté pour le second afin de proposer un outil open source à nos apprenant, ne nécessitant aucune installation supplémentaire puisqu’il fonctionne dans le navigateur, et pouvant être accédé sans licence coûteuse ou limitante.&lt;/p&gt;
-
 &lt;h2 id=&quot;résultats&quot;&gt;Résultats&lt;/h2&gt;
-&lt;p&gt;Les résultats de l’efficacité de ces outils est mesurées par la simple implication des apprenants dans leur utilisation.&lt;/p&gt;
+&lt;p&gt;L’efficacité de ces outils est mesurée par la simple implication des apprenants dans leur utilisation.&lt;/p&gt;
 
 &lt;h3 id=&quot;elech473---des-résultats-décevants&quot;&gt;ELECH473 - Des résultats décevants&lt;/h3&gt;
 &lt;p&gt;Trois questions.&lt;br /&gt;
@@ -619,7 +617,7 @@ Trois questions ont été posées sur l’ensemble des trois séances de laborat
 
 &lt;p&gt;Au cours des séances de laboratoire en présentiel, nous avons deux façons différentes de gérer les questions des étudiants.
 Lors de la première, nous passons derrière les étudiants, montrant notre disponibilité et les interpellant directement si nous voyons qu’ils sont bloqués ou qu’ils se fourvoient.
-Pour la seconde, nous leur indiquons clairement que nous sommes disponibles, mais restons a un endroit fixes où ils peuvent venir quérir notre aide si nécessaire.
+Pour la seconde, nous leur indiquons clairement que nous sommes disponibles, mais restons à un endroit fixe où ils peuvent venir quérir notre aide si nécessaire.
 Bien que la première méthode génère évidemment plus de questions de la part des étudiants, la seconde n’en est pas moins efficace. Ils sont simplement davantage confrontés à leur problèmes et doivent explicitement passer par une étape de formulation de leur problème s’il veulent efficacement poser leur question.&lt;br /&gt;
 Il serait aussi raisonnable de penser qu’un groupe habitué à ce genre d’interaction en présentiel serait plus apte à s’adapter à une communication synchrone à distance.&lt;/p&gt;
 
@@ -628,7 +626,7 @@ Il se peut que nous ayons à faire à des étudiants n’ayant aucunement besoin
 Il se peut aussi plus simplement que cette cohorte n’ait pas accroché aux outils proposés, préférant travailler en groupe sans poser la moindre question.
 Nous verrons lors de la correction des devoirs si ce comportement à un impact sur leurs résultats.&lt;/p&gt;
 
-&lt;h3 id=&quot;elec402---le-succès&quot;&gt;ELEC402 - Le succès&lt;/h3&gt;
+&lt;h3 id=&quot;elech402---le-succès&quot;&gt;ELECH402 - Le succès&lt;/h3&gt;
 &lt;p&gt;Les résultats sont diamétralement opposés.&lt;br /&gt;
 Les étudiants étaient connectés dès le début du laboratoire à 8 h et sont restés actifs jusqu’à 12 h 30.
 Ils n’ont pas hésité à poser leurs questions dans le salon public, mes réponses pouvant ainsi bénéficier à tout le monde.
@@ -644,9 +642,9 @@ Ils n’ont pas hésité à poser leurs questions dans le salon public, mes rép
   &lt;li&gt;même niveau d’étude ;&lt;/li&gt;
   &lt;li&gt;même parcours académique ;&lt;/li&gt;
   &lt;li&gt;même vécu en laboratoire présentiel ;&lt;/li&gt;
-  &lt;li&gt;même outils de comunication à distance ;&lt;/li&gt;
+  &lt;li&gt;mêmes outils de communication à distance ;&lt;/li&gt;
   &lt;li&gt;même communication pour présenter la situation et les aménagements ;&lt;/li&gt;
-  &lt;li&gt;même types d’outils pour réaliser les manipulations, voire plus simples pour ELECH473, étant tout OS ;&lt;/li&gt;
+  &lt;li&gt;mêmes types d’outils pour réaliser les manipulations, voire plus simples pour ELECH473, étant tout OS ;&lt;/li&gt;
   &lt;li&gt;même implication lors des laboratoires présentiels.&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -655,7 +653,7 @@ Ils n’ont pas hésité à poser leurs questions dans le salon public, mes rép
 Au même titre, les étudiants de ELECH402 ont un niveau similaire.&lt;/p&gt;
 
 &lt;h4 id=&quot;la-cohésion-du-groupe-a-t-elle-une-influence-&quot;&gt;La cohésion du groupe a-t-elle une influence ?&lt;/h4&gt;
-&lt;p&gt;L’une des rares différences entre les deux cohortes est la diversité de la première (ELECH473) comparée à l’homogéniété de la seconde (ELECH402).
+&lt;p&gt;L’une des différences entre les deux cohortes est la diversité de la première (ELECH473) comparée à l’homogéniété de la seconde (ELECH402).
 Je pense qu’il s’agit là de l’hypothèse la plus probante : les étudiants de ELECH402 étant un groupe homogène, ils ont sans doute plus l’habitude de travailler ensemble pour leurs différents cours.&lt;/p&gt;
 
 &lt;p&gt;Mais dans ce cas, pourquoi les sous-groupes de ELECH473, par exemple « Polytech informatique » ne présente pas le même esprit de corps et le même niveau de participation à distance ?&lt;/p&gt;
@@ -665,16 +663,16 @@ Je pense qu’il s’agit là de l’hypothèse la plus probante : les étudiant
 
 &lt;h2 id=&quot;il-nexiste-pas-de-plate-forme-idéale-et-universelle&quot;&gt;Il n’existe pas de plate-forme idéale et universelle&lt;/h2&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://discordapp.com/&quot;&gt;Discord&lt;/a&gt;, &lt;a href=&quot;https://zoom.us/&quot;&gt;Zoom&lt;/a&gt;, &lt;a href=&quot;https://meet.google.com/&quot;&gt;Google Meet&lt;/a&gt;, &lt;a href=&quot;https://www.adobe.com/fr/products/adobeconnect.html&quot;&gt;Adobe Connect&lt;/a&gt;, &lt;a href=&quot;https://zoom.us/&quot;&gt;Zoom&lt;/a&gt;, &lt;a href=&quot;https://products.office.com/fr-be/microsoft-teams/group-chat-software&quot;&gt;Microsoft Teams&lt;/a&gt;, les solutions sont aussi diverses que nombreuses.
-Chaque activité d’enseignement s’adressant à une cohorte particulière devrait se poser la question de la plate-forme la plus appropriée, tout en évitant de les démultipliser et perdre les apprenant en route.&lt;/p&gt;</content><author><name>Quentin Delhaye</name></author><category term="experience" /><summary type="html">Semaine du 16 mars 2020, le monde se transforme alors que tout le monde doit s’isoler. Comment les apprenants s’adaptent-ils aux dispositifs mis en place pour assurer l’enseignement à distance ?</summary></entry><entry><title type="html">Nouveau public, nouvelle problématique</title><link href="http://localhost:4000/esnu/nouveau-public-nouvelle-problematique" rel="alternate" type="text/html" title="Nouveau public, nouvelle problématique" /><published>2020-03-10T11:18:00+01:00</published><updated>2020-03-10T11:18:00+01:00</updated><id>http://localhost:4000/esnu/nouveau-public-nouvelle-problematique</id><content type="html" xml:base="http://localhost:4000/esnu/nouveau-public-nouvelle-problematique">&lt;p&gt;Mise à jour des persona et de la problématique suite à la &lt;a href=&quot;/esnu//reorientation-du-projet&quot;&gt;réorientation du projet&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://discordapp.com/&quot;&gt;Discord&lt;/a&gt;, &lt;a href=&quot;https://zoom.us/&quot;&gt;Zoom&lt;/a&gt;, &lt;a href=&quot;https://meet.google.com/&quot;&gt;Google Meet&lt;/a&gt;, &lt;a href=&quot;https://www.adobe.com/fr/products/adobeconnect.html&quot;&gt;Adobe Connect&lt;/a&gt;, &lt;a href=&quot;https://products.office.com/fr-be/microsoft-teams/group-chat-software&quot;&gt;Microsoft Teams&lt;/a&gt;, les solutions sont aussi diverses que nombreuses.
+Chaque activité d’enseignement s’adressant à une cohorte particulière devrait se poser la question de la plate-forme la plus appropriée, tout en évitant de les démultiplier et perdre les apprenants en route.&lt;/p&gt;</content><author><name>Quentin Delhaye</name></author><category term="experience" /><summary type="html">Semaine du 16 mars 2020, le monde se transforme alors que tout le monde doit s’isoler. Comment les apprenants s’adaptent-ils aux dispositifs mis en place pour assurer l’enseignement à distance ?</summary></entry><entry><title type="html">Nouveau public, nouvelle problématique</title><link href="http://localhost:4000/esnu/nouveau-public-nouvelle-problematique" rel="alternate" type="text/html" title="Nouveau public, nouvelle problématique" /><published>2020-03-10T11:18:00+01:00</published><updated>2020-03-10T11:18:00+01:00</updated><id>http://localhost:4000/esnu/nouveau-public-nouvelle-problematique</id><content type="html" xml:base="http://localhost:4000/esnu/nouveau-public-nouvelle-problematique">&lt;p&gt;Mise à jour des personas et de la problématique suite à la &lt;a href=&quot;/esnu//reorientation-du-projet&quot;&gt;réorientation du projet&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h2 id=&quot;changement-de-public&quot;&gt;Changement de public&lt;/h2&gt;
 
 &lt;p&gt;Comme expliqué dans le billet parlant de mon choix de changer le projet, nous avons changé de public : il s’agit à présent d’une série d’étudiants de première année de master, à orientation biomédicale.
-Quant au cours, il s’agit toujours d’électronique, mais analogique cette fosi-ci.
+Quant au cours, il s’agit toujours d’électronique, mais analogique cette fois-ci.
 Les laboratoires s’y déroulent en trois temps : des simulations numériques à l’aide d’un logiciel (&lt;a href=&quot;https://www.orcad.com/&quot;&gt;OrCAD&lt;/a&gt;), la conception d’un circuit imprimé à l’aide d’un autre (&lt;a href=&quot;https://kicad-pcb.org/&quot;&gt;KiCad&lt;/a&gt;), pour terminer avec l’assemblage et le test physique de leur réalisation.&lt;/p&gt;
 
-&lt;p&gt;Quelques échanges en fin de laboratoire avec des étudiants, en suivant le même canvas que pour les &lt;a href=&quot;/esnu//construire-des-personas&quot;&gt;premiers persona&lt;/a&gt;, ont permis de dresser un &lt;a href=&quot;assets/persona/elech402/export_canvas_persona-esnu-elech402--camille-200514_1301.pdf&quot;&gt;personna représentant le groupe entier&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Quelques échanges en fin de laboratoire avec des étudiants, en suivant le même canvas que pour les &lt;a href=&quot;/esnu//construire-des-personas&quot;&gt;premiers personas&lt;/a&gt;, ont permis de dresser un &lt;a href=&quot;assets/persona/elech402/export_canvas_personasesnu-elech402--camille.pdf&quot;&gt;persona représentant le groupe entier&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Ce profil est fort similaire à ceux des étudiants de BA3 précédemment étudiés (ce qui est compréhensible).
 L’un des changements notables est qu’ils ont un examen de laboratoire qu’ils se demandent comment préparer.&lt;/p&gt;
@@ -729,4 +727,4 @@ Un &lt;a href=&quot;https://github.com/BEAMS-EE/ELECH402/wiki/KiCad:-project&quo
 &lt;h3 id=&quot;nouveau-matériel-à-développer&quot;&gt;Nouveau matériel à développer&lt;/h3&gt;
 
 &lt;p&gt;Elles ne sont cependant pas suffisantes pour préparer correctement les étudiants, elles manquent d’interactivité afin de les engager dans leur apprentissage.
-Il serait donc intéressant de développer un petit module d’auto-évaluation à l’utilisation du logiciel, mais ça, c’est pour un &lt;a href=&quot;/esnu//tester-maitrise-logiciel&quot;&gt;autre billet&lt;/a&gt;.&lt;/p&gt;</content><author><name>Quentin Delhaye</name></author><category term="projet" /><summary type="html">Mise à jour des persona et de la problématique suite à la réorientation du projet.</summary></entry></feed>
+Il serait donc intéressant de développer un petit module d’auto-évaluation à l’utilisation du logiciel, mais ça, c’est pour un &lt;a href=&quot;/esnu//tester-maitrise-logiciel&quot;&gt;autre billet&lt;/a&gt;.&lt;/p&gt;</content><author><name>Quentin Delhaye</name></author><category term="projet" /><summary type="html">Mise à jour des personas et de la problématique suite à la réorientation du projet.</summary></entry></feed>

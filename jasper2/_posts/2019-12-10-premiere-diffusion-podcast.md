@@ -81,7 +81,7 @@ Immédiatement après la mise à disposition de la vidéo, tous les assistants d
 Pour les quelques irréductibles, il a suffit de leur indiquer l'existence de cette vidéo qui semblait avoir échappé à leur vigilance pour qu'ils la regardent derechef pendant la séance, répondant ainsi seuls à leur propre question.
 
 Nous pouvons faire ici écho à la [définition du problème]({{site.baseurl}}{% link _posts/2019-11-15-definition-du-probleme.md %}) : la vidéo semble effectivement avoir utilisé cet outil pour s'approprier le matériel de laboratoire.
-Ce qui à son tour répond à leurs deux demandes [identifiées dans les persona]({{site.baseurl}}{% link _posts/2019-11-10-construire-des-personas.md %}) : comprendre le matériel et rendre les assistants plus disponibles.
+Ce qui à son tour répond à leurs deux demandes [identifiées dans les personas]({{site.baseurl}}{% link _posts/2019-11-10-construire-des-personas.md %}) : comprendre le matériel et rendre les assistants plus disponibles.
 
 
 ## Améliorations

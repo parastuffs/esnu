@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
   <link href="http://localhost:4000/esnu/tag/projet/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/esnu/" rel="alternate" type="text/html" />
-  <updated>2020-05-17T23:17:40+02:00</updated>
+  <updated>2020-05-18T22:15:39+02:00</updated>
   <id>http://localhost:4000/esnu/tag/projet/feed.xml</id>
 
   
@@ -33,16 +33,16 @@
   
     <entry>
       <title type="html">Facteurs d’échec et de réussite chez les étudiants</title>
-      <link href="http://localhost:4000/esnu/ehec-et-reussite" rel="alternate" type="text/html" title="Facteurs d'échec et de réussite chez les étudiants" />
+      <link href="http://localhost:4000/esnu/echec-et-reussite" rel="alternate" type="text/html" title="Facteurs d'échec et de réussite chez les étudiants" />
       <published>2020-05-17T12:18:00+02:00</published>
       <updated>2020-05-17T12:18:00+02:00</updated>
-      <id>http://localhost:4000/esnu/ehec-et-reussite</id>
-      <content type="html" xml:base="http://localhost:4000/esnu/ehec-et-reussite">&lt;p&gt;Retour sur le cours de Dorothée Baillet « Connaître son public » pour dresser le protrait de nos étudiants.&lt;/p&gt;
+      <id>http://localhost:4000/esnu/echec-et-reussite</id>
+      <content type="html" xml:base="http://localhost:4000/esnu/echec-et-reussite">&lt;p&gt;Retour sur le cours de Dorothée Baillet « Connaître son public » pour dresser le portrait de nos étudiants.&lt;/p&gt;
 
-&lt;p&gt;Au fil des séances de cours, Dorothée nous a présenté et organisé différentes activités permettant d’analyser notre public sours les prismes de l’échec et de la réussite.
-Le but final est de construire une nouvelle grille de lecture permettant mieux connaître nos étudiants, d’enrichir nos persona et &lt;em&gt;a fortiori&lt;/em&gt; nos projets.&lt;/p&gt;
+&lt;p&gt;Au fil des séances de cours, Dorothée nous a présenté et organisé différentes activités permettant d’analyser notre public sous les prismes de l’échec et de la réussite.
+Le but final est de construire une nouvelle grille de lecture permettant de mieux connaître nos étudiants, d’enrichir nos personas et &lt;em&gt;a fortiori&lt;/em&gt; nos projets.&lt;/p&gt;
 
-&lt;p&gt;Ce billet ce veut le résumé de &lt;a href=&quot;&quot;&gt;mes notes de cours&lt;/a&gt; enrichies de quelques réflexions sur le sujet.
+&lt;p&gt;Ce billet se veut le résumé de &lt;a href=&quot;&quot;&gt;mes notes de cours&lt;/a&gt; enrichies de quelques réflexions sur le sujet.
 Les différentes questions qui y sont énoncées pourraient être reprises afin de construire cette grille d’analyse.&lt;/p&gt;
 
 &lt;h2 id=&quot;lhéritage-du-secondaire&quot;&gt;L’héritage du secondaire&lt;/h2&gt;
@@ -50,11 +50,11 @@ Les différentes questions qui y sont énoncées pourraient être reprises afin 
 &lt;p&gt;Les cours suivis par les étudiants durant les années de secondaire peuvent avoir une influence directe sur leur choix d’études supérieures d’une part, mais aussi sur leur vécu de celles-ci.&lt;br /&gt;
 Combien d’heures de math ou de sciences ont-ils suivis ? Quelle filière ont-ils suivie ? Ont-ils effectué un séjour à l’étranger ou pris une année sabbatique avant de s’inscrire dans le supérieur ? Quelles différences voient-ils entre le secondaire et le supérieur ?&lt;/p&gt;
 
-&lt;p&gt;Ce dernier aspect est intéressant puisqu’il semble que des étudiants ne voyant que des différences &lt;em&gt;quatitatives&lt;/em&gt; (charge de travail, par exemple) ont moins de chance de réussir que s’ils identifient des différences &lt;em&gt;qualitatives&lt;/em&gt; (cours plus ouverts, plus critiques et approfondis, par exemple) &lt;a href=&quot;#références&quot;&gt;[1]&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Ce dernier aspect est intéressant puisqu’il semble que des étudiants ne voyant que des différences &lt;em&gt;quantitatives&lt;/em&gt; (charge de travail, par exemple) ont moins de chance de réussir que s’ils identifient des différences &lt;em&gt;qualitatives&lt;/em&gt; (cours plus ouverts, plus critiques et approfondis, par exemple) &lt;a href=&quot;#références&quot;&gt;[1]&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h2 id=&quot;quelques-facteurs-déchec-et-de-réussite&quot;&gt;Quelques facteurs d’échec et de réussite&lt;/h2&gt;
 
-&lt;p&gt;Suite à la mise en commun avec d’autres participants de l’esnu, quelques éléments ont pu être mis en évidence au sein de mes &lt;a href=&quot;/esnu//construire-des-personas&quot;&gt;premiers persona&lt;/a&gt;, facteurs qu’on peut aussi retrouver dans le persona révisé.&lt;/p&gt;
+&lt;p&gt;Suite à la mise en commun de réflexions avec d’autres participants de l’ESNU, quelques éléments ont pu être mis en évidence au sein de mes &lt;a href=&quot;/esnu//construire-des-personas&quot;&gt;premiers personas&lt;/a&gt;, facteurs qu’on peut aussi retrouver dans le persona révisé.&lt;/p&gt;
 
 &lt;h4 id=&quot;réussite&quot;&gt;Réussite&lt;/h4&gt;
 
@@ -71,7 +71,7 @@ Combien d’heures de math ou de sciences ont-ils suivis ? Quelle filière ont-i
 
 &lt;ul&gt;
   &lt;li&gt;Problème de rythme qui n’est pas nécessairement adapté à tout le monde.&lt;/li&gt;
-  &lt;li&gt;Support de cours trop pauvres qui ne soutiennent pas l’apprentissage&lt;/li&gt;
+  &lt;li&gt;Supports de cours trop pauvres qui ne soutiennent pas l’apprentissage&lt;/li&gt;
   &lt;li&gt;Utilisation difficile ou absconse du matériel&lt;/li&gt;
   &lt;li&gt;Trop de matière, problème d’assimilation&lt;/li&gt;
 &lt;/ul&gt;
@@ -86,13 +86,13 @@ Mais si 50 % est inexpliqué, les autres 50 % sont-ils correctement expliqués ?
 Les résumés de ces derniers sont accessibles directement dans mes &lt;a href=&quot;https://github.com/parastuffs/esnu/blob/master/esnu003/cours_2020-03-05_cours3.md&quot;&gt;notes de cours&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Il pourrait être intéressant de reprendre ces catégories sur des échelles critériées dans une enquête à proposer aux étudiants afin de connaître leur positionnement par rapport à leur enseignement.
-Ces informations seraient très utiles pour dresser des persona précis et fidèle de notre public.&lt;/p&gt;
+Ces informations seraient très utiles pour dresser des personas précis et fidèles de notre public.&lt;/p&gt;
 
 &lt;h2 id=&quot;auto-régulation-des-apprentissages&quot;&gt;Auto-régulation des apprentissages&lt;/h2&gt;
 
 &lt;p&gt;Nos apprenants sont-ils capable de se mettre au travail et de s’y maintenir ?
 Ont-ils des &lt;strong&gt;stratégies volitionnelles&lt;/strong&gt; ?
-Ces dernières peuvent être&lt;/p&gt;
+Ces dernières peuvent être :&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;Internes :
     &lt;ul&gt;
@@ -113,14 +113,14 @@ Ces dernières peuvent être&lt;/p&gt;
 &lt;h2 id=&quot;influence-de-linstitution&quot;&gt;Influence de l’institution&lt;/h2&gt;
 
 &lt;p&gt;L’institution dans laquelle évoluent les étudiants à forcément une influence sur leur réussite.
-Non seulement les niveaux d’exigeance peuvent varier, mais le choix de la filière est aussi essentiel. Cette dernière change non seulement le type de population (et donc notamment son rapport avec ses études secondaires, comme discuté plus haut), mais aussi rapport à l’avanir que peut avoir l’apprenant.
-Avoir des dévouchés clairs est un atout et permet d’avoir une meilleure motivation de l’étudiant dans sa formation.&lt;/p&gt;
+Non seulement les niveaux d’exigence peuvent varier, mais le choix de la filière est aussi essentiel. Cette dernière change non seulement le type de population (et donc notamment son rapport avec ses études secondaires, comme discuté plus haut), mais aussi le rapport à l’avenir que peut avoir l’apprenant.
+Avoir des débouchés clairs est un atout et permet une meilleure motivation de l’étudiant dans sa formation.&lt;/p&gt;
 
 &lt;p&gt;Les filières techniques jouissent généralement de cet avantage et on pourrait penser que Polytech entre dans cette catégorie.
 Pourtant il est assez paradoxal de se rendre compte que nombre d’étudiants n’ont pas une vision claire des débouchés possibles avant d’entrer en master, voire encore plus tard.&lt;br /&gt;
 Est-ce à cause de la richesse et de la diversité du métier d’ingénieur ?
 Est-ce à cause de la multiplicité des filières qui explosent d’autant plus les débouchés possibles ?
-Est-ce parce que cette formation est bien souvent un choix par défaut pour des étudiants qui ne veulent pas se limiter à un domaine particulier en entamant leurs études supérieurs ?
+Est-ce parce que cette formation est bien souvent un choix par défaut pour des étudiants qui ne veulent pas se limiter à un domaine particulier en entamant leurs études supérieures ?
 Nous mettons peut-être ici le doigt sur l’un des pièges de Polytech : &lt;strong&gt;à penser qu’on peut tout faire, on ne sait pas ce qui est réellement possible, on entretient un brouillard dans lequel on se perd&lt;/strong&gt;.&lt;/p&gt;
 
 &lt;p&gt;L’institution ne consiste pas uniquement en un choix de filière, elle s’accompagne aussi d’enseignants qui influencent à leur tour la réussite de leurs étudiants.
@@ -135,10 +135,10 @@ Ainsi, l’interractivité de l’enseignant semble bénéfique pour la réussit
   &lt;li&gt;Avec qui j’apprends ?&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Il est ainsi édifiant qu’il est parfois nécessaire d’avancer dans le cours pour en comprendre le début, bien qu’à mon sens ce soit le signe d’un problème de contruction de l’accès au savoir. Il ne doit pas nécessairement être incrémental, mais le sens du cours ne devrait pas échapper à l’apprenant parce qu’il n’a pas les outils nécessaire pour le comprendre.&lt;/p&gt;
+&lt;p&gt;Il est ainsi édifiant qu’il est parfois nécessaire d’avancer dans le cours pour en comprendre le début, bien qu’à mon sens ce soit le signe d’un problème de contruction de l’accès au savoir. Il ne doit pas nécessairement être incrémental, mais le sens du cours ne devrait pas échapper à l’apprenant parce qu’il n’a pas les outils nécessaires pour le comprendre.&lt;/p&gt;
 
 &lt;p&gt;À une échelle temporelle plus locale, les étudiants sont aussi souvent confrontés à des supports plurisémiotisés, reprenant plusieurs types de représentation, ou polyphoniques, avec des voix différentes ayant des fonctions différentes qu’il faut d’autant mieux clarifier.
-Cette multiplicité de la présentation du savoir est à double tranchant pour l’étudiants :  la moindre discordance peut être bloquante et parfois, moins vaut mieux que trop.&lt;/p&gt;
+Cette multiplicité de la présentation du savoir est à double tranchant pour l’étudiant :  la moindre discordance peut être bloquante et parfois, moins vaut mieux que trop.&lt;/p&gt;
 
 &lt;p&gt;Dans le cadre des différents cours d’électronique que j’encadre et faisant l’objet de mes deux projets, les supports sont effectivement plurisémiotiques : graphes, schémas, photographies, textes et équations cohabitent gaiement sur des supports de cours à la fois physiques, oraux et numériques.
 Comment nos étudiants jonglent-ils entre eux ?
@@ -151,7 +151,7 @@ Avons-nous des communications redondantes voire superfétatoires envers eux ?&lt
 
 &lt;p&gt;[1] &lt;a href=&quot;https://difusion.ulb.ac.be/vufind/Record/ULB-DIPOT:oai:dipot.ulb.ac.be:2013/257684/Holdings&quot;&gt;Baillet (2017). Du rapport au savoir à des rapports aux savoirs : analyse des difficultés des étudiants de première année en Psychologie face aux caractéristiques des savoirs enseignés à l’université. Dissertation doctorale, Université libre de Bruxelles.&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;[2] [Christophe Michaut, « À l’université, 50 % des facteurs de réussite restent inexpliqués », letudiant.fr, 2018 (https://www.letudiant.fr/educpros/actualite/christophe-michaut-universite-moitie-facteurs-reussite-restent-inexpliques.html)&lt;/p&gt;</content>
+&lt;p&gt;[2] &lt;a href=&quot;https://www.letudiant.fr/educpros/actualite/christophe-michaut-universite-moitie-facteurs-reussite-restent-inexpliques.html&quot;&gt;Christophe Michaut, « À l’université, 50 % des facteurs de réussite restent inexpliqués », letudiant.fr, 2018&lt;/a&gt;&lt;/p&gt;</content>
 
       
       
@@ -172,7 +172,7 @@ Avons-nous des communications redondantes voire superfétatoires envers eux ?&lt
       
 
       
-        <summary type="html">Retour sur le cours de Dorothée Baillet « Connaître son public » pour dresser le protrait de nos étudiants.</summary>
+        <summary type="html">Retour sur le cours de Dorothée Baillet « Connaître son public » pour dresser le portrait de nos étudiants.</summary>
       
 
       
@@ -230,11 +230,11 @@ Perspectives d’amélioration.&lt;/p&gt;
 Ils auront tout de même déjà manipulé ce dernier, comme expliqué dans la &lt;a href=&quot;/esnu//scenarisation}&quot;&gt;scénarisation du dispositif&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;La solution retenue a été d’exploiter à nouveau Moodle au travers de modules &lt;a href=&quot;https://h5p.org/&quot;&gt;H5P&lt;/a&gt;, permettant de créer des contenus dynamiques et interactifs variés.
-Trois volets ont ainsi été développés : (1) &lt;a href=&quot;#maîtrise-de-la-navigation&quot;&gt;la navigation dans l’interface du logiciel&lt;/a&gt;, (2) &lt;a href=&quot;#maîtrise-des-types-de-simulation&quot;&gt;la connaissance des différents types de simulation&lt;/a&gt; et (3) &lt;a href=&quot;#maîtrise-des-erreurs&quot;&gt;vérifier qu’ils savent gérer les erreurs de manipulation&lt;/a&gt;.&lt;/p&gt;
+Trois volets ont ainsi été développés : (1) &lt;a href=&quot;#maîtrise-de-la-navigation&quot;&gt;la navigation dans l’interface du logiciel&lt;/a&gt;, (2) &lt;a href=&quot;#maîtrise-des-types-de-simulation&quot;&gt;la connaissance des différents types de simulation&lt;/a&gt; et (3) &lt;a href=&quot;#maîtrise-des-erreurs&quot;&gt;la gestion des erreurs de manipulation&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h3 id=&quot;maîtrise-de-la-navigation&quot;&gt;Maîtrise de la navigation&lt;/h3&gt;
 
-&lt;p&gt;Les étudiants peuvent ici vérifier qu’ils savent afficher la courbe de Bode d’un réponse en fréquence en navigant dans l’interface de PSpice.
+&lt;p&gt;Les étudiants peuvent ici vérifier qu’ils savent afficher la courbe de Bode d’une réponse en fréquence en naviguant dans l’interface de PSpice.
 L’activité consiste en une suite de modules « &lt;strong&gt;Find the Hotspot&lt;/strong&gt; », chacun avec une zone sensible correspondant au bouton ou menu à activer.&lt;/p&gt;
 
 &lt;p&gt;Idéalement, j’aurais préféré n’avoir qu’une seule image affichée à la fois, la suivante apparaissant losque le &lt;em&gt;hotspot&lt;/em&gt; aurait été trouvé.
@@ -257,14 +257,14 @@ L’étudiant est ici maître de son destin et l’évolution de l’activité d
 &lt;p&gt;&lt;img src=&quot;assets/images/H5P/simu_overview.png&quot; alt=&quot;Overview H5P du projet de simulation&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Je propose une situation requérant une simulation particulière.
-Les quatre types sont proposés et pour chacun, le résultat que l’étudiant obtiendrait est affiché, accompagné d’un feedback leur expliquant pourquoi la réponse est bonne ou mauvaise.
+Les quatres types de simulation sont proposés et pour chacun, le résultat de cette simulation est affiché, accompagné d’un feedback leur expliquant pourquoi la réponse est bonne ou mauvaise.
 En cas de mauvaise réponse, ils sont renvoyés vers la question afin de donner une autre réponse.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;assets/images/H5P/bonne-simu.gif&quot; alt=&quot;Animation du projet de la recherche de la bonne simulation&quot; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;maîtrise-des-erreurs&quot;&gt;Maîtrise des erreurs&lt;/h3&gt;
 
-&lt;p&gt;Le dernier aspect tester dans ce projet n’est pas le plus anodin : d’où viennent les erreurs qu’il est possible de rencontrer dans le logiciel ?&lt;/p&gt;
+&lt;p&gt;Le dernier aspect testé dans ce projet n’est pas le plus anodin : d’où viennent les erreurs qu’il est possible de rencontrer dans le logiciel ?&lt;/p&gt;
 
 &lt;p&gt;Quatre erreurs typiques sont ainsi présentées dans ce nouveau scénario.&lt;/p&gt;
 
@@ -348,8 +348,8 @@ Ces séquences seront inspirées librement du &lt;a href=&quot;assets/scenario/G
   &lt;/tbody&gt;
 &lt;/table&gt;
 
-&lt;p&gt;Ce n’est qu’une première anonce servant à introduire la séquence suivante.
-Elle n’a rien d’exceptionnel, mais elle est tout de même nécessaire et doit être soignée.&lt;/p&gt;
+&lt;p&gt;Ce n’est qu’une première annonce servant à introduire la séquence suivante.
+Elle n’a rien d’exceptionnelle, mais elle est tout de même nécessaire et doit être soignée.&lt;/p&gt;
 
 &lt;h3 id=&quot;séquence-2--visionnage-des-vidéos-par-les-étudiants&quot;&gt;Séquence 2 : Visionnage des vidéos par les étudiants&lt;/h3&gt;
 
@@ -371,7 +371,7 @@ Elle n’a rien d’exceptionnel, mais elle est tout de même nécessaire et doi
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;Contenu(s)&lt;/td&gt;
-      &lt;td&gt;Liens vers différents tutoriel, énoncés de laboratoire et logiciel qui seront utilisés.&lt;/td&gt;
+      &lt;td&gt;Liens vers différents tutoriels, énoncés de laboratoire et logiciel(s) qui seront utilisés.&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
@@ -401,14 +401,14 @@ La matière qui y est abordée devrait leur être familière, la seule nouveaut�
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;Contenu(s)&lt;/td&gt;
-      &lt;td&gt;Montages d’électronique anaogique avec à la fois des réflexions théoriques&lt;br /&gt; et leur confrontation avec la réalité simulée.&lt;/td&gt;
+      &lt;td&gt;Montages d’électronique analogique avec à la fois des réflexions théoriques&lt;br /&gt; et leur confrontation avec la réalité simulée.&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
 
 &lt;p&gt;Il s’agit d’un laboratoire tout ce qu’il y a de plus classique : les étudiants passent quatre heures à manipuler les logiciels afin de résoudre des problèmes posés dans des énoncés.&lt;/p&gt;
 
-&lt;p&gt;Malgré la banalité de l’actvité, le rôle de l’enseignant, et particulièrement son comportement, sont intéressants.
+&lt;p&gt;Malgré la banalité de l’activité, le rôle de l’enseignant, et particulièrement son comportement, sont intéressants.
 L’attitude que je préfère habituellement adopter consister à me rendre disponible pour répondre à leurs questions, mais à ne pas activement leur poser des questions au cours du laboratoire.
 Mon raisonnement est qu’ils ne recourent ainsi pas systématiquement à mon aide dès qu’ils ont un problème et qu’ils sont forcés à formuler leur problème lorsqu’ils veulent demander mon aide.&lt;br /&gt;
 Cette attitude m’a cependant été reprochée au cours d’une &lt;a href=&quot;https://www.ulb.be/fr/aides-services-et-accompagnement/votre-avis-compte&quot;&gt;évaluation des enseignements par les étudiants&lt;/a&gt;, sans doute par manque de communication et de clareté de ma part.&lt;br /&gt;
@@ -440,7 +440,7 @@ Dorénavant j’adopte un comportement hybride plus ou moins proactif en fonctio
 &lt;/table&gt;
 
 &lt;p&gt;On arrive enfin au cœur du sujet avec l’expérimentation du projet par le public cible.
-Ces activités ne devraient leur prrendre que quelques minutes à réaliser, mais devraient néanmoins leur permettre de se rendre compte de lacunes fondamentales s’ils rencontrent des difficultés.&lt;/p&gt;
+Ces activités ne devraient leur prendre que quelques minutes à réaliser, mais devraient néanmoins leur permettre de se rendre compte de lacunes fondamentales s’ils rencontrent des difficultés.&lt;/p&gt;
 
 &lt;p&gt;Cette séquence ne peut avoir lieu avant les laboratoires ou avant que les étudiants aient expérimenté une première fois les logiciels. Il s’agit bien de tester leur &lt;em&gt;maîtrise&lt;/em&gt; des outils afin de les préparer à l’examen de laboratoire.&lt;/p&gt;
 
@@ -470,7 +470,7 @@ Ces activités ne devraient leur prrendre que quelques minutes à réaliser, mai
 &lt;/table&gt;
 
 &lt;p&gt;Parce qu’un dispositif perd beaucoup de sens si on ne peut pas en analyser l’impact, le &lt;a href=&quot;/esnu//retour-et-analyse&quot;&gt;feedback des utilisateurs&lt;/a&gt; est essentiel.
-Afin de ne pas décourager les étudiants à laisser leur avis, une simple question leur est posée : « Qu’avez-vous pensé de ces activités ? »&lt;/p&gt;</content>
+Afin de ne pas décourager les étudiants à laisser leur avis, une unique question leur est posée : « Qu’avez-vous pensé de ces activités ? »&lt;/p&gt;</content>
 
       
       
@@ -504,15 +504,15 @@ Afin de ne pas décourager les étudiants à laisser leur avis, une simple quest
       <published>2020-03-10T11:18:00+01:00</published>
       <updated>2020-03-10T11:18:00+01:00</updated>
       <id>http://localhost:4000/esnu/nouveau-public-nouvelle-problematique</id>
-      <content type="html" xml:base="http://localhost:4000/esnu/nouveau-public-nouvelle-problematique">&lt;p&gt;Mise à jour des persona et de la problématique suite à la &lt;a href=&quot;/esnu//reorientation-du-projet&quot;&gt;réorientation du projet&lt;/a&gt;.&lt;/p&gt;
+      <content type="html" xml:base="http://localhost:4000/esnu/nouveau-public-nouvelle-problematique">&lt;p&gt;Mise à jour des personas et de la problématique suite à la &lt;a href=&quot;/esnu//reorientation-du-projet&quot;&gt;réorientation du projet&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h2 id=&quot;changement-de-public&quot;&gt;Changement de public&lt;/h2&gt;
 
 &lt;p&gt;Comme expliqué dans le billet parlant de mon choix de changer le projet, nous avons changé de public : il s’agit à présent d’une série d’étudiants de première année de master, à orientation biomédicale.
-Quant au cours, il s’agit toujours d’électronique, mais analogique cette fosi-ci.
+Quant au cours, il s’agit toujours d’électronique, mais analogique cette fois-ci.
 Les laboratoires s’y déroulent en trois temps : des simulations numériques à l’aide d’un logiciel (&lt;a href=&quot;https://www.orcad.com/&quot;&gt;OrCAD&lt;/a&gt;), la conception d’un circuit imprimé à l’aide d’un autre (&lt;a href=&quot;https://kicad-pcb.org/&quot;&gt;KiCad&lt;/a&gt;), pour terminer avec l’assemblage et le test physique de leur réalisation.&lt;/p&gt;
 
-&lt;p&gt;Quelques échanges en fin de laboratoire avec des étudiants, en suivant le même canvas que pour les &lt;a href=&quot;/esnu//construire-des-personas&quot;&gt;premiers persona&lt;/a&gt;, ont permis de dresser un &lt;a href=&quot;assets/persona/elech402/export_canvas_persona-esnu-elech402--camille-200514_1301.pdf&quot;&gt;personna représentant le groupe entier&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Quelques échanges en fin de laboratoire avec des étudiants, en suivant le même canvas que pour les &lt;a href=&quot;/esnu//construire-des-personas&quot;&gt;premiers personas&lt;/a&gt;, ont permis de dresser un &lt;a href=&quot;assets/persona/elech402/export_canvas_personasesnu-elech402--camille.pdf&quot;&gt;persona représentant le groupe entier&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Ce profil est fort similaire à ceux des étudiants de BA3 précédemment étudiés (ce qui est compréhensible).
 L’un des changements notables est qu’ils ont un examen de laboratoire qu’ils se demandent comment préparer.&lt;/p&gt;
@@ -588,7 +588,7 @@ Il serait donc intéressant de développer un petit module d’auto-évaluation 
       
 
       
-        <summary type="html">Mise à jour des persona et de la problématique suite à la réorientation du projet.</summary>
+        <summary type="html">Mise à jour des personas et de la problématique suite à la réorientation du projet.</summary>
       
 
       
@@ -607,7 +607,7 @@ Il serait donc intéressant de développer un petit module d’auto-évaluation 
 Cependant, la problématisation du sujet et l’étude du public ont mis en évidence qu’il était plus pertinent et urgent de mettre à leur disposition des outils permettant d’utiliser le matériel de manière efficace.
 L’étape suivant aurait alors été de les compléter d’activités testant leur maîtrise.&lt;/p&gt;
 
-&lt;p&gt;Réalité de terrain oblige, le semestre et le cours sont terminés depuis janvier et je n’ai plus la même cohorte dans mes nouveau cours. Le matériel produit en décembre n’est donc plus utilisable avec mon nouveau public.&lt;/p&gt;
+&lt;p&gt;Réalité de terrain oblige, le semestre et le cours sont terminés depuis janvier et je n’ai plus la même cohorte dans mes nouveaux cours. Le matériel produit en décembre n’est donc plus utilisable avec mon nouveau public.&lt;/p&gt;
 
 &lt;p&gt;Il est donc temps de se poser les bonnes questions : continuer le même projet, mais sans pouvoir le tester sur le terrain, ou expérimenter de nouvelles choses avec de nouveaux étudiants ?
 Je suis parti sur la seconde possibilité en me concentrant sur un public légèrement différent : au lieu d’être des étudiants de troisième bachelier en sciences de l’ingénieur, toutes sections confondues, nous allons à présent travailler avec une trentaine d’étudiants de première année de master en sciences de l’ingénieur, orientation biomédicale.&lt;/p&gt;
@@ -743,14 +743,14 @@ C’est le &lt;strong&gt;troisième indicateur&lt;/strong&gt; qu’un seul passa
 &lt;p&gt;Toute conclusion tirée de ce tableau ne serait que conjecture, mais on peut supposer que les visionnages en laboratoire sur les PCs fournis composent une bonne partie des vues sur ordinateur.
 Il serait alors compréhensible que les étudiants reviennent en arrière dans la vidéo pour mieux en mimer le contenu, alongeant la durée moyenne de visionnage.&lt;/p&gt;
 
-&lt;p&gt;Quoi qu’il en soit, il reste intéressant de remarque qu’&lt;strong&gt;une bonne partie des étudiants ont visionné la vidéo sur un smartphone, signe qu’il faut faire en sorte que nos dispositifs soient compatibles avec ce support&lt;/strong&gt; (on pense à toi, Moodle).&lt;/p&gt;
+&lt;p&gt;Quoi qu’il en soit, il reste intéressant de remarque qu’&lt;strong&gt;une partie non négligeable des étudiants ont visionné la vidéo sur un smartphone, signe qu’il faut faire en sorte que nos dispositifs soient compatibles avec ce support&lt;/strong&gt; (on pense à toi, Moodle).&lt;/p&gt;
 
 &lt;h2 id=&quot;impact-de-la-vidéo-en-laboratoire&quot;&gt;Impact de la vidéo en laboratoire&lt;/h2&gt;
 &lt;p&gt;Immédiatement après la mise à disposition de la vidéo, tous les assistants du laboratoire ont pu remarquer que le nombre de questions afférentes au fonctionnement de l’oscilloscope (le sujet de la vidéo) a drastiquement diminué.
 Pour les quelques irréductibles, il a suffit de leur indiquer l’existence de cette vidéo qui semblait avoir échappé à leur vigilance pour qu’ils la regardent derechef pendant la séance, répondant ainsi seuls à leur propre question.&lt;/p&gt;
 
 &lt;p&gt;Nous pouvons faire ici écho à la &lt;a href=&quot;/esnu//definition-du-probleme&quot;&gt;définition du problème&lt;/a&gt; : la vidéo semble effectivement avoir utilisé cet outil pour s’approprier le matériel de laboratoire.
-Ce qui à son tour répond à leurs deux demandes &lt;a href=&quot;/esnu//construire-des-personas&quot;&gt;identifiées dans les persona&lt;/a&gt; : comprendre le matériel et rendre les assistants plus disponibles.&lt;/p&gt;
+Ce qui à son tour répond à leurs deux demandes &lt;a href=&quot;/esnu//construire-des-personas&quot;&gt;identifiées dans les personas&lt;/a&gt; : comprendre le matériel et rendre les assistants plus disponibles.&lt;/p&gt;
 
 &lt;h2 id=&quot;améliorations&quot;&gt;Améliorations&lt;/h2&gt;
 &lt;p&gt;Reprenons les indications que des améliorations sont nécessaires :&lt;/p&gt;
@@ -876,7 +876,7 @@ Mais au lieu de directement utiliser cet enregistrement, on peut l’écouter et
 
 &lt;h2 id=&quot;montage&quot;&gt;Montage&lt;/h2&gt;
 
-&lt;p&gt;Une fois l’audio enregistré, il s’agit de piocher dans les plans tourner plus tôt et de les coller au bon endroit afin d’illustrer la narration.
+&lt;p&gt;Une fois l’audio enregistré, il s’agit de piocher dans les plans tournés plus tôt et de les coller au bon endroit afin d’illustrer la narration.
 Cette étape n’est pas compliquée avec un peu d’expérience, mais c’est celle qui impactera directement ce que regarderont les étudiants, c’est le moment où tout se joue.
 Les scènes supplémentaires seront probablement utiles, ne serait-ce qu’en &lt;em&gt;&lt;a href=&quot;https://fr.wikipedia.org/wiki/Bobine_B&quot;&gt;B-roll&lt;/a&gt;&lt;/em&gt; afin de combler les trous pendant l’introduction ou la conclusion.&lt;/p&gt;
 
@@ -885,11 +885,11 @@ Les scènes supplémentaires seront probablement utiles, ne serait-ce qu’en &l
 &lt;h4 id=&quot;application-3&quot;&gt;Application&lt;/h4&gt;
 &lt;p&gt;Il existe de nombreux logiciels gratuits et/ou libres permettant de monter ce genre de projet.&lt;/p&gt;
 
-&lt;p&gt;Du côté de le plus simple du spectre, &lt;a href=&quot;https://www.openshot.org/fr/download/&quot;&gt;OpenShot&lt;/a&gt; est une très bonne solution. Il permet des manipulations basiques du son et de l’image, rien de très élaboré, mais généralement suffisant pour une vidé sobre.&lt;/p&gt;
+&lt;p&gt;Du côté le plus simple du spectre, &lt;a href=&quot;https://www.openshot.org/fr/download/&quot;&gt;OpenShot&lt;/a&gt; est une très bonne solution. Il permet des manipulations basiques du son et de l’image, rien de très élaboré, mais généralement suffisant pour une vidéo sobre.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;assets/images/realisation-video/openshot.png&quot; alt=&quot;Openshot timeline&quot; title=&quot;Openshot Timeline&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;À l’autre extrémité se trouve &lt;a href=&quot;https://www.blackmagicdesign.com/products/davinciresolve/&quot;&gt;DaVinci Resolve&lt;/a&gt;, un logiciel de montage non-linéaire extrêmement complet et plus difficile à prendre en main. Il permet pourtant de faire un montage particulièrement soigné une fois apprivoisé et vaut le détour.&lt;/p&gt;
+&lt;p&gt;À l’autre extrémité se trouve &lt;a href=&quot;https://www.blackmagicdesign.com/products/davinciresolve/&quot;&gt;DaVinci Resolve&lt;/a&gt;, un logiciel de montage non-linéaire extrêmement complet et plus difficile à prendre en main. Il permet de faire un montage particulièrement soigné une fois apprivoisé et vaut le détour.&lt;/p&gt;
 
 &lt;h2 id=&quot;publication&quot;&gt;Publication&lt;/h2&gt;
 
@@ -940,10 +940,10 @@ Mais ça, c’est pour &lt;a href=&quot;/esnu//premiere-diffusion-podcast&quot;&
       <id>http://localhost:4000/esnu/definition-du-probleme</id>
       <content type="html" xml:base="http://localhost:4000/esnu/definition-du-probleme">&lt;p&gt;Comment définir précisément la problématique à adresser ?&lt;/p&gt;
 
-&lt;p&gt;La première étape consiste à &lt;a href=&quot;2019-11-10-construire-des-personas&quot;&gt;connaître son public&lt;/a&gt;, par exemple en établissant des persona les représentant.&lt;/p&gt;
+&lt;p&gt;La première étape consiste à &lt;a href=&quot;2019-11-10-construire-des-personas&quot;&gt;connaître son public&lt;/a&gt;, par exemple en établissant des personas les représentant.&lt;/p&gt;
 
-&lt;p&gt;Ensuite, il faut extraire les informations pertinentes sous-jacentes aux profils des persona.
-Deux outils permettent d’y parvenir : « Les cinq pourquoi » et la définition du problèmes proprement dite.&lt;/p&gt;
+&lt;p&gt;Ensuite, il faut extraire les informations pertinentes sous-jacentes aux profils des personas.
+Deux outils permettent d’y parvenir : « Les cinq pourquoi » et la définition du problème proprement dite.&lt;/p&gt;
 
 &lt;h2 id=&quot;les-cinq-pourquoi&quot;&gt;Les cinq pourquoi&lt;/h2&gt;
 
@@ -982,7 +982,7 @@ Nous voulons traiter le problème à sa racine et non ses simples symptômes.&lt
 
 &lt;h2 id=&quot;définir-le-problème&quot;&gt;Définir le problème&lt;/h2&gt;
 
-&lt;p&gt;Avant de définir clairement le problème, passons par quelques étapes permettant d’analyser les persona.&lt;/p&gt;
+&lt;p&gt;Avant de définir clairement le problème, passons par quelques étapes permettant d’analyser les personas.&lt;/p&gt;
 
 &lt;h3 id=&quot;contradictions&quot;&gt;Contradictions&lt;/h3&gt;
 
@@ -994,7 +994,7 @@ Nous voulons traiter le problème à sa racine et non ses simples symptômes.&lt
 &lt;h3 id=&quot;révélations-ou-remarques-intéressantes&quot;&gt;Révélations ou remarques intéressantes&lt;/h3&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;Le manque de rythme &lt;em&gt;imposé&lt;/em&gt; et de mise en commun est perçue comme un problème, là où je vois une autonomisation des séances.&lt;/li&gt;
+  &lt;li&gt;Le manque de rythme &lt;em&gt;imposé&lt;/em&gt; et de mise en commun est perçu comme un problème, là où je vois une autonomisation des séances.&lt;/li&gt;
   &lt;li&gt;Ils aimeraient avoir des vidéos explicatives du matériel de base.&lt;/li&gt;
   &lt;li&gt;Très peu d’étudiants cherchent des ressources supplémentaires pour mieux comprendre la matière.&lt;/li&gt;
 &lt;/ul&gt;
@@ -1073,7 +1073,7 @@ Vous pourrez en lire plus à ce sujet &lt;a href=&quot;/esnu//realiser-une-video
       <content type="html" xml:base="http://localhost:4000/esnu/construire-des-personas">&lt;p&gt;Pour qu’un dispositif soit efficace, il faut qu’il réponde à des besoins.
 Pour identifier les besoins, il faut connaître son public.&lt;/p&gt;
 
-&lt;p&gt;Afin de savoir exactement si le dispositif que je voulais mettre en place correspondait aux attentes de mes étudiants, j’ai commencé par établir des &lt;em&gt;persona&lt;/em&gt;, des profils caractéristiques représentant le public visé.&lt;/p&gt;
+&lt;p&gt;Afin de savoir exactement si le dispositif que je voulais mettre en place correspondait aux attentes de mes étudiants, j’ai commencé par établir des &lt;em&gt;personas&lt;/em&gt;, des profils caractéristiques représentant le public visé.&lt;/p&gt;
 
 &lt;h2 id=&quot;première-étape--interviews&quot;&gt;Première étape : interviews&lt;/h2&gt;
 
@@ -1143,15 +1143,14 @@ J’avais déjà eu l’occasion de les côtoyer lors des séances d’exercices
 
 &lt;h2 id=&quot;compiler-les-résultats&quot;&gt;Compiler les résultats&lt;/h2&gt;
 
-&lt;p&gt;Les résultats des entretiens ont été compilés en trois persona différents en utilisant &lt;a href=&quot;https://milanote.com/&quot;&gt;Milanote&lt;/a&gt;, suivant un template fourni par Nicolas Roland.&lt;/p&gt;
+&lt;p&gt;Les résultats des entretiens ont été compilés en trois personas différents en utilisant &lt;a href=&quot;https://milanote.com/&quot;&gt;Milanote&lt;/a&gt;, suivant un template fourni par Nicolas Roland.&lt;/p&gt;
 
 &lt;p&gt;Les résultats sont accessibles &lt;a href=&quot;assets/persona&quot;&gt;ici&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;La partie compliquée est finalement de fusionner toutes les réponses avant de les séparer à nouveau pour créer de nouvelles personnes fictives, tout en restant réaliste quant aux profils ainsi établis.&lt;/p&gt;
 
-&lt;h2 id=&quot;apprendre-des-persona&quot;&gt;Apprendre des persona&lt;/h2&gt;
-
-&lt;p&gt;Ces entretiens et persona m’ont apporté un élément essentiel dans le développement de mon projet.
+&lt;h2 id=&quot;apprendre-des-personas&quot;&gt;Apprendre des personas&lt;/h2&gt;
+&lt;p&gt;Ces entretiens et personas m’ont apporté un élément essentiel dans le développement de mon projet.
 Comment présenter au début de ce billet, ils m’ont permi de comprendre les &lt;em&gt;vrais&lt;/em&gt; problèmes que rencontrent mes étudiants en laboratoire.&lt;/p&gt;
 
 &lt;p&gt;Contrairement à ce que j’envisageais, ils n’étaient pas tant demandeurs d’outils de préparation des laboratoires ou de révision de la matière.
@@ -1161,7 +1160,7 @@ Ce qu’ils voulaient, c’était :&lt;/p&gt;
   &lt;li&gt;Avoir plus d’assistants pour répondre à leurs questions.&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;Si la deuxième demande ne peut pas être rencontrée, une solution à la première pourrait tout même aider.
+&lt;p&gt;Si la deuxième demande ne peut pas être rencontrée, une solution à la première pourrait tout de même aider.
 En effet, les assistants passent beaucoup de temps en laboratoire à aider les étudiants à configurer correctement leur matériel. En réalisant des tutoriaux clairs à ce sujet :&lt;/p&gt;
 &lt;ol&gt;
   &lt;li&gt;Les étudiants comprendraient mieux comment utiliser le matériel&lt;/li&gt;

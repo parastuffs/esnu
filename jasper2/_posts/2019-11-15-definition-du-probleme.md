@@ -13,9 +13,9 @@ author: quentin
 
 Comment définir précisément la problématique à adresser ?
 
-La première étape consiste à [connaître son public](2019-11-10-construire-des-personas), par exemple en établissant des persona les représentant.
+La première étape consiste à [connaître son public](2019-11-10-construire-des-personas), par exemple en établissant des personas les représentant.
 
-Ensuite, il faut extraire les informations pertinentes sous-jacentes aux profils des persona.
+Ensuite, il faut extraire les informations pertinentes sous-jacentes aux profils des personas.
 Deux outils permettent d'y parvenir : « Les cinq pourquoi » et la définition du problème proprement dite.
 
 
@@ -47,7 +47,7 @@ Pourquoi ?
 
 ## Définir le problème
 
-Avant de définir clairement le problème, passons par quelques étapes permettant d'analyser les persona.
+Avant de définir clairement le problème, passons par quelques étapes permettant d'analyser les personas.
 
 
 ### Contradictions

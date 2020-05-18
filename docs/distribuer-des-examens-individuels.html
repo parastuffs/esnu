@@ -208,7 +208,7 @@ La force de Moodle, c’est de permettre d’automatiser cette variable, par exe
 <p>L’URL ainsi générée sera unique pour chaque étudiant, reste à présent à lui envoyer le bon fichier lorsque qu’il y accède.</p>
 
 <p>Pour ce faire, nous pouvons le rediriger vers un script qui analyse l’URL, récupère le numéro de matricule et envoie le fichier idoine à l’étudiant.
-C’est exament ce que réalise le bout de code suivant :</p>
+C’est exactement ce que réalise le bout de code suivant :</p>
 
 <div class="language-php highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">&lt;?php</span>
 <span class="nv">$mat</span> <span class="o">=</span> <span class="nv">$_GET</span><span class="p">[</span><span class="s2">"matricule"</span><span class="p">];</span>
@@ -254,12 +254,12 @@ Si 200 fichiers pdf ne devraient pas poser de soucis, il est tout de même possi
 <h4 id="besoin-dun-serveur-externe">Besoin d’un serveur externe</h4>
 <p>C’est le plus gros problème. Idéalement, on aimerait pouvoir envoyer tous les fichiers sur Moodle et permettre à l’URL de rediriger vers un fichier en particulier automatiquement, mais ce n’est malheureusement pas possible.</p>
 
-<h4 id="tous-les-fichiers-sont-tout-de-même-accessible-par-tout-le-monde">Tous les fichiers sont tout de même accessible par tout le monde</h4>
+<h4 id="tous-les-fichiers-sont-tout-de-même-accessibles-par-tout-le-monde">Tous les fichiers sont tout de même accessibles par tout le monde</h4>
 <p>Certes, mais nous comptons sur la limite de temps pour nous assurer que chaque étudiant n’ait le temps de se concentrer uniquement sur son examen.
-Pourquoi nous fatiguer à mettre ce système en place, dans ce cas ? Pourquoi ne pas simplement demander aux étudiants de récupérer leur copie dans un dossier les comprenant toutes ?</p>
+Pourquoi nous fatiguer à mettre ce système en place dans ce cas ? Pourquoi ne pas simplement demander aux étudiants de récupérer leur copie dans un dossier les comprenant toutes ?</p>
 
 <p>Tout simplement pour leur éviter le stress de récupérer la mauvaise copie.
-Il faut aussi noter que le matricule « Moodle » n’est pas nécessaire le même que le matricule « étudiant », phénomène rencontré par exemple pour les étudiants de la VUB.</p>
+Il faut aussi noter que le matricule « Moodle » n’est pas nécessairement le même que le matricule « étudiant », phénomène rencontré par exemple pour les étudiants de la VUB.</p>
 
                 </div>
             </section>
