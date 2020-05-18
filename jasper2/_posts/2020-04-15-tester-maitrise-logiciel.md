@@ -17,7 +17,7 @@ Ce questionnement découle de la [problématique mise en évidence]({{site.baseu
 
 
 Le but de ces activités est de permettre aux étudiants de mettre leur maîtrise à l'épreuve sans devoir directement utiliser le logiciel, éliminant ainsi une source de problèmes et de frustration.
-Ils auront tout de même déjà manipulé ce dernier, comme expliqué dans la [scénarisation du dispositif]({{site.baseurl}}{% link _posts/2020-04-05-scenarisation.md %}}).
+Ils auront tout de même déjà manipulé ce dernier, comme expliqué dans la [scénarisation du dispositif]({{site.baseurl}}{% link _posts/2020-04-05-scenarisation.md %}).
 
 La solution retenue a été d'exploiter à nouveau Moodle au travers de modules [H5P](https://h5p.org/), permettant de créer des contenus dynamiques et interactifs variés.
 Trois volets ont ainsi été développés : (1) [la navigation dans l'interface du logiciel](#maîtrise-de-la-navigation), (2) [la connaissance des différents types de simulation](#maîtrise-des-types-de-simulation) et (3) [la gestion des erreurs de manipulation](#maîtrise-des-erreurs).
