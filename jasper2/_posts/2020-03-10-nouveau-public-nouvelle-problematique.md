@@ -47,7 +47,7 @@ Des corrigés ont néanmoins été mis à disposition, principalement pour les r
 * Ils se contentent de regarder les vidéos une seule fois, généralement juste avant le premier laboratoire, mais n'y reviennent plus ensuite.
 
 
-#### Difficultés, problèmes ou besoins vécus/ressentis par l’apprenant.e
+#### Difficultés, problèmes ou besoins vécus/ressentis par l’apprenant
 
 * Identifier ses propres erreurs et en tirer des leçons.  
 La majorité du temps, quand ils sont aidés pour résoudre un problème de manipulation du logiciel, ils ne notent nulle part comme ils ont résolu l'erreur.

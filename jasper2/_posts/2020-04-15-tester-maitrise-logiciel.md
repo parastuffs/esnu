@@ -32,9 +32,9 @@ Idéalement, j'aurais préféré n'avoir qu'une seule image affichée à la fois
 La solution la plus proche que j'ai trouvée était d'attribuer des points à la complétion d'une image, la suivante ne s'affichant que losqu'un certain seuil de points était atteint.
 Le problème étant néanmoins qu'il fallait rafraîchir la page après chaque image afin que les points soient comptabilisés. De plus, l'activité n'aurait pu être réalisée qu'une seule fois, l'étudiant ne pouvant remettre ses points à zéro.
 
-Ci-suit une animation de la réalisation de l'activité.
+Je me suis donc rabattu sur une suite d'images dont une démo suit dans cette [vidéo](https://youtu.be/V7y26dJyS38).
 
-![Animation du projet de la quête de la courbe de Bode](assets/images/H5P/quete-bode.gif)
+{% include youtube.html id="V7y26dJyS38" %}
 
 
 ### Maîtrise des types de simulation
@@ -52,8 +52,7 @@ Je propose une situation requérant une simulation particulière.
 Les quatres types de simulation sont proposés et pour chacun, le résultat de cette simulation est affiché, accompagné d'un feedback leur expliquant pourquoi la réponse est bonne ou mauvaise.
 En cas de mauvaise réponse, ils sont renvoyés vers la question afin de donner une autre réponse.
 
-
-![Animation du projet de la recherche de la bonne simulation](assets/images/H5P/bonne-simu.gif)
+{% include youtube.html id="Jhwnl7BwadQ" %}
 
 
 ### Maîtrise des erreurs
@@ -66,8 +65,7 @@ Quatre erreurs typiques sont ainsi présentées dans ce nouveau scénario.
 
 En cas de mauvaise réponses, l'utilisateur est à nouveau renvoyé vers le début de l'erreur afin qu'il puisse en ré-analyser les messages et mieux en diagnostiquer la cause.
 
-
-![Animation du projet où il faut trouver l'erreur](assets/images/H5P/serie-erreurs.gif)
+{% include youtube.html id="3VOec0IQLTE" %}
 
 
 ## Un dispositif différent

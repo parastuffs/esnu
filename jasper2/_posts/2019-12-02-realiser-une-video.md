@@ -32,7 +32,7 @@ Pour être un peu technique, il s'agit de mesurer le temps de propagation d'un s
 Ma scénarisation a donc commencé par concevoir un montage intéressant et réaliser la manipulation en entier par moi-même.
 Une fois terminée, j'ai pu la déconstruire pour mettre en évidence les **étapes clefs** par lesquelles les étudiants devront passer à leur tour.
 
-Ce scénario a pris la forme d'une liste d'étapes, certaines illustrées par les schémas.
+Ce scénario a pris la forme d'une liste d'étapes, certaines illustrées par des schémas.
 
 
 ## Tournage
