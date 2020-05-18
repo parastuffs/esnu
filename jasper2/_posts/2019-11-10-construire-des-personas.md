@@ -52,7 +52,7 @@ Il se composait en substance des questions suivantes :
 
 Les résultats des entretiens ont été compilés en trois personas différents en utilisant [Milanote](https://milanote.com/), suivant un template fourni par Nicolas Roland.
 
-Les résultats sont accessibles [ici](assets/persona)
+Les résultats sont accessibles ici : [premier](assets/persona/export_canvas_persona-esnu--jean-basile.pdf), [deuxième](assets/persona/export_canvas_persona-esnu--marcel.pdf) et [troisième persona](assets/persona/export_canvas_persona-esnu-micheline.pdf)
 
 La partie compliquée est finalement de fusionner toutes les réponses avant de les séparer à nouveau pour créer de nouvelles personnes fictives, tout en restant réaliste quant aux profils ainsi établis.
 
