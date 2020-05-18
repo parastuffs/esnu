@@ -16,7 +16,7 @@ Retour sur le cours de Dorothée Baillet « Connaître son public » pour dresse
 Au fil des séances de cours, Dorothée nous a présenté et organisé différentes activités permettant d'analyser notre public sous les prismes de l'échec et de la réussite.
 Le but final est de construire une nouvelle grille de lecture permettant de mieux connaître nos étudiants, d'enrichir nos personas et *a fortiori* nos projets.
 
-Ce billet se veut le résumé de [mes notes de cours]() enrichies de quelques réflexions sur le sujet.
+Ce billet se veut le résumé de [mes notes de cours](https://github.com/parastuffs/esnu/tree/master/esnu003) enrichies de quelques réflexions sur le sujet.
 Les différentes questions qui y sont énoncées pourraient être reprises afin de construire cette grille d'analyse.
 
 ## L'héritage du secondaire
