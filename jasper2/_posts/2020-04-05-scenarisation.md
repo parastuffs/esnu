@@ -28,8 +28,8 @@ Le projet lui-même ne concerne que les séquences 4 et 5 (et la 1 dans une moin
 | Objectif(s) | Informer les étudiants des modalités, les préparer aux laboratoires |
 | Contenu(s) | Liens vers différents tutoriels, énoncés de laboratoire et logiciels qui seront utilisés. |
 
-Ce n'est qu'une première anonce servant à introduire la séquence suivante.
-Elle n'a rien d'exceptionnel, mais elle est tout de même nécessaire et doit être soignée.
+Ce n'est qu'une première annonce servant à introduire la séquence suivante.
+Elle n'a rien d'exceptionnelle, mais elle est tout de même nécessaire et doit être soignée.
 
 
 ### Séquence 2 : Visionnage des vidéos par les étudiants
@@ -38,7 +38,7 @@ Elle n'a rien d'exceptionnel, mais elle est tout de même nécessaire et doit ê
 |----------|-------|
 | Rôles| Étudiants : Regardent les vidéos<br />Enseignant : Pense à autre chose et travaille peut-être sur sa recherche | 
 | Objectif(s) | Préparer les laboratoires |
-| Contenu(s) | Liens vers différents tutoriel, énoncés de laboratoire et logiciel qui seront utilisés. |
+| Contenu(s) | Liens vers différents tutoriels, énoncés de laboratoire et logiciel(s) qui seront utilisés. |
 
 Le but est d'ici de les préparer aux laboratoires, qu'ils aient une première idée de ce qu'ils devront réaliser au cours des manipulations.
 La matière qui y est abordée devrait leur être familière, la seule nouveauté étant le logiciel en lui-même.
@@ -52,11 +52,11 @@ Toutes les vidéos sont sur YouTube et durent au total 35 minutes réparties en 
 |----------|-------|
 | Rôles| Étudiants : Travaillent en groupe<br />Enseignant : Répond aux questions | 
 | Objectif(s) | Développer des compétences de résolution de problème<br />et maîtriser des logiciels de simulation de circuit. |
-| Contenu(s) | Montages d'électronique anaogique avec à la fois des réflexions théoriques<br/> et leur confrontation avec la réalité simulée. |
+| Contenu(s) | Montages d'électronique analogique avec à la fois des réflexions théoriques<br/> et leur confrontation avec la réalité simulée. |
 
 Il s'agit d'un laboratoire tout ce qu'il y a de plus classique : les étudiants passent quatre heures à manipuler les logiciels afin de résoudre des problèmes posés dans des énoncés.
 
-Malgré la banalité de l'actvité, le rôle de l'enseignant, et particulièrement son comportement, sont intéressants.
+Malgré la banalité de l'activité, le rôle de l'enseignant, et particulièrement son comportement, sont intéressants.
 L'attitude que je préfère habituellement adopter consister à me rendre disponible pour répondre à leurs questions, mais à ne pas activement leur poser des questions au cours du laboratoire.
 Mon raisonnement est qu'ils ne recourent ainsi pas systématiquement à mon aide dès qu'ils ont un problème et qu'ils sont forcés à formuler leur problème lorsqu'ils veulent demander mon aide.  
 Cette attitude m'a cependant été reprochée au cours d'une [évaluation des enseignements par les étudiants](https://www.ulb.be/fr/aides-services-et-accompagnement/votre-avis-compte), sans doute par manque de communication et de clareté de ma part.  
@@ -72,7 +72,7 @@ Dorénavant j'adopte un comportement hybride plus ou moins proactif en fonction 
 | Contenu(s) | [Activités H5P sur Moodle]({{site.baseurl}}{% link _posts/2020-04-15-tester-maitrise-logiciel.md %}) |
 
 On arrive enfin au cœur du sujet avec l'expérimentation du projet par le public cible.
-Ces activités ne devraient leur prrendre que quelques minutes à réaliser, mais devraient néanmoins leur permettre de se rendre compte de lacunes fondamentales s'ils rencontrent des difficultés.
+Ces activités ne devraient leur prendre que quelques minutes à réaliser, mais devraient néanmoins leur permettre de se rendre compte de lacunes fondamentales s'ils rencontrent des difficultés.
 
 Cette séquence ne peut avoir lieu avant les laboratoires ou avant que les étudiants aient expérimenté une première fois les logiciels. Il s'agit bien de tester leur *maîtrise* des outils afin de les préparer à l'examen de laboratoire.
 
@@ -86,5 +86,5 @@ Cette séquence ne peut avoir lieu avant les laboratoires ou avant que les étud
 | Contenu(s) | Module de Feedback anonyme |
 
 Parce qu'un dispositif perd beaucoup de sens si on ne peut pas en analyser l'impact, le [feedback des utilisateurs]({{site.baseurl}}{% link _posts/2020-05-08-retour-et-analyse.md %}) est essentiel.
-Afin de ne pas décourager les étudiants à laisser leur avis, une simple question leur est posée : « Qu'avez-vous pensé de ces activités ? »
+Afin de ne pas décourager les étudiants à laisser leur avis, une unique question leur est posée : « Qu'avez-vous pensé de ces activités ? »
 

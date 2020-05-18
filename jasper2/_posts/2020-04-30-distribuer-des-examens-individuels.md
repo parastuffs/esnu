@@ -47,7 +47,7 @@ On peut ainsi générer une URL ressemblant à ```http://monsite.be?matricule=ma
 L'URL ainsi générée sera unique pour chaque étudiant, reste à présent à lui envoyer le bon fichier lorsque qu'il y accède.
 
 Pour ce faire, nous pouvons le rediriger vers un script qui analyse l'URL, récupère le numéro de matricule et envoie le fichier idoine à l'étudiant.
-C'est exament ce que réalise le bout de code suivant :
+C'est exactement ce que réalise le bout de code suivant :
 
 ```php
 <?php
@@ -92,9 +92,9 @@ Si 200 fichiers pdf ne devraient pas poser de soucis, il est tout de même possi
 #### Besoin d'un serveur externe
 C'est le plus gros problème. Idéalement, on aimerait pouvoir envoyer tous les fichiers sur Moodle et permettre à l'URL de rediriger vers un fichier en particulier automatiquement, mais ce n'est malheureusement pas possible.
 
-#### Tous les fichiers sont tout de même accessible par tout le monde
+#### Tous les fichiers sont tout de même accessibles par tout le monde
 Certes, mais nous comptons sur la limite de temps pour nous assurer que chaque étudiant n'ait le temps de se concentrer uniquement sur son examen.
-Pourquoi nous fatiguer à mettre ce système en place, dans ce cas ? Pourquoi ne pas simplement demander aux étudiants de récupérer leur copie dans un dossier les comprenant toutes ?
+Pourquoi nous fatiguer à mettre ce système en place dans ce cas ? Pourquoi ne pas simplement demander aux étudiants de récupérer leur copie dans un dossier les comprenant toutes ?
 
 Tout simplement pour leur éviter le stress de récupérer la mauvaise copie.
-Il faut aussi noter que le matricule « Moodle » n'est pas nécessaire le même que le matricule « étudiant », phénomène rencontré par exemple pour les étudiants de la VUB.
+Il faut aussi noter que le matricule « Moodle » n'est pas nécessairement le même que le matricule « étudiant », phénomène rencontré par exemple pour les étudiants de la VUB.

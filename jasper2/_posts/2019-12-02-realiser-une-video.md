@@ -79,7 +79,7 @@ J'ai utilisé un micro Bird UM1 et [Audacity](https://www.audacityteam.org/) pou
 
 ## Montage
 
-Une fois l'audio enregistré, il s'agit de piocher dans les plans tourner plus tôt et de les coller au bon endroit afin d'illustrer la narration.
+Une fois l'audio enregistré, il s'agit de piocher dans les plans tournés plus tôt et de les coller au bon endroit afin d'illustrer la narration.
 Cette étape n'est pas compliquée avec un peu d'expérience, mais c'est celle qui impactera directement ce que regarderont les étudiants, c'est le moment où tout se joue.
 Les scènes supplémentaires seront probablement utiles, ne serait-ce qu'en *[B-roll](https://fr.wikipedia.org/wiki/Bobine_B)* afin de combler les trous pendant l'introduction ou la conclusion.
 
@@ -89,11 +89,11 @@ Ajouter un écran d'accueil avec un titre clair et les logos de l'institution pe
 #### Application
 Il existe de nombreux logiciels gratuits et/ou libres permettant de monter ce genre de projet.
 
-Du côté de le plus simple du spectre, [OpenShot](https://www.openshot.org/fr/download/) est une très bonne solution. Il permet des manipulations basiques du son et de l'image, rien de très élaboré, mais généralement suffisant pour une vidé sobre.
+Du côté le plus simple du spectre, [OpenShot](https://www.openshot.org/fr/download/) est une très bonne solution. Il permet des manipulations basiques du son et de l'image, rien de très élaboré, mais généralement suffisant pour une vidéo sobre.
 
 ![Openshot timeline](assets/images/realisation-video/openshot.png "Openshot Timeline")
 
-À l'autre extrémité se trouve [DaVinci Resolve](https://www.blackmagicdesign.com/products/davinciresolve/), un logiciel de montage non-linéaire extrêmement complet et plus difficile à prendre en main. Il permet pourtant de faire un montage particulièrement soigné une fois apprivoisé et vaut le détour.
+À l'autre extrémité se trouve [DaVinci Resolve](https://www.blackmagicdesign.com/products/davinciresolve/), un logiciel de montage non-linéaire extrêmement complet et plus difficile à prendre en main. Il permet de faire un montage particulièrement soigné une fois apprivoisé et vaut le détour.
 
 
 ## Publication

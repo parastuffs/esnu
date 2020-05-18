@@ -66,7 +66,7 @@ Ce qu'ils voulaient, c'était :
 1. Comprendre comment utiliser le matériel mis à leur disposition chaque semaine.
 2. Avoir plus d'assistants pour répondre à leurs questions.
 
-Si la deuxième demande ne peut pas être rencontrée, une solution à la première pourrait tout même aider.
+Si la deuxième demande ne peut pas être rencontrée, une solution à la première pourrait tout de même aider.
 En effet, les assistants passent beaucoup de temps en laboratoire à aider les étudiants à configurer correctement leur matériel. En réalisant des tutoriaux clairs à ce sujet :
 1. Les étudiants comprendraient mieux comment utiliser le matériel
 2. Les assistants seraient davantage disponibles.

@@ -20,12 +20,12 @@ Le but de ces activités est de permettre aux étudiants de mettre leur maîtris
 Ils auront tout de même déjà manipulé ce dernier, comme expliqué dans la [scénarisation du dispositif]({{site.baseurl}}{% link _posts/2020-04-05-scenarisation.md %}}).
 
 La solution retenue a été d'exploiter à nouveau Moodle au travers de modules [H5P](https://h5p.org/), permettant de créer des contenus dynamiques et interactifs variés.
-Trois volets ont ainsi été développés : (1) [la navigation dans l'interface du logiciel](#maîtrise-de-la-navigation), (2) [la connaissance des différents types de simulation](#maîtrise-des-types-de-simulation) et (3) [vérifier qu'ils savent gérer les erreurs de manipulation](#maîtrise-des-erreurs).
+Trois volets ont ainsi été développés : (1) [la navigation dans l'interface du logiciel](#maîtrise-de-la-navigation), (2) [la connaissance des différents types de simulation](#maîtrise-des-types-de-simulation) et (3) [la gestion des erreurs de manipulation](#maîtrise-des-erreurs).
 
 
 ### Maîtrise de la navigation
 
-Les étudiants peuvent ici vérifier qu'ils savent afficher la courbe de Bode d'un réponse en fréquence en navigant dans l'interface de PSpice.
+Les étudiants peuvent ici vérifier qu'ils savent afficher la courbe de Bode d'une réponse en fréquence en naviguant dans l'interface de PSpice.
 L'activité consiste en une suite de modules « **Find the Hotspot** », chacun avec une zone sensible correspondant au bouton ou menu à activer.
 
 Idéalement, j'aurais préféré n'avoir qu'une seule image affichée à la fois, la suivante apparaissant losque le *hotspot* aurait été trouvé.
@@ -49,7 +49,7 @@ Pour ce premire essai, je suis resté bref, comme vous pouvez le voir sur l'aper
 ![Overview H5P du projet de simulation](assets/images/H5P/simu_overview.png)
 
 Je propose une situation requérant une simulation particulière.
-Les quatre types sont proposés et pour chacun, le résultat que l'étudiant obtiendrait est affiché, accompagné d'un feedback leur expliquant pourquoi la réponse est bonne ou mauvaise.
+Les quatres types de simulation sont proposés et pour chacun, le résultat de cette simulation est affiché, accompagné d'un feedback leur expliquant pourquoi la réponse est bonne ou mauvaise.
 En cas de mauvaise réponse, ils sont renvoyés vers la question afin de donner une autre réponse.
 
 
@@ -58,7 +58,7 @@ En cas de mauvaise réponse, ils sont renvoyés vers la question afin de donner 
 
 ### Maîtrise des erreurs
 
-Le dernier aspect tester dans ce projet n'est pas le plus anodin : d'où viennent les erreurs qu'il est possible de rencontrer dans le logiciel ?
+Le dernier aspect testé dans ce projet n'est pas le plus anodin : d'où viennent les erreurs qu'il est possible de rencontrer dans le logiciel ?
 
 Quatre erreurs typiques sont ainsi présentées dans ce nouveau scénario.
 

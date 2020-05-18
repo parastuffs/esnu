@@ -11,7 +11,7 @@ subclass: 'post tag-coulisses'
 author: quentin
 ---
 
-Cet article présentera brièvement comment ce site a été construit en utilisant des technologies libres et open sources.
+Cet article présente brièvement comment ce site a été construit en utilisant des technologies libres et open sources.
 
 ## Hébergement
 GitHub permet d'héberger des sites via son service [Pages](https://pages.github.com/).

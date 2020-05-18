@@ -67,4 +67,4 @@ Dans mon cas, l'endroit en question se trouve entre la fin de la balise `</foote
 ```
 où `site.production_url` devrait être une variable du fichier `_config.yml` qui ressemble à ceci : `production_url:  https://parastuffs.github.io/esnu`.
 
-Normalement, les commentaires devraient à présent être activés sur l'instance locale de test ainsi que sur le site de production.
+Les commentaires devraient à présent être activés sur l'instance locale de test ainsi que sur le site de production.

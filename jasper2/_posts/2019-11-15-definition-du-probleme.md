@@ -16,7 +16,7 @@ Comment définir précisément la problématique à adresser ?
 La première étape consiste à [connaître son public](2019-11-10-construire-des-personas), par exemple en établissant des persona les représentant.
 
 Ensuite, il faut extraire les informations pertinentes sous-jacentes aux profils des persona.
-Deux outils permettent d'y parvenir : « Les cinq pourquoi » et la définition du problèmes proprement dite.
+Deux outils permettent d'y parvenir : « Les cinq pourquoi » et la définition du problème proprement dite.
 
 
 ## Les cinq pourquoi
@@ -58,7 +58,7 @@ Avant de définir clairement le problème, passons par quelques étapes permetta
 
 ### Révélations ou remarques intéressantes
 
-* Le manque de rythme *imposé* et de mise en commun est perçue comme un problème, là où je vois une autonomisation des séances.
+* Le manque de rythme *imposé* et de mise en commun est perçu comme un problème, là où je vois une autonomisation des séances.
 * Ils aimeraient avoir des vidéos explicatives du matériel de base.
 * Très peu d'étudiants cherchent des ressources supplémentaires pour mieux comprendre la matière.
 

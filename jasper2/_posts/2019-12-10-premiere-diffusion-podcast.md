@@ -72,7 +72,7 @@ Quand on y regarde de plus près, ces instants supérieurs à 100 % corresponden
 Toute conclusion tirée de ce tableau ne serait que conjecture, mais on peut supposer que les visionnages en laboratoire sur les PCs fournis composent une bonne partie des vues sur ordinateur.
 Il serait alors compréhensible que les étudiants reviennent en arrière dans la vidéo pour mieux en mimer le contenu, alongeant la durée moyenne de visionnage.
 
-Quoi qu'il en soit, il reste intéressant de remarque qu'**une bonne partie des étudiants ont visionné la vidéo sur un smartphone, signe qu'il faut faire en sorte que nos dispositifs soient compatibles avec ce support** (on pense à toi, Moodle).
+Quoi qu'il en soit, il reste intéressant de remarque qu'**une partie non négligeable des étudiants ont visionné la vidéo sur un smartphone, signe qu'il faut faire en sorte que nos dispositifs soient compatibles avec ce support** (on pense à toi, Moodle).
 
 
 

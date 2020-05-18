@@ -17,7 +17,7 @@ Mise à jour des persona et de la problématique suite à la [réorientation du 
 ## Changement de public
 
 Comme expliqué dans le billet parlant de mon choix de changer le projet, nous avons changé de public : il s'agit à présent d'une série d'étudiants de première année de master, à orientation biomédicale.
-Quant au cours, il s'agit toujours d'électronique, mais analogique cette fosi-ci.
+Quant au cours, il s'agit toujours d'électronique, mais analogique cette fois-ci.
 Les laboratoires s'y déroulent en trois temps : des simulations numériques à l'aide d'un logiciel ([OrCAD](https://www.orcad.com/)), la conception d'un circuit imprimé à l'aide d'un autre ([KiCad](https://kicad-pcb.org/)), pour terminer avec l'assemblage et le test physique de leur réalisation.
 
 Quelques échanges en fin de laboratoire avec des étudiants, en suivant le même canvas que pour les [premiers persona]({{site.baseurl}}{% link _posts/2019-11-10-construire-des-personas.md %}), ont permis de dresser un [personna représentant le groupe entier](assets/persona/elech402/export_canvas_persona-esnu-elech402--camille-200514_1301.pdf).
