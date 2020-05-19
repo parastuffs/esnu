@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="http://localhost:4000/esnu/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/esnu/" rel="alternate" type="text/html" /><updated>2020-05-18T23:19:34+02:00</updated><id>http://localhost:4000/esnu/</id><title type="html">ESNU Portfolio</title><subtitle>Portfolio de l'édition 2019-2020 du certificat ESNU</subtitle><entry><title type="html">Facteurs d’échec et de réussite chez les étudiants</title><link href="http://localhost:4000/esnu/echec-et-reussite" rel="alternate" type="text/html" title="Facteurs d'échec et de réussite chez les étudiants" /><published>2020-05-17T12:18:00+02:00</published><updated>2020-05-17T12:18:00+02:00</updated><id>http://localhost:4000/esnu/echec-et-reussite</id><content type="html" xml:base="http://localhost:4000/esnu/echec-et-reussite">&lt;p&gt;Retour sur le cours de Dorothée Baillet « Connaître son public » pour dresser le portrait de nos étudiants.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="http://localhost:4000/esnu/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/esnu/" rel="alternate" type="text/html" /><updated>2020-05-19T02:10:38+02:00</updated><id>http://localhost:4000/esnu/</id><title type="html">ESNU Portfolio</title><subtitle>Portfolio de l'édition 2019-2020 du certificat ESNU</subtitle><entry><title type="html">Facteurs d’échec et de réussite chez les étudiants</title><link href="http://localhost:4000/esnu/echec-et-reussite" rel="alternate" type="text/html" title="Facteurs d'échec et de réussite chez les étudiants" /><published>2020-05-17T12:18:00+02:00</published><updated>2020-05-17T12:18:00+02:00</updated><id>http://localhost:4000/esnu/echec-et-reussite</id><content type="html" xml:base="http://localhost:4000/esnu/echec-et-reussite">&lt;p&gt;Retour sur le cours de Dorothée Baillet « Connaître son public » pour dresser le portrait de nos étudiants.&lt;/p&gt;
 
 &lt;p&gt;Au fil des séances de cours, Dorothée nous a présenté et organisé différentes activités permettant d’analyser notre public sous les prismes de l’échec et de la réussite.
 Le but final est de construire une nouvelle grille de lecture permettant de mieux connaître nos étudiants, d’enrichir nos personas et &lt;em&gt;a fortiori&lt;/em&gt; nos projets.&lt;/p&gt;
@@ -329,8 +329,11 @@ Elle nécessite davantage de planification et de vérification afin de m’assur
 
 &lt;p&gt;H5P est une excellente boîte à outils et pourrait être utile pour rendre les tutoriels vidéos existant plus interactifs et peut-être plus accrocheurs.&lt;/p&gt;</content><author><name>Quentin Delhaye</name></author><category term="projet" /><summary type="html">Comment aider les étudiants à tester leur maîtrise du logiciel en vue de l’examen de laboratoire ?</summary></entry><entry><title type="html">Scénarisation du nouveau dispositif</title><link href="http://localhost:4000/esnu/scenarisation" rel="alternate" type="text/html" title="Scénarisation du nouveau dispositif" /><published>2020-04-05T12:18:00+02:00</published><updated>2020-04-05T12:18:00+02:00</updated><id>http://localhost:4000/esnu/scenarisation</id><content type="html" xml:base="http://localhost:4000/esnu/scenarisation">&lt;p&gt;Réflexions sur l’introduction du dispositif auprès des étudiants.&lt;/p&gt;
 
-&lt;p&gt;La mise en œuvre de ce dernier peut s’improviser, mais en scénariser l’introduction le rendra d’autant plus efficace.
-Au cours de cet article, nous allons voir par quelles étapes il devrait passer afin d’en maximiser l’impact.
+&lt;p&gt;Au cours du &lt;a href=&quot;/esnu//nouveau-public-nouvelle-problematique&quot;&gt;dernier article abordant mon projet au sein de l’ESNU&lt;/a&gt;, j’étais arrivé à la conclusion que ma nouvelle problématique était d’aider les étudiants à préparer leur examen de laboratoire.
+Le projet s’est ainsi vu réorienté vers le développement d’outils plus interactifs que les vidéos existantes.&lt;/p&gt;
+
+&lt;p&gt;La mise en œuvre de ces derniers peut s’improviser, mais en scénariser l’introduction les rendra d’autant plus efficaces.
+Au cours de cet article, nous allons voir par quelles étapes ils devraient passer afin d’en maximiser l’impact.
 Ces séquences seront inspirées librement du &lt;a href=&quot;assets/scenario/Gabarit_ESNU_ScenarioPedagogique.pdf&quot;&gt;gabarit de scénario pédagogique&lt;/a&gt; fourni par Nicolas Roland.&lt;/p&gt;
 
 &lt;p&gt;Le projet lui-même ne concerne que les séquences 4 et 5 (et la 1 dans une moindre mesure), mais n’a de sens que s’il est intégré dans un dispositif plus large.&lt;/p&gt;
@@ -625,7 +628,7 @@ Il serait aussi raisonnable de penser qu’un groupe habitué à ce genre d’in
 &lt;p&gt;Les résultats montrent qu’il n’en est rien.
 Il se peut que nous ayons à faire à des étudiants n’ayant aucunement besoin d’encadrement complémentaire aux énoncés et ressources mises à leur disposition, auquel cas nous pourrions remettre en question la pertinence de l’organisation de séances en présentiel en ces temps d’amenuisement des ressources humaines.&lt;br /&gt;
 Il se peut aussi plus simplement que cette cohorte n’ait pas accroché aux outils proposés, préférant travailler en groupe sans poser la moindre question.
-Nous verrons lors de la correction des devoirs si ce comportement à un impact sur leurs résultats.&lt;/p&gt;
+&lt;a href=&quot;#mise-à-jour--correction-des-devoirs-de-elech473&quot;&gt;Nous verrons lors de la correction des devoirs si ce comportement a un impact sur leurs résultats&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h3 id=&quot;elech402---le-succès&quot;&gt;ELECH402 - Le succès&lt;/h3&gt;
 &lt;p&gt;Les résultats sont diamétralement opposés.&lt;br /&gt;
@@ -665,7 +668,31 @@ Je pense qu’il s’agit là de l’hypothèse la plus probante : les étudiant
 &lt;h2 id=&quot;il-nexiste-pas-de-plate-forme-idéale-et-universelle&quot;&gt;Il n’existe pas de plate-forme idéale et universelle&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://discordapp.com/&quot;&gt;Discord&lt;/a&gt;, &lt;a href=&quot;https://zoom.us/&quot;&gt;Zoom&lt;/a&gt;, &lt;a href=&quot;https://meet.google.com/&quot;&gt;Google Meet&lt;/a&gt;, &lt;a href=&quot;https://www.adobe.com/fr/products/adobeconnect.html&quot;&gt;Adobe Connect&lt;/a&gt;, &lt;a href=&quot;https://products.office.com/fr-be/microsoft-teams/group-chat-software&quot;&gt;Microsoft Teams&lt;/a&gt;, les solutions sont aussi diverses que nombreuses.
-Chaque activité d’enseignement s’adressant à une cohorte particulière devrait se poser la question de la plate-forme la plus appropriée, tout en évitant de les démultiplier et perdre les apprenants en route.&lt;/p&gt;</content><author><name>Quentin Delhaye</name></author><category term="experience" /><summary type="html">Semaine du 16 mars 2020, le monde se transforme alors que tout le monde doit s’isoler. Comment les apprenants s’adaptent-ils aux dispositifs mis en place pour assurer l’enseignement à distance ?</summary></entry><entry><title type="html">Nouveau public, nouvelle problématique</title><link href="http://localhost:4000/esnu/nouveau-public-nouvelle-problematique" rel="alternate" type="text/html" title="Nouveau public, nouvelle problématique" /><published>2020-03-10T11:18:00+01:00</published><updated>2020-03-10T11:18:00+01:00</updated><id>http://localhost:4000/esnu/nouveau-public-nouvelle-problematique</id><content type="html" xml:base="http://localhost:4000/esnu/nouveau-public-nouvelle-problematique">&lt;p&gt;Mise à jour des personas et de la problématique suite à la &lt;a href=&quot;/esnu//reorientation-du-projet&quot;&gt;réorientation du projet&lt;/a&gt;.&lt;/p&gt;
+Chaque activité d’enseignement s’adressant à une cohorte particulière devrait se poser la question de la plate-forme la plus appropriée, tout en évitant de les démultiplier et perdre les apprenants en route.&lt;/p&gt;
+
+&lt;h3 id=&quot;mise-à-jour--correction-des-devoirs-de-elech473&quot;&gt;Mise à jour : correction des devoirs de ELECH473&lt;/h3&gt;
+
+&lt;p&gt;Les laboratoires sont composés de trois parties évaluées.
+La première a entièrement été effectuée en présentiel, suivant les modalités habituelles, tandis que les deuxième et troisième parties ont été réalisées à distance.&lt;/p&gt;
+
+&lt;p&gt;Observons les résultats entre les cohortes de 2017-18 (95 remises effectives de devoirs), 2018-19 (97 remises) et 2019-20 (96 remises), trois années où les méthodes d’évaluation ainsi que les évaluateurs sont restés stables.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/images/h473-analyse/boxplot.png&quot; alt=&quot;Boxplot des résultats de h473&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Ces &lt;a href=&quot;https://en.wikipedia.org/wiki/Box_plot&quot;&gt;&lt;em&gt;box plots&lt;/em&gt;&lt;/a&gt; mettent entre autre en évidence la médiance (ligne noire à l’intérieure des boîtes) et la moyenne (ligne verte discontinue) des évaluations des devoirs pour les trois années étudiées.&lt;br /&gt;
+Les données et script ayant servis à générer ce graphique sont disponible &lt;a href=&quot;https://github.com/parastuffs/esnu/tree/master/h473_analysis&quot;&gt;ici&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Notons quelques précisions avant d’essayer d’interpréter ces résultats :&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;L’évaluation de la partie &lt;em&gt;RISC&lt;/em&gt; a été durcie à partie de 2018-19.&lt;/li&gt;
+  &lt;li&gt;L’évaluation de la partie &lt;em&gt;TIS-100&lt;/em&gt; est purement objective, basée sur un score obtenu dans un jeu.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Commençons par observer qu’il n’y a pas de différence significative entre les moyennes ou médianes, totales ou de chaque épreuve, au cours des années.
+La seule différence notable pourrait être pour les devoirs de &lt;em&gt;SIMD&lt;/em&gt; où la dispersion est plus étendue que les années précédentes.
+On ne l’observe cependant pas pour ceux de &lt;em&gt;TIS-100&lt;/em&gt;, eux aussi réalisés à distance.&lt;/p&gt;
+
+&lt;p&gt;Il semble donc que la réalisation à distance de ces laboratoires et l’absence de participation aux séances programmées n’a pas eu d’impact négatif sur les étudiants.&lt;/p&gt;</content><author><name>Quentin Delhaye</name></author><category term="experience" /><summary type="html">Semaine du 16 mars 2020, le monde se transforme alors que tout le monde doit s’isoler. Comment les apprenants s’adaptent-ils aux dispositifs mis en place pour assurer l’enseignement à distance ?</summary></entry><entry><title type="html">Nouveau public, nouvelle problématique</title><link href="http://localhost:4000/esnu/nouveau-public-nouvelle-problematique" rel="alternate" type="text/html" title="Nouveau public, nouvelle problématique" /><published>2020-03-10T11:18:00+01:00</published><updated>2020-03-10T11:18:00+01:00</updated><id>http://localhost:4000/esnu/nouveau-public-nouvelle-problematique</id><content type="html" xml:base="http://localhost:4000/esnu/nouveau-public-nouvelle-problematique">&lt;p&gt;Mise à jour des personas et de la problématique suite à la &lt;a href=&quot;/esnu//reorientation-du-projet&quot;&gt;réorientation du projet&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h2 id=&quot;changement-de-public&quot;&gt;Changement de public&lt;/h2&gt;
 

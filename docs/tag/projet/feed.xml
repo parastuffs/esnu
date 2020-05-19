@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
   <link href="http://localhost:4000/esnu/tag/projet/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/esnu/" rel="alternate" type="text/html" />
-  <updated>2020-05-18T23:19:34+02:00</updated>
+  <updated>2020-05-19T02:10:38+02:00</updated>
   <id>http://localhost:4000/esnu/tag/projet/feed.xml</id>
 
   
@@ -317,8 +317,11 @@ Elle nécessite davantage de planification et de vérification afin de m’assur
       <id>http://localhost:4000/esnu/scenarisation</id>
       <content type="html" xml:base="http://localhost:4000/esnu/scenarisation">&lt;p&gt;Réflexions sur l’introduction du dispositif auprès des étudiants.&lt;/p&gt;
 
-&lt;p&gt;La mise en œuvre de ce dernier peut s’improviser, mais en scénariser l’introduction le rendra d’autant plus efficace.
-Au cours de cet article, nous allons voir par quelles étapes il devrait passer afin d’en maximiser l’impact.
+&lt;p&gt;Au cours du &lt;a href=&quot;/esnu//nouveau-public-nouvelle-problematique&quot;&gt;dernier article abordant mon projet au sein de l’ESNU&lt;/a&gt;, j’étais arrivé à la conclusion que ma nouvelle problématique était d’aider les étudiants à préparer leur examen de laboratoire.
+Le projet s’est ainsi vu réorienté vers le développement d’outils plus interactifs que les vidéos existantes.&lt;/p&gt;
+
+&lt;p&gt;La mise en œuvre de ces derniers peut s’improviser, mais en scénariser l’introduction les rendra d’autant plus efficaces.
+Au cours de cet article, nous allons voir par quelles étapes ils devraient passer afin d’en maximiser l’impact.
 Ces séquences seront inspirées librement du &lt;a href=&quot;assets/scenario/Gabarit_ESNU_ScenarioPedagogique.pdf&quot;&gt;gabarit de scénario pédagogique&lt;/a&gt; fourni par Nicolas Roland.&lt;/p&gt;
 
 &lt;p&gt;Le projet lui-même ne concerne que les séquences 4 et 5 (et la 1 dans une moindre mesure), mais n’a de sens que s’il est intégré dans un dispositif plus large.&lt;/p&gt;

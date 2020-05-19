@@ -61,7 +61,7 @@ Il serait aussi raisonnable de penser qu'un groupe habitué à ce genre d'intera
 Les résultats montrent qu'il n'en est rien.
 Il se peut que nous ayons à faire à des étudiants n'ayant aucunement besoin d'encadrement complémentaire aux énoncés et ressources mises à leur disposition, auquel cas nous pourrions remettre en question la pertinence de l'organisation de séances en présentiel en ces temps d'amenuisement des ressources humaines.  
 Il se peut aussi plus simplement que cette cohorte n'ait pas accroché aux outils proposés, préférant travailler en groupe sans poser la moindre question.
-Nous verrons lors de la correction des devoirs si ce comportement à un impact sur leurs résultats.
+[Nous verrons lors de la correction des devoirs si ce comportement a un impact sur leurs résultats](#mise-à-jour--correction-des-devoirs-de-elech473).
 
 ### ELECH402 - Le succès
 Les résultats sont diamétralement opposés.  
@@ -101,3 +101,26 @@ La question est ouverte, mais il est possible que d'autres enseignements exploit
 
 [Discord](https://discordapp.com/), [Zoom](https://zoom.us/), [Google Meet](https://meet.google.com/), [Adobe Connect](https://www.adobe.com/fr/products/adobeconnect.html), [Microsoft Teams](https://products.office.com/fr-be/microsoft-teams/group-chat-software), les solutions sont aussi diverses que nombreuses.
 Chaque activité d'enseignement s'adressant à une cohorte particulière devrait se poser la question de la plate-forme la plus appropriée, tout en évitant de les démultiplier et perdre les apprenants en route.
+
+
+### Mise à jour : correction des devoirs de ELECH473
+
+Les laboratoires sont composés de trois parties évaluées.
+La première a entièrement été effectuée en présentiel, suivant les modalités habituelles, tandis que les deuxième et troisième parties ont été réalisées à distance.
+
+Observons les résultats entre les cohortes de 2017-18 (95 remises effectives de devoirs), 2018-19 (97 remises) et 2019-20 (96 remises), trois années où les méthodes d'évaluation ainsi que les évaluateurs sont restés stables.
+
+![Boxplot des résultats de h473](assets/images/h473-analyse/boxplot.png)
+
+Ces [*box plots*](https://en.wikipedia.org/wiki/Box_plot) mettent entre autre en évidence la médiance (ligne noire à l'intérieure des boîtes) et la moyenne (ligne verte discontinue) des évaluations des devoirs pour les trois années étudiées.  
+Les données et script ayant servis à générer ce graphique sont disponible [ici](https://github.com/parastuffs/esnu/tree/master/h473_analysis).
+
+Notons quelques précisions avant d'essayer d'interpréter ces résultats :
+* L'évaluation de la partie *RISC* a été durcie à partie de 2018-19.
+* L'évaluation de la partie *TIS-100* est purement objective, basée sur un score obtenu dans un jeu.
+
+Commençons par observer qu'il n'y a pas de différence significative entre les moyennes ou médianes, totales ou de chaque épreuve, au cours des années.
+La seule différence notable pourrait être pour les devoirs de *SIMD* où la dispersion est plus étendue que les années précédentes.
+On ne l'observe cependant pas pour ceux de *TIS-100*, eux aussi réalisés à distance.
+
+Il semble donc que la réalisation à distance de ces laboratoires et l'absence de participation aux séances programmées n'a pas eu d'impact négatif sur les étudiants.
