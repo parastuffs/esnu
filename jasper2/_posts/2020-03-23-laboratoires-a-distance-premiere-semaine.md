@@ -102,8 +102,9 @@ La question est ouverte, mais il est possible que d'autres enseignements exploit
 [Discord](https://discordapp.com/), [Zoom](https://zoom.us/), [Google Meet](https://meet.google.com/), [Adobe Connect](https://www.adobe.com/fr/products/adobeconnect.html), [Microsoft Teams](https://products.office.com/fr-be/microsoft-teams/group-chat-software), les solutions sont aussi diverses que nombreuses.
 Chaque activité d'enseignement s'adressant à une cohorte particulière devrait se poser la question de la plate-forme la plus appropriée, tout en évitant de les démultiplier et perdre les apprenants en route.
 
+----------
 
-### Mise à jour : correction des devoirs de ELECH473
+## Mise à jour : correction des devoirs de ELECH473
 
 Les laboratoires sont composés de trois parties évaluées.
 La première a entièrement été effectuée en présentiel, suivant les modalités habituelles, tandis que les deuxième et troisième parties ont été réalisées à distance.
