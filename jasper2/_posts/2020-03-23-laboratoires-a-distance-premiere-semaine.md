@@ -113,7 +113,7 @@ Observons les résultats entre les cohortes de 2017-18 (95 remises effectives de
 
 ![Boxplot des résultats de h473](assets/images/h473-analyse/boxplot.png)
 
-Ces [*box plots*](https://en.wikipedia.org/wiki/Box_plot) mettent entre autre en évidence la médiance (ligne noire à l'intérieure des boîtes) et la moyenne (ligne verte discontinue) des évaluations des devoirs pour les trois années étudiées.  
+Ces [*box plots*](https://en.wikipedia.org/wiki/Box_plot) mettent entre autre en évidence la médiane (ligne noire à l'intérieure des boîtes) et la moyenne (ligne verte discontinue) des évaluations des devoirs pour les trois années étudiées.  
 Les données et script ayant servis à générer ce graphique sont disponible [ici](https://github.com/parastuffs/esnu/tree/master/h473_analysis).
 
 Notons quelques précisions avant d'essayer d'interpréter ces résultats :
