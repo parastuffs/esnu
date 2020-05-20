@@ -5,9 +5,9 @@ cover: assets/images/daniel-cheung-ZqqlOZyGG7g-unsplash.jpg
 navigation: True
 title: Facteurs d'échec et de réussite chez les étudiants
 date: 2020-05-17 10:18:00
-tags: projet
+tags: experience
 class: post-template
-subclass: 'post tag-projet'
+subclass: 'post tag-experience'
 author: quentin
 ---
 

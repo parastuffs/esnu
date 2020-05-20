@@ -88,6 +88,6 @@ Cette séquence ne peut avoir lieu avant les laboratoires ou avant que les étud
 | Objectif(s) | Pour l'étudiant : Réfléchir à ce qu'il vient de réaliser et à l'adéquation du dispositif <br />Pour l'enseignant : Améliorer le dispositif fort du retour des utilisateurs|
 | Contenu(s) | Module de Feedback anonyme |
 
-Parce qu'un dispositif perd beaucoup de sens si on ne peut pas en analyser l'impact, le [feedback des utilisateurs]({{site.baseurl}}{% link _posts/2020-05-08-retour-et-analyse.md %}) est essentiel.
+Parce qu'un dispositif perd beaucoup de sens si on ne peut pas en analyser l'impact, le [feedback des utilisateurs]({{site.baseurl}}{% link _posts/2020-05-20-retour-et-analyse.md %}) est essentiel.
 Afin de ne pas décourager les étudiants à laisser leur avis, une unique question leur est posée : « Qu'avez-vous pensé de ces activités ? »
 

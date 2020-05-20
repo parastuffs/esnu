@@ -1,4 +1,64 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="http://localhost:4000/esnu/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/esnu/" rel="alternate" type="text/html" /><updated>2020-05-20T16:30:13+02:00</updated><id>http://localhost:4000/esnu/</id><title type="html">ESNU Portfolio</title><subtitle>Portfolio de l'édition 2019-2020 du certificat ESNU</subtitle><entry><title type="html">Facteurs d’échec et de réussite chez les étudiants</title><link href="http://localhost:4000/esnu/echec-et-reussite" rel="alternate" type="text/html" title="Facteurs d'échec et de réussite chez les étudiants" /><published>2020-05-17T12:18:00+02:00</published><updated>2020-05-17T12:18:00+02:00</updated><id>http://localhost:4000/esnu/echec-et-reussite</id><content type="html" xml:base="http://localhost:4000/esnu/echec-et-reussite">&lt;p&gt;Retour sur le cours de Dorothée Baillet « Connaître son public » pour dresser le portrait de nos étudiants.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="http://localhost:4000/esnu/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/esnu/" rel="alternate" type="text/html" /><updated>2020-05-20T18:05:05+02:00</updated><id>http://localhost:4000/esnu/</id><title type="html">ESNU Portfolio</title><subtitle>Portfolio de l'édition 2019-2020 du certificat ESNU</subtitle><entry><title type="html">Retours utilisateurs et analyse du dispositif</title><link href="http://localhost:4000/esnu/retour-et-analyse" rel="alternate" type="text/html" title="Retours utilisateurs et analyse du dispositif" /><published>2020-05-20T12:18:00+02:00</published><updated>2020-05-20T12:18:00+02:00</updated><id>http://localhost:4000/esnu/retour-et-analyse</id><content type="html" xml:base="http://localhost:4000/esnu/retour-et-analyse">&lt;p&gt;Au terme du projet, qu’on pensé les étudiants du dispositif ?&lt;/p&gt;
+
+&lt;p&gt;Le projet était consititué de trois activités H5P.
+Ils avaient en plus la possibilité de s’essayer à un examen lanc de laboratoire reprenant les questions de l’année précédente, mais sous la forme qui leur serait proposé fin mai.&lt;/p&gt;
+
+&lt;p&gt;Ci-suivent les résultats de leur participation, à 24 heures du début de l’examen et donc de leur abandon complet de Moodle.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/images/H5P/realisation-activites.png&quot; alt=&quot;Nombre d'étudiants ayant réalisé des activités&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Pour rappel, le cours accueille 28 étudiants, 26 s’étant connectés au plus tard il y a 9 jours sur Moodle, les deux derniers n’étant plus revenus depuis 17 et 62 jours. Notons tout de même que 24 d’entre eux se sont connectés il y a moins de deux jours.&lt;/p&gt;
+
+&lt;p&gt;Les résultats sont sans appel : l’examen blanc rencontre le succès attendu auprès d’étudiants inquiets du déroulement chamboulé de leur session.
+Les autres activités sont moins suivies, mais la moitié des étudiants a réalisé au moins un module, ce qui est déjà plus qu’espéré, vu l’enthousiasme habituel des étudiants.&lt;/p&gt;
+
+&lt;p&gt;Comme prévu dans &lt;a href=&quot;/esnu//scenarisation&quot;&gt;la scénarisation du projet&lt;/a&gt;, les étudiants avaient aussi l’opportunité de laisser leur avis anonymement sur le dispositif mis en place à leur intention.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;C’est vraiment chouette! L’idée des tests est très bien réalisée et on s’amuse pas mal. On voit aussi que Quentin comprend très bien la lutte éternelle des étudiants contre les erreurs durant les laboratoires. Merci beaucoup pour ce gros investissement.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Très chouette et sympa, même si un peu simple par rapport aux attentes demandées. 
+Merci pour votre implication !&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;G.E.N.I.A.L.
+Un tout tout grand merci à tous ce que tu fais pour nous Quentin :-)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Assez utile, surtout l’évaluation sur les erreurs typiques !&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Très intéressant, surtout pour les erreurs communes.
+Un grand merci pour votre disponibilité et implication depuis le début du confinement.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;C’était didactique, très intéressant, très bien expliqué et aussi très drôle! Ces activités m’ont fait du bien, merci !&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Pour commencer, ça fait plaisir.
+C’est toujours sympa d’avoir un retour positif des étudiants quand on a investi du temps pour eux, et c’est aussi important de se rappeler que ce ne sont pas uniquement des êtres ingrats.&lt;/p&gt;
+
+&lt;p&gt;Quelques éléments sont de plus intéressants à relever dans leurs avis :&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Ils ont apprécié l’activité sur les erreurs typiquement rencontrées dans le logiciel.&lt;br /&gt;
+Nous pourrions développer plus d’outils allant dans ce sens, afin de les entraîner et de les débloquer losqu’ils tombe sur ces erreurs.&lt;/li&gt;
+  &lt;li&gt;Les tests étaient plus simples que ce qu’ils pensaient.&lt;br /&gt;
+Les tests étaient effectivement simple, mais pas simplistes. Les compétences nécessaires à leur réalisation n’ont été acquises qu’au cours des laboratoires et ils n’y seraient pas arrivés sans ces derniers.
+Au final, qu’ils trouvent les activités simples est un bon point et est un signe qu’ils se préparent correctement à l’examen.&lt;/li&gt;
+  &lt;li&gt;Ils sont demandeurs d’activités différentes dans ce genre.&lt;br /&gt;
+Des activités différentes permettent souvent de voir la matière sous un autre angle, de l’aborder différemment et peut-être de mieux en comprendre les détails.
+Sans compter que s’amuser en travaillant, ça n’a pas de prix.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Gardons à l’esprit que les étudiants sont particulièrement chargés en cette période et que le but n’était pas de leur ajouter du travail supplémentaire. Le développement de cette solution avait pour but de leur faciliter la tâche, pas de la compliquer.&lt;/p&gt;
+
+&lt;p&gt;En ce sens, je pense que le projet est un succès : j’ai pu m’amuser avec H5P et Moodle, les étudiants sont satisfaits des activités et mieux préparés à l’examen de laboratoire.&lt;/p&gt;</content><author><name>Quentin Delhaye</name></author><category term="projet" /><summary type="html">Au terme du projet, qu’on pensé les étudiants du dispositif ?</summary></entry><entry><title type="html">Facteurs d’échec et de réussite chez les étudiants</title><link href="http://localhost:4000/esnu/echec-et-reussite" rel="alternate" type="text/html" title="Facteurs d'échec et de réussite chez les étudiants" /><published>2020-05-17T12:18:00+02:00</published><updated>2020-05-17T12:18:00+02:00</updated><id>http://localhost:4000/esnu/echec-et-reussite</id><content type="html" xml:base="http://localhost:4000/esnu/echec-et-reussite">&lt;p&gt;Retour sur le cours de Dorothée Baillet « Connaître son public » pour dresser le portrait de nos étudiants.&lt;/p&gt;
 
 &lt;p&gt;Au fil des séances de cours, Dorothée nous a présenté et organisé différentes activités permettant d’analyser notre public sous les prismes de l’échec et de la réussite.
 Le but final est de construire une nouvelle grille de lecture permettant de mieux connaître nos étudiants, d’enrichir nos personas et &lt;em&gt;a fortiori&lt;/em&gt; nos projets.&lt;/p&gt;
@@ -112,7 +172,7 @@ Avons-nous des communications redondantes voire superfétatoires envers eux ?&lt
 
 &lt;p&gt;[1] &lt;a href=&quot;https://difusion.ulb.ac.be/vufind/Record/ULB-DIPOT:oai:dipot.ulb.ac.be:2013/257684/Holdings&quot;&gt;Baillet (2017). Du rapport au savoir à des rapports aux savoirs : analyse des difficultés des étudiants de première année en Psychologie face aux caractéristiques des savoirs enseignés à l’université. Dissertation doctorale, Université libre de Bruxelles.&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;[2] &lt;a href=&quot;https://www.letudiant.fr/educpros/actualite/christophe-michaut-universite-moitie-facteurs-reussite-restent-inexpliques.html&quot;&gt;Christophe Michaut, « À l’université, 50 % des facteurs de réussite restent inexpliqués », letudiant.fr, 2018&lt;/a&gt;&lt;/p&gt;</content><author><name>Quentin Delhaye</name></author><category term="projet" /><summary type="html">Retour sur le cours de Dorothée Baillet « Connaître son public » pour dresser le portrait de nos étudiants.</summary></entry><entry><title type="html">Confinement et enseignement, comment donner laboratoire à distance</title><link href="http://localhost:4000/esnu/covid19" rel="alternate" type="text/html" title="Confinement et enseignement, comment donner laboratoire à distance" /><published>2020-05-15T11:18:00+02:00</published><updated>2020-05-15T11:18:00+02:00</updated><id>http://localhost:4000/esnu/covid19</id><content type="html" xml:base="http://localhost:4000/esnu/covid19">&lt;p&gt;Distanciation rime avec adaptation, et ce n’est pas pour rien.&lt;/p&gt;
+&lt;p&gt;[2] &lt;a href=&quot;https://www.letudiant.fr/educpros/actualite/christophe-michaut-universite-moitie-facteurs-reussite-restent-inexpliques.html&quot;&gt;Christophe Michaut, « À l’université, 50 % des facteurs de réussite restent inexpliqués », letudiant.fr, 2018&lt;/a&gt;&lt;/p&gt;</content><author><name>Quentin Delhaye</name></author><category term="experience" /><summary type="html">Retour sur le cours de Dorothée Baillet « Connaître son public » pour dresser le portrait de nos étudiants.</summary></entry><entry><title type="html">Confinement et enseignement, comment donner laboratoire à distance</title><link href="http://localhost:4000/esnu/covid19" rel="alternate" type="text/html" title="Confinement et enseignement, comment donner laboratoire à distance" /><published>2020-05-15T11:18:00+02:00</published><updated>2020-05-15T11:18:00+02:00</updated><id>http://localhost:4000/esnu/covid19</id><content type="html" xml:base="http://localhost:4000/esnu/covid19">&lt;p&gt;Distanciation rime avec adaptation, et ce n’est pas pour rien.&lt;/p&gt;
 
 &lt;p&gt;Bien que nous ayons été forcés de changer notre manière de donner cours, ce n’est pas une bonne raison pour abandonner nos étudiants.
 Leur envoyer un document et leur indiquer d’envoyer un mail s’ils ont une question n’est pas une alternative correcte et l’embrasser comme le Graal revient à se voiler la face.
@@ -176,10 +236,7 @@ Le contrôle à distance permet ainsi du modifier le code sur le micro-contrôle
 
 &lt;p&gt;&lt;img src=&quot;assets/images/vnc/20200427_110316.jpg&quot; alt=&quot;setup complet&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Un mois plus tard, l’installation fonctionne toujours et a été très utile pour les assistants, comme vous pouvez peut-être encore le voir sur &lt;a href=&quot;https://psoc.ig11.ananas.space/player/&quot;&gt;ce lien de streaming&lt;/a&gt; mis en place par Ken Hasselmann.&lt;/p&gt;</content><author><name>Quentin Delhaye</name></author><category term="experience" /><summary type="html">Distanciation rime avec adaptation, et ce n’est pas pour rien.</summary></entry><entry><title type="html">Retours utilisateurs et analyse du dispositif</title><link href="http://localhost:4000/esnu/retour-et-analyse" rel="alternate" type="text/html" title="Retours utilisateurs et analyse du dispositif" /><published>2020-05-08T12:18:00+02:00</published><updated>2020-05-08T12:18:00+02:00</updated><id>http://localhost:4000/esnu/retour-et-analyse</id><content type="html" xml:base="http://localhost:4000/esnu/retour-et-analyse">&lt;p&gt;Résumé des feedbacks étudiants sur le nouveau dispositif et analyse de ses résultats.
-Perspectives d’amélioration.&lt;/p&gt;
-
-&lt;p&gt;Garder à l’esprit que les étudiants sont particulièrement chargés en cette période et que le but n’est pas de leur ajouter du travail supplémentaire. Le développement de cette solution avait pour but de leur faciliter la tâche, pas de la compliquer.&lt;/p&gt;</content><author><name>Quentin Delhaye</name></author><category term="projet" /><summary type="html">Résumé des feedbacks étudiants sur le nouveau dispositif et analyse de ses résultats. Perspectives d’amélioration.</summary></entry><entry><title type="html">Distribuer des examens individuels</title><link href="http://localhost:4000/esnu/distribuer-des-examens-individuels" rel="alternate" type="text/html" title="Distribuer des examens individuels" /><published>2020-04-30T12:18:00+02:00</published><updated>2020-04-30T12:18:00+02:00</updated><id>http://localhost:4000/esnu/distribuer-des-examens-individuels</id><content type="html" xml:base="http://localhost:4000/esnu/distribuer-des-examens-individuels">&lt;p&gt;Comment automatiser la distribution d’un examen individuel à chaque étudiant ?&lt;/p&gt;
+&lt;p&gt;Un mois plus tard, l’installation fonctionne toujours et a été très utile pour les assistants, comme vous pouvez peut-être encore le voir sur &lt;a href=&quot;https://psoc.ig11.ananas.space/player/&quot;&gt;ce lien de streaming&lt;/a&gt; mis en place par Ken Hasselmann.&lt;/p&gt;</content><author><name>Quentin Delhaye</name></author><category term="experience" /><summary type="html">Distanciation rime avec adaptation, et ce n’est pas pour rien.</summary></entry><entry><title type="html">Distribuer des examens individuels</title><link href="http://localhost:4000/esnu/distribuer-des-examens-individuels" rel="alternate" type="text/html" title="Distribuer des examens individuels" /><published>2020-04-30T12:18:00+02:00</published><updated>2020-04-30T12:18:00+02:00</updated><id>http://localhost:4000/esnu/distribuer-des-examens-individuels</id><content type="html" xml:base="http://localhost:4000/esnu/distribuer-des-examens-individuels">&lt;p&gt;Comment automatiser la distribution d’un examen individuel à chaque étudiant ?&lt;/p&gt;
 
 &lt;p&gt;Cette question se pose dans le cadre des examens à distance.
 Plusieurs solutions sont envisageables pour assurer ces évaluations, mais celle qui nous intéresse ici est de générer un examen différent pour chaque étudiant.
