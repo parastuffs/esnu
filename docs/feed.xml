@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="http://localhost:4000/esnu/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/esnu/" rel="alternate" type="text/html" /><updated>2020-05-19T02:20:32+02:00</updated><id>http://localhost:4000/esnu/</id><title type="html">ESNU Portfolio</title><subtitle>Portfolio de l'édition 2019-2020 du certificat ESNU</subtitle><entry><title type="html">Facteurs d’échec et de réussite chez les étudiants</title><link href="http://localhost:4000/esnu/echec-et-reussite" rel="alternate" type="text/html" title="Facteurs d'échec et de réussite chez les étudiants" /><published>2020-05-17T12:18:00+02:00</published><updated>2020-05-17T12:18:00+02:00</updated><id>http://localhost:4000/esnu/echec-et-reussite</id><content type="html" xml:base="http://localhost:4000/esnu/echec-et-reussite">&lt;p&gt;Retour sur le cours de Dorothée Baillet « Connaître son public » pour dresser le portrait de nos étudiants.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="http://localhost:4000/esnu/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/esnu/" rel="alternate" type="text/html" /><updated>2020-05-20T16:30:13+02:00</updated><id>http://localhost:4000/esnu/</id><title type="html">ESNU Portfolio</title><subtitle>Portfolio de l'édition 2019-2020 du certificat ESNU</subtitle><entry><title type="html">Facteurs d’échec et de réussite chez les étudiants</title><link href="http://localhost:4000/esnu/echec-et-reussite" rel="alternate" type="text/html" title="Facteurs d'échec et de réussite chez les étudiants" /><published>2020-05-17T12:18:00+02:00</published><updated>2020-05-17T12:18:00+02:00</updated><id>http://localhost:4000/esnu/echec-et-reussite</id><content type="html" xml:base="http://localhost:4000/esnu/echec-et-reussite">&lt;p&gt;Retour sur le cours de Dorothée Baillet « Connaître son public » pour dresser le portrait de nos étudiants.&lt;/p&gt;
 
 &lt;p&gt;Au fil des séances de cours, Dorothée nous a présenté et organisé différentes activités permettant d’analyser notre public sous les prismes de l’échec et de la réussite.
 Le but final est de construire une nouvelle grille de lecture permettant de mieux connaître nos étudiants, d’enrichir nos personas et &lt;em&gt;a fortiori&lt;/em&gt; nos projets.&lt;/p&gt;
@@ -681,13 +681,13 @@ La première a entièrement été effectuée en présentiel, suivant les modalit
 
 &lt;p&gt;&lt;img src=&quot;assets/images/h473-analyse/boxplot.png&quot; alt=&quot;Boxplot des résultats de h473&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Ces &lt;a href=&quot;https://en.wikipedia.org/wiki/Box_plot&quot;&gt;&lt;em&gt;box plots&lt;/em&gt;&lt;/a&gt; mettent entre autre en évidence la médiane (ligne noire à l’intérieure des boîtes) et la moyenne (ligne verte discontinue) des évaluations des devoirs pour les trois années étudiées.&lt;br /&gt;
+&lt;p&gt;Ces &lt;a href=&quot;https://en.wikipedia.org/wiki/Box_plot&quot;&gt;&lt;em&gt;box plots&lt;/em&gt;&lt;/a&gt; mettent entre autre en évidence la médiane (ligne noire à l’intérieur des boîtes) et la moyenne (ligne verte discontinue) des évaluations des devoirs pour les trois années étudiées.&lt;br /&gt;
 Les données et script ayant servis à générer ce graphique sont disponible &lt;a href=&quot;https://github.com/parastuffs/esnu/tree/master/h473_analysis&quot;&gt;ici&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Notons quelques précisions avant d’essayer d’interpréter ces résultats :&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;L’évaluation de la partie &lt;em&gt;RISC&lt;/em&gt; a été durcie à partie de 2018-19.&lt;/li&gt;
-  &lt;li&gt;L’évaluation de la partie &lt;em&gt;TIS-100&lt;/em&gt; est purement objective, basée sur un score obtenu dans un jeu.&lt;/li&gt;
+  &lt;li&gt;L’évaluation de la partie &lt;em&gt;TIS-100&lt;/em&gt; est purement objective et quantitative, basée sur un score obtenu dans un jeu.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;Commençons par observer qu’il n’y a pas de différence significative entre les moyennes ou médianes, totales ou de chaque épreuve, au cours des années.

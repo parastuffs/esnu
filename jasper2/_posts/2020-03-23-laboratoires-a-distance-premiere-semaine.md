@@ -113,12 +113,12 @@ Observons les résultats entre les cohortes de 2017-18 (95 remises effectives de
 
 ![Boxplot des résultats de h473](assets/images/h473-analyse/boxplot.png)
 
-Ces [*box plots*](https://en.wikipedia.org/wiki/Box_plot) mettent entre autre en évidence la médiane (ligne noire à l'intérieure des boîtes) et la moyenne (ligne verte discontinue) des évaluations des devoirs pour les trois années étudiées.  
+Ces [*box plots*](https://en.wikipedia.org/wiki/Box_plot) mettent entre autre en évidence la médiane (ligne noire à l'intérieur des boîtes) et la moyenne (ligne verte discontinue) des évaluations des devoirs pour les trois années étudiées.  
 Les données et script ayant servis à générer ce graphique sont disponible [ici](https://github.com/parastuffs/esnu/tree/master/h473_analysis).
 
 Notons quelques précisions avant d'essayer d'interpréter ces résultats :
 * L'évaluation de la partie *RISC* a été durcie à partie de 2018-19.
-* L'évaluation de la partie *TIS-100* est purement objective, basée sur un score obtenu dans un jeu.
+* L'évaluation de la partie *TIS-100* est purement objective et quantitative, basée sur un score obtenu dans un jeu.
 
 Commençons par observer qu'il n'y a pas de différence significative entre les moyennes ou médianes, totales ou de chaque épreuve, au cours des années.
 La seule différence notable pourrait être pour les devoirs de *SIMD* où la dispersion est plus étendue que les années précédentes.
