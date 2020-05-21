@@ -39,7 +39,7 @@ Il faut ensuite ajouter les lignes suivantes dans le fichier :
 ```yaml
 nouveau-tag:
   name: nouveau-tag
-  description: Déroulé du projet de podcats.
+  description: Déroulé du projet.
   cover: assets/images/couverture.jpg
 ```
 où `nouveau-tag` est le nom de votre nouveau tag.
@@ -71,9 +71,9 @@ Le début du fichier doit toujours contenir des informations sur son contenu, co
 ---
 layout: post
 current: post
-cover: assets/images/typewriter-801921_1280.jpg
+cover: assets/images/typewriter.jpg
 navigation: True
-title: Réalisation d'un portfolio numérique avec Jekyll
+title: Réalisation d'un portfolio
 date: 2020-01-17 10:18:00
 tags: coulisses
 class: post-template
