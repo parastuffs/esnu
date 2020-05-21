@@ -18,3 +18,7 @@ experience:
   name: experience
   description: Retour sur les expériences d'enseignement avec les apprenants
   cover: assets/images/analysis-2030265_1280.jpg
+réflexion:
+  name: réflexion
+  description: Réflexions sur le contenu du certificat
+  cover: assets/images/light-bulb-1246043_1280.jpg

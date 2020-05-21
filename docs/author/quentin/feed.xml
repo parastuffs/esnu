@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
   <link href="http://localhost:4000/esnu/author/quentin/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/esnu/" rel="alternate" type="text/html" />
-  <updated>2020-05-20T18:05:05+02:00</updated>
+  <updated>2020-05-21T21:26:00+02:00</updated>
   <id>http://localhost:4000/esnu/author/quentin/feed.xml</id>
 
   
@@ -119,6 +119,78 @@ Sans compter que s’amuser en travaillant, ça n’a pas de prix.&lt;/li&gt;
 
       
         <summary type="html">Au terme du projet, qu’on pensé les étudiants du dispositif ?</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Retour sur l’ESNU</title>
+      <link href="http://localhost:4000/esnu/retour-esnu" rel="alternate" type="text/html" title="Retour sur l'ESNU" />
+      <published>2020-05-20T12:18:00+02:00</published>
+      <updated>2020-05-20T12:18:00+02:00</updated>
+      <id>http://localhost:4000/esnu/retour-esnu</id>
+      <content type="html" xml:base="http://localhost:4000/esnu/retour-esnu">&lt;p&gt;Un avis personnel sur le déroulement de huit mois de certificat.&lt;/p&gt;
+
+&lt;h2 id=&quot;un-certificat-multifacette&quot;&gt;Un certificat multifacette&lt;/h2&gt;
+&lt;p&gt;L’objectif principal du certificat étant de nous faire développer un &lt;a href=&quot;https://www.youtube.com/watch?v=d7RWIcOcHgg&quot;&gt;projet personnel&lt;/a&gt;, son contenu se devait d’être varié afin de répondre aux différentes étapes de la mise en place d’un dispositif pédagogique : conception du cours, enseignement en ligne, médias sociaux et connaissance du public.&lt;/p&gt;
+
+&lt;p&gt;Tantôt appliqués, tantôt théoriques, les différents moments étaient suffisamment variés pour répondre aux nécessités multiples de la conception d’un nouveau dispositif.&lt;/p&gt;
+
+&lt;h2 id=&quot;un-certificat-multimodal&quot;&gt;Un certificat multimodal&lt;/h2&gt;
+&lt;p&gt;Présentiel, distance et hybride, les modes d’enseignement vécus ont été multiples.&lt;/p&gt;
+
+&lt;p&gt;Bien que les cours aient par moment été trop « académiques » par moment, ils étaient généralement jalonnés d’activités nous rendant actifs.
+Discussions libres, partages d’expérience et jeux de rôle sont quelques exemples de mise en action sans lequelles la formation n’aurait pas eu le même impact.&lt;/p&gt;
+
+&lt;p&gt;Il a aussi été multimodal dans les plate-formes utilisées : Moodle, Slack et Adobe Connect étant les principales, chacune ayant leur rôle clairement attribué (à défaut d’être toujours clairement utilisées).
+Mais là où l’ESNU fait encore une fois fort, c’est dans l’effondrement du quatrième mur, le fait que le certificat lui-même sait qu’il est constamment analysé et se veut plutôt une illustration des possibilités plutôt qu’un modèle à suivre.&lt;/p&gt;
+
+&lt;p&gt;Ainsi, si j’ai été convaincu par Moodle et Slack, Adobe Connect m’a moins séduit malgré les fonctionnalités particulières qu’il propose (gestion des sous-groupes et des droits en général).
+Ses défauts (austérité de l’interface, manque de compatibilité multi-plate-forme et nécessité d’une licence) l’écartent à mes yeux au profits d’alternatives (&lt;a href=&quot;https://jitsi.org/&quot;&gt;Jitsi&lt;/a&gt; en tête) qui nécessiteraient cependant davantage de manipulations.&lt;/p&gt;
+
+&lt;h2 id=&quot;un-certificat-expérimental&quot;&gt;Un certificat expérimental&lt;/h2&gt;
+&lt;p&gt;Nous étions des cobayes conscients de leur situation. Les encadrants du certificat ont profité de l’occasion pour tester de nouveaux dispositifs d’apprentissage, tout en ayant un discours ouvert et transparent à leur sujet.
+C’est justement cette transparence qui était intéressante puisqu’elle nous demandait de constamment prendre du recul par rapport aux activités pour en analyser et critiquer l’efficacité et l’adéquation.
+Dans cette approche isomorphe, nous étions sans cesse encouragés à nous poser la question « Et si je faisais la même chose dans mon cours, est-ce que ça fonctionnerait ? »&lt;/p&gt;
+
+&lt;p&gt;Aussi enrichissante qu’elle soit, cette approche m’a placé dans un état d’esprit particulier par rapport aux enseignements, prenant parfois la forme d’une sur-analyse inutile.
+« On n’a pas lancé de chronomètre pour cette activité, est-ce un test ? »&lt;/p&gt;
+
+&lt;h2 id=&quot;un-certificat-qui-demande-de-linvestissement&quot;&gt;Un certificat qui demande de l’investissement&lt;/h2&gt;
+&lt;p&gt;L’ESNU est un certificat particulier dans le sens où il vous met en action tout au long de son déroulement.
+Il ne s’agit pas de théories qu’il faut ingérer pour les rendre lors d’un examen, mais bien d’un projet à développer en utilisant les différents cours comme support.
+En ce sens, le portfolio ici présent se veut un témoin de ce cheminement.
+Bien qu’une partie des articles aient été finalisés en fin de parcours, tout le contenu a bien été élaboré et développé au cours des derniers mois.&lt;/p&gt;
+
+&lt;h2 id=&quot;un-certificat-encadré&quot;&gt;Un certificat encadré&lt;/h2&gt;
+&lt;p&gt;Quatre experts ont encadré ce certificat : Nadine Postiaux, Nicolas Roland, Dorothée Baillet et Solphie Lecloux.
+Bien qu’ils soient chacun et chacune responsable d’un aspect particulier de la formation, ils ont pris l’habitude de se mêler aux apprenants, se prenant régulièrement part aux activités pendant les cours de leurs collègues.
+Faire tomber ce mur entre enseignants et apprenants était particulièrement plaisant et a donné un goût au certificat de partage d’expérience, plutôt que d’enseignement traditionnel.&lt;/p&gt;
+
+&lt;p&gt;Au même titre, j’ai aussi beaucoup appris au contact des autres participants, que ce soit la remise en perspective des différents types de formations d’enseignement supérieur, ou plus simplement l’existence et la rencontre d’enseignant passionnés au sein de mon institution.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Quentin Delhaye</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="réflexion" />
+      
+
+      
+        <summary type="html">Un avis personnel sur le déroulement de huit mois de certificat.</summary>
       
 
       
@@ -262,7 +334,7 @@ Avons-nous des communications redondantes voire superfétatoires envers eux ?&lt
       
 
       
-        <category term="experience" />
+        <category term="réflexion" />
       
 
       
@@ -1084,103 +1156,6 @@ On ne l’observe cependant pas pour ceux de &lt;em&gt;TIS-100&lt;/em&gt;, eux a
 
       
         <summary type="html">Semaine du 16 mars 2020, le monde se transforme alors que tout le monde doit s’isoler. Comment les apprenants s’adaptent-ils aux dispositifs mis en place pour assurer l’enseignement à distance ?</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">Nouveau public, nouvelle problématique</title>
-      <link href="http://localhost:4000/esnu/nouveau-public-nouvelle-problematique" rel="alternate" type="text/html" title="Nouveau public, nouvelle problématique" />
-      <published>2020-03-10T11:18:00+01:00</published>
-      <updated>2020-03-10T11:18:00+01:00</updated>
-      <id>http://localhost:4000/esnu/nouveau-public-nouvelle-problematique</id>
-      <content type="html" xml:base="http://localhost:4000/esnu/nouveau-public-nouvelle-problematique">&lt;p&gt;Mise à jour des personas et de la problématique suite à la &lt;a href=&quot;/esnu//reorientation-du-projet&quot;&gt;réorientation du projet&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2 id=&quot;changement-de-public&quot;&gt;Changement de public&lt;/h2&gt;
-
-&lt;p&gt;Comme expliqué dans le billet parlant de mon choix de changer le projet, nous avons changé de public : il s’agit à présent d’une série d’étudiants de première année de master, à orientation biomédicale.
-Quant au cours, il s’agit toujours d’électronique, mais analogique cette fois-ci.
-Les laboratoires s’y déroulent en trois temps : des simulations numériques à l’aide d’un logiciel (&lt;a href=&quot;https://www.orcad.com/&quot;&gt;OrCAD&lt;/a&gt;), la conception d’un circuit imprimé à l’aide d’un autre (&lt;a href=&quot;https://kicad-pcb.org/&quot;&gt;KiCad&lt;/a&gt;), pour terminer avec l’assemblage et le test physique de leur réalisation.&lt;/p&gt;
-
-&lt;p&gt;Quelques échanges en fin de laboratoire avec des étudiants, en suivant le même canvas que pour les &lt;a href=&quot;/esnu//construire-des-personas&quot;&gt;premiers personas&lt;/a&gt;, ont permis de dresser un &lt;a href=&quot;assets/persona/elech402/export_canvas_personasesnu-elech402--camille.pdf&quot;&gt;persona représentant le groupe entier&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Ce profil est fort similaire à ceux des étudiants de BA3 précédemment étudiés (ce qui est compréhensible).
-L’un des changements notables est qu’ils ont un examen de laboratoire qu’ils se demandent comment préparer.&lt;/p&gt;
-
-&lt;h2 id=&quot;changement-de-projet&quot;&gt;Changement de projet&lt;/h2&gt;
-
-&lt;p&gt;Le cours, le public et leurs besoins ayant changés, le projet doit aussi être mis jour.&lt;/p&gt;
-
-&lt;h3 id=&quot;définition-du-problème&quot;&gt;Définition du problème&lt;/h3&gt;
-
-&lt;p&gt;Cette réflexion suit le même cheminement que la &lt;a href=&quot;/esnu//definition-du-probleme&quot;&gt;première définition&lt;/a&gt; et en partage certains points.&lt;/p&gt;
-
-&lt;h4 id=&quot;contradictions&quot;&gt;Contradictions&lt;/h4&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Ils veulent des corrigés détaillés des laboratoires, mais il ne prennent pas note de leur propres méthodes et développements.&lt;br /&gt;
-Des corrigés ont néanmoins été mis à disposition, principalement pour les réponses numériques finales. Certaines manipulations permettant d’y arriver ont aussi été ajoutées, mais l’essentiel est détaillé dans les vidéos d’explication du logiciel.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;révélations-ou-remarques-intéressantes&quot;&gt;Révélations ou remarques intéressantes&lt;/h4&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Très rares sont les étudiants allant chercher des ressources supplémentaires sur Internet pour mieux comprendre le fonctionnement du logiciel, des composants utilisés ou pour les aider à résoudre un message d’erreur.&lt;/li&gt;
-  &lt;li&gt;Ils regardent les vidéos avant ou pendant le laboratoire, mais n’en retiennent pas le contenu.&lt;/li&gt;
-  &lt;li&gt;Ils se contentent de regarder les vidéos une seule fois, généralement juste avant le premier laboratoire, mais n’y reviennent plus ensuite.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;difficultés-problèmes-ou-besoins-vécusressentis-par-lapprenant&quot;&gt;Difficultés, problèmes ou besoins vécus/ressentis par l’apprenant&lt;/h4&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Identifier ses propres erreurs et en tirer des leçons.&lt;br /&gt;
-La majorité du temps, quand ils sont aidés pour résoudre un problème de manipulation du logiciel, ils ne notent nulle part comme ils ont résolu l’erreur.&lt;/li&gt;
-  &lt;li&gt;Ils ont globalement peur de l’examen de laboratoire.
-Pas tant pour sa difficulté théorique, mais pour la maîtrise nécessaire du logiciel « qui bug tout le temps » selon eux, mais qui sont 99% du temps des erreurs de manipulation qui sont justement évaluées.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;reformulation-de-la-problématique&quot;&gt;Reformulation de la problématique&lt;/h3&gt;
-
-&lt;p&gt;L’essentiel de leurs inquiétudes tournant autour de l’examen de laboratoire et du logiciel de simulation, la problématique pourrait être reformulée comme suit :&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Comment pourrais-je aider les étudiants à tester leur maîtrise du logiciel en vue de l’examen de laboratoire ?&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h3 id=&quot;matériel-existant&quot;&gt;Matériel existant&lt;/h3&gt;
-
-&lt;p&gt;Pour m’aider dans cette tâche, il existe déjà des ressources que j’ai developpées au cours des années.
-Un &lt;a href=&quot;https://github.com/BEAMS-EE/ELECH402/wiki/KiCad:-project&quot;&gt;Wiki&lt;/a&gt; pour KiCad et surtout des &lt;a href=&quot;https://www.youtube.com/playlist?list=PLOQHyfCR7VoDGZA_SN9r1AEn83DdWCXU0&quot;&gt;vidéos&lt;/a&gt; pour OrCAD.&lt;/p&gt;
-
-&lt;p&gt;Ces dernières sont celles dont je parlais plus tôt : les étudiants les regardent généralement quelques jours avant le premier laboratoire pour se faire une idée de la manipulation du logiciel.&lt;/p&gt;
-
-&lt;h3 id=&quot;nouveau-matériel-à-développer&quot;&gt;Nouveau matériel à développer&lt;/h3&gt;
-
-&lt;p&gt;Elles ne sont cependant pas suffisantes pour préparer correctement les étudiants, elles manquent d’interactivité afin de les engager dans leur apprentissage.
-Il serait donc intéressant de développer un petit module d’auto-évaluation à l’utilisation du logiciel, mais ça, c’est pour un &lt;a href=&quot;/esnu//tester-maitrise-logiciel&quot;&gt;autre billet&lt;/a&gt;.&lt;/p&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Quentin Delhaye</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="projet" />
-      
-
-      
-        <summary type="html">Mise à jour des personas et de la problématique suite à la réorientation du projet.</summary>
       
 
       
