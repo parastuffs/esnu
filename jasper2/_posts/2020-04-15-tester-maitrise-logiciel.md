@@ -39,17 +39,17 @@ Je me suis donc rabattu sur une suite d'images dont une démo suit dans cette [v
 
 ### Maîtrise des types de simulation
 
-Un autre aspect essentiel à maîtriser est de savoir choisir le bon type de simualtion afin d'obtenir des résultats pertinents.
+Un autre aspect essentiel à maîtriser est de savoir choisir le bon type de simulation afin d'obtenir des résultats pertinents.
 
 Un nouveau module H5P est adapté : la scénarisation (***Branching Scenario***).
 L'étudiant est ici maître de son destin et l'évolution de l'activité dépend de ses réponses.
 
-Pour ce premire essai, je suis resté bref, comme vous pouvez le voir sur l'aperçu du scénario.
+Pour ce premier essai, je suis resté bref, comme vous pouvez le voir sur l'aperçu du scénario.
 
 ![Overview H5P du projet de simulation](assets/images/H5P/simu_overview.png)
 
 Je propose une situation requérant une simulation particulière.
-Les quatres types de simulation sont proposés et pour chacun, le résultat de cette simulation est affiché, accompagné d'un feedback leur expliquant pourquoi la réponse est bonne ou mauvaise.
+Les quatre types de simulation sont proposés et pour chacun, le résultat de cette simulation est affiché, accompagné d'un feedback leur expliquant pourquoi la réponse est bonne ou mauvaise.
 En cas de mauvaise réponse, ils sont renvoyés vers la question afin de donner une autre réponse.
 
 {% include youtube.html id="Jhwnl7BwadQ" %}
@@ -63,7 +63,7 @@ Quatre erreurs typiques sont ainsi présentées dans ce nouveau scénario.
 
 ![Overview H5P du projet où il faut trouver l'erreur](assets/images/H5P/error_overview.png)
 
-En cas de mauvaise réponses, l'utilisateur est à nouveau renvoyé vers le début de l'erreur afin qu'il puisse en ré-analyser les messages et mieux en diagnostiquer la cause.
+En cas de mauvaise réponse, l'utilisateur est à nouveau renvoyé vers le début de l'erreur afin qu'il puisse en ré-analyser les messages et mieux en diagnostiquer la cause.
 
 {% include youtube.html id="3VOec0IQLTE" %}
 
@@ -75,4 +75,4 @@ Elle nécessite davantage de planification et de vérification afin de m'assurer
 
 Les objectifs sont cependant différents ; il ne s'agit pas ici de présenter un nouveau concept ou de la nouvelle matière, mais bien de rendre l'utilisateur actif et de le pousser à se poser des questions.
 
-H5P est une excellente boîte à outils et pourrait être utile pour rendre les tutoriels vidéos existant plus interactifs et peut-être plus accrocheurs.
+H5P est une excellente boîte à outils et pourrait être utile pour rendre les tutoriels vidéos existants plus interactifs et peut-être plus accrocheurs.

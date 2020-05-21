@@ -44,7 +44,7 @@ La force de Moodle, c'est de permettre d'automatiser cette variable, par exemple
 
 On peut ainsi générer une URL ressemblant à ```http://monsite.be?matricule=matricule_unique``` où ```matricule_unique``` est le matricule de l'étudiant.
 
-L'URL ainsi générée sera unique pour chaque étudiant, reste à présent à lui envoyer le bon fichier lorsque qu'il y accède.
+L'URL ainsi générée sera unique pour chaque étudiant, reste à présent à lui envoyer le bon fichier lorsqu'il y accède.
 
 Pour ce faire, nous pouvons le rediriger vers un script qui analyse l'URL, récupère le numéro de matricule et envoie le fichier idoine à l'étudiant.
 C'est exactement ce que réalise le bout de code suivant :

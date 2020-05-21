@@ -17,7 +17,7 @@ Elle a été diffusée aux étudiants au début de la semaine durant laquelle se
 
 Ce billet va étudier la vidéo selon trois aspects : son analyse au travers de YouTube Studio, son impact sur le déroulement des laboratoires et enfin quelles leçons peuvent être tirées de cette expérience.
 
-## Analyse du visionage par les étudiants
+## Analyse du visionnage par les étudiants
 Comme expliqué dans la [réalisation de la vidéo]({{site.baseurl}}{% link _posts/2019-12-02-realiser-une-video.md %}), le média choisi pour sa diffusion a été YouTube.
 La justification majeure est la quantité d'outils d'analyse proposés aux créateurs par la plate-forme.
 
@@ -36,7 +36,7 @@ Cela voudrait-il dire que la vidéo a eu un taux de visionnage proche de 100 % ?
 Malheureusement non.
 Un étudiant a très bien pu regarder la vidéo à plusieurs reprises et en pratique, c'est effectivement ce qu'il s'est passé.
 
-Quand on y regarde de plus près, YouTube nous indique qu'il n'y a eut que 73 visiteurs uniques sur la vidéo, ce qui signifie qu'elle a en moyenne été visionnée 1.37 fois par visiteur.
+Quand on y regarde de plus près, YouTube nous indique qu'il n'y a eu que 73 visiteurs uniques sur la vidéo, ce qui signifie qu'elle a en moyenne été visionnée 1.37 fois par visiteur.
 Ce sera le **premier indicateur** qu'il y a quelque chose à améliorer dans la vidéo.
 
 Notons qu'avoir 73 % des étudiants visionnant la vidéo est un score plus que satisfaisant, étant donné que nombre d'entre eux l'ont visionnée pendant le laboratoire à plusieurs sur un même support.
@@ -51,7 +51,7 @@ Les étudiants reviennent-ils en arrière dans la vidéo ? La regardent-ils plus
 Cette indication concorde en tout cas avec la première observation.
 
 ### Rétention de l'audience
-Nous avons à présent la certitude que les étudiants regardent certains passage de la vidéo à plusieur reprises, mais de quels moments s'agit-il précisément ?
+Nous avons à présent la certitude que les étudiants regardent certains passages de la vidéo à plusieurs reprises, mais de quels moments s'agit-il précisément ?
 
 ![YouTube viewer retention](assets/images/YouTube-analytics/retention.png)
 
@@ -70,7 +70,7 @@ Quand on y regarde de plus près, ces instants supérieurs à 100 % corresponden
 | Tablette | 3 | 2:14 | 1.5 | 95.8 % |
 
 Toute conclusion tirée de ce tableau ne serait que conjecture, mais on peut supposer que les visionnages en laboratoire sur les PCs fournis composent une bonne partie des vues sur ordinateur.
-Il serait alors compréhensible que les étudiants reviennent en arrière dans la vidéo pour mieux en mimer le contenu, alongeant la durée moyenne de visionnage.
+Il serait alors compréhensible que les étudiants reviennent en arrière dans la vidéo pour mieux en mimer le contenu, allongeant la durée moyenne de visionnage.
 
 Quoi qu'il en soit, il reste intéressant de remarque qu'**une partie non négligeable des étudiants ont visionné la vidéo sur un smartphone, signe qu'il faut faire en sorte que nos dispositifs soient compatibles avec ce support** (on pense à toi, Moodle).
 
@@ -78,7 +78,7 @@ Quoi qu'il en soit, il reste intéressant de remarque qu'**une partie non négli
 
 ## Impact de la vidéo en laboratoire
 Immédiatement après la mise à disposition de la vidéo, les quatre enseignants dispensant ce laboratoire ont pu remarquer que le nombre de questions afférentes au fonctionnement de l'oscilloscope (le sujet de la vidéo) a drastiquement diminué.
-Pour les quelques irréductibles, il a suffit de leur indiquer l'existence de cette vidéo qui semblait avoir échappé à leur vigilance pour qu'ils la regardent derechef pendant la séance, répondant ainsi seuls à leur propre question.
+Pour les quelques irréductibles, il a suffi de leur indiquer l'existence de cette vidéo qui semblait avoir échappé à leur vigilance pour qu'ils la regardent derechef pendant la séance, répondant ainsi seuls à leur propre question.
 
 Nous pouvons faire ici écho à la [définition du problème]({{site.baseurl}}{% link _posts/2019-11-15-definition-du-probleme.md %}) : la vidéo semble effectivement avoir utilisé cet outil pour s'approprier le matériel de laboratoire.
 Ce qui à son tour répond à leurs deux demandes [identifiées dans les personas]({{site.baseurl}}{% link _posts/2019-11-10-construire-des-personas.md %}) : comprendre le matériel et rendre les assistants plus disponibles.
@@ -94,17 +94,17 @@ Reprenons les indications que des améliorations sont nécessaires :
 Outre les améliorations quant à la qualité de production de la vidéo déjà abordée dans l'article [précédent]({{site.baseurl}}{% link _posts/2019-12-02-realiser-une-video.md %}), il semble que le contenu puisse aussi bénéficier d'une mise à jour.
 
 Quelques pistes pourraient être mises en évidence :
-- Accompagner la vidéo d'un documents reprenant des captures de la vidéo avec les connexions à effectuer.  
+- Accompagner la vidéo d'un document reprenant des captures de la vidéo avec les connexions à effectuer.  
 Non seulement le document prendrait du temps supplémentaire à être construit, il ne représenterait qu'un support supplémentaire n'apportant pas de nouvelle information, rendant peu probable sa lecture par les étudiants.
 - Effectuer une démonstration en début de laboratoire en suivant les étapes de la vidéo.  
 Certes faisable, mais pose le problème de visibilité par une quarantaine d'étudiants en simultané.
 - Séparer clairement les étapes lors du montage de la vidéo afin de mieux la structurer.  
 Cet élément pourrait aider les étudiants, mais peut-être au détriment de la fluidité de la vidéo en hachant son rythme.
 
-Quoi qu'il arrive, il semble innévitable que les étudiants reviennent en arrière dans la vidéo pour mieux en analyser les étapes.
+Quoi qu'il arrive, il semble inévitable que les étudiants reviennent en arrière dans la vidéo pour mieux en analyser les étapes.
 Et au final, est-ce vraiment un problème ? N'est-ce pas finalement l'avantage de la vidéo par rapport à la démonstration réelle : pouvoir revoir un passage mal compris ?
 
 Il faut tout de même rester prudent et continuer à s'interroger sur l'utilisation de la vidéo par le public. Il convient de distinguer un taux de visionnage supérieur à 100 % dû à une incompréhension ou au contraire afin de répéter les gestes de la vidéo avec précision.
-Dans un monde idéal, une vidéo parfaitement claire se suffira d'un visionnage d'une traite et son contenu sera d'une clareté telle qu'il ne sera jamais nécessaire de revenir en arrière pour en répéter les gestes.
+Dans un monde idéal, une vidéo parfaitement claire se suffira d'un visionnage d'une traite et son contenu sera d'une clarté telle qu'il ne sera jamais nécessaire de revenir en arrière pour en répéter les gestes.
 
 Néanmoins, il est particulièrement réjouissant de voir que cette vidéo a pu atteindre la majorité des étudiants, qu'ils l'aient visionnée dans son entièreté, qu'ils en aient été contents et qu'elle a soulagé les assistants, remplissant ainsi pleinement ses objectifs.

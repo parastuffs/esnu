@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
   <link href="http://localhost:4000/esnu/tag/coulisses/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/esnu/" rel="alternate" type="text/html" />
-  <updated>2020-05-21T21:26:00+02:00</updated>
+  <updated>2020-05-21T22:17:58+02:00</updated>
   <id>http://localhost:4000/esnu/tag/coulisses/feed.xml</id>
 
   
@@ -135,10 +135,10 @@ Le site sera immédiatement disponible à l’adresse https://&lt;code class=&qu
 comme par exemple &lt;a href=&quot;https://parastuffs.github.io/esnu/&quot;&gt;https://parastuffs.github.io/esnu/&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;générer-un-site-web-statique&quot;&gt;Générer un site web statique&lt;/h2&gt;
-&lt;p&gt;GitHub Pages se contente d’afficher des pages web statiques, c’est-à-dire dont le contenu est généré à l’avance et ne peut pas être modifier par les visiteurs.
+&lt;p&gt;GitHub Pages se contente d’afficher des pages web statiques, c’est-à-dire dont le contenu est généré à l’avance et ne peut pas être modifié par les visiteurs.
 Pour générer un tel site, on peut utiliser &lt;a href=&quot;https://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt; fonctionnant avec &lt;a href=&quot;https://www.ruby-lang.org/fr/&quot;&gt;Ruby&lt;/a&gt; en utilisant la commande suivante pour l’installer : &lt;code class=&quot;highlighter-rouge&quot;&gt;gem install bundler jekyll&lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;Mais au lieu de créer un site entier à partir de rien, il est plus simple et rapide de partir d’un theme existant.
+&lt;p&gt;Mais au lieu de créer un site entier à partir de rien, il est plus simple et rapide de partir d’un thème existant.
 Par exemple, on peut utiliser &lt;a href=&quot;https://github.com/jekyller/jasper2&quot;&gt;jasper2&lt;/a&gt; dont il suffit de télécharger l’archive dans le dépôt du projet.
 Depuis le dossier &lt;code class=&quot;highlighter-rouge&quot;&gt;jasper2&lt;/code&gt;, une seule commande permet de générer le site : &lt;code class=&quot;highlighter-rouge&quot;&gt;bundle exec jekyll serve&lt;/code&gt;.
 Cette opération génère tous les fichiers du site web dans le dossier &lt;code class=&quot;highlighter-rouge&quot;&gt;jasper2-pages&lt;/code&gt; par défaut et héberge une version locale du site à l’adresse &lt;code class=&quot;highlighter-rouge&quot;&gt;http://127.0.0.1:4000/jasper2/&lt;/code&gt;&lt;/p&gt;

@@ -26,7 +26,7 @@ Le scénario peut prendre différentes formes : un *story board*, un texte const
 
 #### Application
 
-Le but de cette vidéo est d'expliquer aux étudiants comment manipuler la matériel à leur disposition afin de réaliser une mesure particulière.
+Le but de cette vidéo est d'expliquer aux étudiants comment manipuler le matériel à leur disposition afin de réaliser une mesure particulière.
 Pour être un peu technique, il s'agit de mesurer le temps de propagation d'un signal au sein d'un circuit logique à l'aide d'un oscilloscope.
 
 Ma scénarisation a donc commencé par concevoir un montage intéressant et réaliser la manipulation en entier par moi-même.
@@ -38,11 +38,11 @@ Ce scénario a pris la forme d'une liste d'étapes, certaines illustrées par de
 ## Tournage
 
 Le scénario terminé, il est temps de tourner les différents plans constituant l'histoire.
-Il n'est pas encore essentiel de savoir ce qu'on va raconter ou d'enregistrer les voix en même temps. Il est même plus simple de séparer les deux étapes de vidéo et audio afin de les paufiner chacune de leur côté.
+Il n'est pas encore essentiel de savoir ce qu'on va raconter ou d'enregistrer les voix en même temps. Il est même plus simple de séparer les deux étapes de vidéo et audio afin de les peaufiner chacune de leur côté.
 
 Cependant, cette manière de procéder nécessite de filmer des **scènes supplémentaires** « au cas où », afin d'avoir suffisamment de matériel.
 
-Si le scénario est complet et qu'on est capable d'imaginer des plans supplémentaires pour compléter la trame principale, cette étape peut être réalisée en peu de temps, sans nécessiter de resortir la caméra par la suite.
+Si le scénario est complet et qu'on est capable d'imaginer des plans supplémentaires pour compléter la trame principale, cette étape peut être réalisée en peu de temps, sans nécessiter de ressortir la caméra par la suite.
 
 
 #### Application
@@ -98,7 +98,7 @@ Du côté le plus simple du spectre, [OpenShot](https://www.openshot.org/fr/down
 
 ## Publication
 
-Le rendu terminé, il faut publier la vidéo pour que les étudiants puissent enfin la visioner.
+Le rendu terminé, il faut publier la vidéo pour que les étudiants puissent enfin la visionner.
 Si on peut leur envoyer directement, une plate-forme de diffusion est beaucoup plus efficace et permet de suivre son impact.
 
 [YouTube](https://studio.youtube.com/) est particulièrement approprié dans le cas présent.

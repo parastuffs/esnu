@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
   <link href="http://localhost:4000/esnu/tag/experience/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/esnu/" rel="alternate" type="text/html" />
-  <updated>2020-05-21T21:26:00+02:00</updated>
+  <updated>2020-05-21T22:17:58+02:00</updated>
   <id>http://localhost:4000/esnu/tag/experience/feed.xml</id>
 
   
@@ -48,7 +48,7 @@ Il y a pourtant quelques outils faciles à mettre en place permettant de garder 
 &lt;p&gt;Le premier point essentiel est d’assurer le contact avec les étudiants pendant la séance de travail.
 À cette fin, il est important de choisir une plate-forme adaptée.&lt;/p&gt;
 
-&lt;p&gt;L’ESNU a par exemple pris le parti d’expérimenter avec &lt;a href=&quot;https://www.adobe.com/fr/products/adobeconnect.html&quot;&gt;Adobe Connect&lt;/a&gt;, l’ULB ayant acquis une licence. Forte de fonctionnalités permettant la gestion de sous-groupe parmi les participants, cette solution est néanmoins couteûse et limitée à Windows, sans pour autant faire montre d’une meilleure fiabilité.&lt;/p&gt;
+&lt;p&gt;L’ESNU a par exemple pris le parti d’expérimenter avec &lt;a href=&quot;https://www.adobe.com/fr/products/adobeconnect.html&quot;&gt;Adobe Connect&lt;/a&gt;, l’ULB ayant acquis une licence. Forte de fonctionnalités permettant la gestion de sous-groupe parmi les participants, cette solution est néanmoins coûteuse et limitée à Windows, sans pour autant faire montre d’une meilleure fiabilité.&lt;/p&gt;
 
 &lt;p&gt;L’ULB semble avoir fait le choix d’utiliser &lt;a href=&quot;https://www.microsoft.com/fr-be/microsoft-365/microsoft-teams/group-chat-software&quot;&gt;Teams&lt;/a&gt; en tant qu’institution. Si on peut remettre en question ce choix qui semble avoir été fait par défaut plutôt qu’à la suite d’une étude comparative approfondie (tout comme l’adoption de la suite Office365), force est d’admettre qu’une fois ses premiers plâtres essuyés, la plate-forme s’avère riche en fonctionnalités permettant à la fois de donner cours et d’effectuer des entretiens avec les étudiants.&lt;/p&gt;
 
@@ -57,11 +57,11 @@ Il y a pourtant quelques outils faciles à mettre en place permettant de garder 
 &lt;h2 id=&quot;assurer-une-présence-à-distance&quot;&gt;Assurer une présence à distance&lt;/h2&gt;
 
 &lt;p&gt;La plate-forme de discussion est déjà un premier instrument permettant de se reconnecter avec les étudiants, mais &lt;strong&gt;disponibilité ne signifie pas présence&lt;/strong&gt;.
-La visio-conférence est une bonne solution synchrone, comme le permettent toutes les solutions proposées précédemment.
+La visioconférence est une bonne solution synchrone, comme le permettent toutes les solutions proposées précédemment.
 Nombre d’autres solutions existent, comme &lt;a href=&quot;https://meet.google.com/&quot;&gt;Google Meet&lt;/a&gt; ou &lt;a href=&quot;https://jitsi.org/&quot;&gt;Jitsi&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Si l’immédiateté des interactions n’est pas nécessaire ou possible, il est encore possible d’apporter notre présence aux étudiants, par exemple avec de courtes vidéos préparées.
-Déjà présentée dans un &lt;a href=&quot;/esnu//video-intro-labo-improvisee&quot;&gt;article précédent&lt;/a&gt;, la vidéo d’introduction de laboratoire est un moyen simple et efficace de maintenanir cette proximité, malgré la distance.&lt;/p&gt;
+Déjà présentée dans un &lt;a href=&quot;/esnu//video-intro-labo-improvisee&quot;&gt;article précédent&lt;/a&gt;, la vidéo d’introduction de laboratoire est un moyen simple et efficace de maintenir cette proximité, malgré la distance.&lt;/p&gt;
 
 &lt;h2 id=&quot;proposer-des-outils-de-travail-adaptés&quot;&gt;Proposer des outils de travail adaptés&lt;/h2&gt;
 
@@ -71,7 +71,7 @@ Néanmoins, même s’il s’agit généralement d’installer un logiciel, enco
 Malheureusement, faire fonctionner une machine virtuelle demande des ressources conséquentes que tous les étudiants n’ont pas forcément.&lt;/p&gt;
 
 &lt;p&gt;Pour ces derniers, il existe une autre solution : le &lt;strong&gt;contrôle à distance&lt;/strong&gt; des ordinateurs du laboratoire.
-Ce type de manipulation est largement répandu et s’appelle un &lt;a href=&quot;https://fr.wikipedia.org/wiki/Virtual_Network_Computing&quot;&gt;&lt;em&gt;Virtual Network Computing&lt;/em&gt; (VNC)&lt;/a&gt;. Ce système est implémenté par de nombreuses solution libres et propriétaires.
+Ce type de manipulation est largement répandu et s’appelle un &lt;a href=&quot;https://fr.wikipedia.org/wiki/Virtual_Network_Computing&quot;&gt;&lt;em&gt;Virtual Network Computing&lt;/em&gt; (VNC)&lt;/a&gt;. Ce système est implémenté par de nombreuses solutions libres et propriétaires.
 La solution que nous avons retenue est &lt;a href=&quot;https://www.dwservice.net/&quot;&gt;DWService&lt;/a&gt;. Parmi ses avantages, on peut compter sa gratuité pour une utilisation limitée, le contrôle par navigateur évitant de devoir installer un logiciel supplémentaire, la facilité de partage des machines et c’est évidemment un &lt;a href=&quot;https://github.com/dwservice/agent&quot;&gt;projet open source&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h4 id=&quot;du-matériel-livré-à-domicile&quot;&gt;Du matériel livré à domicile&lt;/h4&gt;
@@ -170,7 +170,7 @@ La force de Moodle, c’est de permettre d’automatiser cette variable, par exe
 
 &lt;p&gt;On peut ainsi générer une URL ressemblant à &lt;code class=&quot;highlighter-rouge&quot;&gt;http://monsite.be?matricule=matricule_unique&lt;/code&gt; où &lt;code class=&quot;highlighter-rouge&quot;&gt;matricule_unique&lt;/code&gt; est le matricule de l’étudiant.&lt;/p&gt;
 
-&lt;p&gt;L’URL ainsi générée sera unique pour chaque étudiant, reste à présent à lui envoyer le bon fichier lorsque qu’il y accède.&lt;/p&gt;
+&lt;p&gt;L’URL ainsi générée sera unique pour chaque étudiant, reste à présent à lui envoyer le bon fichier lorsqu’il y accède.&lt;/p&gt;
 
 &lt;p&gt;Pour ce faire, nous pouvons le rediriger vers un script qui analyse l’URL, récupère le numéro de matricule et envoie le fichier idoine à l’étudiant.
 C’est exactement ce que réalise le bout de code suivant :&lt;/p&gt;
@@ -288,7 +288,7 @@ Une minute plus tard, la vidéo est terminée.&lt;/p&gt;
 &lt;p&gt;De la même façon, il peut être encore plus aisé de donner rendez-vous aux étudiants à une heure fixe, tout comme pour les séances en présentiel, et diffuser la vidéo en direct.
 L’avantage étant qu’on les pousse à être présents dès le début de la séance pour profiter de l’introduction.&lt;br /&gt;
 Cependant, c’est aussi un désavantage : ils ne peuvent en bénéficier que s’ils sont présents.
-Dès lors qu’on organise des laboratoires à distance avec une certaine asynchronité, il me semble judicieux de certes garder une temporalité clairement établie : une heure de début et de fin de laboratoire, des séances régulières, etc., mais ce n’est pas plus coûtant en investissement de la part de l’enseignant de mettre ces même ressources à disposition des apprenants ayant un rythme différent.&lt;/p&gt;</content>
+Dès lors qu’on organise des laboratoires à distance avec une certaine asynchronicité, il me semble judicieux de certes garder une temporalité clairement établie : une heure de début et de fin de laboratoire, des séances régulières, etc., mais ce n’est pas plus coûtant en investissement de la part de l’enseignant de mettre ces mêmes ressources à disposition des apprenants ayant un rythme différent.&lt;/p&gt;</content>
 
       
       
@@ -340,7 +340,7 @@ Dès lors qu’on organise des laboratoires à distance avec une certaine asynch
 &lt;h3 id=&quot;elech402---électronique-analogique&quot;&gt;ELECH402 - Électronique analogique&lt;/h3&gt;
 &lt;ul&gt;
   &lt;li&gt;&lt;strong&gt;Public&lt;/strong&gt; : Cours dispensé aux MA1 Polytech option Biomédical. Il s’agit d’une cohorte d’environ 25 étudiants (les mêmes dont je parlais lors de la &lt;a href=&quot;/esnu//reorientation-du-projet&quot;&gt;réorientation de mon projet&lt;/a&gt;)&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Type de laboratoire&lt;/strong&gt; : Simulations de circuits électronique en utilisant &lt;em&gt;Cadence PSPICE&lt;/em&gt;. Ce logiciel ne tourne que sous Windows (natif ou en machine virtuelle).&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Type de laboratoire&lt;/strong&gt; : Simulations de circuits électroniques en utilisant &lt;em&gt;Cadence PSPICE&lt;/em&gt;. Ce logiciel ne tourne que sous Windows (natif ou en machine virtuelle).&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;Évaluation&lt;/strong&gt; : Examen de laboratoire prévu mi-mai.&lt;br /&gt;
 &lt;em&gt;Note&lt;/em&gt; : La communication à ce sujet a été effectuée lorsque les cours devaient encore reprendre le 19 avril. Étant donné que le reste du quadrimestre se déroulera à distance, cette évaluation devra être revue, dans sa forme voire dans son existence.&lt;/li&gt;
 &lt;/ul&gt;
@@ -350,7 +350,7 @@ Dès lors qu’on organise des laboratoires à distance avec une certaine asynch
   &lt;li&gt;
     &lt;p&gt;&lt;strong&gt;Une communication claire et détaillée par mail via Moodle.&lt;/strong&gt; 
 La première étape a été d’informer les apprenants des mesures prises pour assurer la continuité des laboratoires malgré la distance.&lt;br /&gt;
-Ce message avait donc pour but de clarifier quels outils sont nécessaire pour &lt;em&gt;réaliser&lt;/em&gt; le laboratoire, quels autres outils sont utilisés pour &lt;em&gt;communiquer&lt;/em&gt; durant la séance et enfin le statut des évaluations afférentes aux manipulations.&lt;br /&gt;
+Ce message avait donc pour but de clarifier quels outils sont nécessaires pour &lt;em&gt;réaliser&lt;/em&gt; le laboratoire, quels autres outils sont utilisés pour &lt;em&gt;communiquer&lt;/em&gt; durant la séance et enfin le statut des évaluations afférentes aux manipulations.&lt;br /&gt;
 Une capture du message envoyé pour ELECH473 peut être consultée &lt;a href=&quot;assets/images/labo-distance/uv-h473.png&quot;&gt;ici&lt;/a&gt; et celle pour ELECH402 &lt;a href=&quot;assets/images/labo-distance/uv-h402.png&quot;&gt;ici&lt;/a&gt;.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
@@ -361,7 +361,7 @@ Pour beaucoup d’apprenants, nous constatons que l’implication dans les labor
     &lt;p&gt;&lt;strong&gt;Communication durant la séance.&lt;/strong&gt;&lt;br /&gt;
 Deux outils ont été proposés aux apprenants : (1) &lt;a href=&quot;https://slack.com/&quot;&gt;Slack&lt;/a&gt; pour la communication ne nécessitant pas une réponse immédiate et (2) &lt;a href=&quot;https://jitsi.org/&quot;&gt;Jitsi&lt;/a&gt; au cas où ils veulent poser une question de vive voix ou partager leur écran.&lt;br /&gt;
 Le premier a été choisi pour sa versatilité (création de salons de discussions, fils de discussion, messages privés, bonne organisation globale des discussions). Bien que nous aurions pu choisir son alternative open source &lt;a href=&quot;https://matrix.org/&quot;&gt;Matrix&lt;/a&gt;, nous avons préféré capitaliser sur l’expérience que nous avions avec Slack et sa popularité.&lt;br /&gt;
-Nous avons opté pour le second afin de proposer un outil open source à nos apprenant, ne nécessitant aucune installation supplémentaire puisqu’il fonctionne dans le navigateur, et pouvant être accédé sans licence coûteuse ou limitante.&lt;/p&gt;
+Nous avons opté pour le second afin de proposer un outil open source à nos apprenants, ne nécessitant aucune installation supplémentaire puisqu’il fonctionne dans le navigateur, et pouvant être accédé sans licence coûteuse ou limitante.&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ol&gt;
 
@@ -375,11 +375,11 @@ Trois questions ont été posées sur l’ensemble des trois séances de laborat
 &lt;p&gt;Au cours des séances de laboratoire en présentiel, nous avons deux façons différentes de gérer les questions des étudiants.
 Lors de la première, nous passons derrière les étudiants, montrant notre disponibilité et les interpellant directement si nous voyons qu’ils sont bloqués ou qu’ils se fourvoient.
 Pour la seconde, nous leur indiquons clairement que nous sommes disponibles, mais restons à un endroit fixe où ils peuvent venir quérir notre aide si nécessaire.
-Bien que la première méthode génère évidemment plus de questions de la part des étudiants, la seconde n’en est pas moins efficace. Ils sont simplement davantage confrontés à leur problèmes et doivent explicitement passer par une étape de formulation de leur problème s’il veulent efficacement poser leur question.&lt;br /&gt;
+Bien que la première méthode génère évidemment plus de questions de la part des étudiants, la seconde n’en est pas moins efficace. Ils sont simplement davantage confrontés à leurs problèmes et doivent explicitement passer par une étape de formulation de leur problème s’il veulent efficacement poser leur question.&lt;br /&gt;
 Il serait aussi raisonnable de penser qu’un groupe habitué à ce genre d’interaction en présentiel serait plus apte à s’adapter à une communication synchrone à distance.&lt;/p&gt;
 
 &lt;p&gt;Les résultats montrent qu’il n’en est rien.
-Il se peut que nous ayons à faire à des étudiants n’ayant aucunement besoin d’encadrement complémentaire aux énoncés et ressources mises à leur disposition, auquel cas nous pourrions remettre en question la pertinence de l’organisation de séances en présentiel en ces temps d’amenuisement des ressources humaines.&lt;br /&gt;
+Il se peut que nous ayons affaire à des étudiants n’ayant aucunement besoin d’encadrement complémentaire aux énoncés et ressources mises à leur disposition, auquel cas nous pourrions remettre en question la pertinence de l’organisation de séances en présentiel en ces temps d’amenuisement des ressources humaines.&lt;br /&gt;
 Il se peut aussi plus simplement que cette cohorte n’ait pas accroché aux outils proposés, préférant travailler en groupe sans poser la moindre question.
 &lt;a href=&quot;#mise-à-jour--correction-des-devoirs-de-elech473&quot;&gt;Nous verrons lors de la correction des devoirs si ce comportement a un impact sur leurs résultats&lt;/a&gt;.&lt;/p&gt;
 
@@ -410,7 +410,7 @@ Ils n’ont pas hésité à poser leurs questions dans le salon public, mes rép
 Au même titre, les étudiants de ELECH402 ont un niveau similaire.&lt;/p&gt;
 
 &lt;h4 id=&quot;la-cohésion-du-groupe-a-t-elle-une-influence-&quot;&gt;La cohésion du groupe a-t-elle une influence ?&lt;/h4&gt;
-&lt;p&gt;L’une des différences entre les deux cohortes est la diversité de la première (ELECH473) comparée à l’homogéniété de la seconde (ELECH402).
+&lt;p&gt;L’une des différences entre les deux cohortes est la diversité de la première (ELECH473) comparée à l’homogénéité de la seconde (ELECH402).
 Je pense qu’il s’agit là de l’hypothèse la plus probante : les étudiants de ELECH402 étant un groupe homogène, ils ont sans doute plus l’habitude de travailler ensemble pour leurs différents cours.&lt;/p&gt;
 
 &lt;p&gt;Mais dans ce cas, pourquoi les sous-groupes de ELECH473, par exemple « Polytech informatique » ne présente pas le même esprit de corps et le même niveau de participation à distance ?&lt;/p&gt;
@@ -434,7 +434,7 @@ La première a entièrement été effectuée en présentiel, suivant les modalit
 
 &lt;p&gt;&lt;img src=&quot;assets/images/h473-analyse/boxplot.png&quot; alt=&quot;Boxplot des résultats de h473&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Ces &lt;a href=&quot;https://en.wikipedia.org/wiki/Box_plot&quot;&gt;&lt;em&gt;box plots&lt;/em&gt;&lt;/a&gt; mettent entre autre en évidence la médiane (ligne noire à l’intérieur des boîtes) et la moyenne (ligne verte discontinue) des évaluations des devoirs pour les trois années étudiées.&lt;br /&gt;
+&lt;p&gt;Ces &lt;a href=&quot;https://en.wikipedia.org/wiki/Box_plot&quot;&gt;&lt;em&gt;box plots&lt;/em&gt;&lt;/a&gt; mettent entre autres en évidence la médiane (ligne noire à l’intérieur des boîtes) et la moyenne (ligne verte discontinue) des évaluations des devoirs pour les trois années étudiées.&lt;br /&gt;
 Les données et script ayant servis à générer ce graphique sont disponible &lt;a href=&quot;https://github.com/parastuffs/esnu/tree/master/h473_analysis&quot;&gt;ici&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Notons quelques précisions avant d’essayer d’interpréter ces résultats :&lt;/p&gt;
@@ -500,7 +500,7 @@ Les étudiants ne remarquaient pas certaines ressources qui étaient pourtant mi
 
 &lt;p&gt;Le premier élément ayant permis cette mise à jour est un simple changement de la mise en page que propose Moodle : le format « &lt;a href=&quot;https://moodle.org/plugins/format_tiles&quot;&gt;tuiles&lt;/a&gt; » permettant d’afficher les ressources sous forme de petites cartes dont on peut changer l’arrière-plan.&lt;/p&gt;
 
-&lt;p&gt;En combinant cette mise en forme avec d’autres fonctionnalités, comme la remise de devoirs en ligne qui ne sont visible que si l’étudiant s’est inscrit dans un groupe, la page du cours est bien plus utilisée en laboratoire.&lt;/p&gt;
+&lt;p&gt;En combinant cette mise en forme avec d’autres fonctionnalités, comme la remise de devoirs en ligne qui ne sont visibles que si l’étudiant s’est inscrit dans un groupe, la page du cours est bien plus utilisée en laboratoire.&lt;/p&gt;
 
 &lt;p&gt;Le nouveau site propose des informations moins denses et est plus facile à naviguer.
 Les différentes sections sont clairement marquées afin que les étudiants sachent où trouver les informations afférentes à un laboratoire en particulier.

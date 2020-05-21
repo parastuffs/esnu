@@ -37,7 +37,7 @@ Suite à la mise en commun de réflexions avec d'autres participants de l'ESNU, 
 * Présence d'exercices
 * Révision régulière pour préparer les laboratoires
 * Bonne articulation entre la théorie et la pratique
-* Prise de note attentive
+* Prise de notes attentive
 * Avoir beaucoup d'exemples pendant le cours
 
 #### Échec
@@ -49,7 +49,7 @@ Suite à la mise en commun de réflexions avec d'autres participants de l'ESNU, 
 
 Il ne s'agit ici que d'une analyse primaire des profils de nos étudiants.
 D'après Christophe Michaut, « À l'université, 50 % des facteurs de réussite restent inexpliqués. » [[2]](#références)  
-Mais si 50 % est inexpliqué, les autres 50 % sont-ils correctement expliqués ? A-t-on vraiment compris pour les étudiants réussissent dans ces cas, ou ne sont-ce que des corrélations ?
+Mais si 50 % sont inexpliqués, les autres 50 % sont-ils correctement expliqués ? A-t-on vraiment compris pour les étudiants réussissent dans ces cas, ou ne sont-ce que des corrélations ?
 
 
 ## Catégorisation des étudiants
@@ -63,7 +63,7 @@ Ces informations seraient très utiles pour dresser des personas précis et fid�
 
 ## Auto-régulation des apprentissages
 
-Nos apprenants sont-ils capable de se mettre au travail et de s'y maintenir ?
+Nos apprenants sont-ils capables de se mettre au travail et de s'y maintenir ?
 Ont-ils des **stratégies volitionnelles** ?
 Ces dernières peuvent être :
 * Internes :
@@ -90,7 +90,7 @@ Est-ce parce que cette formation est bien souvent un choix par défaut pour des 
 Nous mettons peut-être ici le doigt sur l'un des pièges de Polytech : **à penser qu'on peut tout faire, on ne sait pas ce qui est réellement possible, on entretient un brouillard dans lequel on se perd**.
 
 L'institution ne consiste pas uniquement en un choix de filière, elle s'accompagne aussi d'enseignants qui influencent à leur tour la réussite de leurs étudiants.
-Ainsi, l'interractivité de l'enseignant semble bénéfique pour la réussite de ses étudiants, sans doute lié à l'effet maître.
+Ainsi, l'interactivité de l'enseignant semble bénéfique pour la réussite de ses étudiants, sans doute lié à l'effet maître.
 
 
 ## Influence des savoirs
@@ -100,7 +100,7 @@ Il est intéressant de se poser la question du rapport qu'a l'étudiant avec son
 * Pourquoi j'apprends ?
 * Avec qui j'apprends ?
 
-Il est ainsi édifiant qu'il est parfois nécessaire d'avancer dans le cours pour en comprendre le début, bien qu'à mon sens ce soit le signe d'un problème de contruction de l'accès au savoir. Il ne doit pas nécessairement être incrémental, mais le sens du cours ne devrait pas échapper à l'apprenant parce qu'il n'a pas les outils nécessaires pour le comprendre.
+Il est ainsi édifiant qu'il est parfois nécessaire d'avancer dans le cours pour en comprendre le début, bien qu'à mon sens ce soit le signe d'un problème de construction de l'accès au savoir. Il ne doit pas nécessairement être incrémental, mais le sens du cours ne devrait pas échapper à l'apprenant parce qu'il n'a pas les outils nécessaires pour le comprendre.
 
 À une échelle temporelle plus locale, les étudiants sont aussi souvent confrontés à des supports plurisémiotisés, reprenant plusieurs types de représentation, ou polyphoniques, avec des voix différentes ayant des fonctions différentes qu'il faut d'autant mieux clarifier.
 Cette multiplicité de la présentation du savoir est à double tranchant pour l'étudiant :  la moindre discordance peut être bloquante et parfois, moins vaut mieux que trop.

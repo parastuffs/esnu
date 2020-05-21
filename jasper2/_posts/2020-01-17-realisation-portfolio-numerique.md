@@ -21,10 +21,10 @@ Le site sera immédiatement disponible à l'adresse https://```nom d'utilisateur
 comme par exemple [https://parastuffs.github.io/esnu/](https://parastuffs.github.io/esnu/)
 
 ## Générer un site web statique
-GitHub Pages se contente d'afficher des pages web statiques, c'est-à-dire dont le contenu est généré à l'avance et ne peut pas être modifier par les visiteurs.
+GitHub Pages se contente d'afficher des pages web statiques, c'est-à-dire dont le contenu est généré à l'avance et ne peut pas être modifié par les visiteurs.
 Pour générer un tel site, on peut utiliser [Jekyll](https://jekyllrb.com/) fonctionnant avec [Ruby](https://www.ruby-lang.org/fr/) en utilisant la commande suivante pour l'installer : ```gem install bundler jekyll```
 
-Mais au lieu de créer un site entier à partir de rien, il est plus simple et rapide de partir d'un theme existant.
+Mais au lieu de créer un site entier à partir de rien, il est plus simple et rapide de partir d'un thème existant.
 Par exemple, on peut utiliser [jasper2](https://github.com/jekyller/jasper2) dont il suffit de télécharger l'archive dans le dépôt du projet.
 Depuis le dossier ```jasper2```, une seule commande permet de générer le site : ```bundle exec jekyll serve```.
 Cette opération génère tous les fichiers du site web dans le dossier ```jasper2-pages``` par défaut et héberge une version locale du site à l'adresse ```http://127.0.0.1:4000/jasper2/```

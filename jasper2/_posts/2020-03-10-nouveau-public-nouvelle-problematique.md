@@ -28,7 +28,7 @@ L'un des changements notables est qu'ils ont un examen de laboratoire qu'ils se 
 
 ## Changement de projet
 
-Le cours, le public et leurs besoins ayant changés, le projet doit aussi être mis jour.
+Le cours, le public et leurs besoins ayant changé, le projet doit aussi être mis jour.
 
 
 ### Définition du problème
@@ -37,7 +37,7 @@ Cette réflexion suit le même cheminement que la [première définition]({{site
 
 #### Contradictions
 
-* Ils veulent des corrigés détaillés des laboratoires, mais il ne prennent pas note de leur propres méthodes et développements.  
+* Ils veulent des corrigés détaillés des laboratoires, mais il ne prennent pas note de leurs propres méthodes et développements.  
 Des corrigés ont néanmoins été mis à disposition, principalement pour les réponses numériques finales. Certaines manipulations permettant d'y arriver ont aussi été ajoutées, mais l'essentiel est détaillé dans les vidéos d'explication du logiciel.
 
 #### Révélations ou remarques intéressantes

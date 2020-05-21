@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
   <link href="http://localhost:4000/esnu/tag/projet/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/esnu/" rel="alternate" type="text/html" />
-  <updated>2020-05-21T21:26:00+02:00</updated>
+  <updated>2020-05-21T22:17:58+02:00</updated>
   <id>http://localhost:4000/esnu/tag/projet/feed.xml</id>
 
   
@@ -37,10 +37,10 @@
       <published>2020-05-20T12:18:00+02:00</published>
       <updated>2020-05-20T12:18:00+02:00</updated>
       <id>http://localhost:4000/esnu/retour-et-analyse</id>
-      <content type="html" xml:base="http://localhost:4000/esnu/retour-et-analyse">&lt;p&gt;Au terme du projet, qu’on pensé les étudiants du dispositif ?&lt;/p&gt;
+      <content type="html" xml:base="http://localhost:4000/esnu/retour-et-analyse">&lt;p&gt;Au terme du projet, qu’ont pensé les étudiants du dispositif ?&lt;/p&gt;
 
-&lt;p&gt;Le projet était consititué de trois activités H5P.
-Ils avaient en plus la possibilité de s’essayer à un examen lanc de laboratoire reprenant les questions de l’année précédente, mais sous la forme qui leur serait proposé fin mai.&lt;/p&gt;
+&lt;p&gt;Le projet était constitué de trois activités H5P.
+Ils avaient en plus la possibilité de s’essayer à un examen lanc de laboratoire reprenant les questions de l’année précédente, mais sous la forme qui leur serait proposée fin mai.&lt;/p&gt;
 
 &lt;p&gt;Ci-suivent les résultats de leur participation, à 24 heures du début de l’examen et donc de leur abandon complet de Moodle.&lt;/p&gt;
 
@@ -64,7 +64,7 @@ Merci pour votre implication !&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;G.E.N.I.A.L.
-Un tout tout grand merci à tous ce que tu fais pour nous Quentin :-)&lt;/p&gt;
+Un tout tout grand merci à tout ce que tu fais pour nous Quentin :-)&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;blockquote&gt;
@@ -86,9 +86,9 @@ C’est toujours sympa d’avoir un retour positif des étudiants quand on a inv
 &lt;p&gt;Quelques éléments sont de plus intéressants à relever dans leurs avis :&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;Ils ont apprécié l’activité sur les erreurs typiquement rencontrées dans le logiciel.&lt;br /&gt;
-Nous pourrions développer plus d’outils allant dans ce sens, afin de les entraîner et de les débloquer losqu’ils tombe sur ces erreurs.&lt;/li&gt;
+Nous pourrions développer plus d’outils allant dans ce sens, afin de les entraîner et de les débloquer lorsqu’ils tombe sur ces erreurs.&lt;/li&gt;
   &lt;li&gt;Les tests étaient plus simples que ce qu’ils pensaient.&lt;br /&gt;
-Les tests étaient effectivement simple, mais pas simplistes. Les compétences nécessaires à leur réalisation n’ont été acquises qu’au cours des laboratoires et ils n’y seraient pas arrivés sans ces derniers.
+Les tests étaient effectivement simples, mais pas simplistes. Les compétences nécessaires à leur réalisation n’ont été acquises qu’au cours des laboratoires et ils n’y seraient pas arrivés sans ces derniers.
 Au final, qu’ils trouvent les activités simples est un bon point et est un signe qu’ils se préparent correctement à l’examen.&lt;/li&gt;
   &lt;li&gt;Ils sont demandeurs d’activités différentes dans ce genre.&lt;br /&gt;
 Des activités différentes permettent souvent de voir la matière sous un autre angle, de l’aborder différemment et peut-être de mieux en comprendre les détails.
@@ -118,7 +118,7 @@ Sans compter que s’amuser en travaillant, ça n’a pas de prix.&lt;/li&gt;
       
 
       
-        <summary type="html">Au terme du projet, qu’on pensé les étudiants du dispositif ?</summary>
+        <summary type="html">Au terme du projet, qu’ont pensé les étudiants du dispositif ?</summary>
       
 
       
@@ -156,17 +156,17 @@ Le problème étant néanmoins qu’il fallait rafraîchir la page après chaque
 
 &lt;h3 id=&quot;maîtrise-des-types-de-simulation&quot;&gt;Maîtrise des types de simulation&lt;/h3&gt;
 
-&lt;p&gt;Un autre aspect essentiel à maîtriser est de savoir choisir le bon type de simualtion afin d’obtenir des résultats pertinents.&lt;/p&gt;
+&lt;p&gt;Un autre aspect essentiel à maîtriser est de savoir choisir le bon type de simulation afin d’obtenir des résultats pertinents.&lt;/p&gt;
 
 &lt;p&gt;Un nouveau module H5P est adapté : la scénarisation (&lt;strong&gt;&lt;em&gt;Branching Scenario&lt;/em&gt;&lt;/strong&gt;).
 L’étudiant est ici maître de son destin et l’évolution de l’activité dépend de ses réponses.&lt;/p&gt;
 
-&lt;p&gt;Pour ce premire essai, je suis resté bref, comme vous pouvez le voir sur l’aperçu du scénario.&lt;/p&gt;
+&lt;p&gt;Pour ce premier essai, je suis resté bref, comme vous pouvez le voir sur l’aperçu du scénario.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;assets/images/H5P/simu_overview.png&quot; alt=&quot;Overview H5P du projet de simulation&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Je propose une situation requérant une simulation particulière.
-Les quatres types de simulation sont proposés et pour chacun, le résultat de cette simulation est affiché, accompagné d’un feedback leur expliquant pourquoi la réponse est bonne ou mauvaise.
+Les quatre types de simulation sont proposés et pour chacun, le résultat de cette simulation est affiché, accompagné d’un feedback leur expliquant pourquoi la réponse est bonne ou mauvaise.
 En cas de mauvaise réponse, ils sont renvoyés vers la question afin de donner une autre réponse.&lt;/p&gt;
 
 &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Jhwnl7BwadQ&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
@@ -179,7 +179,7 @@ En cas de mauvaise réponse, ils sont renvoyés vers la question afin de donner 
 
 &lt;p&gt;&lt;img src=&quot;assets/images/H5P/error_overview.png&quot; alt=&quot;Overview H5P du projet où il faut trouver l'erreur&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;En cas de mauvaise réponses, l’utilisateur est à nouveau renvoyé vers le début de l’erreur afin qu’il puisse en ré-analyser les messages et mieux en diagnostiquer la cause.&lt;/p&gt;
+&lt;p&gt;En cas de mauvaise réponse, l’utilisateur est à nouveau renvoyé vers le début de l’erreur afin qu’il puisse en ré-analyser les messages et mieux en diagnostiquer la cause.&lt;/p&gt;
 
 &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/3VOec0IQLTE&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
@@ -190,7 +190,7 @@ Elle nécessite davantage de planification et de vérification afin de m’assur
 
 &lt;p&gt;Les objectifs sont cependant différents ; il ne s’agit pas ici de présenter un nouveau concept ou de la nouvelle matière, mais bien de rendre l’utilisateur actif et de le pousser à se poser des questions.&lt;/p&gt;
 
-&lt;p&gt;H5P est une excellente boîte à outils et pourrait être utile pour rendre les tutoriels vidéos existant plus interactifs et peut-être plus accrocheurs.&lt;/p&gt;</content>
+&lt;p&gt;H5P est une excellente boîte à outils et pourrait être utile pour rendre les tutoriels vidéos existants plus interactifs et peut-être plus accrocheurs.&lt;/p&gt;</content>
 
       
       
@@ -321,7 +321,7 @@ La matière qui y est abordée devrait leur être familière, la seule nouveaut�
 &lt;p&gt;Il s’agit d’un laboratoire tout ce qu’il y a de plus classique : les étudiants passent quatre heures à manipuler les logiciels afin de résoudre des problèmes posés dans des énoncés.&lt;/p&gt;
 
 &lt;p&gt;Malgré la banalité de l’activité, le rôle de l’enseignant, et particulièrement son comportement, sont intéressants.
-L’attitude que je préfère habituellement adopter consister à me rendre disponible pour répondre à leurs questions, mais à ne pas activement leur poser des questions au cours du laboratoire.
+L’attitude que je préfère habituellement adopter consiste à me rendre disponible pour répondre à leurs questions, mais à ne pas activement leur poser des questions au cours du laboratoire.
 Mon raisonnement est qu’ils ne recourent ainsi pas systématiquement à mon aide dès qu’ils ont un problème et qu’ils sont forcés à formuler leur problème lorsqu’ils veulent demander mon aide.&lt;br /&gt;
 Cette attitude m’a cependant été reprochée au cours d’une &lt;a href=&quot;https://www.ulb.be/fr/aides-services-et-accompagnement/votre-avis-compte&quot;&gt;évaluation des enseignements par les étudiants&lt;/a&gt;, sans doute par manque de communication et de clareté de ma part.&lt;br /&gt;
 Dorénavant j’adopte un comportement hybride plus ou moins proactif en fonction de la cohorte, tout en communiquant clairement sur mon rôle dès le début de la séance.&lt;/p&gt;
@@ -431,7 +431,7 @@ L’un des changements notables est qu’ils ont un examen de laboratoire qu’i
 
 &lt;h2 id=&quot;changement-de-projet&quot;&gt;Changement de projet&lt;/h2&gt;
 
-&lt;p&gt;Le cours, le public et leurs besoins ayant changés, le projet doit aussi être mis jour.&lt;/p&gt;
+&lt;p&gt;Le cours, le public et leurs besoins ayant changé, le projet doit aussi être mis jour.&lt;/p&gt;
 
 &lt;h3 id=&quot;définition-du-problème&quot;&gt;Définition du problème&lt;/h3&gt;
 
@@ -440,7 +440,7 @@ L’un des changements notables est qu’ils ont un examen de laboratoire qu’i
 &lt;h4 id=&quot;contradictions&quot;&gt;Contradictions&lt;/h4&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;Ils veulent des corrigés détaillés des laboratoires, mais il ne prennent pas note de leur propres méthodes et développements.&lt;br /&gt;
+  &lt;li&gt;Ils veulent des corrigés détaillés des laboratoires, mais il ne prennent pas note de leurs propres méthodes et développements.&lt;br /&gt;
 Des corrigés ont néanmoins été mis à disposition, principalement pour les réponses numériques finales. Certaines manipulations permettant d’y arriver ont aussi été ajoutées, mais l’essentiel est détaillé dans les vidéos d’explication du logiciel.&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -517,7 +517,7 @@ Il serait donc intéressant de développer un petit module d’auto-évaluation 
 
 &lt;p&gt;En réfléchissant au projet que je voulais mettre en place dans le cadre du certificat, ma première volonté était de donner la possibilité aux étudiants de tester leurs connaissances de façon ludique avant d’arriver en laboratoire.
 Cependant, la problématisation du sujet et l’étude du public ont mis en évidence qu’il était plus pertinent et urgent de mettre à leur disposition des outils permettant d’utiliser le matériel de manière efficace.
-L’étape suivant aurait alors été de les compléter d’activités testant leur maîtrise.&lt;/p&gt;
+L’étape suivante aurait alors été de les compléter d’activités testant leur maîtrise.&lt;/p&gt;
 
 &lt;p&gt;Réalité de terrain oblige, le semestre et le cours sont terminés depuis janvier et je n’ai plus la même cohorte dans mes nouveaux cours. Le matériel produit en décembre n’est donc plus utilisable avec mon nouveau public.&lt;/p&gt;
 
@@ -565,7 +565,7 @@ Elle a été diffusée aux étudiants au début de la semaine durant laquelle se
 
 &lt;p&gt;Ce billet va étudier la vidéo selon trois aspects : son analyse au travers de YouTube Studio, son impact sur le déroulement des laboratoires et enfin quelles leçons peuvent être tirées de cette expérience.&lt;/p&gt;
 
-&lt;h2 id=&quot;analyse-du-visionage-par-les-étudiants&quot;&gt;Analyse du visionage par les étudiants&lt;/h2&gt;
+&lt;h2 id=&quot;analyse-du-visionnage-par-les-étudiants&quot;&gt;Analyse du visionnage par les étudiants&lt;/h2&gt;
 &lt;p&gt;Comme expliqué dans la &lt;a href=&quot;/esnu//realiser-une-video&quot;&gt;réalisation de la vidéo&lt;/a&gt;, le média choisi pour sa diffusion a été YouTube.
 La justification majeure est la quantité d’outils d’analyse proposés aux créateurs par la plate-forme.&lt;/p&gt;
 
@@ -584,7 +584,7 @@ Cela voudrait-il dire que la vidéo a eu un taux de visionnage proche de 100 % ?
 &lt;p&gt;Malheureusement non.
 Un étudiant a très bien pu regarder la vidéo à plusieurs reprises et en pratique, c’est effectivement ce qu’il s’est passé.&lt;/p&gt;
 
-&lt;p&gt;Quand on y regarde de plus près, YouTube nous indique qu’il n’y a eut que 73 visiteurs uniques sur la vidéo, ce qui signifie qu’elle a en moyenne été visionnée 1.37 fois par visiteur.
+&lt;p&gt;Quand on y regarde de plus près, YouTube nous indique qu’il n’y a eu que 73 visiteurs uniques sur la vidéo, ce qui signifie qu’elle a en moyenne été visionnée 1.37 fois par visiteur.
 Ce sera le &lt;strong&gt;premier indicateur&lt;/strong&gt; qu’il y a quelque chose à améliorer dans la vidéo.&lt;/p&gt;
 
 &lt;p&gt;Notons qu’avoir 73 % des étudiants visionnant la vidéo est un score plus que satisfaisant, étant donné que nombre d’entre eux l’ont visionnée pendant le laboratoire à plusieurs sur un même support.&lt;/p&gt;
@@ -599,7 +599,7 @@ Nous avons ici le &lt;strong&gt;deuxième indicateur&lt;/strong&gt; d’imperfec
 Cette indication concorde en tout cas avec la première observation.&lt;/p&gt;
 
 &lt;h3 id=&quot;rétention-de-laudience&quot;&gt;Rétention de l’audience&lt;/h3&gt;
-&lt;p&gt;Nous avons à présent la certitude que les étudiants regardent certains passage de la vidéo à plusieur reprises, mais de quels moments s’agit-il précisément ?&lt;/p&gt;
+&lt;p&gt;Nous avons à présent la certitude que les étudiants regardent certains passages de la vidéo à plusieurs reprises, mais de quels moments s’agit-il précisément ?&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;assets/images/YouTube-analytics/retention.png&quot; alt=&quot;YouTube viewer retention&quot; /&gt;&lt;/p&gt;
 
@@ -653,13 +653,13 @@ C’est le &lt;strong&gt;troisième indicateur&lt;/strong&gt; qu’un seul passa
 &lt;/table&gt;
 
 &lt;p&gt;Toute conclusion tirée de ce tableau ne serait que conjecture, mais on peut supposer que les visionnages en laboratoire sur les PCs fournis composent une bonne partie des vues sur ordinateur.
-Il serait alors compréhensible que les étudiants reviennent en arrière dans la vidéo pour mieux en mimer le contenu, alongeant la durée moyenne de visionnage.&lt;/p&gt;
+Il serait alors compréhensible que les étudiants reviennent en arrière dans la vidéo pour mieux en mimer le contenu, allongeant la durée moyenne de visionnage.&lt;/p&gt;
 
 &lt;p&gt;Quoi qu’il en soit, il reste intéressant de remarque qu’&lt;strong&gt;une partie non négligeable des étudiants ont visionné la vidéo sur un smartphone, signe qu’il faut faire en sorte que nos dispositifs soient compatibles avec ce support&lt;/strong&gt; (on pense à toi, Moodle).&lt;/p&gt;
 
 &lt;h2 id=&quot;impact-de-la-vidéo-en-laboratoire&quot;&gt;Impact de la vidéo en laboratoire&lt;/h2&gt;
 &lt;p&gt;Immédiatement après la mise à disposition de la vidéo, les quatre enseignants dispensant ce laboratoire ont pu remarquer que le nombre de questions afférentes au fonctionnement de l’oscilloscope (le sujet de la vidéo) a drastiquement diminué.
-Pour les quelques irréductibles, il a suffit de leur indiquer l’existence de cette vidéo qui semblait avoir échappé à leur vigilance pour qu’ils la regardent derechef pendant la séance, répondant ainsi seuls à leur propre question.&lt;/p&gt;
+Pour les quelques irréductibles, il a suffi de leur indiquer l’existence de cette vidéo qui semblait avoir échappé à leur vigilance pour qu’ils la regardent derechef pendant la séance, répondant ainsi seuls à leur propre question.&lt;/p&gt;
 
 &lt;p&gt;Nous pouvons faire ici écho à la &lt;a href=&quot;/esnu//definition-du-probleme&quot;&gt;définition du problème&lt;/a&gt; : la vidéo semble effectivement avoir utilisé cet outil pour s’approprier le matériel de laboratoire.
 Ce qui à son tour répond à leurs deux demandes &lt;a href=&quot;/esnu//construire-des-personas&quot;&gt;identifiées dans les personas&lt;/a&gt; : comprendre le matériel et rendre les assistants plus disponibles.&lt;/p&gt;
@@ -677,7 +677,7 @@ Ce qui à son tour répond à leurs deux demandes &lt;a href=&quot;/esnu//constr
 
 &lt;p&gt;Quelques pistes pourraient être mises en évidence :&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;Accompagner la vidéo d’un documents reprenant des captures de la vidéo avec les connexions à effectuer.&lt;br /&gt;
+  &lt;li&gt;Accompagner la vidéo d’un document reprenant des captures de la vidéo avec les connexions à effectuer.&lt;br /&gt;
 Non seulement le document prendrait du temps supplémentaire à être construit, il ne représenterait qu’un support supplémentaire n’apportant pas de nouvelle information, rendant peu probable sa lecture par les étudiants.&lt;/li&gt;
   &lt;li&gt;Effectuer une démonstration en début de laboratoire en suivant les étapes de la vidéo.&lt;br /&gt;
 Certes faisable, mais pose le problème de visibilité par une quarantaine d’étudiants en simultané.&lt;/li&gt;
@@ -685,11 +685,11 @@ Certes faisable, mais pose le problème de visibilité par une quarantaine d’�
 Cet élément pourrait aider les étudiants, mais peut-être au détriment de la fluidité de la vidéo en hachant son rythme.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Quoi qu’il arrive, il semble innévitable que les étudiants reviennent en arrière dans la vidéo pour mieux en analyser les étapes.
+&lt;p&gt;Quoi qu’il arrive, il semble inévitable que les étudiants reviennent en arrière dans la vidéo pour mieux en analyser les étapes.
 Et au final, est-ce vraiment un problème ? N’est-ce pas finalement l’avantage de la vidéo par rapport à la démonstration réelle : pouvoir revoir un passage mal compris ?&lt;/p&gt;
 
 &lt;p&gt;Il faut tout de même rester prudent et continuer à s’interroger sur l’utilisation de la vidéo par le public. Il convient de distinguer un taux de visionnage supérieur à 100 % dû à une incompréhension ou au contraire afin de répéter les gestes de la vidéo avec précision.
-Dans un monde idéal, une vidéo parfaitement claire se suffira d’un visionnage d’une traite et son contenu sera d’une clareté telle qu’il ne sera jamais nécessaire de revenir en arrière pour en répéter les gestes.&lt;/p&gt;
+Dans un monde idéal, une vidéo parfaitement claire se suffira d’un visionnage d’une traite et son contenu sera d’une clarté telle qu’il ne sera jamais nécessaire de revenir en arrière pour en répéter les gestes.&lt;/p&gt;
 
 &lt;p&gt;Néanmoins, il est particulièrement réjouissant de voir que cette vidéo a pu atteindre la majorité des étudiants, qu’ils l’aient visionnée dans son entièreté, qu’ils en aient été contents et qu’elle a soulagé les assistants, remplissant ainsi pleinement ses objectifs.&lt;/p&gt;</content>
 
@@ -738,7 +738,7 @@ La première étape consiste donc à &lt;em&gt;scénariser&lt;/em&gt; la vidéo,
 
 &lt;h4 id=&quot;application&quot;&gt;Application&lt;/h4&gt;
 
-&lt;p&gt;Le but de cette vidéo est d’expliquer aux étudiants comment manipuler la matériel à leur disposition afin de réaliser une mesure particulière.
+&lt;p&gt;Le but de cette vidéo est d’expliquer aux étudiants comment manipuler le matériel à leur disposition afin de réaliser une mesure particulière.
 Pour être un peu technique, il s’agit de mesurer le temps de propagation d’un signal au sein d’un circuit logique à l’aide d’un oscilloscope.&lt;/p&gt;
 
 &lt;p&gt;Ma scénarisation a donc commencé par concevoir un montage intéressant et réaliser la manipulation en entier par moi-même.
@@ -749,11 +749,11 @@ Une fois terminée, j’ai pu la déconstruire pour mettre en évidence les &lt;
 &lt;h2 id=&quot;tournage&quot;&gt;Tournage&lt;/h2&gt;
 
 &lt;p&gt;Le scénario terminé, il est temps de tourner les différents plans constituant l’histoire.
-Il n’est pas encore essentiel de savoir ce qu’on va raconter ou d’enregistrer les voix en même temps. Il est même plus simple de séparer les deux étapes de vidéo et audio afin de les paufiner chacune de leur côté.&lt;/p&gt;
+Il n’est pas encore essentiel de savoir ce qu’on va raconter ou d’enregistrer les voix en même temps. Il est même plus simple de séparer les deux étapes de vidéo et audio afin de les peaufiner chacune de leur côté.&lt;/p&gt;
 
 &lt;p&gt;Cependant, cette manière de procéder nécessite de filmer des &lt;strong&gt;scènes supplémentaires&lt;/strong&gt; « au cas où », afin d’avoir suffisamment de matériel.&lt;/p&gt;
 
-&lt;p&gt;Si le scénario est complet et qu’on est capable d’imaginer des plans supplémentaires pour compléter la trame principale, cette étape peut être réalisée en peu de temps, sans nécessiter de resortir la caméra par la suite.&lt;/p&gt;
+&lt;p&gt;Si le scénario est complet et qu’on est capable d’imaginer des plans supplémentaires pour compléter la trame principale, cette étape peut être réalisée en peu de temps, sans nécessiter de ressortir la caméra par la suite.&lt;/p&gt;
 
 &lt;h4 id=&quot;application-1&quot;&gt;Application&lt;/h4&gt;
 
@@ -805,7 +805,7 @@ Les scènes supplémentaires seront probablement utiles, ne serait-ce qu’en &l
 
 &lt;h2 id=&quot;publication&quot;&gt;Publication&lt;/h2&gt;
 
-&lt;p&gt;Le rendu terminé, il faut publier la vidéo pour que les étudiants puissent enfin la visioner.
+&lt;p&gt;Le rendu terminé, il faut publier la vidéo pour que les étudiants puissent enfin la visionner.
 Si on peut leur envoyer directement, une plate-forme de diffusion est beaucoup plus efficace et permet de suivre son impact.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://studio.youtube.com/&quot;&gt;YouTube&lt;/a&gt; est particulièrement approprié dans le cas présent.
@@ -889,7 +889,7 @@ Nous voulons traiter le problème à sa racine et non ses simples symptômes.&lt
 &lt;p&gt;Pourquoi ?&lt;/p&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;Ils ont besoin d’information utile et utilisable directement en laboratoire, afin d’avancer efficacement dans la manipulation.&lt;/p&gt;
+  &lt;p&gt;Ils ont besoin d’informations utiles et utilisables directement en laboratoire, afin d’avancer efficacement dans la manipulation.&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;h2 id=&quot;définir-le-problème&quot;&gt;Définir le problème&lt;/h2&gt;
@@ -936,7 +936,7 @@ Dans ce cas, faut-il les sortir de leur zone de confort ou s’y insérer afin d
 
 &lt;h3 id=&quot;la-problématique-en-une-question&quot;&gt;La problématique en une question&lt;/h3&gt;
 
-&lt;p&gt;On arrive enfin à la finalité de l’activité : la formulation de la problèmatique en question.
+&lt;p&gt;On arrive enfin à la finalité de l’activité : la formulation de la problématique en question.
 Après cette analyse, on pourrait la formuler ainsi :&lt;/p&gt;
 
 &lt;blockquote&gt;
@@ -992,7 +992,7 @@ Pour identifier les besoins, il faut connaître son public.&lt;/p&gt;
 &lt;p&gt;Le public visé était les étudiants de BA bloc 3 suivant mes laboratoires d’électronique.
 J’avais déjà eu l’occasion de les côtoyer lors des séances d’exercices précédant les laboratoires et je savais donc qui contacter afin d’avoir un échantillon d’étudiants coopérant et représentatif.&lt;/p&gt;
 
-&lt;p&gt;J’ai ainsi procédé à quelques interviews réparties sur une semaines avec des étudiants ayant commencé les laboratoires pour la première fois, ainsi qu’avec des étudiants de Master 1 pour faire appel à leur expérience &lt;em&gt;a posteriori&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;J’ai ainsi procédé à quelques interviews réparties sur une semaine avec des étudiants ayant commencé les laboratoires pour la première fois, ainsi qu’avec des étudiants de Master 1 pour faire appel à leur expérience &lt;em&gt;a posteriori&lt;/em&gt;.&lt;/p&gt;
 
 &lt;h3 id=&quot;guide-dentretien&quot;&gt;Guide d’entretien&lt;/h3&gt;
 
@@ -1063,7 +1063,7 @@ J’avais déjà eu l’occasion de les côtoyer lors des séances d’exercices
 
 &lt;h2 id=&quot;apprendre-des-personas&quot;&gt;Apprendre des personas&lt;/h2&gt;
 &lt;p&gt;Ces entretiens et personas m’ont apporté un élément essentiel dans le développement de mon projet.
-Comment présenter au début de ce billet, ils m’ont permi de comprendre les &lt;em&gt;vrais&lt;/em&gt; problèmes que rencontrent mes étudiants en laboratoire.&lt;/p&gt;
+Comment présenter au début de ce billet, ils m’ont permis de comprendre les &lt;em&gt;vrais&lt;/em&gt; problèmes que rencontrent mes étudiants en laboratoire.&lt;/p&gt;
 
 &lt;p&gt;Contrairement à ce que j’envisageais, ils n’étaient pas tant demandeurs d’outils de préparation des laboratoires ou de révision de la matière.
 Ce qu’ils voulaient, c’était :&lt;/p&gt;

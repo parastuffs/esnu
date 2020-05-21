@@ -60,7 +60,7 @@ Toutes les vidéos sont sur YouTube et durent au total 35 minutes réparties en 
 Il s'agit d'un laboratoire tout ce qu'il y a de plus classique : les étudiants passent quatre heures à manipuler les logiciels afin de résoudre des problèmes posés dans des énoncés.
 
 Malgré la banalité de l'activité, le rôle de l'enseignant, et particulièrement son comportement, sont intéressants.
-L'attitude que je préfère habituellement adopter consister à me rendre disponible pour répondre à leurs questions, mais à ne pas activement leur poser des questions au cours du laboratoire.
+L'attitude que je préfère habituellement adopter consiste à me rendre disponible pour répondre à leurs questions, mais à ne pas activement leur poser des questions au cours du laboratoire.
 Mon raisonnement est qu'ils ne recourent ainsi pas systématiquement à mon aide dès qu'ils ont un problème et qu'ils sont forcés à formuler leur problème lorsqu'ils veulent demander mon aide.  
 Cette attitude m'a cependant été reprochée au cours d'une [évaluation des enseignements par les étudiants](https://www.ulb.be/fr/aides-services-et-accompagnement/votre-avis-compte), sans doute par manque de communication et de clareté de ma part.  
 Dorénavant j'adopte un comportement hybride plus ou moins proactif en fonction de la cohorte, tout en communiquant clairement sur mon rôle dès le début de la séance.

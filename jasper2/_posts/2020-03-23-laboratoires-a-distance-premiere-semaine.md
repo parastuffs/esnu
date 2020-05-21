@@ -26,14 +26,14 @@ Deux cours sont étudiés dans ce billet. Je présente rapidement leurs caracté
 
 ### ELECH402 - Électronique analogique
 * **Public** : Cours dispensé aux MA1 Polytech option Biomédical. Il s'agit d'une cohorte d'environ 25 étudiants (les mêmes dont je parlais lors de la [réorientation de mon projet]({{site.baseurl}}{% link _posts/2020-03-01-reorientation-du-projet.md %}))
-* **Type de laboratoire** : Simulations de circuits électronique en utilisant *Cadence PSPICE*. Ce logiciel ne tourne que sous Windows (natif ou en machine virtuelle).
+* **Type de laboratoire** : Simulations de circuits électroniques en utilisant *Cadence PSPICE*. Ce logiciel ne tourne que sous Windows (natif ou en machine virtuelle).
 * **Évaluation** : Examen de laboratoire prévu mi-mai.  
 *Note* : La communication à ce sujet a été effectuée lorsque les cours devaient encore reprendre le 19 avril. Étant donné que le reste du quadrimestre se déroulera à distance, cette évaluation devra être revue, dans sa forme voire dans son existence.
 
 ## Outils mis en place
 1. **Une communication claire et détaillée par mail via Moodle.** 
 La première étape a été d'informer les apprenants des mesures prises pour assurer la continuité des laboratoires malgré la distance.  
-Ce message avait donc pour but de clarifier quels outils sont nécessaire pour *réaliser* le laboratoire, quels autres outils sont utilisés pour *communiquer* durant la séance et enfin le statut des évaluations afférentes aux manipulations.  
+Ce message avait donc pour but de clarifier quels outils sont nécessaires pour *réaliser* le laboratoire, quels autres outils sont utilisés pour *communiquer* durant la séance et enfin le statut des évaluations afférentes aux manipulations.  
 Une capture du message envoyé pour ELECH473 peut être consultée [ici](assets/images/labo-distance/uv-h473.png) et celle pour ELECH402 [ici](assets/images/labo-distance/uv-h402.png).
 
 
@@ -43,7 +43,7 @@ Pour beaucoup d'apprenants, nous constatons que l'implication dans les laboratoi
 3. **Communication durant la séance.**  
 Deux outils ont été proposés aux apprenants : (1) [Slack](https://slack.com/) pour la communication ne nécessitant pas une réponse immédiate et (2) [Jitsi](https://jitsi.org/) au cas où ils veulent poser une question de vive voix ou partager leur écran.  
 Le premier a été choisi pour sa versatilité (création de salons de discussions, fils de discussion, messages privés, bonne organisation globale des discussions). Bien que nous aurions pu choisir son alternative open source [Matrix](https://matrix.org/), nous avons préféré capitaliser sur l'expérience que nous avions avec Slack et sa popularité.  
-Nous avons opté pour le second afin de proposer un outil open source à nos apprenant, ne nécessitant aucune installation supplémentaire puisqu'il fonctionne dans le navigateur, et pouvant être accédé sans licence coûteuse ou limitante.
+Nous avons opté pour le second afin de proposer un outil open source à nos apprenants, ne nécessitant aucune installation supplémentaire puisqu'il fonctionne dans le navigateur, et pouvant être accédé sans licence coûteuse ou limitante.
 
 ## Résultats
 L'efficacité de ces outils est mesurée par la simple implication des apprenants dans leur utilisation.
@@ -55,11 +55,11 @@ Trois questions ont été posées sur l'ensemble des trois séances de laboratoi
 Au cours des séances de laboratoire en présentiel, nous avons deux façons différentes de gérer les questions des étudiants.
 Lors de la première, nous passons derrière les étudiants, montrant notre disponibilité et les interpellant directement si nous voyons qu'ils sont bloqués ou qu'ils se fourvoient.
 Pour la seconde, nous leur indiquons clairement que nous sommes disponibles, mais restons à un endroit fixe où ils peuvent venir quérir notre aide si nécessaire.
-Bien que la première méthode génère évidemment plus de questions de la part des étudiants, la seconde n'en est pas moins efficace. Ils sont simplement davantage confrontés à leur problèmes et doivent explicitement passer par une étape de formulation de leur problème s'il veulent efficacement poser leur question.  
+Bien que la première méthode génère évidemment plus de questions de la part des étudiants, la seconde n'en est pas moins efficace. Ils sont simplement davantage confrontés à leurs problèmes et doivent explicitement passer par une étape de formulation de leur problème s'il veulent efficacement poser leur question.  
 Il serait aussi raisonnable de penser qu'un groupe habitué à ce genre d'interaction en présentiel serait plus apte à s'adapter à une communication synchrone à distance.
 
 Les résultats montrent qu'il n'en est rien.
-Il se peut que nous ayons à faire à des étudiants n'ayant aucunement besoin d'encadrement complémentaire aux énoncés et ressources mises à leur disposition, auquel cas nous pourrions remettre en question la pertinence de l'organisation de séances en présentiel en ces temps d'amenuisement des ressources humaines.  
+Il se peut que nous ayons affaire à des étudiants n'ayant aucunement besoin d'encadrement complémentaire aux énoncés et ressources mises à leur disposition, auquel cas nous pourrions remettre en question la pertinence de l'organisation de séances en présentiel en ces temps d'amenuisement des ressources humaines.  
 Il se peut aussi plus simplement que cette cohorte n'ait pas accroché aux outils proposés, préférant travailler en groupe sans poser la moindre question.
 [Nous verrons lors de la correction des devoirs si ce comportement a un impact sur leurs résultats](#mise-à-jour--correction-des-devoirs-de-elech473).
 
@@ -88,7 +88,7 @@ C'est difficile à croire vu leur niveau en présentiel : correct sans être exc
 Au même titre, les étudiants de ELECH402 ont un niveau similaire.
 
 #### La cohésion du groupe a-t-elle une influence ?
-L'une des différences entre les deux cohortes est la diversité de la première (ELECH473) comparée à l'homogéniété de la seconde (ELECH402).
+L'une des différences entre les deux cohortes est la diversité de la première (ELECH473) comparée à l'homogénéité de la seconde (ELECH402).
 Je pense qu'il s'agit là de l'hypothèse la plus probante : les étudiants de ELECH402 étant un groupe homogène, ils ont sans doute plus l'habitude de travailler ensemble pour leurs différents cours.
 
 Mais dans ce cas, pourquoi les sous-groupes de ELECH473, par exemple « Polytech informatique » ne présente pas le même esprit de corps et le même niveau de participation à distance ?
@@ -113,7 +113,7 @@ Observons les résultats entre les cohortes de 2017-18 (95 remises effectives de
 
 ![Boxplot des résultats de h473](assets/images/h473-analyse/boxplot.png)
 
-Ces [*box plots*](https://en.wikipedia.org/wiki/Box_plot) mettent entre autre en évidence la médiane (ligne noire à l'intérieur des boîtes) et la moyenne (ligne verte discontinue) des évaluations des devoirs pour les trois années étudiées.  
+Ces [*box plots*](https://en.wikipedia.org/wiki/Box_plot) mettent entre autres en évidence la médiane (ligne noire à l'intérieur des boîtes) et la moyenne (ligne verte discontinue) des évaluations des devoirs pour les trois années étudiées.  
 Les données et script ayant servis à générer ce graphique sont disponible [ici](https://github.com/parastuffs/esnu/tree/master/h473_analysis).
 
 Notons quelques précisions avant d'essayer d'interpréter ces résultats :

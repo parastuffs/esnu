@@ -42,7 +42,7 @@ Pourquoi ?
 
 Pourquoi ?
 
-> Ils ont besoin d'information utile et utilisable directement en laboratoire, afin d'avancer efficacement dans la manipulation.
+> Ils ont besoin d'informations utiles et utilisables directement en laboratoire, afin d'avancer efficacement dans la manipulation.
 
 
 ## Définir le problème
@@ -87,7 +87,7 @@ C'est notamment pour ce point que [les cinq pourquoi](#les-cinq-pourquoi) est in
 
 ### La problématique en une question
 
-On arrive enfin à la finalité de l'activité : la formulation de la problèmatique en question.
+On arrive enfin à la finalité de l'activité : la formulation de la problématique en question.
 Après cette analyse, on pourrait la formuler ainsi :
 
 > Comment pourrais-je donner aux étudiants les outils nécessaires pour qu'ils puissent s'approprier le matériel de laboratoire et l'utiliser en toute autonomie ?

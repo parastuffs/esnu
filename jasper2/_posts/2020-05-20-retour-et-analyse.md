@@ -11,10 +11,10 @@ subclass: 'post tag-projet'
 author: quentin
 ---
 
-Au terme du projet, qu'on pensé les étudiants du dispositif ?
+Au terme du projet, qu'ont pensé les étudiants du dispositif ?
 
-Le projet était consititué de trois activités H5P.
-Ils avaient en plus la possibilité de s'essayer à un examen lanc de laboratoire reprenant les questions de l'année précédente, mais sous la forme qui leur serait proposé fin mai.
+Le projet était constitué de trois activités H5P.
+Ils avaient en plus la possibilité de s'essayer à un examen lanc de laboratoire reprenant les questions de l'année précédente, mais sous la forme qui leur serait proposée fin mai.
 
 Ci-suivent les résultats de leur participation, à 24 heures du début de l'examen et donc de leur abandon complet de Moodle.
 
@@ -36,7 +36,7 @@ Comme prévu dans [la scénarisation du projet]({{site.baseurl}}{% link _posts/2
 Merci pour votre implication !  
 
 > G.E.N.I.A.L.
-Un tout tout grand merci à tous ce que tu fais pour nous Quentin :-)  
+Un tout tout grand merci à tout ce que tu fais pour nous Quentin :-)  
 
 > Assez utile, surtout l'évaluation sur les erreurs typiques !  
 
@@ -50,9 +50,9 @@ C'est toujours sympa d'avoir un retour positif des étudiants quand on a investi
 
 Quelques éléments sont de plus intéressants à relever dans leurs avis :
 - Ils ont apprécié l'activité sur les erreurs typiquement rencontrées dans le logiciel.  
-Nous pourrions développer plus d'outils allant dans ce sens, afin de les entraîner et de les débloquer losqu'ils tombe sur ces erreurs.
+Nous pourrions développer plus d'outils allant dans ce sens, afin de les entraîner et de les débloquer lorsqu'ils tombe sur ces erreurs.
 - Les tests étaient plus simples que ce qu'ils pensaient.  
-Les tests étaient effectivement simple, mais pas simplistes. Les compétences nécessaires à leur réalisation n'ont été acquises qu'au cours des laboratoires et ils n'y seraient pas arrivés sans ces derniers.
+Les tests étaient effectivement simples, mais pas simplistes. Les compétences nécessaires à leur réalisation n'ont été acquises qu'au cours des laboratoires et ils n'y seraient pas arrivés sans ces derniers.
 Au final, qu'ils trouvent les activités simples est un bon point et est un signe qu'ils se préparent correctement à l'examen.
 - Ils sont demandeurs d'activités différentes dans ce genre.  
 Des activités différentes permettent souvent de voir la matière sous un autre angle, de l'aborder différemment et peut-être de mieux en comprendre les détails.

@@ -10,7 +10,7 @@ subclass: 'post page'
 
 Bienvenue sur mon portfolio constitué dans le cadre du certificat Enseigner dans le Supérieur avec le Numérique.
 
-Ce site a pour but de mettre en évidence les enseignements apportés par ce certificat, le projet que j'y ai développé et diverses réflexions sur l'enseignment utilisant le numérique en général.
+Ce site a pour but de mettre en évidence les enseignements apportés par ce certificat, le projet que j'y ai développé et diverses réflexions sur l'enseignement utilisant le numérique en général.
 
 ### Contenu
 Vous pourrez y trouver plusieurs types de contenus :
@@ -29,5 +29,5 @@ Contrairement aux autres, il est préférable de lire les articles liés au proj
 4. [Transformation du projet]({{site.baseurl}}{% link _posts/2020-03-01-reorientation-du-projet.md %})
 5. [Mise à jour des persona et de la problématique]({{site.baseurl}}{% link _posts/2020-03-10-nouveau-public-nouvelle-problematique.md %})
 6. [Scénarisation]({{site.baseurl}}{% link _posts/2020-04-05-scenarisation.md %})
-7. [Création du nouceau dispositif]({{site.baseurl}}{% link _posts/2020-04-15-tester-maitrise-logiciel.md %})
+7. [Création du nouveau dispositif]({{site.baseurl}}{% link _posts/2020-04-15-tester-maitrise-logiciel.md %})
 8. [Retours et analyse]({{site.baseurl}}{% link _posts/2020-05-20-retour-et-analyse.md %})

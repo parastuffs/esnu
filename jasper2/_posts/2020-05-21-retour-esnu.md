@@ -22,13 +22,13 @@ Tantôt appliqués, tantôt théoriques, les différents moments étaient suffis
 Présentiel, distance et hybride, les modes d'enseignement vécus ont été multiples.
 
 Bien que les cours aient par moment été trop « académiques » par moment, ils étaient généralement jalonnés d'activités nous rendant actifs.
-Discussions libres, partages d'expérience et jeux de rôle sont quelques exemples de mise en action sans lequelles la formation n'aurait pas eu le même impact.
+Discussions libres, partages d'expérience et jeux de rôle sont quelques exemples de mise en action sans lesquelles la formation n'aurait pas eu le même impact.
 
 Il a aussi été multimodal dans les plate-formes utilisées : Moodle, Slack et Adobe Connect étant les principales, chacune ayant leur rôle clairement attribué (à défaut d'être toujours clairement utilisées).
 Mais là où l'ESNU fait encore une fois fort, c'est dans l'effondrement du quatrième mur, le fait que le certificat lui-même sait qu'il est constamment analysé et se veut plutôt une illustration des possibilités plutôt qu'un modèle à suivre.
 
 Ainsi, si j'ai été convaincu par Moodle et Slack, Adobe Connect m'a moins séduit malgré les fonctionnalités particulières qu'il propose (gestion des sous-groupes et des droits en général).
-Ses défauts (austérité de l'interface, manque de compatibilité multi-plate-forme et nécessité d'une licence) l'écartent à mes yeux au profits d'alternatives ([Jitsi](https://jitsi.org/) en tête) qui nécessiteraient cependant davantage de manipulations.
+Ses défauts (austérité de l'interface, manque de compatibilité multi-plate-forme et nécessité d'une licence) l'écartent à mes yeux au profit d'alternatives ([Jitsi](https://jitsi.org/) en tête) qui nécessiteraient cependant davantage de manipulations.
 
 
 ## Un certificat expérimental
